@@ -1,0 +1,27 @@
+# Python cache/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local source/cache files
+eafc26_players.csv
+fifa_squadlists_english.pdf
+
+# Generated simulation outputs
+simulation_results_*.json
+simulation_report/
+simulation_report_*/
+
+# Scratch/demo files from setup
+dummy.txt
+helloworld.py
+
+# Older exploratory data artifacts
+wc26_squad_twitter_accounts.json
+squad_data_quality_report.json
+
+# Local OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
