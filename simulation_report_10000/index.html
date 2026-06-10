@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>World Cup 2026 Simulation Report</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #0f172a; background: #f8fafc; }
+    main { max-width: 1120px; margin: 0 auto; padding: 28px; }
+    h1 { margin: 0 0 6px; font-size: 30px; }
+    h2 { margin: 28px 0 12px; font-size: 20px; }
+    p { color: #475569; line-height: 1.45; }
+    .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0; }
+    .card { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; }
+    .card span { display: block; color: #64748b; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+    .card strong { display: block; margin-top: 8px; font-size: 20px; }
+    section { background: white; border: 1px solid #e2e8f0; border-radius: 8px; margin: 16px 0; padding: 14px; overflow-x: auto; }
+    img { max-width: 100%; height: auto; display: block; }
+    table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #e2e8f0; }
+    th, td { padding: 9px 10px; border-bottom: 1px solid #e2e8f0; text-align: left; font-size: 14px; }
+    th { color: #475569; background: #f1f5f9; }
+    @media (max-width: 800px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>World Cup 2026 Simulation Report</h1>
+  <p>Primitive 1,000-epoch simulation using EAFC-derived player ratings, Poisson match scoring, and player-level goal/assist attribution.</p>
+  <div class="cards"><div class="card"><span>Epochs</span><strong>10000</strong></div>
+  <section>
+    <h2>Initial Monte Carlo Setup</h2>
+    <p>This is our v0 Monte Carlo World Cup simulator. Each epoch simulates the full tournament: group stage, ranking, top-two qualification, best third-place qualification, knockout rounds, final, and third-place playoff.</p>
+    <p>The current model uses official FIFA squads, EAFC-derived player ratings, player positions, and a Poisson goal model. The 10,000-epoch run estimates probabilities rather than deterministic predictions.</p>
+    <p>Current limitations include simplified knockout routing, no injuries or suspensions, no tactical matchups, no recent-form weighting, and no SofaScore-style performance metrics yet.</p>
+  </section>
+
+<div class="card"><span>Matched Ratings</span><strong>980/1248</strong></div>
+<div class="card"><span>Fallback Ratings</span><strong>268</strong></div>
+<div class="card"><span>Top Champion</span><strong>France (12.5%)</strong></div></div>
+  <section><img src="champion_probability.svg" alt="champion_probability.svg"></section>
+<section><img src="stage_probability_heatmap.svg" alt="stage_probability_heatmap.svg"></section>
+<section><img src="rating_vs_champion.svg" alt="rating_vs_champion.svg"></section>
+<section><img src="top_scorers.svg" alt="top_scorers.svg"></section>
+<section><img src="top_assisters.svg" alt="top_assisters.svg"></section>
+  <h2>Top Teams</h2>
+  <table><thead><tr><th>Team</th><th>Rating</th><th>R32 %</th><th>Final %</th><th>3rd %</th><th>Win %</th></tr></thead><tbody><tr><td>France</td><td>85.815</td><td>93.67</td><td>20.41</td><td>7.53</td><td>12.5</td></tr><tr><td>Spain</td><td>84.592</td><td>93.65</td><td>17.77</td><td>6.65</td><td>10.26</td></tr><tr><td>England</td><td>83.987</td><td>91.09</td><td>15.12</td><td>6.7</td><td>8.55</td></tr><tr><td>Brazil</td><td>84.078</td><td>90.1</td><td>15.25</td><td>6.44</td><td>8.42</td></tr><tr><td>Portugal</td><td>83.958</td><td>91.21</td><td>15.28</td><td>6.32</td><td>8.39</td></tr><tr><td>Germany</td><td>84.078</td><td>92.83</td><td>15.19</td><td>7.23</td><td>8.11</td></tr><tr><td>Argentina</td><td>83.581</td><td>90.65</td><td>13.86</td><td>6.09</td><td>7.67</td></tr><tr><td>Netherlands</td><td>82.977</td><td>87.63</td><td>11.42</td><td>5.82</td><td>6.17</td></tr><tr><td>Belgium</td><td>81.442</td><td>91.78</td><td>8.92</td><td>4.68</td><td>4.47</td></tr><tr><td>Croatia</td><td>79.459</td><td>79.62</td><td>5.39</td><td>3.09</td><td>2.54</td></tr><tr><td>Turkey</td><td>79.199</td><td>84.43</td><td>4.88</td><td>2.68</td><td>2.13</td></tr><tr><td>Morocco</td><td>78.8</td><td>75.93</td><td>4.14</td><td>2.34</td><td>1.72</td></tr></tbody></table>
+  <h2>Top Simulated Scorers</h2>
+  <table><thead><tr><th>Player</th><th>Team</th><th>Pos</th><th>Goals</th><th>G/Tourn</th></tr></thead><tbody><tr><td>Lautaro Martinez</td><td>Argentina</td><td>ST</td><td>14488</td><td>1.449</td></tr><tr><td>Kylian Mbappe</td><td>France</td><td>ST</td><td>14465</td><td>1.446</td></tr><tr><td>Romelu Lukaku</td><td>Belgium</td><td>ST</td><td>13982</td><td>1.398</td></tr><tr><td>Cristiano Ronaldo</td><td>Portugal</td><td>ST</td><td>13914</td><td>1.391</td></tr><tr><td>Julian Alvarez</td><td>Argentina</td><td>ST</td><td>13850</td><td>1.385</td></tr><tr><td>Mikel Oyarzabal</td><td>Spain</td><td>ST</td><td>12543</td><td>1.254</td></tr><tr><td>Harry Kane</td><td>England</td><td>ST</td><td>12340</td><td>1.234</td></tr><tr><td>Kai Havertz</td><td>Germany</td><td>ST</td><td>12013</td><td>1.201</td></tr><tr><td>Erling Haaland</td><td>Norway</td><td>ST</td><td>11888</td><td>1.189</td></tr><tr><td>Marcus Thuram</td><td>France</td><td>ST</td><td>11881</td><td>1.188</td></tr><tr><td>Borja Iglesias</td><td>Spain</td><td>ST</td><td>11597</td><td>1.16</td></tr><tr><td>Goncalo Ramos</td><td>Portugal</td><td>ST</td><td>11432</td><td>1.143</td></tr></tbody></table>
+  <h2>Top Simulated Assisters</h2>
+  <table><thead><tr><th>Player</th><th>Team</th><th>Pos</th><th>Assists</th><th>A/Tourn</th></tr></thead><tbody><tr><td>Jude Bellingham</td><td>England</td><td>CAM</td><td>8275</td><td>0.828</td></tr><tr><td>Florian Wirtz</td><td>Germany</td><td>CAM</td><td>7921</td><td>0.792</td></tr><tr><td>Jamal Musiala</td><td>Germany</td><td>CAM</td><td>7570</td><td>0.757</td></tr><tr><td>Matheus Cunha</td><td>Brazil</td><td>CAM</td><td>7544</td><td>0.754</td></tr><tr><td>Raphinha</td><td>Brazil</td><td>LM</td><td>7507</td><td>0.751</td></tr><tr><td>Mohamed Salah</td><td>Egypt</td><td>RM</td><td>7336</td><td>0.734</td></tr><tr><td>Adrien Rabiot</td><td>France</td><td>CAM</td><td>7274</td><td>0.727</td></tr><tr><td>Francisco Trincao</td><td>Portugal</td><td>CAM</td><td>6904</td><td>0.69</td></tr><tr><td>Rayan Cherki</td><td>France</td><td>CAM</td><td>6886</td><td>0.689</td></tr><tr><td>Michael Olise</td><td>France</td><td>RM</td><td>6814</td><td>0.681</td></tr><tr><td>Scott McTOMINAY</td><td>Scotland</td><td>CAM</td><td>6769</td><td>0.677</td></tr><tr><td>Eberechi Eze</td><td>England</td><td>CAM</td><td>6749</td><td>0.675</td></tr></tbody></table>
+</main>
+</body>
+</html>
