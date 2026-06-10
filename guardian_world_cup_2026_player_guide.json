@@ -5390,12 +5390,12 @@
           "official_position": "FW"
         },
         {
-          "name": "Jean-RicnerJean Ricner Bellegarde",
+          "name": "Jean-Ricner Bellegarde",
           "position": "CAM",
           "club": "Wolverhampton Wanderers FC (ENG)",
           "rating": 75,
           "rating_source": "eafc26_country_name",
-          "rating_match_score": 0.955,
+          "rating_match_score": 1.0,
           "official_position": "MF"
         },
         {
@@ -5584,7 +5584,7 @@
           "official_position": "DF"
         },
         {
-          "name": "Milad Mohamm Adi",
+          "name": "Milad Mohammadi",
           "position": "CB",
           "club": "Persepolis FC (IRN)",
           "rating": 68,
@@ -5922,7 +5922,7 @@
           "official_position": "DF"
         },
         {
-          "name": "Amir Alamm Ari",
+          "name": "Amir Al-Ammari",
           "position": "CM",
           "club": "KS Cracovia (POL)",
           "rating": 65,
@@ -6513,7 +6513,7 @@
           "official_position": "GK"
         },
         {
-          "name": "Mohamm Ad Abuhasheesh",
+          "name": "Mohammad Abuhasheesh",
           "position": "CB",
           "club": "Al Karma SC (IRQ)",
           "rating": 68,
@@ -6558,7 +6558,7 @@
           "official_position": "MF"
         },
         {
-          "name": "Mohamm Ad Abuzraiq",
+          "name": "Mohammad Abuzraiq",
           "position": "ST",
           "club": "Raja Casablanca (MAR)",
           "rating": 69,
@@ -6639,7 +6639,7 @@
           "official_position": "MF"
         },
         {
-          "name": "Mohamm Ad Abualnadi",
+          "name": "Mohammad Abualnadi",
           "position": "CB",
           "club": "Selangor FC (MAS)",
           "rating": 68,
@@ -6720,7 +6720,7 @@
           "official_position": "FW"
         },
         {
-          "name": "Mohamm Ad Aldaoud",
+          "name": "Mohammad Aldaoud",
           "position": "CM",
           "club": "Al Wahdat SC (JOR)",
           "rating": 69,
@@ -7631,7 +7631,7 @@
           "official_position": "MF"
         },
         {
-          "name": "Callum McCOWATT",
+          "name": "Callum McCowatt",
           "position": "CAM",
           "club": "Silkeborg IF (DEN)",
           "rating": 67,
@@ -9160,7 +9160,7 @@
           "official_position": "DF"
         },
         {
-          "name": "Scott McTOMINAY",
+          "name": "Scott McTominay",
           "position": "CAM",
           "club": "SSC Napoli (ITA)",
           "rating": 85,
@@ -9187,7 +9187,7 @@
           "official_position": "DF"
         },
         {
-          "name": "John McGINN",
+          "name": "John McGinn",
           "position": "LM",
           "club": "Aston Villa FC (ENG)",
           "rating": 81,
@@ -9331,7 +9331,7 @@
           "official_position": "DF"
         },
         {
-          "name": "Kenny McLEAN",
+          "name": "Kenny McLean",
           "position": "CDM",
           "club": "Norwich City FC (ENG)",
           "rating": 72,
@@ -9358,7 +9358,7 @@
           "official_position": "FW"
         },
         {
-          "name": "Scott McKENNA",
+          "name": "Scott McKenna",
           "position": "CB",
           "club": "GNK Dinamo Zagreb (CRO)",
           "rating": 75,
@@ -9588,12 +9588,12 @@
           "official_position": "DF"
         },
         {
-          "name": "El Hadji MalickEl Hadji Malick Diouf",
+          "name": "El Hadji Malick Diouf",
           "position": "LB",
           "club": "West Ham United FC (ENG)",
           "rating": 75,
           "rating_source": "eafc26_country_name",
-          "rating_match_score": 0.955,
+          "rating_match_score": 1.0,
           "official_position": "DF"
         },
         {
@@ -11347,7 +11347,7 @@
           "official_position": "MF"
         },
         {
-          "name": "Weston McKENNIE",
+          "name": "Weston McKennie",
           "position": "CM",
           "club": "Juventus FC (ITA)",
           "rating": 78,
@@ -11473,7 +11473,7 @@
           "official_position": "FW"
         },
         {
-          "name": "Mark McKENZIE",
+          "name": "Mark McKenzie",
           "position": "CB",
           "club": "Toulouse FC (FRA)",
           "rating": 74,
