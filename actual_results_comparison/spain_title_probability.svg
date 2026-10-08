@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="295" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 295" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="295"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-295)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="900" height="295" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="24" y="265" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,530) scale(1,-1)">Spain's forecast title probability</text>
+			<text x="24" y="244" style="font-family: Helvetica; font-size: 11px;fill: rgb(34%,40%,43%); stroke:none;" transform="translate(0,488) scale(1,-1)">Spain won; probabilities describe the forecast before the observed outcome.</text>
+			<text x="25" y="187" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,374) scale(1,-1)">EAFC baseline</text>
+			<rect x="210" y="178" width="221.61599999999999" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,52%,49%); fill-rule: evenodd;"/>
+			<text x="441.616" y="187" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,374) scale(1,-1)">10.26%</text>
+			<text x="25" y="134" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,268) scale(1,-1)">Heuristic v2</text>
+			<rect x="210" y="125" width="392.688" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,29%,38%); fill-rule: evenodd;"/>
+			<text x="612.688" y="134" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,268) scale(1,-1)">18.18%</text>
+			<text x="25" y="81" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,162) scale(1,-1)">Random Forest v2</text>
+			<rect x="210" y="72" width="369.576" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,47%,67%); fill-rule: evenodd;"/>
+			<text x="589.576" y="81" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,162) scale(1,-1)">17.11%</text>
+			<text x="202.775" y="39" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,78) scale(1,-1)">0%</text>
+			<text x="310.775" y="39" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,78) scale(1,-1)">5%</text>
+			<text x="415.995" y="39" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,78) scale(1,-1)">10%</text>
+			<text x="523.995" y="39" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,78) scale(1,-1)">15%</text>
+			<text x="631.995" y="39" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,78) scale(1,-1)">20%</text>
+			<text x="739.995" y="39" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,78) scale(1,-1)">25%</text>
+		</g>
+	</g>
+</svg>

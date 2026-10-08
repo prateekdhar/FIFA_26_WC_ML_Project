@@ -1,0 +1,6 @@
+model,train_rows,test_rows,accuracy,balanced_accuracy,log_loss
+random_forest,5076,1692,0.66371,0.57009,0.81023
+hist_gradient_boosting,5076,1692,0.6773,0.5434,0.82251
+elastic_net_logistic,5076,1692,0.6247,0.57099,0.83861
+logistic_l2,5076,1692,0.6247,0.57099,0.83872
+decision_tree_depth4,5076,1692,0.61052,0.54321,0.87307

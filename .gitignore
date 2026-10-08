@@ -9,8 +9,12 @@ fifa_squadlists_english.pdf
 
 # Generated simulation outputs
 simulation_results_*.json
+simulation_features_*.csv
+simulation_trace_*.txt
 simulation_report/
 simulation_report_*/
+player_performance_data*.json
+.cache/
 
 # Scratch/demo files from setup
 dummy.txt
@@ -25,3 +29,13 @@ squad_data_quality_report.json
 Thumbs.db
 .vscode/
 .idea/
+
+# Local LaTeX compilation and visual review files
+actual_results_comparison/*.aux
+actual_results_comparison/*.log
+actual_results_comparison/*.toc
+actual_results_comparison/*.lof
+actual_results_comparison/*.lot
+actual_results_comparison/layout_review.png
+actual_results_comparison/chart_preview.png
+fifa-project-publication.bundle

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "description": "Manual identity mappings from this project's player keys to Transfermarkt player IDs.",
+    "usage": "Add rows to players after checking remaining_transfermarkt_candidates.json or manually verifying a Transfermarkt profile.",
+    "fields": {
+      "player_key": "The local key from player_performance_data_statbunker.json, usually Country::Name.",
+      "country": "Local squad country.",
+      "name": "Local squad player display name.",
+      "transfermarkt_player_id": "Transfermarkt player_id from salimt/football-datasets player_profiles.csv.",
+      "note": "Short reason or verification note."
+    }
+  },
+  "players": [
+    {
+      "player_key": "Ghana::Baba Rahman",
+      "country": "Ghana",
+      "name": "Baba Rahman",
+      "transfermarkt_player_id": "224884",
+      "note": "Transfermarkt profile is Abdul Rahman Baba; current club PAOK Thessaloniki matches PAOK Saloniki."
+    }
+  ]
+}

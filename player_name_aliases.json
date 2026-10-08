@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "description": "Search and identity aliases for squad player names that differ from external-source naming.",
+    "usage": "Aliases are used for Transfermarkt/Wikipedia lookup only; they do not change the squad display name.",
+    "fields": {
+      "player_key": "Local key from player_performance_data_statbunker.json, usually Country::Name.",
+      "aliases": "Names to try during external-source matching.",
+      "note": "Short reason for the alias."
+    }
+  },
+  "players": [
+    {
+      "player_key": "Canada::Alie Jones",
+      "aliases": [
+        "Alfie Jones"
+      ],
+      "note": "Likely PDF/source typo."
+    },
+    {
+      "player_key": "Morocco::Souiane Rahimi",
+      "aliases": [
+        "Soufiane Rahimi"
+      ],
+      "note": "Common spelling."
+    },
+    {
+      "player_key": "Morocco::Youssef Belamm Ari",
+      "aliases": [
+        "Youssef Belammari"
+      ],
+      "note": "PDF/source split artifact."
+    },
+    {
+      "player_key": "Algeria::Raik Belghali",
+      "aliases": [
+        "Rafik Belghali"
+      ],
+      "note": "Common spelling in public football profiles."
+    },
+    {
+      "player_key": "Cape Verde::Pico Lopes",
+      "aliases": [
+        "Roberto Lopes",
+        "Roberto Pico Lopes"
+      ],
+      "note": "Player is commonly listed as Roberto Lopes; Pico is his nickname."
+    },
+    {
+      "player_key": "DR Congo::Lionel Mp Asi",
+      "aliases": [
+        "Lionel Mpasi",
+        "Lionel Mpasi-Nzau",
+        "Lionel M'Pasi N'Zau"
+      ],
+      "note": "Local name split differs from public profile spelling."
+    },
+    {
+      "player_key": "Egypt::Mohanad Lashin",
+      "aliases": [
+        "Mohanad Lasheen",
+        "Mohannad Lasheen"
+      ],
+      "note": "Common transliteration."
+    },
+    {
+      "player_key": "Egypt::Mostafa Zico",
+      "aliases": [
+        "Mostafa Ziko",
+        "Moustafa Ziko"
+      ],
+      "note": "Common Zico/Ziko transliteration variation."
+    },
+    {
+      "player_key": "Egypt::Nabil Donga",
+      "aliases": [
+        "Nabil Emad",
+        "Nabil Emad Donga",
+        "Nabil Dunga"
+      ],
+      "note": "Donga/Dunga is nickname; profile is commonly listed as Nabil Emad."
+    },
+    {
+      "player_key": "Iran::Hossein Kanani",
+      "aliases": [
+        "Hossein Kanaanizadegan",
+        "Mohammad Hossein Kanaanizadegan",
+        "Mohammad Hossein Kanani"
+      ],
+      "note": "Short local name differs from profile surname."
+    },
+    {
+      "player_key": "Jordan::Abdallah Alfakhori",
+      "aliases": [
+        "Abdallah Al-Fakhouri",
+        "Abdallah Al Fakhouri"
+      ],
+      "note": "Common spacing/hyphenation."
+    },
+    {
+      "player_key": "Jordan::Mohammad Abuzraiq",
+      "aliases": [
+        "Mohammad Abu Zrayq",
+        "Mohammad Abuzrayq",
+        "Sharara"
+      ],
+      "note": "Common transliteration and nickname."
+    },
+    {
+      "player_key": "Jordan::Nour Baniateyah",
+      "aliases": [
+        "Nour Bani Attiah",
+        "Nour Bani Ateyah"
+      ],
+      "note": "Common transliteration."
+    },
+    {
+      "player_key": "Jordan::Saed Alrosan",
+      "aliases": [
+        "Saed Al-Rosan",
+        "Saed Al Rosan"
+      ],
+      "note": "Common spacing/hyphenation."
+    },
+    {
+      "player_key": "Qatar::Alhashmi Alhussein",
+      "aliases": [
+        "Al-Hashmi Al-Hussain",
+        "Al Hashmi Al Hussain",
+        "Alhashmi Alhussein"
+      ],
+      "note": "Common spacing/hyphenation."
+    },
+    {
+      "player_key": "Qatar::Ayoub Aloui",
+      "aliases": [
+        "Ayoub Al Alawi",
+        "Ayoub Alaoui"
+      ],
+      "note": "Common transliteration."
+    },
+    {
+      "player_key": "Saudi Arabia::Ahmed Alkassar",
+      "aliases": [
+        "Ahmed Al-Kassar",
+        "Ahmed Al Kassar"
+      ],
+      "note": "Common spacing/hyphenation."
+    },
+    {
+      "player_key": "Saudi Arabia::Ala Alhajji",
+      "aliases": [
+        "Alaa Al-Haji",
+        "Alaa Al Hajji",
+        "Ala Al-Haji",
+        "Alaa Al-Hejji",
+        "Alaa Al Hejji",
+        "Ala'a Al Hajji",
+        "Alaa Haji Al Hejji"
+      ],
+      "note": "Common public profile and EAFC spellings."
+    },
+    {
+      "player_key": "Saudi Arabia::Hassan Kadish",
+      "aliases": [
+        "Hassan Kadesh",
+        "Hassan Kadish"
+      ],
+      "note": "Common transliteration."
+    },
+    {
+      "player_key": "Saudi Arabia::Jehad Thikri",
+      "aliases": [
+        "Jehad Al-Thakri",
+        "Jehad Al Thakri",
+        "Jihad Al-Thikri"
+      ],
+      "note": "Common transliteration."
+    },
+    {
+      "player_key": "Saudi Arabia::Mohammed Alowais",
+      "aliases": [
+        "Mohammed Al-Owais",
+        "Mohammed Al Owais"
+      ],
+      "note": "Common spacing/hyphenation."
+    },
+    {
+      "player_key": "Saudi Arabia::Nawaf Bu Washl",
+      "aliases": [
+        "Nawaf Boushal",
+        "Nawaf Bu Washl"
+      ],
+      "note": "Common transliteration."
+    },
+    {
+      "player_key": "Uzbekistan::Abduvohid Nematov",
+      "aliases": [
+        "Abduvohid Ne'matov",
+        "Abduvohid Nematov"
+      ],
+      "note": "Apostrophe often omitted in local source."
+    },
+    {
+      "player_key": "Uzbekistan::Avazbek Ulmasaliyev",
+      "aliases": [
+        "Avazbek O'lmasaliyev",
+        "Avazbek Ulmasaliyev",
+        "Avazbek Ulmasaliev",
+        "Avazbek Alisher o'g'li O'lmasaliyev",
+        "Avazbek Olmasaliev"
+      ],
+      "note": "Public profile spelling and full Uzbek name."
+    },
+    {
+      "player_key": "Uzbekistan::Sherzod Nasrullaev",
+      "aliases": [
+        "Sherzod Nasrullayev",
+        "Sherzod Nasrullaev"
+      ],
+      "note": "Common y/i transliteration variation."
+    },
+    {
+      "player_key": "South Korea::Seunggyu Kim",
+      "aliases": [
+        "Kim Seung-gyu",
+        "Kim Seunggyu"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Hanbeom Lee",
+      "aliases": [
+        "Lee Han-beom",
+        "Lee Hanbeom"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Gihyuk Lee",
+      "aliases": [
+        "Lee Gi-hyuk",
+        "Lee Gihyuk"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Minjae Kim",
+      "aliases": [
+        "Kim Min-jae",
+        "Kim Minjae"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Taehyeon Kim",
+      "aliases": [
+        "Kim Tae-hyeon",
+        "Kim Taehyeon"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Inbeom Hwang",
+      "aliases": [
+        "Hwang In-beom",
+        "Hwang Inbeom"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Seungho Paik",
+      "aliases": [
+        "Paik Seung-ho",
+        "Paik Seungho",
+        "Baek Seung-ho"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Guesung Cho",
+      "aliases": [
+        "Cho Gue-sung",
+        "Cho Guesung"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Jaesung Lee",
+      "aliases": [
+        "Lee Jae-sung",
+        "Lee Jaesung"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Heechan Hwang",
+      "aliases": [
+        "Hwang Hee-chan",
+        "Hwang Heechan"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Bumkeun Song",
+      "aliases": [
+        "Song Bum-keun",
+        "Song Bumkeun"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Taeseok Lee",
+      "aliases": [
+        "Lee Tae-seok",
+        "Lee Taeseok"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Wije Cho",
+      "aliases": [
+        "Cho Wi-je",
+        "Cho Wije"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Moonhwan Kim",
+      "aliases": [
+        "Kim Moon-hwan",
+        "Kim Moonhwan"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Jinseob Park",
+      "aliases": [
+        "Park Jin-seob",
+        "Park Jinseob"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Junho Bae",
+      "aliases": [
+        "Bae Jun-ho",
+        "Bae Junho"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Hyeongyu Oh",
+      "aliases": [
+        "Oh Hyeon-gyu",
+        "Oh Hyeongyu",
+        "Oh Hyeon-kyu"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Kangin Lee",
+      "aliases": [
+        "Lee Kang-in",
+        "Lee Kangin"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Hyeonwoo Jo",
+      "aliases": [
+        "Jo Hyeon-woo",
+        "Jo Hyeonwoo"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Youngwoo Seol",
+      "aliases": [
+        "Seol Young-woo",
+        "Seol Youngwoo"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Jingyu Kim",
+      "aliases": [
+        "Kim Jin-gyu",
+        "Kim Jingyu"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "South Korea::Donggyeong Lee",
+      "aliases": [
+        "Lee Dong-gyeong",
+        "Lee Donggyeong"
+      ],
+      "note": "Korean family-name-first external spelling."
+    },
+    {
+      "player_key": "United States::Alex Zendejas",
+      "aliases": [
+        "Alejandro Zendejas",
+        "Álex Zendejas"
+      ],
+      "note": "Common/full name variants."
+    },
+    {
+      "player_key": "Iran::Amirmohammad Razaghinia",
+      "aliases": [
+        "Amir Mohammad Razzaghinia",
+        "Amir Mohammad Razaghinia",
+        "Amirmohammad Razzaghinia",
+        "A. Razzaghinia"
+      ],
+      "note": "Verified spelling from Esteghlal roster/transfer table."
+    },
+    {
+      "player_key": "Tunisia::Raed Chikhaoui",
+      "aliases": [
+        "Raed Chikhawi",
+        "Raed Cheikhaoui",
+        "Rayed Chikhaoui",
+        "R. Chikhaoui"
+      ],
+      "note": "Search variants checked for low-index Tunisian profile."
+    }
+  ]
+}

@@ -1,0 +1,1231 @@
+{
+  "metadata": {
+    "created_at": "2026-06-09T18:36:03.396457+00:00",
+    "source": "SofaScore public player/statistics endpoints",
+    "players_reconstructed": 2,
+    "notes": [
+      "Rows are season-competition aggregates exposed by SofaScore, derived from match data rather than hand-entered profile totals.",
+      "matchesStarted is only filled where the per-tournament endpoint exposed it; starts_unknown_rows records rows where starts are unavailable.",
+      "starts should be read as known starts, not guaranteed total starts, when starts_unknown_rows is greater than zero."
+    ]
+  },
+  "players": {
+    "Iran::Amirmohammad Razaghinia": {
+      "player_key": "Iran::Amirmohammad Razaghinia",
+      "matched_name": "Amirmohammad Razzaghinia",
+      "sofascore_player_id": 1500737,
+      "profile_url": "https://www.sofascore.com/player/razzaghinia-amirmohammad/1500737",
+      "current_team": "Esteghlal FC",
+      "club_rows": [
+        {
+          "season": "25/26",
+          "competition": "Persian Gulf Pro League",
+          "team": "Esteghlal FC",
+          "uniqueTournamentId": 915,
+          "seasonId": 79503,
+          "appearances": 9,
+          "matches_started": null,
+          "minutes_played": 478,
+          "goals": 0,
+          "assists": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "rating": null,
+          "raw_statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 478,
+            "passToAssist": 0,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 1,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 9,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "25/26",
+          "competition": "AFC Champions League Two",
+          "team": "Esteghlal FC",
+          "uniqueTournamentId": 668,
+          "seasonId": 77009,
+          "appearances": 6,
+          "matches_started": 5,
+          "minutes_played": 443,
+          "goals": 0,
+          "assists": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "clean_sheets": 1,
+          "goals_conceded": 3,
+          "rating": 6.55,
+          "raw_statistics": {
+            "accurateCrosses": 1,
+            "accurateCrossesPercentage": 33.33,
+            "accurateLongBalls": 8,
+            "accurateLongBallsPercentage": 66.67,
+            "accuratePasses": 164,
+            "accuratePassesPercentage": 89.62,
+            "aerialDuelsWon": 6,
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 1,
+            "blockedShots": 2,
+            "outfielderBlocks": 2,
+            "cleanSheet": 1,
+            "dribbledPast": 5,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 3,
+            "interceptions": 6,
+            "keyPasses": 0,
+            "minutesPlayed": 443,
+            "passToAssist": 0,
+            "rating": 6.55,
+            "redCards": 0,
+            "saves": 0,
+            "shotsOnTarget": 1,
+            "successfulDribbles": 1,
+            "tackles": 8,
+            "totalShots": 6,
+            "yellowCards": 1,
+            "totalRating": 39.3,
+            "countRating": 6,
+            "totalLongBalls": 12,
+            "totalCross": 3,
+            "totalPasses": 183,
+            "shotsFromInsideTheBox": 4,
+            "appearances": 6,
+            "type": "overall",
+            "id": 0,
+            "matchesStarted": 5
+          }
+        },
+        {
+          "season": "24/25",
+          "competition": "Persian Gulf Pro League",
+          "team": "Gol Gohar Sirjan",
+          "uniqueTournamentId": 915,
+          "seasonId": 65237,
+          "appearances": 22,
+          "matches_started": 20,
+          "minutes_played": 1678,
+          "goals": 1,
+          "assists": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "rating": null,
+          "raw_statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 1,
+            "goalsAssistsSum": 1,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 1678,
+            "passToAssist": 0,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 0,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 22,
+            "type": "overall",
+            "id": 0,
+            "matchesStarted": 20
+          }
+        }
+      ],
+      "club_summary": {
+        "row_count": 3,
+        "seasons": [
+          "25/26",
+          "24/25"
+        ],
+        "teams": [
+          "Esteghlal FC",
+          "Gol Gohar Sirjan"
+        ],
+        "competitions": [
+          "AFC Champions League Two",
+          "Persian Gulf Pro League"
+        ],
+        "appearances": 37,
+        "starts": 25,
+        "starts_known_rows": 2,
+        "starts_unknown_rows": 1,
+        "minutes_played": 2599,
+        "goals": 1,
+        "assists": 0,
+        "goal_contributions": 1,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "clean_sheets": 1,
+        "goals_conceded": 3,
+        "per_90": {
+          "goals": 0.0346,
+          "assists": 0.0,
+          "goal_contributions": 0.0346,
+          "cards": 0.0693
+        },
+        "per_appearance": {
+          "goals": 0.027,
+          "assists": 0.0,
+          "goal_contributions": 0.027
+        }
+      },
+      "other_rows": [
+        {
+          "season": "23/25",
+          "competition": "World Cup Qual. AFC",
+          "team": "Iran",
+          "uniqueTournamentId": 931,
+          "seasonId": 52162,
+          "appearances": 1,
+          "matches_started": null,
+          "minutes_played": 34,
+          "goals": 0,
+          "assists": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "rating": 6.6,
+          "raw_statistics": {
+            "accurateLongBalls": 0,
+            "accurateLongBallsPercentage": 0,
+            "accuratePasses": 6,
+            "accuratePassesPercentage": 60,
+            "aerialDuelsWon": 2,
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 34,
+            "passToAssist": 0,
+            "rating": 6.6,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 1,
+            "tackles": 0,
+            "yellowCards": 0,
+            "totalRating": 6.6,
+            "countRating": 1,
+            "totalLongBalls": 1,
+            "totalPasses": 10,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 1,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "2025",
+          "competition": "U20 AFC Asian Cup",
+          "team": "Iran U20",
+          "uniqueTournamentId": 19546,
+          "seasonId": 68909,
+          "appearances": 3,
+          "matches_started": null,
+          "minutes_played": 241,
+          "goals": 0,
+          "assists": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 2,
+          "rating": 6.87,
+          "raw_statistics": {
+            "accurateCrosses": 0,
+            "accurateCrossesPercentage": 0,
+            "accurateLongBalls": 8,
+            "accurateLongBallsPercentage": 80,
+            "accuratePasses": 64,
+            "accuratePassesPercentage": 85.33,
+            "aerialDuelsWon": 4,
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "blockedShots": 2,
+            "outfielderBlocks": 2,
+            "cleanSheet": 0,
+            "dribbledPast": 1,
+            "errorLeadToGoal": 0,
+            "expectedAssists": 0.08,
+            "expectedGoals": 0.32,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 2,
+            "interceptions": 3,
+            "keyPasses": 1,
+            "minutesPlayed": 241,
+            "passToAssist": 0,
+            "rating": 6.87,
+            "redCards": 0,
+            "saves": 0,
+            "shotsOnTarget": 1,
+            "successfulDribbles": 1,
+            "tackles": 2,
+            "totalShots": 3,
+            "yellowCards": 0,
+            "totalRating": 20.6,
+            "countRating": 3,
+            "totalLongBalls": 10,
+            "totalCross": 2,
+            "totalPasses": 75,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 3,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "2023",
+          "competition": "U17 World Championship",
+          "team": "Iran U17",
+          "uniqueTournamentId": 279,
+          "seasonId": 55176,
+          "appearances": 4,
+          "matches_started": null,
+          "minutes_played": 358,
+          "goals": 2,
+          "assists": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 1,
+          "goals_conceded": 4,
+          "rating": 7.82,
+          "raw_statistics": {
+            "accurateCrosses": 0,
+            "accurateCrossesPercentage": 0,
+            "accurateLongBalls": 5,
+            "accurateLongBallsPercentage": 50,
+            "accuratePasses": 120,
+            "accuratePassesPercentage": 83.33,
+            "aerialDuelsWon": 10,
+            "assists": 0,
+            "bigChancesCreated": 1,
+            "bigChancesMissed": 1,
+            "blockedShots": 1,
+            "outfielderBlocks": 1,
+            "cleanSheet": 1,
+            "dribbledPast": 11,
+            "errorLeadToGoal": 0,
+            "goals": 2,
+            "goalsAssistsSum": 2,
+            "goalsConceded": 4,
+            "interceptions": 16,
+            "keyPasses": 10,
+            "minutesPlayed": 358,
+            "passToAssist": 0,
+            "rating": 7.82,
+            "redCards": 0,
+            "saves": 0,
+            "shotsOnTarget": 3,
+            "successfulDribbles": 1,
+            "tackles": 13,
+            "totalShots": 9,
+            "yellowCards": 0,
+            "totalRating": 31.3,
+            "countRating": 4,
+            "totalLongBalls": 10,
+            "totalCross": 3,
+            "totalPasses": 144,
+            "shotsFromInsideTheBox": 5,
+            "appearances": 4,
+            "type": "overall",
+            "id": 0
+          }
+        }
+      ],
+      "other_summary": {
+        "row_count": 3,
+        "seasons": [
+          "23/25",
+          "2025",
+          "2023"
+        ],
+        "teams": [
+          "Iran",
+          "Iran U17",
+          "Iran U20"
+        ],
+        "competitions": [
+          "U17 World Championship",
+          "U20 AFC Asian Cup",
+          "World Cup Qual. AFC"
+        ],
+        "appearances": 8,
+        "starts": null,
+        "starts_known_rows": 0,
+        "starts_unknown_rows": 3,
+        "minutes_played": 633,
+        "goals": 2,
+        "assists": 0,
+        "goal_contributions": 2,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "clean_sheets": 1,
+        "goals_conceded": 6,
+        "per_90": {
+          "goals": 0.2844,
+          "assists": 0.0,
+          "goal_contributions": 0.2844,
+          "cards": 0.0
+        },
+        "per_appearance": {
+          "goals": 0.25,
+          "assists": 0.0,
+          "goal_contributions": 0.25
+        }
+      },
+      "available_tournament_seasons": [
+        {
+          "uniqueTournament": {
+            "name": "Persian Gulf Pro League",
+            "slug": "persian-gulf-pro-league",
+            "primaryColorHex": "#f18618",
+            "secondaryColorHex": "#009ee3",
+            "category": {
+              "name": "Iran",
+              "slug": "iran",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "priority": 0,
+              "id": 301,
+              "flag": "iran",
+              "alpha2": "IR",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إيران",
+                  "ru": "Иран"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 9734,
+            "id": 915,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دوري الخليج الفارسي للمحترفين",
+                "bn": "পার্সিয়ান গাল্ফ প্রো লীগ",
+                "hi": "पर्शियन गल्फ प्रो लीग"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "seasons": [
+            {
+              "name": "Pro League 25/26",
+              "year": "25/26",
+              "editor": false,
+              "seasonCoverageInfo": {
+                "editorCoverageLevel": 5
+              },
+              "id": 79503
+            },
+            {
+              "name": "Pro League 24/25",
+              "year": "24/25",
+              "editor": false,
+              "seasonCoverageInfo": {
+                "editorCoverageLevel": 3
+              },
+              "id": 65237
+            }
+          ]
+        },
+        {
+          "uniqueTournament": {
+            "name": "U23 AFC Asian Cup",
+            "slug": "u23-afc-asian-cup",
+            "primaryColorHex": "#73addc",
+            "secondaryColorHex": "#d46c9d",
+            "category": {
+              "name": "Asia",
+              "slug": "asia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "priority": 17,
+              "id": 1467,
+              "flag": "asia",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "آسيا",
+                  "ru": "Азия"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 8699,
+            "id": 2349,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كأس آسيا للمنتخبات تحت 23 سنة",
+                "bn": "আন্ডার23 এএফসি এশিয়ান কাপ",
+                "hi": "U23 एएफसी एशियन कप"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "seasons": [
+            {
+              "name": "AFC U23 Asian Cup 2026",
+              "year": "2026",
+              "editor": false,
+              "seasonCoverageInfo": {
+                "editorCoverageLevel": 5
+              },
+              "id": 84376
+            }
+          ]
+        },
+        {
+          "uniqueTournament": {
+            "name": "Hazfi Cup",
+            "slug": "hazfi-cup",
+            "primaryColorHex": "#119e3a",
+            "secondaryColorHex": "#e30e1d",
+            "category": {
+              "name": "Iran",
+              "slug": "iran",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "priority": 0,
+              "id": 301,
+              "flag": "iran",
+              "alpha2": "IR",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إيران",
+                  "ru": "Иран"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 2797,
+            "id": 11497,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كأس حذفي",
+                "bn": "হাজফি কাপ",
+                "hi": "हज़फ़ी कप"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "seasons": [
+            {
+              "name": "Hazfi Cup 25/26",
+              "year": "25/26",
+              "editor": false,
+              "seasonCoverageInfo": {
+                "editorCoverageLevel": 5
+              },
+              "id": 85817
+            }
+          ]
+        },
+        {
+          "uniqueTournament": {
+            "name": "AFC Champions League Two",
+            "slug": "afc-cup",
+            "primaryColorHex": "#033aa7",
+            "secondaryColorHex": "#d10007",
+            "category": {
+              "name": "Asia",
+              "slug": "asia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "priority": 17,
+              "id": 1467,
+              "flag": "asia",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "آسيا",
+                  "ru": "Азия"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 20160,
+            "id": 668,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دوري أبطال آسيا الدرجة الثانية",
+                "bn": "এএফসি চ্যাম্পিয়ন্স লীগ টু",
+                "hi": "एएफसी चैंपियंस लीग टू"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "seasons": [
+            {
+              "name": "AFC Champions League Two 25/26",
+              "year": "25/26",
+              "editor": false,
+              "id": 77009
+            }
+          ]
+        },
+        {
+          "uniqueTournament": {
+            "name": "U20 AFC Asian Cup",
+            "slug": "u20-afc-asian-cup",
+            "category": {
+              "name": "Asia",
+              "slug": "asia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "priority": 17,
+              "id": 1467,
+              "flag": "asia",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "آسيا",
+                  "ru": "Азия"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 2420,
+            "id": 19546,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كأس آسيا تحت 20 سنة",
+                "bn": "আন্ডার20 এএফসি এশিয়ান কাপ",
+                "hi": "U20 एएफसी एशियन कप"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "seasons": [
+            {
+              "name": "U20 AFC Asian Cup 2025",
+              "year": "2025",
+              "editor": false,
+              "id": 68909
+            }
+          ]
+        },
+        {
+          "uniqueTournament": {
+            "name": "U17 World Championship",
+            "slug": "u17-world-championship",
+            "primaryColorHex": "#398835",
+            "secondaryColorHex": "#377ac4",
+            "category": {
+              "name": "World",
+              "slug": "world",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "priority": 20,
+              "id": 1468,
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "العالم",
+                  "hi": "विश्व",
+                  "bn": "বিশ্ব",
+                  "ru": "Мир"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 30613,
+            "id": 279,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بطولة كأس العالم تحت 17 سنة",
+                "bn": "আন্ডার 17ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+                "hi": "U-17 वर्ल्ड चैंपियनशिप"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "seasons": [
+            {
+              "name": "U17 World Cup 2023",
+              "year": "2023",
+              "editor": false,
+              "id": 55176
+            }
+          ]
+        }
+      ],
+      "all_api_stat_rows": [
+        {
+          "season": "25/26",
+          "team": "Esteghlal FC",
+          "competition": "AFC Champions League Two",
+          "statistics": {
+            "accurateCrosses": 1,
+            "accurateCrossesPercentage": 33.33,
+            "accurateLongBalls": 8,
+            "accurateLongBallsPercentage": 66.67,
+            "accuratePasses": 164,
+            "accuratePassesPercentage": 89.62,
+            "aerialDuelsWon": 6,
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 1,
+            "blockedShots": 2,
+            "outfielderBlocks": 2,
+            "cleanSheet": 1,
+            "dribbledPast": 5,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 3,
+            "interceptions": 6,
+            "keyPasses": 0,
+            "minutesPlayed": 443,
+            "passToAssist": 0,
+            "rating": 6.55,
+            "redCards": 0,
+            "saves": 0,
+            "shotsOnTarget": 1,
+            "successfulDribbles": 1,
+            "tackles": 8,
+            "totalShots": 6,
+            "yellowCards": 1,
+            "totalRating": 39.3,
+            "countRating": 6,
+            "totalLongBalls": 12,
+            "totalCross": 3,
+            "totalPasses": 183,
+            "shotsFromInsideTheBox": 4,
+            "appearances": 6,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "25/26",
+          "team": "Esteghlal FC",
+          "competition": "Persian Gulf Pro League",
+          "statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 478,
+            "passToAssist": 0,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 1,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 9,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "23/25",
+          "team": "Iran",
+          "competition": "World Cup Qual. AFC",
+          "statistics": {
+            "accurateLongBalls": 0,
+            "accurateLongBallsPercentage": 0,
+            "accuratePasses": 6,
+            "accuratePassesPercentage": 60,
+            "aerialDuelsWon": 2,
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 34,
+            "passToAssist": 0,
+            "rating": 6.6,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 1,
+            "tackles": 0,
+            "yellowCards": 0,
+            "totalRating": 6.6,
+            "countRating": 1,
+            "totalLongBalls": 1,
+            "totalPasses": 10,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 1,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "24/25",
+          "team": "Gol Gohar Sirjan",
+          "competition": "Persian Gulf Pro League",
+          "statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 1,
+            "goalsAssistsSum": 1,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 1678,
+            "passToAssist": 0,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 0,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 22,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "2025",
+          "team": "Iran U20",
+          "competition": "U20 AFC Asian Cup",
+          "statistics": {
+            "accurateCrosses": 0,
+            "accurateCrossesPercentage": 0,
+            "accurateLongBalls": 8,
+            "accurateLongBallsPercentage": 80,
+            "accuratePasses": 64,
+            "accuratePassesPercentage": 85.33,
+            "aerialDuelsWon": 4,
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "blockedShots": 2,
+            "outfielderBlocks": 2,
+            "cleanSheet": 0,
+            "dribbledPast": 1,
+            "errorLeadToGoal": 0,
+            "expectedAssists": 0.08,
+            "expectedGoals": 0.32,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 2,
+            "interceptions": 3,
+            "keyPasses": 1,
+            "minutesPlayed": 241,
+            "passToAssist": 0,
+            "rating": 6.87,
+            "redCards": 0,
+            "saves": 0,
+            "shotsOnTarget": 1,
+            "successfulDribbles": 1,
+            "tackles": 2,
+            "totalShots": 3,
+            "yellowCards": 0,
+            "totalRating": 20.6,
+            "countRating": 3,
+            "totalLongBalls": 10,
+            "totalCross": 2,
+            "totalPasses": 75,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 3,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "2023",
+          "team": "Iran U17",
+          "competition": "U17 World Championship",
+          "statistics": {
+            "accurateCrosses": 0,
+            "accurateCrossesPercentage": 0,
+            "accurateLongBalls": 5,
+            "accurateLongBallsPercentage": 50,
+            "accuratePasses": 120,
+            "accuratePassesPercentage": 83.33,
+            "aerialDuelsWon": 10,
+            "assists": 0,
+            "bigChancesCreated": 1,
+            "bigChancesMissed": 1,
+            "blockedShots": 1,
+            "outfielderBlocks": 1,
+            "cleanSheet": 1,
+            "dribbledPast": 11,
+            "errorLeadToGoal": 0,
+            "goals": 2,
+            "goalsAssistsSum": 2,
+            "goalsConceded": 4,
+            "interceptions": 16,
+            "keyPasses": 10,
+            "minutesPlayed": 358,
+            "passToAssist": 0,
+            "rating": 7.82,
+            "redCards": 0,
+            "saves": 0,
+            "shotsOnTarget": 3,
+            "successfulDribbles": 1,
+            "tackles": 13,
+            "totalShots": 9,
+            "yellowCards": 0,
+            "totalRating": 31.3,
+            "countRating": 4,
+            "totalLongBalls": 10,
+            "totalCross": 3,
+            "totalPasses": 144,
+            "shotsFromInsideTheBox": 5,
+            "appearances": 4,
+            "type": "overall",
+            "id": 0
+          }
+        }
+      ]
+    },
+    "Tunisia::Raed Chikhaoui": {
+      "player_key": "Tunisia::Raed Chikhaoui",
+      "matched_name": "Raed Chikhaoui",
+      "sofascore_player_id": 2018330,
+      "profile_url": "https://www.sofascore.com/player/raed-chikhaoui/2018330",
+      "current_team": "US Monastir",
+      "club_rows": [
+        {
+          "season": "25/26",
+          "competition": "Tunisian Ligue Professionnelle 1",
+          "team": "US Monastir",
+          "uniqueTournamentId": 984,
+          "seasonId": 78868,
+          "appearances": 14,
+          "matches_started": null,
+          "minutes_played": 1260,
+          "goals": 3,
+          "assists": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "rating": null,
+          "raw_statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 3,
+            "goalsAssistsSum": 3,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 1260,
+            "passToAssist": 0,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 4,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 14,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "24/25",
+          "competition": "Tunisian Ligue Professionnelle 1",
+          "team": "US Monastir",
+          "uniqueTournamentId": 984,
+          "seasonId": 65503,
+          "appearances": 13,
+          "matches_started": 6,
+          "minutes_played": 555,
+          "goals": 0,
+          "assists": 0,
+          "yellow_cards": 1,
+          "red_cards": 1,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "rating": null,
+          "raw_statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 555,
+            "passToAssist": 0,
+            "redCards": 1,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 1,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 13,
+            "type": "overall",
+            "id": 0,
+            "matchesStarted": 6
+          }
+        }
+      ],
+      "club_summary": {
+        "row_count": 2,
+        "seasons": [
+          "25/26",
+          "24/25"
+        ],
+        "teams": [
+          "US Monastir"
+        ],
+        "competitions": [
+          "Tunisian Ligue Professionnelle 1"
+        ],
+        "appearances": 27,
+        "starts": 6,
+        "starts_known_rows": 1,
+        "starts_unknown_rows": 1,
+        "minutes_played": 1815,
+        "goals": 3,
+        "assists": 0,
+        "goal_contributions": 3,
+        "yellow_cards": 5,
+        "red_cards": 1,
+        "clean_sheets": 0,
+        "goals_conceded": 0,
+        "per_90": {
+          "goals": 0.1488,
+          "assists": 0.0,
+          "goal_contributions": 0.1488,
+          "cards": 0.2975
+        },
+        "per_appearance": {
+          "goals": 0.1111,
+          "assists": 0.0,
+          "goal_contributions": 0.1111
+        }
+      },
+      "other_rows": [],
+      "other_summary": {
+        "row_count": 0,
+        "seasons": [],
+        "teams": [],
+        "competitions": [],
+        "appearances": 0,
+        "starts": null,
+        "starts_known_rows": 0,
+        "starts_unknown_rows": 0,
+        "minutes_played": 0,
+        "goals": 0,
+        "assists": 0,
+        "goal_contributions": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "clean_sheets": 0,
+        "goals_conceded": 0,
+        "per_90": {
+          "goals": null,
+          "assists": null,
+          "goal_contributions": null,
+          "cards": null
+        },
+        "per_appearance": {
+          "goals": null,
+          "assists": null,
+          "goal_contributions": null
+        }
+      },
+      "available_tournament_seasons": [
+        {
+          "uniqueTournament": {
+            "name": "Tunisian Ligue Professionnelle 1",
+            "slug": "ligue-1",
+            "primaryColorHex": "#de2426",
+            "secondaryColorHex": "#ad2532",
+            "category": {
+              "name": "Tunisia",
+              "slug": "tunisia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "priority": 0,
+              "id": 378,
+              "flag": "tunisia",
+              "alpha2": "TN",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "تونس",
+                  "ru": "Тунис"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 10202,
+            "id": 984,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "bn": "তিউনিসিয়ান লিগ প্রফেশনেনেলে 1",
+                "hi": "ट्यूनिशियन लिग प्रोफेशनल 1",
+                "ar": "الرابطة التونسية المحترفة الأولى"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "seasons": [
+            {
+              "name": "Ligue 1 25/26",
+              "year": "25/26",
+              "editor": false,
+              "seasonCoverageInfo": {
+                "editorCoverageLevel": 5
+              },
+              "id": 78868
+            },
+            {
+              "name": "Ligue 1 24/25",
+              "year": "24/25",
+              "editor": false,
+              "seasonCoverageInfo": {
+                "editorCoverageLevel": 1
+              },
+              "id": 65503
+            }
+          ]
+        }
+      ],
+      "all_api_stat_rows": [
+        {
+          "season": "25/26",
+          "team": "US Monastir",
+          "competition": "Tunisian Ligue Professionnelle 1",
+          "statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 3,
+            "goalsAssistsSum": 3,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 1260,
+            "passToAssist": 0,
+            "redCards": 0,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 4,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 14,
+            "type": "overall",
+            "id": 0
+          }
+        },
+        {
+          "season": "24/25",
+          "team": "US Monastir",
+          "competition": "Tunisian Ligue Professionnelle 1",
+          "statistics": {
+            "assists": 0,
+            "bigChancesCreated": 0,
+            "bigChancesMissed": 0,
+            "cleanSheet": 0,
+            "dribbledPast": 0,
+            "errorLeadToGoal": 0,
+            "goals": 0,
+            "goalsAssistsSum": 0,
+            "goalsConceded": 0,
+            "interceptions": 0,
+            "keyPasses": 0,
+            "minutesPlayed": 555,
+            "passToAssist": 0,
+            "redCards": 1,
+            "saves": 0,
+            "successfulDribbles": 0,
+            "tackles": 0,
+            "yellowCards": 1,
+            "shotsFromInsideTheBox": 0,
+            "appearances": 13,
+            "type": "overall",
+            "id": 0
+          }
+        }
+      ]
+    }
+  }
+}

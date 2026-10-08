@@ -6,6 +6,8 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+from name_cleaning import clean_player_name
+
 
 ROOT = Path(__file__).resolve().parent
 SQUAD_FILE = ROOT / "guardian_world_cup_2026_player_guide.json"
@@ -81,13 +83,14 @@ def club_similarity(fifa_club, eafc_club):
 
 
 def clean_display_name(name):
+    name = clean_player_name(name)
     parts = name.split()
     if len(parts) >= 3 and parts[0].isupper():
         prefix = norm(parts[0])
         rest_tokens = norm(" ".join(parts[1:])).split()
         if prefix in rest_tokens:
-            return " ".join(parts[1:])
-    return name
+            return clean_player_name(" ".join(parts[1:]))
+    return clean_player_name(name)
 
 
 def normalize_position(pos):

@@ -1,0 +1,5 @@
+model_id,model_label,primary_comparison,file,epochs,seed,workers,elo_source,decision_forest_kind,training_source,training_rows,training_accuracy,features_output
+primitive_eafc_poisson,Primitive EAFC Poisson,True,simulation_results_10000.json,10000,20260605,,,none,,,,
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,simulation_results_v2_heuristic_10000.json,10000,20260620,8,FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior,heuristic_internal_forest,,0,,simulation_features_v2_heuristic_10000.csv
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,simulation_results_v2_rf_elo_10000.json,10000,20260621,8,FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior,sklearn_random_forest,synthetic_profile_calibration,6768,0.7301,simulation_features_v2_rf_elo_10000.csv
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,simulation_results_v2_rf_10000.json,10000,20260618,8,squad_proxy,sklearn_random_forest,synthetic_profile_calibration,6768,,simulation_features_v2_rf_10000.csv

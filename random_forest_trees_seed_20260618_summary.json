@@ -1,0 +1,3913 @@
+{
+  "metadata": {
+    "seed": 20260618,
+    "elo_source": "FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior",
+    "model_status": {
+      "kind": "sklearn_random_forest",
+      "training_source": "synthetic_profile_calibration",
+      "training_rows": 6768,
+      "training_accuracy": 0.7278,
+      "historical_rows": 0,
+      "historical_status": {
+        "source_rows": 0,
+        "usable_matches": 0,
+        "skipped_rows": 0
+      },
+      "synthetic_rows": 6768,
+      "features": [
+        "elo_diff",
+        "squad_rating_diff",
+        "attack_vs_defense",
+        "defense_vs_attack",
+        "midfield_diff",
+        "gk_diff",
+        "possession_diff",
+        "discipline_diff",
+        "data_confidence_diff",
+        "host_diff",
+        "rest_diff",
+        "fatigue_diff",
+        "lineup_replacements_diff",
+        "altitude_factor",
+        "travel_diff",
+        "heat_index",
+        "humidity",
+        "venue_altitude_km",
+        "stage_is_knockout",
+        "allow_draw",
+        "match_day_index"
+      ],
+      "sklearn_available": true
+    },
+    "classes": [
+      "A",
+      "B",
+      "D"
+    ],
+    "features": [
+      "elo_diff",
+      "squad_rating_diff",
+      "attack_vs_defense",
+      "defense_vs_attack",
+      "midfield_diff",
+      "gk_diff",
+      "possession_diff",
+      "discipline_diff",
+      "data_confidence_diff",
+      "host_diff",
+      "rest_diff",
+      "fatigue_diff",
+      "lineup_replacements_diff",
+      "altitude_factor",
+      "travel_diff",
+      "heat_index",
+      "humidity",
+      "venue_altitude_km",
+      "stage_is_knockout",
+      "allow_draw",
+      "match_day_index"
+    ]
+  },
+  "trees": [
+    {
+      "tree": 1,
+      "nodes": 299,
+      "max_depth": 8,
+      "leaves": 150,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          17
+        ],
+        [
+          "gk_diff",
+          15
+        ],
+        [
+          "attack_vs_defense",
+          15
+        ],
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          10
+        ],
+        [
+          "humidity",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 2,
+      "nodes": 319,
+      "max_depth": 8,
+      "leaves": 160,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          19
+        ],
+        [
+          "midfield_diff",
+          15
+        ],
+        [
+          "attack_vs_defense",
+          14
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "elo_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 3,
+      "nodes": 295,
+      "max_depth": 8,
+      "leaves": 148,
+      "top_split_features": [
+        [
+          "elo_diff",
+          16
+        ],
+        [
+          "midfield_diff",
+          16
+        ],
+        [
+          "humidity",
+          13
+        ],
+        [
+          "discipline_diff",
+          12
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 4,
+      "nodes": 261,
+      "max_depth": 8,
+      "leaves": 131,
+      "top_split_features": [
+        [
+          "elo_diff",
+          17
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "travel_diff",
+          9
+        ],
+        [
+          "fatigue_diff",
+          9
+        ],
+        [
+          "rest_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 5,
+      "nodes": 299,
+      "max_depth": 8,
+      "leaves": 150,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          17
+        ],
+        [
+          "possession_diff",
+          17
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          10
+        ],
+        [
+          "venue_altitude_km",
+          10
+        ],
+        [
+          "travel_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 6,
+      "nodes": 323,
+      "max_depth": 8,
+      "leaves": 162,
+      "top_split_features": [
+        [
+          "fatigue_diff",
+          14
+        ],
+        [
+          "midfield_diff",
+          14
+        ],
+        [
+          "gk_diff",
+          14
+        ],
+        [
+          "discipline_diff",
+          14
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "heat_index",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 7,
+      "nodes": 305,
+      "max_depth": 8,
+      "leaves": 153,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          18
+        ],
+        [
+          "data_confidence_diff",
+          16
+        ],
+        [
+          "elo_diff",
+          14
+        ],
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "gk_diff",
+          9
+        ],
+        [
+          "squad_rating_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 8,
+      "nodes": 289,
+      "max_depth": 8,
+      "leaves": 145,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          16
+        ],
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "travel_diff",
+          12
+        ],
+        [
+          "heat_index",
+          12
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 9,
+      "nodes": 281,
+      "max_depth": 8,
+      "leaves": 141,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          16
+        ],
+        [
+          "heat_index",
+          15
+        ],
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "rest_diff",
+          10
+        ],
+        [
+          "discipline_diff",
+          10
+        ],
+        [
+          "elo_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 10,
+      "nodes": 261,
+      "max_depth": 8,
+      "leaves": 131,
+      "top_split_features": [
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "humidity",
+          10
+        ],
+        [
+          "defense_vs_attack",
+          8
+        ],
+        [
+          "elo_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 11,
+      "nodes": 261,
+      "max_depth": 8,
+      "leaves": 131,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          14
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ],
+        [
+          "heat_index",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 12,
+      "nodes": 273,
+      "max_depth": 8,
+      "leaves": 137,
+      "top_split_features": [
+        [
+          "discipline_diff",
+          14
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "fatigue_diff",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "heat_index",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 13,
+      "nodes": 307,
+      "max_depth": 8,
+      "leaves": 154,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          19
+        ],
+        [
+          "possession_diff",
+          17
+        ],
+        [
+          "humidity",
+          15
+        ],
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 14,
+      "nodes": 281,
+      "max_depth": 8,
+      "leaves": 141,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          15
+        ],
+        [
+          "midfield_diff",
+          14
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "heat_index",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "rest_diff",
+          9
+        ],
+        [
+          "squad_rating_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 15,
+      "nodes": 237,
+      "max_depth": 8,
+      "leaves": 119,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          14
+        ],
+        [
+          "fatigue_diff",
+          14
+        ],
+        [
+          "data_confidence_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "humidity",
+          10
+        ],
+        [
+          "discipline_diff",
+          9
+        ],
+        [
+          "midfield_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 16,
+      "nodes": 327,
+      "max_depth": 8,
+      "leaves": 164,
+      "top_split_features": [
+        [
+          "heat_index",
+          17
+        ],
+        [
+          "gk_diff",
+          16
+        ],
+        [
+          "humidity",
+          15
+        ],
+        [
+          "data_confidence_diff",
+          14
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 17,
+      "nodes": 289,
+      "max_depth": 8,
+      "leaves": 145,
+      "top_split_features": [
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "data_confidence_diff",
+          13
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 18,
+      "nodes": 309,
+      "max_depth": 8,
+      "leaves": 155,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          17
+        ],
+        [
+          "data_confidence_diff",
+          16
+        ],
+        [
+          "attack_vs_defense",
+          15
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "discipline_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 19,
+      "nodes": 321,
+      "max_depth": 8,
+      "leaves": 161,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          17
+        ],
+        [
+          "gk_diff",
+          13
+        ],
+        [
+          "discipline_diff",
+          13
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "travel_diff",
+          12
+        ],
+        [
+          "fatigue_diff",
+          12
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 20,
+      "nodes": 309,
+      "max_depth": 8,
+      "leaves": 155,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          15
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "possession_diff",
+          13
+        ],
+        [
+          "discipline_diff",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "humidity",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 21,
+      "nodes": 271,
+      "max_depth": 8,
+      "leaves": 136,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "data_confidence_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "midfield_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 22,
+      "nodes": 261,
+      "max_depth": 8,
+      "leaves": 131,
+      "top_split_features": [
+        [
+          "gk_diff",
+          15
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "travel_diff",
+          8
+        ],
+        [
+          "elo_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 23,
+      "nodes": 267,
+      "max_depth": 8,
+      "leaves": 134,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          14
+        ],
+        [
+          "possession_diff",
+          13
+        ],
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "gk_diff",
+          8
+        ],
+        [
+          "heat_index",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 24,
+      "nodes": 297,
+      "max_depth": 8,
+      "leaves": 149,
+      "top_split_features": [
+        [
+          "travel_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "heat_index",
+          12
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 25,
+      "nodes": 301,
+      "max_depth": 8,
+      "leaves": 151,
+      "top_split_features": [
+        [
+          "data_confidence_diff",
+          13
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "defense_vs_attack",
+          13
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "discipline_diff",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 26,
+      "nodes": 309,
+      "max_depth": 8,
+      "leaves": 155,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          22
+        ],
+        [
+          "elo_diff",
+          15
+        ],
+        [
+          "midfield_diff",
+          14
+        ],
+        [
+          "humidity",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "discipline_diff",
+          10
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "fatigue_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 27,
+      "nodes": 293,
+      "max_depth": 8,
+      "leaves": 147,
+      "top_split_features": [
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "heat_index",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 28,
+      "nodes": 293,
+      "max_depth": 8,
+      "leaves": 147,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          21
+        ],
+        [
+          "possession_diff",
+          13
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "gk_diff",
+          9
+        ],
+        [
+          "heat_index",
+          9
+        ],
+        [
+          "squad_rating_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 29,
+      "nodes": 273,
+      "max_depth": 8,
+      "leaves": 137,
+      "top_split_features": [
+        [
+          "heat_index",
+          15
+        ],
+        [
+          "fatigue_diff",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "squad_rating_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 30,
+      "nodes": 281,
+      "max_depth": 8,
+      "leaves": 141,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          14
+        ],
+        [
+          "gk_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "defense_vs_attack",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 31,
+      "nodes": 243,
+      "max_depth": 8,
+      "leaves": 122,
+      "top_split_features": [
+        [
+          "elo_diff",
+          20
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          9
+        ],
+        [
+          "humidity",
+          8
+        ],
+        [
+          "midfield_diff",
+          8
+        ],
+        [
+          "discipline_diff",
+          8
+        ],
+        [
+          "gk_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 32,
+      "nodes": 271,
+      "max_depth": 8,
+      "leaves": 136,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          18
+        ],
+        [
+          "fatigue_diff",
+          15
+        ],
+        [
+          "elo_diff",
+          14
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "heat_index",
+          10
+        ],
+        [
+          "discipline_diff",
+          9
+        ],
+        [
+          "defense_vs_attack",
+          9
+        ],
+        [
+          "possession_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 33,
+      "nodes": 303,
+      "max_depth": 8,
+      "leaves": 152,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          16
+        ],
+        [
+          "gk_diff",
+          15
+        ],
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "fatigue_diff",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          9
+        ],
+        [
+          "elo_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 34,
+      "nodes": 285,
+      "max_depth": 8,
+      "leaves": 143,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "heat_index",
+          11
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "discipline_diff",
+          10
+        ],
+        [
+          "humidity",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 35,
+      "nodes": 259,
+      "max_depth": 8,
+      "leaves": 130,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          16
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "gk_diff",
+          8
+        ],
+        [
+          "discipline_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 36,
+      "nodes": 261,
+      "max_depth": 8,
+      "leaves": 131,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          21
+        ],
+        [
+          "heat_index",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          9
+        ],
+        [
+          "humidity",
+          9
+        ],
+        [
+          "travel_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 37,
+      "nodes": 263,
+      "max_depth": 8,
+      "leaves": 132,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          14
+        ],
+        [
+          "gk_diff",
+          13
+        ],
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "travel_diff",
+          10
+        ],
+        [
+          "possession_diff",
+          9
+        ],
+        [
+          "attack_vs_defense",
+          9
+        ],
+        [
+          "squad_rating_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 38,
+      "nodes": 287,
+      "max_depth": 8,
+      "leaves": 144,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          18
+        ],
+        [
+          "possession_diff",
+          17
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "gk_diff",
+          8
+        ],
+        [
+          "heat_index",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 39,
+      "nodes": 325,
+      "max_depth": 8,
+      "leaves": 163,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          20
+        ],
+        [
+          "attack_vs_defense",
+          18
+        ],
+        [
+          "gk_diff",
+          12
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "travel_diff",
+          10
+        ],
+        [
+          "fatigue_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 40,
+      "nodes": 275,
+      "max_depth": 8,
+      "leaves": 138,
+      "top_split_features": [
+        [
+          "gk_diff",
+          15
+        ],
+        [
+          "travel_diff",
+          12
+        ],
+        [
+          "heat_index",
+          12
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "midfield_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 41,
+      "nodes": 265,
+      "max_depth": 8,
+      "leaves": 133,
+      "top_split_features": [
+        [
+          "possession_diff",
+          17
+        ],
+        [
+          "defense_vs_attack",
+          15
+        ],
+        [
+          "midfield_diff",
+          15
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          9
+        ],
+        [
+          "heat_index",
+          8
+        ],
+        [
+          "gk_diff",
+          8
+        ],
+        [
+          "humidity",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 42,
+      "nodes": 265,
+      "max_depth": 8,
+      "leaves": 133,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          14
+        ],
+        [
+          "data_confidence_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "squad_rating_diff",
+          9
+        ],
+        [
+          "fatigue_diff",
+          9
+        ],
+        [
+          "possession_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 43,
+      "nodes": 299,
+      "max_depth": 8,
+      "leaves": 150,
+      "top_split_features": [
+        [
+          "fatigue_diff",
+          17
+        ],
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "discipline_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 44,
+      "nodes": 289,
+      "max_depth": 8,
+      "leaves": 145,
+      "top_split_features": [
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "heat_index",
+          12
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "travel_diff",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 45,
+      "nodes": 279,
+      "max_depth": 8,
+      "leaves": 140,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          16
+        ],
+        [
+          "possession_diff",
+          14
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "fatigue_diff",
+          12
+        ],
+        [
+          "heat_index",
+          10
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "humidity",
+          9
+        ],
+        [
+          "elo_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 46,
+      "nodes": 249,
+      "max_depth": 8,
+      "leaves": 125,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          17
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "discipline_diff",
+          9
+        ],
+        [
+          "heat_index",
+          9
+        ],
+        [
+          "travel_diff",
+          8
+        ],
+        [
+          "gk_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 47,
+      "nodes": 283,
+      "max_depth": 8,
+      "leaves": 142,
+      "top_split_features": [
+        [
+          "humidity",
+          14
+        ],
+        [
+          "travel_diff",
+          14
+        ],
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          9
+        ],
+        [
+          "possession_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 48,
+      "nodes": 275,
+      "max_depth": 8,
+      "leaves": 138,
+      "top_split_features": [
+        [
+          "heat_index",
+          17
+        ],
+        [
+          "possession_diff",
+          13
+        ],
+        [
+          "data_confidence_diff",
+          13
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "gk_diff",
+          9
+        ],
+        [
+          "attack_vs_defense",
+          8
+        ],
+        [
+          "humidity",
+          8
+        ],
+        [
+          "travel_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 49,
+      "nodes": 293,
+      "max_depth": 8,
+      "leaves": 147,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          16
+        ],
+        [
+          "fatigue_diff",
+          14
+        ],
+        [
+          "discipline_diff",
+          13
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 50,
+      "nodes": 355,
+      "max_depth": 8,
+      "leaves": 178,
+      "top_split_features": [
+        [
+          "heat_index",
+          19
+        ],
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "humidity",
+          15
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "discipline_diff",
+          12
+        ]
+      ]
+    },
+    {
+      "tree": 51,
+      "nodes": 251,
+      "max_depth": 8,
+      "leaves": 126,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          18
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "humidity",
+          9
+        ],
+        [
+          "gk_diff",
+          9
+        ],
+        [
+          "discipline_diff",
+          9
+        ],
+        [
+          "data_confidence_diff",
+          7
+        ],
+        [
+          "heat_index",
+          7
+        ]
+      ]
+    },
+    {
+      "tree": 52,
+      "nodes": 273,
+      "max_depth": 8,
+      "leaves": 137,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          14
+        ],
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "gk_diff",
+          12
+        ],
+        [
+          "heat_index",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          8
+        ],
+        [
+          "possession_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 53,
+      "nodes": 285,
+      "max_depth": 8,
+      "leaves": 143,
+      "top_split_features": [
+        [
+          "humidity",
+          15
+        ],
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "squad_rating_diff",
+          14
+        ],
+        [
+          "discipline_diff",
+          12
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "travel_diff",
+          9
+        ],
+        [
+          "attack_vs_defense",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 54,
+      "nodes": 311,
+      "max_depth": 8,
+      "leaves": 156,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "fatigue_diff",
+          12
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 55,
+      "nodes": 285,
+      "max_depth": 8,
+      "leaves": 143,
+      "top_split_features": [
+        [
+          "possession_diff",
+          13
+        ],
+        [
+          "gk_diff",
+          12
+        ],
+        [
+          "fatigue_diff",
+          12
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "travel_diff",
+          10
+        ],
+        [
+          "discipline_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 56,
+      "nodes": 257,
+      "max_depth": 8,
+      "leaves": 129,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "heat_index",
+          9
+        ],
+        [
+          "discipline_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 57,
+      "nodes": 249,
+      "max_depth": 8,
+      "leaves": 125,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          16
+        ],
+        [
+          "attack_vs_defense",
+          14
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "discipline_diff",
+          9
+        ],
+        [
+          "midfield_diff",
+          8
+        ],
+        [
+          "elo_diff",
+          8
+        ],
+        [
+          "gk_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 58,
+      "nodes": 301,
+      "max_depth": 8,
+      "leaves": 151,
+      "top_split_features": [
+        [
+          "travel_diff",
+          16
+        ],
+        [
+          "humidity",
+          14
+        ],
+        [
+          "discipline_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "midfield_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 59,
+      "nodes": 307,
+      "max_depth": 8,
+      "leaves": 154,
+      "top_split_features": [
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "heat_index",
+          15
+        ],
+        [
+          "defense_vs_attack",
+          13
+        ],
+        [
+          "fatigue_diff",
+          12
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 60,
+      "nodes": 265,
+      "max_depth": 8,
+      "leaves": 133,
+      "top_split_features": [
+        [
+          "humidity",
+          17
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "midfield_diff",
+          9
+        ],
+        [
+          "fatigue_diff",
+          9
+        ],
+        [
+          "gk_diff",
+          8
+        ],
+        [
+          "travel_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 61,
+      "nodes": 295,
+      "max_depth": 8,
+      "leaves": 148,
+      "top_split_features": [
+        [
+          "elo_diff",
+          19
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "gk_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 62,
+      "nodes": 309,
+      "max_depth": 8,
+      "leaves": 155,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          16
+        ],
+        [
+          "gk_diff",
+          16
+        ],
+        [
+          "elo_diff",
+          14
+        ],
+        [
+          "data_confidence_diff",
+          12
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "fatigue_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 63,
+      "nodes": 271,
+      "max_depth": 8,
+      "leaves": 136,
+      "top_split_features": [
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "defense_vs_attack",
+          15
+        ],
+        [
+          "gk_diff",
+          14
+        ],
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "midfield_diff",
+          8
+        ],
+        [
+          "heat_index",
+          8
+        ],
+        [
+          "humidity",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 64,
+      "nodes": 269,
+      "max_depth": 8,
+      "leaves": 135,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          17
+        ],
+        [
+          "fatigue_diff",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "travel_diff",
+          10
+        ],
+        [
+          "heat_index",
+          9
+        ],
+        [
+          "possession_diff",
+          8
+        ],
+        [
+          "discipline_diff",
+          8
+        ],
+        [
+          "data_confidence_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 65,
+      "nodes": 295,
+      "max_depth": 8,
+      "leaves": 148,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          15
+        ],
+        [
+          "fatigue_diff",
+          15
+        ],
+        [
+          "squad_rating_diff",
+          14
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "midfield_diff",
+          9
+        ],
+        [
+          "travel_diff",
+          8
+        ],
+        [
+          "heat_index",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 66,
+      "nodes": 311,
+      "max_depth": 8,
+      "leaves": 156,
+      "top_split_features": [
+        [
+          "heat_index",
+          16
+        ],
+        [
+          "defense_vs_attack",
+          15
+        ],
+        [
+          "fatigue_diff",
+          15
+        ],
+        [
+          "attack_vs_defense",
+          14
+        ],
+        [
+          "possession_diff",
+          13
+        ],
+        [
+          "travel_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "humidity",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 67,
+      "nodes": 257,
+      "max_depth": 8,
+      "leaves": 129,
+      "top_split_features": [
+        [
+          "data_confidence_diff",
+          12
+        ],
+        [
+          "discipline_diff",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "heat_index",
+          9
+        ],
+        [
+          "humidity",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 68,
+      "nodes": 261,
+      "max_depth": 8,
+      "leaves": 131,
+      "top_split_features": [
+        [
+          "possession_diff",
+          14
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "fatigue_diff",
+          10
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "heat_index",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          7
+        ],
+        [
+          "data_confidence_diff",
+          7
+        ]
+      ]
+    },
+    {
+      "tree": 69,
+      "nodes": 327,
+      "max_depth": 8,
+      "leaves": 164,
+      "top_split_features": [
+        [
+          "gk_diff",
+          17
+        ],
+        [
+          "possession_diff",
+          15
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "discipline_diff",
+          12
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 70,
+      "nodes": 313,
+      "max_depth": 8,
+      "leaves": 157,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          17
+        ],
+        [
+          "elo_diff",
+          15
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "rest_diff",
+          11
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "midfield_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 71,
+      "nodes": 273,
+      "max_depth": 8,
+      "leaves": 137,
+      "top_split_features": [
+        [
+          "humidity",
+          13
+        ],
+        [
+          "data_confidence_diff",
+          13
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "travel_diff",
+          10
+        ],
+        [
+          "elo_diff",
+          9
+        ],
+        [
+          "defense_vs_attack",
+          9
+        ],
+        [
+          "attack_vs_defense",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 72,
+      "nodes": 297,
+      "max_depth": 8,
+      "leaves": 149,
+      "top_split_features": [
+        [
+          "fatigue_diff",
+          18
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "humidity",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 73,
+      "nodes": 251,
+      "max_depth": 8,
+      "leaves": 126,
+      "top_split_features": [
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "heat_index",
+          11
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "fatigue_diff",
+          9
+        ],
+        [
+          "defense_vs_attack",
+          8
+        ],
+        [
+          "elo_diff",
+          8
+        ],
+        [
+          "discipline_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 74,
+      "nodes": 293,
+      "max_depth": 8,
+      "leaves": 147,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          15
+        ],
+        [
+          "elo_diff",
+          14
+        ],
+        [
+          "fatigue_diff",
+          14
+        ],
+        [
+          "defense_vs_attack",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "travel_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 75,
+      "nodes": 329,
+      "max_depth": 8,
+      "leaves": 165,
+      "top_split_features": [
+        [
+          "gk_diff",
+          17
+        ],
+        [
+          "attack_vs_defense",
+          16
+        ],
+        [
+          "humidity",
+          16
+        ],
+        [
+          "travel_diff",
+          14
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "elo_diff",
+          12
+        ],
+        [
+          "heat_index",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 76,
+      "nodes": 245,
+      "max_depth": 8,
+      "leaves": 123,
+      "top_split_features": [
+        [
+          "elo_diff",
+          16
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "humidity",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "possession_diff",
+          8
+        ],
+        [
+          "travel_diff",
+          8
+        ],
+        [
+          "heat_index",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 77,
+      "nodes": 277,
+      "max_depth": 8,
+      "leaves": 139,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          13
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "midfield_diff",
+          9
+        ],
+        [
+          "elo_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 78,
+      "nodes": 277,
+      "max_depth": 8,
+      "leaves": 139,
+      "top_split_features": [
+        [
+          "defense_vs_attack",
+          16
+        ],
+        [
+          "gk_diff",
+          14
+        ],
+        [
+          "humidity",
+          12
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "possession_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 79,
+      "nodes": 233,
+      "max_depth": 8,
+      "leaves": 117,
+      "top_split_features": [
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "squad_rating_diff",
+          9
+        ],
+        [
+          "midfield_diff",
+          8
+        ],
+        [
+          "attack_vs_defense",
+          8
+        ],
+        [
+          "travel_diff",
+          8
+        ],
+        [
+          "humidity",
+          8
+        ],
+        [
+          "defense_vs_attack",
+          8
+        ],
+        [
+          "data_confidence_diff",
+          7
+        ]
+      ]
+    },
+    {
+      "tree": 80,
+      "nodes": 281,
+      "max_depth": 8,
+      "leaves": 141,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          22
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "gk_diff",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "rest_diff",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 81,
+      "nodes": 301,
+      "max_depth": 8,
+      "leaves": 151,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          15
+        ],
+        [
+          "defense_vs_attack",
+          14
+        ],
+        [
+          "elo_diff",
+          14
+        ],
+        [
+          "travel_diff",
+          12
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          9
+        ],
+        [
+          "possession_diff",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 82,
+      "nodes": 285,
+      "max_depth": 8,
+      "leaves": 143,
+      "top_split_features": [
+        [
+          "fatigue_diff",
+          16
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "gk_diff",
+          12
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "midfield_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          9
+        ],
+        [
+          "heat_index",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 83,
+      "nodes": 295,
+      "max_depth": 8,
+      "leaves": 148,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          15
+        ],
+        [
+          "fatigue_diff",
+          15
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "travel_diff",
+          13
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "discipline_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 84,
+      "nodes": 311,
+      "max_depth": 8,
+      "leaves": 156,
+      "top_split_features": [
+        [
+          "heat_index",
+          14
+        ],
+        [
+          "gk_diff",
+          12
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 85,
+      "nodes": 267,
+      "max_depth": 8,
+      "leaves": 134,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          17
+        ],
+        [
+          "defense_vs_attack",
+          14
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "elo_diff",
+          13
+        ],
+        [
+          "discipline_diff",
+          12
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "gk_diff",
+          9
+        ],
+        [
+          "rest_diff",
+          7
+        ]
+      ]
+    },
+    {
+      "tree": 86,
+      "nodes": 301,
+      "max_depth": 8,
+      "leaves": 151,
+      "top_split_features": [
+        [
+          "possession_diff",
+          16
+        ],
+        [
+          "squad_rating_diff",
+          15
+        ],
+        [
+          "elo_diff",
+          15
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "heat_index",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 87,
+      "nodes": 239,
+      "max_depth": 8,
+      "leaves": 120,
+      "top_split_features": [
+        [
+          "midfield_diff",
+          15
+        ],
+        [
+          "squad_rating_diff",
+          11
+        ],
+        [
+          "fatigue_diff",
+          10
+        ],
+        [
+          "gk_diff",
+          10
+        ],
+        [
+          "defense_vs_attack",
+          9
+        ],
+        [
+          "humidity",
+          9
+        ],
+        [
+          "data_confidence_diff",
+          9
+        ],
+        [
+          "heat_index",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 88,
+      "nodes": 313,
+      "max_depth": 8,
+      "leaves": 157,
+      "top_split_features": [
+        [
+          "heat_index",
+          16
+        ],
+        [
+          "data_confidence_diff",
+          14
+        ],
+        [
+          "fatigue_diff",
+          14
+        ],
+        [
+          "defense_vs_attack",
+          13
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "humidity",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ]
+      ]
+    },
+    {
+      "tree": 89,
+      "nodes": 267,
+      "max_depth": 8,
+      "leaves": 134,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          17
+        ],
+        [
+          "humidity",
+          14
+        ],
+        [
+          "defense_vs_attack",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "possession_diff",
+          9
+        ],
+        [
+          "discipline_diff",
+          9
+        ],
+        [
+          "heat_index",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 90,
+      "nodes": 269,
+      "max_depth": 8,
+      "leaves": 135,
+      "top_split_features": [
+        [
+          "elo_diff",
+          17
+        ],
+        [
+          "attack_vs_defense",
+          14
+        ],
+        [
+          "possession_diff",
+          11
+        ],
+        [
+          "defense_vs_attack",
+          11
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          9
+        ],
+        [
+          "gk_diff",
+          8
+        ],
+        [
+          "humidity",
+          8
+        ]
+      ]
+    },
+    {
+      "tree": 91,
+      "nodes": 273,
+      "max_depth": 8,
+      "leaves": 137,
+      "top_split_features": [
+        [
+          "attack_vs_defense",
+          14
+        ],
+        [
+          "heat_index",
+          12
+        ],
+        [
+          "gk_diff",
+          11
+        ],
+        [
+          "possession_diff",
+          10
+        ],
+        [
+          "humidity",
+          10
+        ],
+        [
+          "midfield_diff",
+          9
+        ],
+        [
+          "elo_diff",
+          9
+        ],
+        [
+          "squad_rating_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 92,
+      "nodes": 321,
+      "max_depth": 8,
+      "leaves": 161,
+      "top_split_features": [
+        [
+          "elo_diff",
+          17
+        ],
+        [
+          "squad_rating_diff",
+          16
+        ],
+        [
+          "defense_vs_attack",
+          15
+        ],
+        [
+          "gk_diff",
+          14
+        ],
+        [
+          "attack_vs_defense",
+          13
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "humidity",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 93,
+      "nodes": 265,
+      "max_depth": 8,
+      "leaves": 133,
+      "top_split_features": [
+        [
+          "humidity",
+          14
+        ],
+        [
+          "squad_rating_diff",
+          12
+        ],
+        [
+          "data_confidence_diff",
+          11
+        ],
+        [
+          "heat_index",
+          10
+        ],
+        [
+          "attack_vs_defense",
+          10
+        ],
+        [
+          "elo_diff",
+          10
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 94,
+      "nodes": 295,
+      "max_depth": 8,
+      "leaves": 148,
+      "top_split_features": [
+        [
+          "humidity",
+          16
+        ],
+        [
+          "gk_diff",
+          14
+        ],
+        [
+          "defense_vs_attack",
+          13
+        ],
+        [
+          "heat_index",
+          13
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "midfield_diff",
+          10
+        ],
+        [
+          "squad_rating_diff",
+          10
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ]
+      ]
+    },
+    {
+      "tree": 95,
+      "nodes": 269,
+      "max_depth": 8,
+      "leaves": 135,
+      "top_split_features": [
+        [
+          "discipline_diff",
+          15
+        ],
+        [
+          "possession_diff",
+          13
+        ],
+        [
+          "midfield_diff",
+          13
+        ],
+        [
+          "fatigue_diff",
+          11
+        ],
+        [
+          "attack_vs_defense",
+          11
+        ],
+        [
+          "data_confidence_diff",
+          10
+        ],
+        [
+          "defense_vs_attack",
+          10
+        ],
+        [
+          "elo_diff",
+          9
+        ]
+      ]
+    },
+    {
+      "tree": 96,
+      "nodes": 283,
+      "max_depth": 8,
+      "leaves": 142,
+      "top_split_features": [
+        [
+          "squad_rating_diff",
+          14
+        ],
+        [
+          "attack_vs_defense",
+          12
+        ],
+        [
+          "midfield_diff",
+          12
+        ],
+        [
+          "possession_diff",
+          12
+        ],
+        [
+          "elo_diff",
+          11
+        ],
+        [
+          "travel_diff",
+          11
+        ],
+        [
+          "discipline_diff",
+          11
+        ],
+        [
+          "humidity",
+          9
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+model_id,model_label,team,stage,probability_pct,standard_error_pct,ci95_low_pct,ci95_high_pct
+primitive_eafc_poisson,Primitive EAFC Poisson,France,round_of_32,93.67,0.2435017659073544,93.17576377011736,94.13069658007448
+primitive_eafc_poisson,Primitive EAFC Poisson,France,round_of_16,69.58,0.4600677776154292,68.67088999316134,70.47407207820933
+primitive_eafc_poisson,Primitive EAFC Poisson,France,quarter_finals,48.44,0.49975658074706736,47.461264070545425,49.419934048385194
+primitive_eafc_poisson,Primitive EAFC Poisson,France,semi_finals,32.03,0.46659180232833064,31.122530342061662,32.95127106638927
+primitive_eafc_poisson,Primitive EAFC Poisson,France,final,20.41,0.40304241712256544,19.631469749703324,21.211256108730904
+primitive_eafc_poisson,Primitive EAFC Poisson,France,third_place,7.53,0.26387479985781137,7.028956589947486,8.063661429914003
+primitive_eafc_poisson,Primitive EAFC Poisson,France,champion,12.5,0.3307189138830738,11.866155899074082,13.162645036758407
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,round_of_32,93.65,0.2438601033379587,93.1550699457777,94.11140576491329
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,round_of_16,66.67,0.47139273435215356,65.73982398948908,67.58737303450218
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,quarter_finals,44.75,0.49723611091713765,43.77761834639248,45.72641378462406
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,semi_finals,28.45,0.4511759634555014,27.574101660702123,29.3424492770896
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,final,17.77,0.38226000313922465,17.033188746746365,18.531564697570467
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,third_place,6.65,0.24915406880081248,6.178115031453445,7.155178850368912
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,champion,10.26,0.3034357263078954,9.680445039140208,10.870076272592673
+primitive_eafc_poisson,Primitive EAFC Poisson,England,round_of_32,91.09,0.28488803063659934,90.5157246642398,91.63271719033735
+primitive_eafc_poisson,Primitive EAFC Poisson,England,round_of_16,63.6,0.481148625686492,62.65189274925018,64.53766211135456
+primitive_eafc_poisson,Primitive EAFC Poisson,England,quarter_finals,41.19,0.492177193701618,40.22889515661649,42.15787114324175
+primitive_eafc_poisson,Primitive EAFC Poisson,England,semi_finals,25.72,0.43709056269839547,24.872740081217433,26.5859075647029
+primitive_eafc_poisson,Primitive EAFC Poisson,England,final,15.12,0.358243715925346,14.431243735387286,15.835544975061708
+primitive_eafc_poisson,Primitive EAFC Poisson,England,third_place,6.7,0.2500219990320852,6.226396650163761,7.206858830410821
+primitive_eafc_poisson,Primitive EAFC Poisson,England,champion,8.55,0.27962430151902035,8.017727790377691,9.114106844029154
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,round_of_32,90.1,0.29866201633284417,89.49913340952088,90.67006878976221
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,round_of_16,62.75,0.4834705265060115,61.797670920658554,63.69253676115838
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,quarter_finals,41.47,0.49267018379439204,40.5078219348212,42.43872931804949
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,semi_finals,25.97,0.43846996476383643,25.11994216518179,26.838513474499653
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,final,15.25,0.3595048678390878,14.558723826011635,15.96796504119314
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,third_place,6.44,0.24546413179933235,5.975419503571743,6.938035663491278
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,champion,8.42,0.27768752222597254,7.891569997129349,8.980364480521713
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,round_of_32,91.21,0.28314941285476836,90.6390829390054,91.74926675257706
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,round_of_16,64.38,0.4788753073609037,63.43604628441911,65.3129095167203
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,quarter_finals,41.24,0.49226643192482666,40.27870115088424,42.20802674772623
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,semi_finals,25.39,0.4352410711318499,24.546489502439268,26.252411591716402
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,final,15.28,0.35979460807521835,14.588144843481086,15.99852098297502
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,third_place,6.32,0.2433223376511084,5.859658519812291,6.813888810245395
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,champion,8.39,0.2772377860249212,7.862462112853587,8.949495405546145
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,round_of_32,92.83,0.25799052308175974,92.30772095568223,93.31938453547228
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,round_of_16,66.06,0.4735056916236593,65.1259193215322,66.98174619768196
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,quarter_finals,43.05,0.4951461905336645,42.08236504015211,44.02297273328884
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,semi_finals,26.49,0.44127994515953245,25.63423839792765,27.363817868776923
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,final,15.19,0.3589239334455143,14.499884637583365,15.906850311118742
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,third_place,7.23,0.25898399564451857,6.7386473627139525,7.754201064634196
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,champion,8.11,0.27298862613669456,7.590889514326474,8.661283051060803
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,round_of_32,90.65,0.29113184298527006,90.06366753355181,91.20511225200579
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,round_of_16,62.55,0.48399354334536326,61.596723214029915,63.493638072778126
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,quarter_finals,40.27,0.4904413420583546,39.312648734430574,41.234824148386764
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,semi_finals,24.11,0.4277508503790495,23.281652449758244,24.9582317163405
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,final,13.86,0.34552863846575727,13.196629914123568,14.5511265077694
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,third_place,6.09,0.23914679592250443,5.637921018885497,6.575802956911958
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,champion,7.67,0.26611484362958787,7.16451702657538,8.207993469792333
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,round_of_32,87.63,0.32923898614836006,86.9702033081976,88.26089591272567
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,round_of_16,58.66,0.49244333684191527,57.6916651216723,59.6216837822128
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,quarter_finals,36.22,0.48063620338047774,35.28341076452399,37.16717261936324
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,semi_finals,21.32,0.40956777216963736,20.52833923134702,22.133687724377666
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,final,11.42,0.3180540205688336,10.8113729707916,12.058257431992862
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,third_place,5.82,0.23412125063735673,5.377862554517476,6.2960687880179735
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,champion,6.17,0.24060987095295985,5.715026161255618,6.658636372545396
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,round_of_32,91.78,0.27466918283637126,91.22546867072934,92.3024432466285
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,round_of_16,57.69,0.4940509993917632,56.718888426720746,58.655205461371196
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,quarter_finals,32.08,0.46678406142455203,31.172134541339375,33.00162846586377
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,semi_finals,17.1,0.3765089640367145,16.37470998558177,17.850558035455272
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,final,8.92,0.28503220870631446,8.376996655939374,9.494553809233922
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,third_place,4.68,0.2112102270251135,4.283145162996163,5.111661727988593
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,champion,4.47,0.20664440471495957,4.082161554836096,4.892806621389322
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,round_of_32,79.62,0.4028219954272606,78.819164103838,80.3980869969791
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,round_of_16,45.17,0.4976616420822485,44.19662350209118,46.14708605844403
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,quarter_finals,23.27,0.4225526121088355,22.452156949996393,24.108372357065
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,semi_finals,11.77,0.32225255623501264,11.153016447903328,12.416345146146702
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,final,5.39,0.2258202603842268,4.964276621080837,5.849984972185491
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,third_place,3.09,0.17304678558124098,2.76842932131908,3.4475987293449757
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,champion,2.54,0.15733670900333463,2.2493663104526926,2.8670841539369074
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,round_of_32,84.43,0.3625706965544788,83.70615333773596,85.12740356304504
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,round_of_16,47.37,0.49930783090193964,46.39255400668834,48.34946589894469
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,quarter_finals,24.12,0.4278113602979705,23.291530086833436,24.968346399015758
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,semi_finals,11.02,0.31313888292577147,10.421151906356702,11.648785706409976
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,final,4.88,0.2154496692965668,4.474770995824659,5.319882290168991
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,third_place,2.68,0.16149848296501118,2.3811739702064094,3.0151689706894165
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,champion,2.13,0.14438251279154274,1.864850748986901,2.4319146056344674
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,round_of_32,75.93,0.4275084911437432,75.08222764020442,76.7578574726986
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,round_of_16,40.46,0.4908144659644823,39.501844875831694,41.42548208224408
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,quarter_finals,19.89,0.3991726318273837,19.11924904072159,20.68387619068951
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,semi_finals,9.53,0.2936288643849579,8.969929089090904,10.121152880859517
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,final,4.14,0.1992135537557623,3.7668302008397436,4.548391423621003
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,third_place,2.34,0.15117023516552455,2.0615004417904514,2.655103627590255
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,champion,1.72,0.13001599901550578,1.4830840209116256,1.9939962239415112
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,round_of_32,76.81,0.4220454833308846,75.97259024521121,77.62681900573095
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,round_of_16,39.41,0.4886565153561344,38.45647520165756,40.371658182621516
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,quarter_finals,19.12,0.3932461824353798,18.361152560075656,19.90256405055121
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,semi_finals,8.75,0.28256636388643286,8.211890260061358,9.319790769354377
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,final,3.93,0.19430777133197735,3.5665105830599897,4.328872326641418
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,third_place,2.0,0.13999999999999999,1.743466771336601,2.2933984265289866
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,champion,1.6,0.125475097130865,1.3720007796266298,1.8651716282211714
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,round_of_32,74.6,0.4352975993501458,73.7374815237078,75.44362506238609
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,round_of_16,40.16,0.4902218273394199,39.2031209735566,41.12443639200583
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,quarter_finals,19.9,0.39924804320121593,19.12909749556238,20.69402005559916
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,semi_finals,9.24,0.2895897788251512,8.687949555090837,9.823355142096688
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,final,4.07,0.19759430659814065,3.7000257242792567,4.475249661928378
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,third_place,2.33,0.1508545988692423,2.0521213933988953,2.644490356231367
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,champion,1.59,0.12508872850900676,1.362759306024382,1.8544207820729748
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,round_of_32,82.35,0.3812449999672127,81.59037720825297,83.0847771844355
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,round_of_16,44.69,0.49717239464797325,43.7177661988299,45.666312013683964
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,quarter_finals,21.65,0.41185889573979095,20.85372490680088,22.468048600688483
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,semi_finals,9.45,0.29252307601281646,8.892125112801445,10.039018299145418
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,final,3.76,0.19022681199031855,3.4045611065815917,4.150952367362256
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,third_place,2.42,0.15366964566888283,2.136582848800371,2.7399597785838927
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,champion,1.55,0.12353036064061337,1.3258184502970167,1.8113923587985616
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,round_of_32,74.78,0.43427544254769923,73.91941455092892,75.62155379067296
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,round_of_16,39.45,0.48874303064084706,38.49629037038872,40.411812292892144
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,quarter_finals,18.9,0.391508620594745,18.144640294916236,19.679245281200835
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,semi_finals,8.26,0.27527666083415064,7.736351948401546,8.815705413242403
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,final,3.57,0.18554112751624638,3.2238020189207033,3.9518573797646965
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,third_place,2.05,0.1417030345476059,1.7901189521882368,2.3467078444295733
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,champion,1.52,0.12234770124526245,1.2981397657459572,1.7790940840982865
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,round_of_32,72.04,0.4488026737888267,71.15201131593565,72.9110614140444
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,round_of_16,36.72,0.4820416579508455,35.78046569571088,37.66973367569858
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,quarter_finals,17.24,0.37772773263291115,16.51226916056827,17.992891336974996
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,semi_finals,7.73,0.26706686428682985,7.222630000899525,8.269834413970859
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,final,3.18,0.17546726190375228,2.8536599305156334,3.5422989979024244
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,third_place,1.9,0.13652472303579305,1.6502970574147302,2.186644942946411
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,champion,1.28,0.1124106756496019,1.0776333970748877,1.5197847787586842
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,round_of_32,77.49,0.4176481653257919,76.66094220418158,78.29794478979079
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,round_of_16,38.69,0.4870404397994072,37.73991734370535,39.64876901854171
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,quarter_finals,17.69,0.3815840536500445,16.954543384205348,18.450271502107928
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,semi_finals,7.67,0.26611484362958787,7.16451702657538,8.207993469792333
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,final,3.38,0.1807140282324535,3.043318947154386,3.7524863762725653
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,third_place,1.83,0.1340339882268673,1.5851911480448238,2.1118046140632045
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,champion,1.16,0.10707679487171812,0.9680884264037688,1.3894219124244667
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,round_of_32,71.96,0.4491946571365248,71.0712742274707,72.83185994450577
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,round_of_16,35.27,0.47781032847773397,34.33931100692448,36.21200200067051
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,quarter_finals,15.92,0.36586248782841896,15.216014932749067,16.6501593577355
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,semi_finals,6.98,0.25480965444817827,6.496915987906116,7.496124445680915
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,final,2.95,0.1692032801100499,2.6360011412330926,3.3001344329247386
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,third_place,1.72,0.13001599901550578,1.4830840209116256,1.9939962239415112
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,champion,1.15,0.10661965109678422,0.9589841805431688,1.3785338385346222
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,round_of_32,73.3,0.44239235978936164,72.42408381435912,74.15802120417696
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,round_of_16,35.56,0.4786947252686204,34.62746725491998,36.50362302543792
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,quarter_finals,16.46,0.37081914729420323,15.746099679659533,17.199659877349045
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,semi_finals,7.01,0.2553154715249352,6.5259141774588665,7.5271032153794994
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,final,2.63,0.16002596664291707,2.3340728488152798,2.962308493328322
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,third_place,1.94,0.13792621215708056,1.687542808753431,2.2293684706094883
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,champion,1.02,0.10047865444958945,0.8410122627316854,1.2366055995903253
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,round_of_32,78.21,0.4128190765940935,77.39012446037307,79.00820955563131
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,round_of_16,38.41,0.4863817327984266,37.46131517560096,39.36758623363365
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,quarter_finals,17.11,0.3765963223399825,16.384535046869427,17.860725293918055
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,semi_finals,6.87,0.2529432940403837,6.390612169594506,7.382512746737632
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,final,2.84,0.1661127328051646,2.5320882105074296,3.1841318463955104
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,third_place,1.66,0.12776713192366806,1.4275004667175915,1.9296258596328781
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,champion,1.0,0.09949874371066199,0.8229306747947238,1.2147025480263973
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,round_of_32,69.19,0.4617081220858043,68.27782664378445,70.08743495731888
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,round_of_16,32.83,0.46959462305269206,31.91634115253144,33.75684583595505
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,quarter_finals,14.61,0.3532064410511224,13.931305105843167,15.315875297333148
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,semi_finals,5.87,0.23506235342989315,5.4260011075354875,6.347891833752187
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,final,2.18,0.14602999691844137,1.9116110459563926,2.485115907417199
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,third_place,1.59,0.12508872850900676,1.362759306024382,1.8544207820729748
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,champion,0.98,0.09850867982061276,0.8048687008822802,1.1927798824379512
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,round_of_32,70.07,0.45795142755536866,69.16484733553013,70.95973840361229
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,round_of_16,34.21,0.47441288979116064,33.28637307318954,35.14575404085832
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,quarter_finals,15.59,0.3627605132866586,14.892216994483517,16.314210744236377
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,semi_finals,6.41,0.2449309902809361,5.946474746743869,6.907003461067816
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,final,2.36,0.15179934123704228,2.0802627583622266,2.676325950519369
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,third_place,1.68,0.128521437900453,1.4460192174228097,1.9510917484285486
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,champion,0.94,0.09649683932647743,0.7688059920403384,1.1488733122781143
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,round_of_32,63.59,0.481176880159469,62.6418412433524,64.5277212975019
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,round_of_16,29.45,0.45581767188208044,28.564625516113225,30.351157396722968
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,quarter_finals,12.34,0.32889578896665733,11.709787717825824,12.999136101999548
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,semi_finals,4.85,0.21482027371735657,4.446014380375711,5.288661946366605
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,final,1.92,0.13722740251130602,1.6689161694804635,2.2080104703815664
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,third_place,1.21,0.1093324745901235,1.013667808274634,1.443804129305825
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,champion,0.63,0.07912212080069644,0.4927543308452964,0.8051630612093719
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,round_of_32,74.43,0.4362539512715042,73.56567354950485,75.2755636008315
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,round_of_16,33.16,0.47078810520232983,32.24387660942729,34.08905693082387
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,quarter_finals,13.33,0.339898676078622,12.677859422236287,14.01030405288311
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,semi_finals,4.76,0.2129183881208948,4.359771299859398,5.194974149128917
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,final,1.73,0.1303867708013355,1.4923557961782847,2.004716768425297
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,third_place,1.13,0.10569914853015608,0.9407877170523231,1.3567456625245786
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,champion,0.62,0.07849560497250785,0.4839762883673736,0.7939487839368499
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,round_of_32,72.81,0.444938636218524,71.92928441177091,73.67319693899337
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,round_of_16,31.97,0.46636027918337986,31.06300689384529,32.890840596102954
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,quarter_finals,13.3,0.33957473404244903,12.648505361291845,13.979681154576218
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,semi_finals,5.09,0.21979351673786923,4.676188298859711,5.538303701893279
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,final,1.69,0.12889681920047522,1.4552820351583562,1.9618212504434462
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,third_place,1.28,0.1124106756496019,1.0776333970748877,1.5197847787586842
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,champion,0.55,0.0739577582137263,0.4228212930668556,0.7151575409842552
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,round_of_32,64.69,0.4779334577114266,63.74777216991778,65.62094554348543
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,round_of_16,29.42,0.45568230160935586,28.534902199037894,30.32090375454697
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,quarter_finals,12.36,0.3291246572349145,11.729331826819147,13.019576632507116
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,semi_finals,5.15,0.22101527096560544,4.733773902129087,5.600672017126571
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,final,1.76,0.1314923571923479,1.5201842001872417,2.0368653236676746
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,third_place,1.22,0.10977777552856499,1.022794983273675,1.4546692740572287
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,champion,0.54,0.07328601503697688,0.41412973662823904,0.7038567776724273
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,round_of_32,60.17,0.48954786282854923,59.20675708291102,61.12543210329121
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,round_of_16,25.06,0.4333585582401714,24.220303596268383,25.9188509461226
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,quarter_finals,9.82,0.29758487864809263,9.252071171069892,10.418788071643426
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,semi_finals,3.65,0.1875306641592249,3.2998786720553985,4.035719284633558
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,final,1.23,0.11022118671108563,1.03192581835333,1.4655307587280184
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,third_place,0.85,0.09180277773575264,0.6879879298829789,1.0497604966814722
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,champion,0.45,0.06693093455196933,0.3364953436077258,0.6015602929389385
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,round_of_32,73.4,0.44186423254207846,72.52507989091993,74.2569483251206
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,round_of_16,32.11,0.4668991218668118,31.201897638754183,33.03184232770029
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,quarter_finals,13.05,0.33685271262081296,12.403932240174678,13.72444628193227
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,semi_finals,4.66,0.21078054938727153,4.263993781431584,5.090828470052284
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,final,1.38,0.11666001885821894,1.1692998011804268,1.6280415721575916
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,third_place,1.32,0.11413045167701738,1.114261111319459,1.5631263435158915
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,champion,0.44,0.06618640343756413,0.3279423444651482,0.5901209723310713
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,round_of_32,64.42,0.4787550104176456,63.47626656603481,65.3526585141064
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,round_of_16,27.26,0.4452967998986744,26.39607461891145,28.14139026857737
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,quarter_finals,11.1,0.31413213780191296,10.499176102691953,11.730700068078283
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,semi_finals,4.07,0.19759430659814065,3.7000257242792567,4.475249661928378
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,final,1.34,0.11498017220373259,1.132594677199233,1.5847774171370066
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,third_place,1.03,0.10096489488926337,0.8500602349489014,1.2475499471235538
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,champion,0.42,0.06467116822819888,0.31088599034471515,0.567192686950615
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,round_of_32,62.43,0.48430311789209046,61.476162886639976,63.37429056316275
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,round_of_16,25.3,0.43473095127906414,24.457523260972124,26.161446955429536
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,quarter_finals,10.16,0.3021215649370299,9.583056859922518,10.767541254305918
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,semi_finals,3.33,0.17941881172273993,2.99587204728104,3.699971677393689
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,final,1.16,0.10707679487171812,0.9680884264037688,1.3894219124244667
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,third_place,0.78,0.0879724957017817,0.6254750539120008,0.9723271343993376
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,champion,0.32,0.05647796030311293,0.22676996380525222,0.45138551598563126
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,round_of_32,65.01,0.4769381406429979,64.06959894755676,65.93887299786068
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,round_of_16,26.15,0.43945164694195876,25.297950163891294,27.02036723129817
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,quarter_finals,9.34,0.290992164842973,8.785165097158504,9.926062797533469
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,semi_finals,3.15,0.17466467874186814,2.82524145181621,3.5107405173505137
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,final,0.87,0.09286716319560968,0.7059065029989481,1.071826563066392
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,third_place,0.68,0.08218126307133519,0.536785292237007,0.8610936985698845
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,champion,0.28,0.05284089325512959,0.19379927682506326,0.40438692396404163
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,round_of_32,61.42,0.4867836891269057,60.46169167629992,62.36953747870789
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,round_of_16,23.07,0.42128079709381483,22.254724880767434,23.905958031285074
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,quarter_finals,8.33,0.27633514072589466,7.804252551529461,8.887751048367601
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,semi_finals,2.97,0.16975838712711663,2.654907682719585,3.3212125309391354
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,final,0.88,0.09339464652751785,0.7148748673204081,1.0828505184953774
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,third_place,0.68,0.08218126307133519,0.536785292237007,0.8610936985698845
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,champion,0.26,0.050923864739432334,0.1774976064828278,0.38070395480538755
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,round_of_32,64.1,0.47970720236410874,63.15452426044477,65.03464658768219
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,round_of_16,22.93,0.42038257575689314,22.116538003293595,23.764252432252686
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,quarter_finals,7.77,0.26769891669560414,7.261377124325263,8.311056569546896
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,semi_finals,2.57,0.15823877527331914,2.277590818153757,2.898836605487176
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,final,0.69,0.08277916404506633,0.5456181985691686,0.8722531119881676
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,third_place,0.58,0.07593655246322419,0.4489655555780853,0.7489902377243595
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,champion,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,round_of_32,50.22,0.49999515997657423,49.24011318241905,51.19971785209073
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,round_of_16,17.08,0.37633410687844915,16.355060138208078,17.83022324332807
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,quarter_finals,5.42,0.2264119254809693,4.993106969653225,5.8811315828644375
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,semi_finals,1.65,0.12738818626544615,1.4182445742763579,1.9188894323236667
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,final,0.38,0.06152690468404858,0.2769887157078455,0.5211206825857061
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,third_place,0.32,0.05647796030311293,0.22676996380525222,0.45138551598563126
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,champion,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,round_of_32,55.14,0.49735102292043193,54.16340335941656,56.11264899231199
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,round_of_16,17.27,0.37798771144046467,16.541748448635545,18.023389008159054
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,quarter_finals,5.06,0.2191794698414977,4.647401691551558,5.507113349950097
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,semi_finals,1.18,0.10798499895818862,0.9863086938554545,1.4111862844736704
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,final,0.34,0.05821030836544332,0.24341670009014219,0.4747234192016307
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,third_place,0.22,0.046852534616603186,0.14533386585013622,0.3328984164363006
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,champion,0.09,0.02998649696113236,0.04735716566504437,0.17097495986561176
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,round_of_32,42.82,0.49481790590074654,41.8530964277897,43.79241799139102
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,round_of_16,13.72,0.3440583671413907,13.059563138179191,14.408300807207553
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,quarter_finals,4.55,0.20839805661281968,4.158698820856655,4.976207913372322
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,semi_finals,1.22,0.10977777552856499,1.022794983273675,1.4546692740572287
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,final,0.29,0.05377350648786073,0.2019983350543452,0.4161801854852043
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,third_place,0.25,0.04993746088859545,0.16939856428771646,0.36881067725005434
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,champion,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,round_of_32,54.22,0.4982159772628734,53.242062319725605,55.19469661496205
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,round_of_16,15.62,0.36304484571468576,14.921648599568401,16.344756098402826
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,quarter_finals,4.52,0.2077425329584676,4.12999325201009,4.944936522967553
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,semi_finals,1.05,0.10193012312363799,0.8681701966280937,1.2694246249452505
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,final,0.27,0.05189132875539034,0.18563179891469944,0.3925620821239607
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,third_place,0.19,0.04354756020720334,0.12167343542042719,0.29658188761467563
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,champion,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,round_of_32,45.9,0.498316164698678,44.925061049529575,46.87808785278809
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,round_of_16,14.17,0.348742182708086,13.500217249799807,14.867301084356942
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,quarter_finals,4.04,0.19689550528135474,3.67140468251756,4.443893744438739
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,semi_finals,1.09,0.10383250936002654,0.9044443879129442,1.3131197126621788
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,final,0.2,0.04467661580737735,0.12951015278757227,0.30873748999797523
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,third_place,0.18,0.04238820590683215,0.11389185739970833,0.28437114588494977
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,champion,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,round_of_32,50.6,0.4999639987039067,49.620028298593375,51.57951088643331
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,round_of_16,15.36,0.36056489013768384,14.666605507722924,16.079998876736738
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,quarter_finals,4.39,0.2048726189611486,4.00565971158828,4.809369906633582
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,semi_finals,1.15,0.10661965109678422,0.9589841805431688,1.3785338385346222
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,final,0.3,0.054690035655501276,0.2102274095435337,0.42794343074646046
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,third_place,0.28,0.05284089325512959,0.19379927682506326,0.40438692396404163
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,round_of_32,37.78,0.48483725104410036,36.83458250921311,38.73480275574351
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,round_of_16,11.58,0.31998493714548504,10.96753016940065,12.22197734939093
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,quarter_finals,3.35,0.179938183829892,3.0148482988026473,3.720980065372971
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,semi_finals,0.94,0.09649683932647743,0.7688059920403384,1.1488733122781143
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,final,0.27,0.05189132875539034,0.18563179891469944,0.3925620821239607
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,third_place,0.21,0.045777614616753455,0.13739811491914564,0.3208418476168465
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,round_of_32,42.58,0.49446370948735957,41.613882413004056,43.551816332165984
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,round_of_16,12.98,0.3360832634928434,12.335466023161723,13.652966260692112
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,quarter_finals,3.57,0.18554112751624638,3.2238020189207033,3.9518573797646965
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,semi_finals,0.95,0.09700386590234432,0.7778138186890904,1.1598578053798074
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,final,0.23,0.04790313142165134,0.15331432202735715,0.3449102800095243
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,third_place,0.18,0.04238820590683215,0.11389185739970833,0.28437114588494977
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,round_of_32,36.81,0.4822886998468863,35.8699472183551,37.76018303080838
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,round_of_16,10.15,0.30198965214059903,9.573319013922701,10.757286780555294
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,quarter_finals,2.97,0.16975838712711663,2.654907682719585,3.3212125309391354
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,semi_finals,0.74,0.08570437561758443,0.5899061875743287,0.9279267217352308
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,final,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,third_place,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,round_of_32,45.04,0.4975337576486645,44.06692393237032,46.016885471409104
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,round_of_16,11.47,0.3186595518731551,10.860167946282505,12.109424055254184
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,quarter_finals,2.63,0.16002596664291707,2.3340728488152798,2.962308493328322
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,semi_finals,0.6,0.07722693830523128,0.4664501413809584,0.7714902914223758
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,final,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,third_place,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,round_of_32,33.65,0.47251216915546207,32.73031130453652,34.58224590348643
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,round_of_16,9.59,0.2944540541408795,9.02829019470765,10.182745693745442
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,quarter_finals,2.49,0.1558203773580336,2.202350577814466,2.81413828782291
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,semi_finals,0.62,0.07849560497250785,0.4839762883673736,0.7939487839368499
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,final,0.11,0.033148001448051134,0.06143442571264699,0.1968823393188985
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,third_place,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,round_of_32,35.39,0.47817861725510064,34.45854350822771,36.33267733637262
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,round_of_16,9.55,0.2939043211659196,8.98938202093012,10.14168458852119
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,quarter_finals,2.37,0.1521128199725454,2.08964600916274,2.6869350194693014
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,semi_finals,0.57,0.07528286657666537,0.44023950366885634,0.7377239698831436
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,final,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,third_place,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,round_of_32,33.43,0.47174517485608686,32.51189819519353,34.36082797831965
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,round_of_16,8.87,0.28431023548229845,8.328429543226088,9.443159323194982
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,quarter_finals,2.2,0.14668333238647122,1.930326179940787,2.5063854129336947
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,semi_finals,0.53,0.07260791967822794,0.40545030378426994,0.6925438907659515
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,final,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,third_place,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,round_of_32,26.56,0.44165217083130015,25.703482414521893,27.4345200904358
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,round_of_16,6.37,0.24421775119757372,5.907886398539523,6.865622530270383
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,quarter_finals,1.36,0.11582331371533107,1.1509409986890244,1.6064157351481048
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,semi_finals,0.32,0.05647796030311293,0.22676996380525222,0.45138551598563126
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,final,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,third_place,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,round_of_32,99.56,0.06618640343756381,99.40987902766892,99.67205765553486
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,round_of_16,85.29,0.35420557590190466,84.58220630255404,85.97069009676521
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,quarter_finals,76.47,0.42418617374921597,75.62852779199508,77.29114258743193
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,semi_finals,66.3,0.4726848844632119,65.36743497786158,67.22004621536321
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,final,40.72,0.491312690656368,39.760769081513715,41.686358190073626
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,third_place,14.54,0.35250367373972147,13.862708350961753,15.244525813961449
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,champion,19.23,0.3941074853387081,18.46942333590504,20.01420879197671
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,round_of_32,99.89,0.03314800144805098,99.80311766068111,99.93856557428735
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,round_of_16,95.28,0.21206640469437874,94.84667796421542,95.67854586579803
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,quarter_finals,51.34,0.4998204077466225,50.36002540551466,52.31894544104493
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,semi_finals,38.13,0.48570599131573416,37.182746374759155,39.086370081463016
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,final,27.87,0.4483595766792542,26.99984107681329,28.757155315452653
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,third_place,7.78,0.2678566034280283,7.271064543581153,8.321361470041454
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,champion,19.09,0.39301041970919803,18.331625854488095,19.87211379688743
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,round_of_32,99.71,0.053773506487860855,99.5838198145148,99.79800166494564
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,round_of_16,92.37,0.2654775131720198,91.83323900982484,92.87421977280924
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,quarter_finals,79.83,0.4012693733640782,79.03212452855288,80.60496528702356
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,semi_finals,68.69,0.4637546657447233,67.77400986375221,69.59163574982885
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,final,41.27,0.49231972335058843,40.30858524010796,42.23811961775384
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,third_place,14.27,0.34976665078306135,13.598172451921181,14.969269079740016
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,champion,18.3,0.38666652298847903,17.554354561356703,19.06999182973369
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,round_of_32,99.91,0.029986496961132553,99.82902504013438,99.95264283433495
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,round_of_16,87.76,0.3277472196678409,87.10307482629065,88.38792455138842
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,quarter_finals,54.49,0.49797990923329427,53.51242106252075,55.46413050542892
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,semi_finals,39.25,0.4883070243197409,38.29722124527694,40.211035022995034
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,final,27.51,0.4465646537736725,26.643495176103944,28.39377770514599
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,third_place,8.8,0.2832948993540124,8.26044453374863,9.37119809441933
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,champion,18.18,0.3856796079649532,17.436333631157883,18.948104922927175
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,round_of_32,99.85,0.038700775186035444,99.75263931899458,99.90907463697208
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,round_of_16,83.01,0.37554492407700035,82.2612878747617,83.73335962145616
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,quarter_finals,61.11,0.48750055384583924,60.15040648900006,62.061060753743966
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,semi_finals,45.08,0.4975734719616792,44.10683077679797,46.05694790598323
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,final,17.25,0.37781443858063446,16.522095499179006,18.0030573181147
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,third_place,18.38,0.387321003819829,17.633041961486267,19.151242987607688
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,champion,8.52,0.2791790823109783,7.98861106922229,9.08324660593322
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,round_of_32,99.91,0.029986496961132553,99.82902504013438,99.95264283433495
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,round_of_16,92.13,0.26926995747762134,91.58590582270959,92.64173728591379
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,quarter_finals,71.45,0.451652244542192,70.55665619153008,72.32686967317372
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,semi_finals,26.39,0.44074572034223997,25.535323219396762,27.262809849803375
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,final,9.7,0.29595776725742473,9.135303429490884,10.295647976217097
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,third_place,10.85,0.3110108519007013,10.255384473332049,11.47468370367707
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,champion,5.16,0.2212180824435471,4.743373093848816,5.611065145157285
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,round_of_32,99.82,0.042388205906832434,99.71562885411504,99.88610814260028
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,round_of_16,90.12,0.29839329751185767,89.51965193244679,90.68953490633722
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,quarter_finals,38.09,0.4856080621241785,37.14295356371494,39.04619361350546
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,semi_finals,23.24,0.4223626877459703,22.422540479091886,24.07801186871818
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,final,8.43,0.27783720053297395,7.901273082535649,8.990653714865857
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,third_place,9.41,0.29196778931930145,8.853227806097545,9.997946326847542
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,champion,4.36,0.20420342798297977,3.976980840265766,4.778071818704762
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,round_of_32,99.72,0.05284089325512983,99.59561307603596,99.80620072317492
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,round_of_16,74.35,0.4367009846565496,73.48482864221485,75.1964699501179
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,quarter_finals,54.5,0.4979708826829135,53.522434904217086,55.47410898348302
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,semi_finals,20.86,0.4063078143476938,20.074901098488187,21.667479148716048
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,final,10.08,0.30106371418688105,9.505159078852715,10.685500477372164
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,third_place,5.84,0.23449827291474878,5.397116839626389,6.31679914240995
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,champion,4.3,0.20285709255532572,3.9196386326038466,4.715460107864013
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,round_of_32,99.9,0.03160696125855648,99.81600356239997,99.94567199231894
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,round_of_16,88.69,0.3167149980660846,88.0543225531662,89.29596256130421
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,quarter_finals,38.15,0.48575482498890327,37.202643036732944,39.10645805899012
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,semi_finals,11.52,0.3192631516476651,10.90896670220725,12.160586898081661
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,final,4.64,0.21034980389817337,4.244844486087158,5.069993125895821
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,third_place,2.87,0.16696200166504951,2.5604156358736905,3.2157813802805837
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,champion,1.39,0.11707600095664354,1.1784837996855142,1.6388498934029487
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,round_of_32,95.65,0.2039797784095276,95.23236202171276,96.03257763906716
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,round_of_16,72.05,0.44875355151797963,71.1621036955503,72.92096135418016
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,quarter_finals,40.59,0.49106536224824493,39.631303484242366,41.5559236305892
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,semi_finals,8.85,0.2840206858663643,8.309004185731078,9.422600041189105
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,final,2.2,0.14668333238647122,1.930326179940787,2.5063854129336947
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,third_place,1.26,0.11154030661603903,1.0593398518796122,1.4980936844530703
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,champion,0.3,0.054690035655501276,0.2102274095435337,0.42794343074646046
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,round_of_32,97.85,0.14504395885385946,97.54680009960643,98.11644990627128
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,round_of_16,56.55,0.4956911841055881,55.57611330334677,57.518856133194475
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,quarter_finals,31.81,0.46573854253218083,30.904286202497243,32.72968417144389
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,semi_finals,6.4,0.24475293665245368,5.936827158859845,6.896658729201395
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,final,1.3,0.11327400407860579,1.0959405859975284,1.5414622293369329
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,third_place,0.55,0.0739577582137263,0.4228212930668556,0.7151575409842552
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,champion,0.18,0.04238820590683215,0.11389185739970833,0.28437114588494977
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,round_of_32,97.32,0.1614984829650113,96.98483102931058,97.61882602979358
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,round_of_16,65.84,0.4742461807964299,64.90455331298143,66.76328117172294
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,quarter_finals,20.83,0.40609248946514637,20.0453343708391,21.637068917113798
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,semi_finals,7.78,0.2678566034280283,7.271064543581153,8.321361470041454
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,final,1.93,0.13757728736968178,1.678228555363407,2.2186904042490676
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,third_place,0.8,0.08908422980528036,0.6433024365622296,0.994484391249998
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,champion,0.17,0.041195994950965806,0.10616983407886484,0.2721008494553487
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,round_of_32,97.75,0.1483028994996388,97.44046763657524,98.02285917179807
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,round_of_16,72.55,0.446261974629253,71.66679213456831,73.41588890268439
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,quarter_finals,39.77,0.48942283354988664,38.814835851657556,40.73302104363754
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,semi_finals,7.73,0.26706686428682985,7.222630000899525,8.269834413970859
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,final,1.63,0.12662665596153128,1.3997398588309706,1.8974095082681643
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,third_place,0.87,0.09286716319560968,0.7059065029989481,1.071826563066392
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,champion,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,round_of_32,91.15,0.28402068586636414,90.5773999588109,91.69099581426893
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,round_of_16,30.79,0.461624945166528,29.892735650384378,31.702018109011405
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,quarter_finals,15.66,0.3634232243541956,14.960892171395162,16.38548180557784
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,semi_finals,5.58,0.2295350953558083,5.1469321116129025,6.047183556911877
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,final,1.02,0.10047865444958945,0.8410122627316854,1.2366055995903253
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,third_place,0.77,0.08741115489455566,0.6165718952829758,0.961237973277918
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,champion,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,round_of_32,86.15,0.345424014799203,85.45907455332382,86.81316134453365
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,round_of_16,42.05,0.4936392913859268,41.08570086090823,43.020404937488244
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,quarter_finals,10.38,0.3050009180314053,9.797333949841576,10.993095198896642
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,semi_finals,3.17,0.1752001997715756,2.84418619599965,3.5317804126679633
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,final,0.92,0.09547439447307324,0.750806534356159,1.1268881304614047
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,third_place,0.57,0.07528286657666537,0.44023950366885634,0.7377239698831436
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,champion,0.11,0.033148001448051134,0.06143442571264699,0.1968823393188985
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,round_of_32,82.79,0.37746733633521184,82.03760715166425,83.51720931004384
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,round_of_16,18.05,0.384603367119946,17.308491492495943,18.81604690483334
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,quarter_finals,7.74,0.26722507367386017,7.232316397811893,8.280140336808932
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,semi_finals,2.23,0.14765740753514536,1.9584104226488475,2.538278129476968
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,final,0.5,0.07053367989832943,0.3794881950804586,0.6585290402184288
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,third_place,0.31,0.05559127629403736,0.21848506150486358,0.4396780985355752
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,champion,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,round_of_32,82.72,0.3780742784162922,81.9664452828116,83.44842494064333
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,round_of_16,30.39,0.4599399852154626,29.49618976228449,31.29887120709351
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,quarter_finals,11.61,0.3203447986154918,10.996813921461271,12.252670556581641
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,semi_finals,2.05,0.1417030345476059,1.7901189521882368,2.3467078444295733
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,final,0.35,0.05905717568594015,0.25177633965021085,0.4863560993920065
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,third_place,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,champion,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,round_of_32,96.28,0.18925157859315203,95.89094045202013,96.6335153530378
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,round_of_16,53.92,0.49846099145269124,52.941697572866076,54.895291769308244
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,quarter_finals,13.99,0.3468832512532134,13.323927033676675,14.683729544972069
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,semi_finals,1.92,0.13722740251130602,1.6689161694804635,2.2080104703815664
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,final,0.2,0.04467661580737735,0.12951015278757227,0.30873748999797523
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,third_place,0.58,0.07593655246322419,0.4489655555780853,0.7489902377243595
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,champion,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,round_of_32,90.43,0.2941793840499363,89.83778447456937,90.99116427647843
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,round_of_16,39.16,0.4881080208314548,38.20764562492477,40.12067976559319
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,quarter_finals,7.64,0.2656370456092297,7.135464036181792,8.177069500934588
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,semi_finals,0.86,0.09233655830709742,0.6969441561284893,1.0607965901864063
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,final,0.17,0.041195994950965806,0.10616983407886484,0.2721008494553487
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,third_place,0.24,0.04893097178679368,0.1613367184247764,0.35688020336254966
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,round_of_32,89.2,0.31038041175306147,88.5765316698882,89.79336175185489
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,round_of_16,41.13,0.49206941583479863,40.16912931900695,42.09768306234862
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,quarter_finals,16.31,0.3694568851706515,15.598825354953485,17.047049405798422
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,semi_finals,2.89,0.1675254905976998,2.5793058319557147,3.236875823699449
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,final,0.5,0.07053367989832943,0.3794881950804586,0.6585290402184288
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,third_place,0.21,0.045777614616753455,0.13739811491914564,0.3208418476168465
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,round_of_32,79.98,0.40014992190427817,79.18425955333454,80.75271505849858
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,round_of_16,31.02,0.46257535602321054,30.12078565618103,31.933791457474975
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,quarter_finals,6.25,0.24206145913796356,5.792153761931355,6.741447329873217
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,semi_finals,1.61,0.12586020022231015,1.3812447111435728,1.8759200164546728
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,final,0.26,0.050923864739432334,0.1774976064828278,0.38070395480538755
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,third_place,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,round_of_32,79.88,0.4008971938040974,79.08283430216947,80.65421711215917
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,round_of_16,24.82,0.4319684710716744,23.98311858547188,25.676220282908442
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,quarter_finals,4.22,0.20104516905412073,3.8432151873472415,4.63194499511706
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,semi_finals,0.89,0.09391906089820107,0.7238491488055168,1.093868556760713
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,final,0.16,0.039967987189749754,0.09851240465054562,0.25976595913322326
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,third_place,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,round_of_32,94.85,0.22101527096560566,94.3993279828734,95.2662260978709
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,round_of_16,19.1,0.39308904843559306,18.341468009103117,19.882263962022854
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,quarter_finals,4.13,0.19898319024480435,3.7572848342997553,4.537944470410546
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,semi_finals,0.63,0.07912212080069644,0.4927543308452964,0.8051630612093719
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,final,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,third_place,0.11,0.033148001448051134,0.06143442571264699,0.1968823393188985
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,round_of_32,85.65,0.35058201608182926,84.94916476420022,86.32345514613502
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,round_of_16,43.0,0.49507575177946256,42.03252222069095,43.97285395399777
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,quarter_finals,9.55,0.2939043211659196,8.98938202093012,10.14168458852119
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,semi_finals,2.5,0.15612494995995996,2.2117511790473388,2.8247300063404825
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,final,0.58,0.07593655246322419,0.4489655555780853,0.7489902377243595
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,third_place,0.24,0.04893097178679368,0.1613367184247764,0.35688020336254966
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,round_of_32,83.61,0.37018480519870073,82.87155564030131,84.32263104094322
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,round_of_16,17.88,0.3831847596134272,17.141335272403623,18.643333689168095
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,quarter_finals,3.72,0.18925157859315203,3.3664846469622027,4.109059547979867
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,semi_finals,0.77,0.08741115489455566,0.6165718952829758,0.961237973277918
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,final,0.17,0.041195994950965806,0.10616983407886484,0.2721008494553487
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,third_place,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,round_of_32,86.04,0.34657155105403553,85.34686938865043,86.70545099195216
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,round_of_16,13.14,0.33783729811848784,12.491969446010414,13.816339953850537
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,quarter_finals,2.52,0.1567321281677755,2.2305562141804742,2.845909610708236
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,semi_finals,0.49,0.06982828939620389,0.37086078907179376,0.647164126476649
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,final,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,third_place,0.07,0.026448251359967073,0.03391220028917296,0.14443528574059386
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,round_of_32,93.35,0.24915406880081248,92.84482114963109,93.82188496854656
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,round_of_16,41.57,0.4928422770014765,40.607446427078564,42.539028023296574
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,quarter_finals,9.76,0.2967730445980564,9.193683931367593,10.357221392843057
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,semi_finals,1.56,0.1239219108955313,1.335049861565751,1.8221532672802714
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,final,0.22,0.046852534616603186,0.14533386585013622,0.3328984164363006
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,third_place,0.09,0.02998649696113236,0.04735716566504437,0.17097495986561176
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,round_of_32,79.89,0.4008226415760467,79.09297648466818,80.66406724941095
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,round_of_16,14.46,0.35169708557222934,13.78431876592149,15.162976840998157
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,quarter_finals,5.21,0.22222868851703192,4.791375797210714,5.6630240405476115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,semi_finals,1.15,0.10661965109678422,0.9589841805431688,1.3785338385346222
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,final,0.18,0.04238820590683215,0.11389185739970833,0.28437114588494977
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,third_place,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,round_of_32,64.54,0.47839193137008484,63.596931697093595,65.47190122005297
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,round_of_16,11.63,0.3205843258801029,11.01633716733821,12.273131950205594
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,quarter_finals,4.73,0.21227979178433354,4.331032661240665,5.163735828496317
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,semi_finals,0.87,0.09286716319560968,0.7059065029989481,1.071826563066392
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,final,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,third_place,0.09,0.02998649696113236,0.04735716566504437,0.17097495986561176
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,round_of_32,59.2,0.49146312170904544,58.2333778578818,60.15955631252731
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,round_of_16,10.08,0.30106371418688105,9.505159078852715,10.685500477372164
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,quarter_finals,1.72,0.13001599901550578,1.4830840209116256,1.9939962239415112
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,semi_finals,0.2,0.04467661580737735,0.12951015278757227,0.30873748999797523
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,final,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,round_of_32,68.27,0.46542530012881766,67.35089869099076,69.17506949307165
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,round_of_16,9.74,0.2965016694725343,9.17422301269119,10.33669767201857
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,quarter_finals,0.73,0.08512761009214342,0.5810326889770413,0.9168079005820735
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,semi_finals,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,round_of_32,50.88,0.4999225540021174,49.90000195992514,51.859322178114006
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,round_of_16,6.17,0.24060987095295985,5.715026161255618,6.658636372545396
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,quarter_finals,0.6,0.07722693830523128,0.4664501413809584,0.7714902914223758
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,third_place,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,round_of_32,49.63,0.4999863098125788,48.65035708611139,50.60992708312215
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,round_of_16,12.2,0.32728580781940425,11.572994424616159,12.856036918702987
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,quarter_finals,1.76,0.1314923571923479,1.5201842001872417,2.0368653236676746
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,semi_finals,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,third_place,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,round_of_32,86.92,0.3371814941541128,86.24492134626864,87.56672317237306
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,round_of_16,14.07,0.34771182033402315,13.40227358683362,14.765321549818683
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,quarter_finals,1.5,0.12155245781143217,1.2797005178388858,1.7575486925044685
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,semi_finals,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,third_place,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,round_of_32,8.77,0.28285810930570826,8.231311321487869,9.34035434742876
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,round_of_16,0.71,0.08396183656876498,0.5633092156143501,0.8945467344438753
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,quarter_finals,0.12,0.03462022530255977,0.06865974508135608,0.20964933970063407
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,round_of_32,29.45,0.45581767188208044,28.564625516113225,30.351157396722968
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,round_of_16,1.3,0.11327400407860579,1.0959405859975284,1.5414622293369329
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,quarter_finals,0.16,0.039967987189749754,0.09851240465054562,0.25976595913322326
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,semi_finals,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,round_of_32,10.67,0.3087314528842178,10.079917270256331,11.290289151244783
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,round_of_16,0.59,0.0765845284636525,0.4577025249490057,0.7602455881038837
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,quarter_finals,0.07,0.026448251359967073,0.03391220028917296,0.14443528574059386
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,round_of_32,19.2,0.39387307600291754,18.4398939801376,19.98376118849282
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,round_of_16,1.92,0.13722740251130602,1.6689161694804635,2.2080104703815664
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,quarter_finals,0.35,0.05905717568594015,0.25177633965021085,0.4863560993920065
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,semi_finals,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,round_of_32,25.8,0.43753399867895976,24.951840777525643,26.666745426398258
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,round_of_16,1.62,0.12624404936471265,1.3904910782172095,1.886665969131481
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,quarter_finals,0.11,0.033148001448051134,0.06143442571264699,0.1968823393188985
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,round_of_32,54.74,0.4977481692583108,53.762779007394236,55.71358055431654
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,round_of_16,5.73,0.23241495218681607,5.2912372299647865,6.202763234816663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,quarter_finals,0.41,0.06389984350528567,0.30238378611372646,0.5557025714311589
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,semi_finals,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,round_of_32,17.72,0.3818378713537985,16.98403473598464,18.48075710957997
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,round_of_16,1.68,0.128521437900453,1.4460192174228097,1.9510917484285486
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,quarter_finals,0.12,0.03462022530255977,0.06865974508135608,0.20964933970063407
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,round_of_32,20.59,0.4043577500184707,19.80882432398026,21.393763289961967
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,round_of_16,3.33,0.17941881172273993,2.99587204728104,3.699971677393689
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,quarter_finals,0.34,0.05821030836544332,0.24341670009014219,0.4747234192016307
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,semi_finals,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,round_of_32,8.55,0.27962430151902035,8.017727790377691,9.114106844029154
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,round_of_16,0.41,0.06389984350528567,0.30238378611372646,0.5557025714311589
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,quarter_finals,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,round_of_32,8.27,0.27542823021614904,7.746051334271501,8.825998347122892
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,round_of_16,0.6,0.07722693830523128,0.4664501413809584,0.7714902914223758
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,quarter_finals,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,round_of_32,9.82,0.29758487864809263,9.252071171069892,10.418788071643426
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,round_of_16,0.41,0.06389984350528567,0.30238378611372646,0.5557025714311589
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,quarter_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,round_of_32,4.95,0.21690954335851614,4.5418867950813695,5.392712729165396
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,round_of_16,0.25,0.04993746088859545,0.16939856428771646,0.36881067725005434
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,quarter_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,round_of_32,4.02,0.19642800207709693,3.6523271820358043,4.422986605419604
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,round_of_16,0.3,0.054690035655501276,0.2102274095435337,0.42794343074646046
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,quarter_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,round_of_32,9.2,0.289025950392002,8.6490689617105,9.78226645647525
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,round_of_16,0.79,0.08853016435091489,0.6343852780347133,0.9834092300270698
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,quarter_finals,0.07,0.026448251359967073,0.03391220028917296,0.14443528574059386
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,final,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,round_of_32,99.75,0.049937460888594916,99.63118932274996,99.83060143571228
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,round_of_16,86.82,0.33827320319528714,86.14282171942484,87.46889960171242
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,quarter_finals,78.02,0.4141110479086497,77.19766684211842,78.82081309862753
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,semi_finals,68.77,0.46343145124171276,67.85461225846436,69.6709719131203
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,final,42.09,0.4937035446500258,41.12555963716982,43.06051544022845
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,third_place,15.17,0.3587298565773415,14.48027242068632,15.886477888514897
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,champion,20.09,0.4006734206308175,19.31623270419964,20.886738922220353
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,round_of_32,99.81,0.04354756020720349,99.70341811238531,99.87832656457957
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,round_of_16,93.07,0.25396359975398053,92.55551275541872,93.55140840974647
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,quarter_finals,82.23,0.3822600031392246,81.46843530242954,82.96681125325364
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,semi_finals,72.37,0.4471669822337065,71.48508854960441,73.23773073214032
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,final,42.93,0.4949762721585753,41.962743968564276,43.902685967871335
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,third_place,15.54,0.36228557796302074,14.843166371064221,16.263299768903444
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,champion,19.75,0.39811273528989255,18.98137877472797,20.541853980176906
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,round_of_32,99.8,0.04467661580737737,99.69126251000202,99.87048984721243
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,round_of_16,95.5,0.20730412441627888,95.07591379138917,95.88914107313406
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,quarter_finals,52.1,0.49955880534727837,51.1202460012921,53.07814114630127
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,semi_finals,39.97,0.4898366156179017,39.01394851008461,40.933754780219374
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,final,29.44,0.455772574866018,28.55471769203063,30.34107290105512
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,third_place,7.85,0.2689567809147038,7.338883578240199,8.393488673635519
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,champion,19.46,0.3958924601454289,18.69583888174967,20.247616600392313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,round_of_32,99.85,0.038700775186035444,99.75263931899458,99.90907463697208
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,round_of_16,88.45,0.3196243889317584,87.80871720192589,89.06175223853387
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,quarter_finals,52.99,0.4991051893138359,52.01079280507379,53.96691080030918
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,semi_finals,39.22,0.4882408831714116,38.267362326426856,40.180916982593786
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,final,26.65,0.4421286577456838,25.792514527176447,27.525418855535232
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,third_place,9.29,0.29029224929370745,8.736554826578036,9.874711469361714
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,champion,17.11,0.3765963223399825,16.384535046869427,17.860725293918055
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,round_of_32,99.86,0.03739037309254826,99.76512170202092,99.91658457369621
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,round_of_16,83.6,0.37027557305336795,82.86138170601764,84.31281265547643
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,quarter_finals,57.45,0.4944185979511693,56.47826051476107,58.4160176993202
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,semi_finals,36.99,0.48277737105212376,36.04892086574897,37.94107113892251
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,final,14.16,0.34863941257408065,13.490422362559041,14.857103651847265
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,third_place,14.32,0.3502766906318489,13.647154348527446,15.020248781885975
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,champion,6.93,0.2539635997539805,6.448591590253523,7.444487244581284
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,round_of_32,99.87,0.036032069049666965,99.77768905034915,99.92400954511841
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,round_of_16,92.65,0.26095545596902153,92.1219851800341,93.14525855561243
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,quarter_finals,75.36,0.4309141909939843,74.50577565761077,76.19474722951693
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,semi_finals,34.5,0.4753682782853732,33.57439026565216,35.437514121158586
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,final,13.48,0.3415098241632296,12.824646487815667,14.163401783560403
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,third_place,13.92,0.34615510974128344,13.255379953686312,14.612330386709319
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,champion,6.76,0.25105824025512485,6.28434490795194,7.268864491125308
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,round_of_32,99.77,0.04790313142165217,99.65508971999046,99.84668567797263
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,round_of_16,90.42,0.29431676812577295,89.82751929447204,90.9814371368253
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,quarter_finals,40.88,0.4916122048932472,39.920120933679,41.84688345391547
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,semi_finals,23.56,0.4243732319550798,22.73847949662825,24.401827083196036
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,final,8.44,0.2779867622747529,7.910976395984074,9.000942721167876
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,third_place,9.51,0.2933530125974506,8.950476930172698,10.100620400276837
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,champion,4.35,0.20397977840952763,3.96742236093285,4.767637978287234
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,round_of_32,99.81,0.04354756020720349,99.70341811238531,99.87832656457957
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,round_of_16,76.4,0.42462218500685994,75.55770064662826,77.22202349454567
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,quarter_finals,54.9,0.49759320734913576,53.923021115258216,55.873215562459656
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,semi_finals,19.7,0.3977323220458705,18.932143073057293,20.49112808309535
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,final,8.73,0.2822741752268528,8.192470065820732,9.299226324094116
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,third_place,5.98,0.2371159210175479,5.531938881248739,6.461869577293827
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,champion,3.38,0.1807140282324535,3.043318947154386,3.7524863762725653
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,round_of_32,99.9,0.03160696125855648,99.81600356239997,99.94567199231894
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,round_of_16,90.16,0.29785472969217736,89.56069118986554,90.72846492792024
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,quarter_finals,39.92,0.4897339685992794,38.96416878136087,40.8835729101909
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,semi_finals,10.17,0.30225338707779603,9.592794883327375,10.777795550651504
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,final,3.73,0.1894959366318972,3.376002688776326,4.119533825916189
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,third_place,3.01,0.17086248856902442,2.692732686857228,3.3633568058032712
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,champion,1.1,0.10430244484191155,0.913523883452871,1.324032536872697
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,round_of_32,96.81,0.17573386127892351,96.44718331963946,97.13686543219204
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,round_of_16,74.01,0.43857951388545263,73.14127962550117,74.86028009531648
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,quarter_finals,45.0,0.49749371855331,44.02701772414578,45.976822400631875
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,semi_finals,8.96,0.2856078430295639,8.415854150102156,9.535665594072922
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,final,1.99,0.13965668619869226,1.7341416021621938,2.28273127595295
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,third_place,0.9,0.09444045743218318,0.7328292499415999,1.1048807753750747
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,champion,0.25,0.04993746088859545,0.16939856428771646,0.36881067725005434
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,round_of_32,98.15,0.13475069573104237,97.86680257751951,98.39621702087157
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,round_of_16,69.17,0.4617911974041948,68.25767159558355,70.06760536601887
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,quarter_finals,20.91,0.4066659439884289,20.124180437150535,21.718161408805926
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,semi_finals,8.16,0.2737543424313119,7.6393710491571145,8.712763114982389
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,final,1.84,0.13439285695303899,1.5944860622350132,2.12250201962346
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,third_place,0.88,0.09339464652751785,0.7148748673204081,1.0828505184953774
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,champion,0.24,0.04893097178679368,0.1613367184247764,0.35688020336254966
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,round_of_32,89.86,0.30185764856965286,89.2529678708327,90.43641865443975
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,round_of_16,47.97,0.4995877400417268,46.99177529350679,48.94978379715293
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,quarter_finals,11.41,0.31793268155381577,10.801614431243316,12.048023651790706
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,semi_finals,3.45,0.18250958878919213,3.1097792298185496,3.825972331861515
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,final,0.79,0.08853016435091489,0.6343852780347133,0.9834092300270698
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,third_place,0.43,0.06543324842921984,0.3194057070363735,0.5786652900094014
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,champion,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,round_of_32,97.74,0.14862449327079325,97.42984276320173,98.0134917254211
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,round_of_16,72.22,0.4479142328616049,71.33368245355305,73.08925203193499
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,quarter_finals,36.84,0.4823706458730672,35.899775178576974,37.79033202983785
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,semi_finals,6.33,0.24350176590735434,5.8693034199255,6.824236229882627
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,final,1.36,0.11582331371533107,1.1509409986890244,1.6064157351481048
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,third_place,0.54,0.07328601503697688,0.41412973662823904,0.7038567776724273
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,champion,0.09,0.02998649696113236,0.04735716566504437,0.17097495986561176
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,round_of_32,90.99,0.2863249727145714,90.4129493964494,91.53556926062329
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,round_of_16,27.58,0.44691650226860047,26.712779102810075,28.464440016692965
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,quarter_finals,12.61,0.3319620309613736,11.973679148489671,13.275037304597706
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,semi_finals,4.21,0.20081730503121487,3.83366493939983,4.621502923314028
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,final,0.78,0.0879724957017817,0.6254750539120008,0.9723271343993376
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,third_place,0.41,0.06389984350528567,0.30238378611372646,0.5557025714311589
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,champion,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,round_of_32,96.43,0.18554112751624627,96.0481426202353,96.77619798107929
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,round_of_16,57.43,0.4944486929904861,56.4582092429638,58.39608433161659
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,quarter_finals,12.92,0.3354211680857367,12.276785720346126,13.591692645005041
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,semi_finals,1.83,0.1340339882268673,1.5851911480448238,2.1118046140632045
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,final,0.3,0.054690035655501276,0.2102274095435337,0.42794343074646046
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,third_place,0.49,0.06982828939620389,0.37086078907179376,0.647164126476649
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,champion,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,round_of_32,90.27,0.2963658381122899,89.67356446977566,90.835507165265
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,round_of_16,38.09,0.4856080621241785,37.14295356371494,39.04619361350546
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,quarter_finals,15.9,0.36567608617463626,15.196387688929558,16.62980196205412
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,semi_finals,2.32,0.15053823434596275,2.0427437633441814,2.6338756665356353
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,final,0.42,0.06467116822819888,0.31088599034471515,0.567192686950615
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,third_place,0.17,0.041195994950965806,0.10616983407886484,0.2721008494553487
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,round_of_32,83.96,0.3669766205087186,83.22770464257206,84.66621322993801
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,round_of_16,42.29,0.4940198275373166,41.32486328023873,43.26105819216843
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,quarter_finals,9.54,0.29376664208177206,8.979655458531196,10.131418831169666
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,semi_finals,2.32,0.15053823434596275,2.0427437633441814,2.6338756665356353
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,final,0.36,0.05989190262464534,0.26015882397965473,0.4979659348130073
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,third_place,0.18,0.04238820590683215,0.11389185739970833,0.28437114588494977
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,round_of_32,96.38,0.18678747281335545,95.99572329860698,96.7286557039554
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,round_of_16,48.73,0.49983868397714076,47.75099187730631,49.70998351438719
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,quarter_finals,23.9,0.4264727423880687,23.074236563145547,24.745808888193864
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,semi_finals,3.88,0.19311799501858962,3.518857872397222,4.276563438551963
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,final,0.66,0.08097184695929814,0.5191456013099982,0.8387487499960039
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,third_place,0.36,0.05989190262464534,0.26015882397965473,0.4979659348130073
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,round_of_32,81.65,0.38707589695045597,80.87922556325722,82.39646644690015
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,round_of_16,32.53,0.468486830124391,31.61862632302263,33.454791072950535
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,quarter_finals,6.34,0.2436810210090232,5.878948658598775,6.834583310959798
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,semi_finals,1.61,0.12586020022231015,1.3812447111435728,1.8759200164546728
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,final,0.27,0.05189132875539034,0.18563179891469944,0.3925620821239607
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,third_place,0.09,0.02998649696113236,0.04735716566504437,0.17097495986561176
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,round_of_32,88.79,0.31548944514832816,88.15668416008026,89.39352415189462
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,round_of_16,35.76,0.47929348003076366,34.82621758920254,36.704719086164225
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,quarter_finals,16.12,0.3677153246738569,15.412309259650895,16.85371142584257
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,semi_finals,2.52,0.1567321281677755,2.2305562141804742,2.845909610708236
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,final,0.32,0.05647796030311293,0.22676996380525222,0.45138551598563126
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,third_place,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,round_of_32,84.86,0.35843833500338657,84.14408154079266,85.54914510925747
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,round_of_16,19.34,0.39496384644673493,18.577703788676384,20.12584385646026
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,quarter_finals,8.23,0.27482123280416304,7.7072551990841776,8.784825203308436
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,semi_finals,2.51,0.15642886562268485,2.221153060308387,2.8353204448298786
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,final,0.51,0.07123194508084137,0.3881291717961065,0.6698803832532257
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,third_place,0.2,0.04467661580737735,0.12951015278757227,0.30873748999797523
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,round_of_32,91.29,0.28198154194911407,90.7213389910445,91.82694925854153
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,round_of_16,36.91,0.482561073854906,35.96937527913148,37.86067816753644
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,quarter_finals,8.95,0.2854640958159187,8.406139460840494,9.525387963584137
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,semi_finals,1.17,0.10753190224300879,0.9771966139838477,1.4003060445948325
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,final,0.14,0.03739037309254884,0.0834154263037993,0.23487829797908022
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,third_place,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,round_of_32,77.84,0.4153232957588582,77.01536153384791,78.64325665139003
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,round_of_16,14.01,0.3470907518214797,13.343512970539972,14.704128247609665
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,quarter_finals,5.2,0.22202702538204666,4.7817743613242945,5.652633156683588
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,semi_finals,0.99,0.09900499987374374,0.8138971998042464,1.20374370326643
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,final,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,third_place,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,round_of_32,85.87,0.3483307479967854,85.17348933904306,86.53896160580196
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,round_of_16,13.33,0.339898676078622,12.677859422236287,14.01030405288311
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,quarter_finals,2.46,0.15490267912466849,2.174156529571235,2.782355376814808
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,semi_finals,0.4,0.063118935352238,0.2938997215109401,0.5441943162835007
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,final,0.07,0.026448251359967073,0.03391220028917296,0.14443528574059386
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,third_place,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,round_of_32,95.18,0.21418860847393337,94.74256283212641,95.58273780038262
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,round_of_16,18.44,0.3878100565998772,17.692061051555726,19.2121778160409
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,quarter_finals,4.02,0.19642800207709693,3.6523271820358043,4.422986605419604
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,semi_finals,0.59,0.0765845284636525,0.4577025249490057,0.7602455881038837
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,final,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,third_place,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,round_of_32,92.26,0.26722507367386006,91.71985966319107,92.7676836021881
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,round_of_16,37.0,0.4828043081829324,36.05886425999195,37.95112006442997
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,quarter_finals,6.03,0.23804182405619398,5.580107148941397,6.513662908353391
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,semi_finals,0.63,0.07912212080069644,0.4927543308452964,0.8051630612093719
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,final,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,third_place,0.11,0.033148001448051134,0.06143442571264699,0.1968823393188985
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,round_of_32,83.41,0.3719908466615812,82.66809519415143,84.12624509208419
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,round_of_16,17.25,0.37781443858063446,16.522095499179006,18.0030573181147
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,quarter_finals,3.46,0.18276443855411262,3.1192767932392695,3.836467088191238
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,semi_finals,0.82,0.09018181634897358,0.6611570524524472,1.0166144148606697
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,final,0.11,0.033148001448051134,0.06143442571264699,0.1968823393188985
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,third_place,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,round_of_32,66.85,0.4707523234143407,65.92100931923913,67.76604946026013
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,round_of_16,12.13,0.32647558867394666,11.504608012267296,12.78447709279874
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,quarter_finals,5.16,0.2212180824435471,4.743373093848816,5.611065145157285
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,semi_finals,0.81,0.08963475888292442,0.6522264024352187,1.005552745127454
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,final,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,third_place,0.07,0.026448251359967073,0.03391220028917296,0.14443528574059386
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,round_of_32,80.05,0.3996245112602579,79.2552617728787,80.82165907720753
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,round_of_16,22.36,0.4166569812207639,21.554054251228333,23.1871739585426
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,quarter_finals,3.87,0.19287900352293405,3.5093293534865615,4.266099637712178
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,semi_finals,0.61,0.07786391975748459,0.47520814550579005,0.7827246070479887
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,final,0.07,0.026448251359967073,0.03391220028917296,0.14443528574059386
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,third_place,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,round_of_32,68.27,0.46542530012881766,67.35089869099076,69.17506949307165
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,round_of_16,7.75,0.2673831520496383,7.242003050989157,8.290446003382112
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,quarter_finals,0.76,0.08684607072285999,0.6076759374474527,0.9501416113629961
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,semi_finals,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,final,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,third_place,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,round_of_32,59.08,0.4916862414182443,58.1129868795276,60.04003945387617
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,round_of_16,9.8,0.29731464814233427,9.23260801259665,10.398266590615778
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,quarter_finals,1.81,0.13331312763565337,1.566607392168134,2.090403730439005
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,semi_finals,0.18,0.04238820590683215,0.11389185739970833,0.28437114588494977
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,final,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,third_place,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,round_of_32,55.72,0.4967173844350528,54.74442184545105,56.6911850518033
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,round_of_16,6.83,0.25226000475699667,6.351965256438785,7.341190380891577
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,quarter_finals,0.45,0.06693093455196933,0.3364953436077258,0.6015602929389385
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,semi_finals,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,round_of_32,50.23,0.4999947099720156,49.250110223795204,51.209713130465026
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,round_of_16,11.22,0.315612357172529,10.616231308976765,11.853552698798808
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,quarter_finals,1.6,0.125475097130865,1.3720007796266298,1.8651716282211714
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,semi_finals,0.12,0.03462022530255977,0.06865974508135608,0.20964933970063407
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,third_place,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,round_of_32,81.41,0.38902595029123704,80.63549830723854,82.16037802890816
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,round_of_16,12.7,0.33297297187609687,12.061664763990837,13.366982566850549
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,quarter_finals,1.17,0.10753190224300879,0.9771966139838477,1.4003060445948325
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,semi_finals,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,round_of_32,7.6,0.26499811320083017,7.09673037021761,8.13583388789699
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,round_of_16,0.61,0.07786391975748459,0.47520814550579005,0.7827246070479887
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,quarter_finals,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,round_of_32,27.13,0.44463053201506525,26.26742960762402,28.01013512310901
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,round_of_16,1.4,0.11749042514179614,1.187670819886,1.6496551929529077
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,quarter_finals,0.12,0.03462022530255977,0.06865974508135608,0.20964933970063407
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,round_of_32,8.72,0.28212791425167416,8.18276029473593,9.288943775428473
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,round_of_16,0.39,0.06232808355789547,0.28543446219494745,0.5326672558490487
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,quarter_finals,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,round_of_32,18.98,0.39214278011969056,18.22336748699555,19.76045664712509
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,round_of_16,1.81,0.13331312763565337,1.566607392168134,2.090403730439005
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,quarter_finals,0.22,0.046852534616603186,0.14533386585013622,0.3328984164363006
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,round_of_32,27.81,0.44806293084788884,26.940445181240236,28.69659729252304
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,round_of_16,1.65,0.12738818626544615,1.4182445742763579,1.9188894323236667
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,quarter_finals,0.14,0.03739037309254884,0.0834154263037993,0.23487829797908022
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,round_of_32,51.03,0.49989389874252316,50.050000490009715,52.009208444286074
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,round_of_16,5.59,0.22972851368517577,5.156549661771045,6.057558326504178
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,quarter_finals,0.45,0.06693093455196933,0.3364953436077258,0.6015602929389385
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,semi_finals,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,round_of_32,23.53,0.42418617374921597,22.708857412568058,24.371472208004906
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,round_of_16,2.26,0.14862449327079302,1.986508274578893,2.570157236798256
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,quarter_finals,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,round_of_32,17.57,0.3805647251125622,16.836585922351492,18.328321126956446
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,round_of_16,2.46,0.15490267912466849,2.174156529571235,2.782355376814808
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,quarter_finals,0.19,0.04354756020720334,0.12167343542042719,0.29658188761467563
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,round_of_32,7.27,0.2596434285707998,6.777340931662867,7.79547677468706
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,round_of_16,0.35,0.05905717568594015,0.25177633965021085,0.4863560993920065
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,quarter_finals,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,round_of_32,6.73,0.25054083499501634,6.255369380180785,7.237863059645129
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,round_of_16,0.4,0.063118935352238,0.2938997215109401,0.5441943162835007
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,quarter_finals,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,semi_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,third_place,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,round_of_32,7.66,0.26595571059858825,7.154832436341783,8.197685740275485
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,round_of_16,0.35,0.05905717568594015,0.25177633965021085,0.4863560993920065
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,quarter_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,round_of_32,4.77,0.21313073452695644,4.3693518601544525,5.205385908584306
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,round_of_16,0.24,0.04893097178679368,0.1613367184247764,0.35688020336254966
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,quarter_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,round_of_32,3.07,0.17250365213525193,2.749499426632774,3.4265439845303924
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,round_of_16,0.23,0.04790313142165134,0.15331432202735715,0.3449102800095243
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,quarter_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,round_of_32,6.36,0.2440390132745172,5.8982401486468365,6.855276460412625
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,round_of_16,0.34,0.05821030836544332,0.24341670009014219,0.4747234192016307
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,quarter_finals,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,semi_finals,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,final,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,third_place,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,champion,0.0,0.0,0.0,0.038401247776654115

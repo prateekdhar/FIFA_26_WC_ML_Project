@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FIFA WC26 Research Upgrade Dashboard</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; color: #0f172a; }
+    main { max-width: 1180px; margin: 0 auto; padding: 28px; }
+    h1 { margin: 0 0 4px; font-size: 30px; }
+    h2 { margin: 26px 0 12px; font-size: 20px; }
+    p { color: #475569; }
+    .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 18px 0; }
+    .card { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; }
+    .card span { display: block; color: #64748b; font-size: 12px; text-transform: uppercase; }
+    .card strong { display: block; margin-top: 8px; font-size: 18px; }
+    section { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin: 14px 0; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 8px 10px; border-bottom: 1px solid #e2e8f0; text-align: left; font-size: 13px; }
+    th { background: #f1f5f9; color: #475569; }
+    .bar-row { display: grid; grid-template-columns: 160px 1fr 70px; align-items: center; gap: 10px; margin: 9px 0; }
+    .bar-track { height: 16px; background: #e2e8f0; border-radius: 999px; overflow: hidden; }
+    .bar { height: 100%; border-radius: 999px; }
+    @media (max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .bar-row { grid-template-columns: 120px 1fr 60px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>FIFA WC26 Research Upgrade Dashboard</h1>
+  <p>Calibration, uncertainty, ensemble consensus, tactical priors, and data coverage generated from the current project artifacts.</p>
+  <div class="cards"><div class='card'><span>Best validation model</span><strong>calibrated_logistic_sigmoid (0.759 log loss)</strong></div>
+<div class='card'><span>Consensus leader</span><strong>France (17.02%)</strong></div>
+<div class='card'><span>Historical data</span><strong>missing</strong></div>
+<div class='card'><span>Teams in tactical priors</span><strong>48</strong></div></div>
+  <section>
+    <h2>Validation Log Loss</h2>
+    
+            <div class="bar-row">
+              <span>calibrated_logistic_sigmoid</span>
+              <div class="bar-track"><div class="bar" style="width:75.86%;background:#dc2626"></div></div>
+              <strong>0.76</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>weighted_validation_ensemble</span>
+              <div class="bar-track"><div class="bar" style="width:77.33%;background:#dc2626"></div></div>
+              <strong>0.77</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>random_forest</span>
+              <div class="bar-track"><div class="bar" style="width:79.45%;background:#dc2626"></div></div>
+              <strong>0.79</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>hist_gradient_boosting</span>
+              <div class="bar-track"><div class="bar" style="width:80.16%;background:#dc2626"></div></div>
+              <strong>0.80</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>extra_trees</span>
+              <div class="bar-track"><div class="bar" style="width:81.89%;background:#dc2626"></div></div>
+              <strong>0.82</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>logistic_l2</span>
+              <div class="bar-track"><div class="bar" style="width:82.80%;background:#dc2626"></div></div>
+              <strong>0.83</strong>
+            </div>
+            
+  </section>
+  <section>
+    <h2>Consensus Champion Probability</h2>
+    
+            <div class="bar-row">
+              <span>France</span>
+              <div class="bar-track"><div class="bar" style="width:100.00%;background:#2563eb"></div></div>
+              <strong>17.02</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Brazil</span>
+              <div class="bar-track"><div class="bar" style="width:93.52%;background:#2563eb"></div></div>
+              <strong>15.91</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Germany</span>
+              <div class="bar-track"><div class="bar" style="width:90.42%;background:#2563eb"></div></div>
+              <strong>15.39</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Spain</span>
+              <div class="bar-track"><div class="bar" style="width:89.23%;background:#2563eb"></div></div>
+              <strong>15.18</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Argentina</span>
+              <div class="bar-track"><div class="bar" style="width:45.29%;background:#2563eb"></div></div>
+              <strong>7.71</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>England</span>
+              <div class="bar-track"><div class="bar" style="width:40.10%;background:#2563eb"></div></div>
+              <strong>6.82</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Portugal</span>
+              <div class="bar-track"><div class="bar" style="width:33.50%;background:#2563eb"></div></div>
+              <strong>5.70</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Netherlands</span>
+              <div class="bar-track"><div class="bar" style="width:27.13%;background:#2563eb"></div></div>
+              <strong>4.62</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Belgium</span>
+              <div class="bar-track"><div class="bar" style="width:13.63%;background:#2563eb"></div></div>
+              <strong>2.32</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Turkey</span>
+              <div class="bar-track"><div class="bar" style="width:5.25%;background:#2563eb"></div></div>
+              <strong>0.89</strong>
+            </div>
+            
+  </section>
+  <section>
+    <h2>Champion Uncertainty</h2>
+    <table><thead><tr><th>model_label</th><th>team</th><th>probability_pct</th><th>ci95_low_pct</th><th>ci95_high_pct</th></tr></thead><tbody><tr><td>Primitive EAFC Poisson</td><td>France</td><td>12.5</td><td>11.866155899074082</td><td>13.162645036758407</td></tr><tr><td>Primitive EAFC Poisson</td><td>Spain</td><td>10.26</td><td>9.680445039140208</td><td>10.870076272592673</td></tr><tr><td>Primitive EAFC Poisson</td><td>England</td><td>8.55</td><td>8.017727790377691</td><td>9.114106844029154</td></tr><tr><td>Primitive EAFC Poisson</td><td>Brazil</td><td>8.42</td><td>7.891569997129349</td><td>8.980364480521713</td></tr><tr><td>Primitive EAFC Poisson</td><td>Portugal</td><td>8.39</td><td>7.862462112853587</td><td>8.949495405546145</td></tr><tr><td>Primitive EAFC Poisson</td><td>Germany</td><td>8.11</td><td>7.590889514326474</td><td>8.661283051060803</td></tr><tr><td>V2 Heuristic Internal Forest + NT Elo</td><td>Brazil</td><td>19.23</td><td>18.46942333590504</td><td>20.01420879197671</td></tr><tr><td>V2 Heuristic Internal Forest + NT Elo</td><td>France</td><td>19.09</td><td>18.331625854488095</td><td>19.87211379688743</td></tr><tr><td>V2 Heuristic Internal Forest + NT Elo</td><td>Germany</td><td>18.3</td><td>17.554354561356703</td><td>19.06999182973369</td></tr><tr><td>V2 Heuristic Internal Forest + NT Elo</td><td>Spain</td><td>18.18</td><td>17.436333631157883</td><td>18.948104922927175</td></tr><tr><td>V2 Heuristic Internal Forest + NT Elo</td><td>Argentina</td><td>8.52</td><td>7.98861106922229</td><td>9.08324660593322</td></tr><tr><td>V2 Heuristic Internal Forest + NT Elo</td><td>England</td><td>5.16</td><td>4.743373093848816</td><td>5.611065145157285</td></tr><tr><td>V2 sklearn Random Forest + NT Elo</td><td>Brazil</td><td>20.09</td><td>19.31623270419964</td><td>20.886738922220353</td></tr><tr><td>V2 sklearn Random Forest + NT Elo</td><td>Germany</td><td>19.75</td><td>18.98137877472797</td><td>20.541853980176906</td></tr><tr><td>V2 sklearn Random Forest + NT Elo</td><td>France</td><td>19.46</td><td>18.69583888174967</td><td>20.247616600392313</td></tr><tr><td>V2 sklearn Random Forest + NT Elo</td><td>Spain</td><td>17.11</td><td>16.384535046869427</td><td>17.860725293918055</td></tr><tr><td>V2 sklearn Random Forest + NT Elo</td><td>Argentina</td><td>6.93</td><td>6.448591590253523</td><td>7.444487244581284</td></tr><tr><td>V2 sklearn Random Forest + NT Elo</td><td>England</td><td>6.76</td><td>6.28434490795194</td><td>7.268864491125308</td></tr></tbody></table>
+  </section>
+  <section>
+    <h2>Tactical Priors</h2>
+    <table><thead><tr><th>team</th><th>pressing_score</th><th>counterattack_score</th><th>low_block_resilience</th><th>tempo_score</th></tr></thead><tbody><tr><td>Spain</td><td>88.50998999999999</td><td>86.66023000000001</td><td>86.77946</td><td>88.84338000000001</td></tr><tr><td>England</td><td>88.02201</td><td>87.36170000000001</td><td>85.09896</td><td>88.62616</td></tr><tr><td>Germany</td><td>87.90685</td><td>85.89146000000001</td><td>85.87932</td><td>88.22856000000002</td></tr><tr><td>Portugal</td><td>87.41489</td><td>86.11715000000001</td><td>85.06782000000001</td><td>87.82184000000001</td></tr><tr><td>France</td><td>87.07086</td><td>88.96133</td><td>87.70634000000001</td><td>87.99094000000001</td></tr><tr><td>Brazil</td><td>86.69493</td><td>86.38809</td><td>87.99774000000002</td><td>87.32888</td></tr><tr><td>Argentina</td><td>86.34428</td><td>86.80916000000002</td><td>85.0418</td><td>87.36282</td></tr><tr><td>Netherlands</td><td>86.03773</td><td>85.18003</td><td>83.0993</td><td>86.47746</td></tr><tr><td>Belgium</td><td>85.53411</td><td>84.43055000000001</td><td>85.30278000000001</td><td>85.91128</td></tr><tr><td>Norway</td><td>82.84572</td><td>82.05691</td><td>78.0645</td><td>83.65268</td></tr></tbody></table>
+  </section>
+  <section>
+    <h2>Player Data Coverage To Improve First</h2>
+    <table><thead><tr><th>team</th><th>avg_source_confidence</th><th>players_below_0_55_confidence</th><th>players_with_zero_minutes</th><th>primary_sources</th></tr></thead><tbody><tr><td>Panama</td><td>0.5009115384615385</td><td>18</td><td>24</td><td>statbunker:18; wikipedia:4; transfermarkt:4</td></tr><tr><td>Senegal</td><td>0.5851923076923077</td><td>14</td><td>25</td><td>statbunker:24; wikipedia:1; transfermarkt:1</td></tr><tr><td>Mexico</td><td>0.6333346153846156</td><td>11</td><td>17</td><td>statbunker:15; transfermarkt:10; wikipedia:1</td></tr><tr><td>Scotland</td><td>0.6362769230769231</td><td>11</td><td>24</td><td>statbunker:23; transfermarkt:2; wikipedia:1</td></tr><tr><td>Canada</td><td>0.6436653846153847</td><td>11</td><td>21</td><td>statbunker:17; transfermarkt:7; wikipedia:2</td></tr><tr><td>Ivory Coast</td><td>0.6448692307692308</td><td>10</td><td>22</td><td>statbunker:19; transfermarkt:6; wikipedia:1</td></tr><tr><td>Czech Republic</td><td>0.64885</td><td>11</td><td>22</td><td>statbunker:19; transfermarkt:5; wikipedia:2</td></tr><tr><td>United States</td><td>0.6586461538461539</td><td>10</td><td>23</td><td>statbunker:19; transfermarkt:5; wikipedia:2</td></tr><tr><td>Australia</td><td>0.6691115384615386</td><td>11</td><td>14</td><td>transfermarkt:12; statbunker:11; wikipedia:3</td></tr><tr><td>Qatar</td><td>0.6695653846153846</td><td>12</td><td>22</td><td>statbunker:12; wikipedia:8; transfermarkt:4; manual_web_research:2</td></tr></tbody></table>
+  </section>
+</main>
+</body>
+</html>

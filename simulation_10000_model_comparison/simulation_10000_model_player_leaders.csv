@@ -1,0 +1,121 @@
+model_id,model_label,primary_comparison,category,rank,player,team,position,goals,assists,goals_per_tournament,assists_per_tournament
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,1,Lautaro Martinez,Argentina,ST,14488,2481,1.449,0.248
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,2,Kylian Mbappe,France,ST,14465,3029,1.446,0.303
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,3,Romelu Lukaku,Belgium,ST,13982,2054,1.398,0.205
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,4,Cristiano Ronaldo,Portugal,ST,13914,2476,1.391,0.248
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,5,Julian Alvarez,Argentina,ST,13850,2415,1.385,0.241
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,6,Mikel Oyarzabal,Spain,ST,12543,1906,1.254,0.191
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,7,Harry Kane,England,ST,12340,2615,1.234,0.262
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,8,Kai Havertz,Germany,ST,12013,2093,1.201,0.209
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,9,Erling Haaland,Norway,ST,11888,2330,1.189,0.233
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,10,Marcus Thuram,France,ST,11881,2473,1.188,0.247
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,11,Borja Iglesias,Spain,ST,11597,1737,1.16,0.174
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,12,Goncalo Ramos,Portugal,ST,11432,2161,1.143,0.216
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,13,Deniz Undav,Germany,ST,11335,1832,1.133,0.183
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,14,Alexander Isak,Sweden,ST,10828,2305,1.083,0.231
+primitive_eafc_poisson,Primitive EAFC Poisson,True,goals,15,Jean-Philippe Mateta,France,ST,10693,2257,1.069,0.226
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,1,Jude Bellingham,England,CAM,6776,8275,0.678,0.828
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,2,Florian Wirtz,Germany,CAM,7831,7921,0.783,0.792
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,3,Jamal Musiala,Germany,CAM,7650,7570,0.765,0.757
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,4,Matheus Cunha,Brazil,CAM,5957,7544,0.596,0.754
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,5,Raphinha,Brazil,LM,5550,7507,0.555,0.751
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,6,Mohamed Salah,Egypt,RM,3803,7336,0.38,0.734
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,7,Adrien Rabiot,France,CAM,5864,7274,0.586,0.727
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,8,Francisco Trincao,Portugal,CAM,6642,6904,0.664,0.69
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,9,Rayan Cherki,France,CAM,5424,6886,0.542,0.689
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,10,Michael Olise,France,RM,5015,6814,0.501,0.681
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,11,Scott McTOMINAY,Scotland,CAM,5245,6769,0.524,0.677
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,12,Eberechi Eze,England,CAM,5267,6749,0.527,0.675
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,13,Ousmane Dembele,France,RW,10028,6707,1.003,0.671
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,14,Giovani Lo Celso,Argentina,CAM,6236,6668,0.624,0.667
+primitive_eafc_poisson,Primitive EAFC Poisson,True,assists,15,Morgan Rogers,England,CAM,5096,6668,0.51,0.667
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,1,Kylian Mbappe,France,ST,29459,5222,2.9459,0.5222
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,2,Lautaro Martinez,Argentina,ST,27394,6092,2.7394,0.6092
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,3,Cristiano Ronaldo,Portugal,ST,27192,4711,2.7192,0.4711
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,4,Harry Kane,England,ST,26287,5415,2.6287,0.5415
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,5,Romelu Lukaku,Belgium,ST,25402,3335,2.5402,0.3335
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,6,Julian Alvarez,Argentina,ST,24486,6082,2.4486,0.6082
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,7,Memphis Depay,Netherlands,ST,24123,4962,2.4123,0.4962
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,8,Ousmane Dembele,France,RW,23753,14537,2.3753,1.4537
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,9,Kai Havertz,Germany,ST,23593,4804,2.3593,0.4804
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,10,Vinicius Junior,Brazil,LW,23317,12594,2.3317,1.2594
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,11,Lionel Messi,Argentina,RW,22256,13792,2.2256,1.3792
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,12,Raphinha,Brazil,LM,20875,16358,2.0875,1.6358
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,13,Ferran Torres,Spain,LW,19565,9431,1.9565,0.9431
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,14,Mikel Oyarzabal,Spain,ST,19542,3779,1.9542,0.3779
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,goals,15,Florian Wirtz,Germany,CAM,18428,18142,1.8428,1.8142
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,1,Florian Wirtz,Germany,CAM,18428,18142,1.8428,1.8142
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,2,Jamal Musiala,Germany,CAM,17442,16958,1.7442,1.6958
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,3,Lamine Yamal,Spain,RM,16023,16455,1.6023,1.6455
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,4,Raphinha,Brazil,LM,20875,16358,2.0875,1.6358
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,5,Jude Bellingham,England,CAM,12108,16031,1.2108,1.6031
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,6,Joshua Kimmich,Germany,CM,6939,15206,0.6939,1.5206
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,7,Michael Olise,France,RM,11878,14818,1.1878,1.4818
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,8,Ousmane Dembele,France,RW,23753,14537,2.3753,1.4537
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,9,Lionel Messi,Argentina,RW,22256,13792,2.2256,1.3792
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,10,Charles De Ketelaere,Belgium,CAM,12389,13655,1.2389,1.3655
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,11,Bruno Fernandes,Portugal,CM,7246,13276,0.7246,1.3276
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,12,Eberechi Eze,England,CAM,9683,12923,0.9683,1.2923
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,13,Desire Doue,France,LW,16698,12878,1.6698,1.2878
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,14,Tijjani Reijnders,Netherlands,CAM,11772,12878,1.1772,1.2878
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,True,assists,15,Matheus Cunha,Brazil,CAM,13910,12686,1.391,1.2686
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,1,Kylian Mbappe,France,ST,29035,5172,2.9035,0.5172
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,2,Cristiano Ronaldo,Portugal,ST,27205,4665,2.7205,0.4665
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,3,Harry Kane,England,ST,26795,5480,2.6795,0.548
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,4,Lautaro Martinez,Argentina,ST,25929,5872,2.5929,0.5872
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,5,Romelu Lukaku,Belgium,ST,24906,3291,2.4906,0.3291
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,6,Kai Havertz,Germany,ST,23545,4824,2.3545,0.4824
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,7,Vinicius Junior,Brazil,LW,23539,12977,2.3539,1.2977
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,8,Memphis Depay,Netherlands,ST,23319,4906,2.3319,0.4906
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,9,Ousmane Dembele,France,RW,23220,14172,2.322,1.4172
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,10,Julian Alvarez,Argentina,ST,23095,5826,2.3095,0.5826
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,11,Lionel Messi,Argentina,RW,21226,13036,2.1226,1.3036
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,12,Raphinha,Brazil,LM,20884,16517,2.0884,1.6517
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,13,Ferran Torres,Spain,LW,19383,9258,1.9383,0.9258
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,14,Mikel Oyarzabal,Spain,ST,18981,3829,1.8981,0.3829
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,goals,15,Florian Wirtz,Germany,CAM,18443,18160,1.8443,1.816
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,1,Florian Wirtz,Germany,CAM,18443,18160,1.8443,1.816
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,2,Jamal Musiala,Germany,CAM,17622,16935,1.7622,1.6935
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,3,Raphinha,Brazil,LM,20884,16517,2.0884,1.6517
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,4,Lamine Yamal,Spain,RM,16006,16250,1.6006,1.625
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,5,Jude Bellingham,England,CAM,11986,16175,1.1986,1.6175
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,6,Joshua Kimmich,Germany,CM,6957,15167,0.6957,1.5167
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,7,Michael Olise,France,RM,11697,14271,1.1697,1.4271
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,8,Ousmane Dembele,France,RW,23220,14172,2.322,1.4172
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,9,Charles De Ketelaere,Belgium,CAM,12242,13353,1.2242,1.3353
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,10,Bruno Fernandes,Portugal,CM,7100,13190,0.71,1.319
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,11,Lionel Messi,Argentina,RW,21226,13036,2.1226,1.3036
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,12,Eberechi Eze,England,CAM,9661,13007,0.9661,1.3007
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,13,Vinicius Junior,Brazil,LW,23539,12977,2.3539,1.2977
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,14,Matheus Cunha,Brazil,CAM,14278,12945,1.4278,1.2945
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,True,assists,15,Bukayo Saka,England,RW,16792,12609,1.6792,1.2609
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,1,Kylian Mbappe,France,ST,34672,6041,3.4672,0.6041
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,2,Cristiano Ronaldo,Portugal,ST,32430,5315,3.243,0.5315
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,3,Harry Kane,England,ST,29873,6025,2.9873,0.6025
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,4,Lautaro Martinez,Argentina,ST,29181,6493,2.9181,0.6493
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,5,Romelu Lukaku,Belgium,ST,27795,3800,2.7795,0.38
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,6,Ousmane Dembele,France,RW,27694,17108,2.7694,1.7108
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,7,Memphis Depay,Netherlands,ST,27166,5634,2.7166,0.5634
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,8,Julian Alvarez,Argentina,ST,25707,6585,2.5707,0.6585
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,9,Lionel Messi,Argentina,RW,23588,14534,2.3588,1.4534
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,10,Vinicius Junior,Brazil,LW,22419,12105,2.2419,1.2105
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,11,Ferran Torres,Spain,LW,21767,10306,2.1767,1.0306
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,12,Kai Havertz,Germany,ST,21390,4566,2.139,0.4566
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,13,Mikel Oyarzabal,Spain,ST,21110,4156,2.111,0.4156
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,14,Ollie Watkins,England,ST,19777,4927,1.9777,0.4927
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,goals,15,Raphinha,Brazil,LM,19559,15786,1.9559,1.5786
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,1,Jude Bellingham,England,CAM,13355,18039,1.3355,1.8039
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,2,Lamine Yamal,Spain,RM,17915,17955,1.7915,1.7955
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,3,Florian Wirtz,Germany,CAM,17567,17319,1.7567,1.7319
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,4,Michael Olise,France,RM,14080,17140,1.408,1.714
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,5,Ousmane Dembele,France,RW,27694,17108,2.7694,1.7108
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,6,Jamal Musiala,Germany,CAM,16907,15844,1.6907,1.5844
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,7,Raphinha,Brazil,LM,19559,15786,1.9559,1.5786
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,8,Bruno Fernandes,Portugal,CM,8760,15706,0.876,1.5706
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,9,Charles De Ketelaere,Belgium,CAM,13651,14828,1.3651,1.4828
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,10,Desire Doue,France,LW,19153,14799,1.9153,1.4799
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,11,Lionel Messi,Argentina,RW,23588,14534,2.3588,1.4534
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,12,Eberechi Eze,England,CAM,10738,14307,1.0738,1.4307
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,13,Joshua Kimmich,Germany,CM,6639,14306,0.6639,1.4306
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,14,Tijjani Reijnders,Netherlands,CAM,13161,14202,1.3161,1.4202
+v2_random_forest_squad_proxy_legacy,V2 sklearn Random Forest + squad-proxy Elo legacy,False,assists,15,Bukayo Saka,England,RW,18838,14035,1.8838,1.4035

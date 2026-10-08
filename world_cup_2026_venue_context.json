@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "created_at": "2026-06-10",
+    "scope": "Group-level venue, climate, altitude, and travel-load context for the FIFA World Cup 2026 simulator.",
+    "source_notes": [
+      "Official match schedule and group venue regions are taken from FIFA/Wikipedia-derived 2026 World Cup group pages where available.",
+      "Heat, humidity, and travel load are modelling priors, not weather forecasts."
+    ],
+    "units": {
+      "altitude_m": "metres above sea level",
+      "heat_index": "0 cool/low heat to 1 high heat",
+      "humidity": "0 dry to 1 humid",
+      "travel_load": "0 local/easy to 1 severe travel/time-zone burden"
+    }
+  },
+  "groups": {
+    "A": {"region": "mexico_central", "primary_host_country": "Mexico", "altitude_m": 2240, "heat_index": 0.58, "humidity": 0.44},
+    "B": {"region": "canada_east", "primary_host_country": "Canada", "altitude_m": 90, "heat_index": 0.30, "humidity": 0.52},
+    "C": {"region": "us_east_south", "primary_host_country": "United States", "altitude_m": 20, "heat_index": 0.82, "humidity": 0.78},
+    "D": {"region": "us_west", "primary_host_country": "United States", "altitude_m": 70, "heat_index": 0.55, "humidity": 0.45},
+    "E": {"region": "us_south", "primary_host_country": "United States", "altitude_m": 140, "heat_index": 0.86, "humidity": 0.72},
+    "F": {"region": "us_west", "primary_host_country": "United States", "altitude_m": 110, "heat_index": 0.52, "humidity": 0.42},
+    "G": {"region": "us_west_canada", "primary_host_country": "United States/Canada", "altitude_m": 65, "heat_index": 0.48, "humidity": 0.48},
+    "H": {"region": "us_south", "primary_host_country": "United States", "altitude_m": 40, "heat_index": 0.88, "humidity": 0.76},
+    "I": {"region": "us_east_canada", "primary_host_country": "United States/Canada", "altitude_m": 70, "heat_index": 0.42, "humidity": 0.60},
+    "J": {"region": "us_east", "primary_host_country": "United States", "altitude_m": 60, "heat_index": 0.55, "humidity": 0.62},
+    "K": {"region": "mexico_us_south", "primary_host_country": "Mexico/United States", "altitude_m": 760, "heat_index": 0.78, "humidity": 0.66},
+    "L": {"region": "us_east_midwest", "primary_host_country": "United States", "altitude_m": 185, "heat_index": 0.62, "humidity": 0.58}
+  },
+  "knockout_stages": {
+    "round_of_32": {"region": "multi_host", "altitude_m": 280, "heat_index": 0.68, "humidity": 0.62},
+    "round_of_16": {"region": "multi_host", "altitude_m": 260, "heat_index": 0.66, "humidity": 0.60},
+    "quarter_finals": {"region": "multi_host", "altitude_m": 220, "heat_index": 0.64, "humidity": 0.58},
+    "semi_finals": {"region": "us_east", "altitude_m": 20, "heat_index": 0.60, "humidity": 0.66},
+    "third_place_match": {"region": "us_east", "altitude_m": 20, "heat_index": 0.62, "humidity": 0.68},
+    "final": {"region": "us_east", "altitude_m": 20, "heat_index": 0.58, "humidity": 0.64}
+  },
+  "confederation_travel_load": {
+    "AFC": {"mexico_central": 0.82, "canada_east": 0.82, "us_east": 0.86, "us_east_canada": 0.84, "us_east_midwest": 0.80, "us_south": 0.78, "us_west": 0.58, "us_west_canada": 0.62, "mexico_us_south": 0.78, "multi_host": 0.72},
+    "CAF": {"mexico_central": 0.76, "canada_east": 0.68, "us_east": 0.62, "us_east_canada": 0.64, "us_east_midwest": 0.66, "us_south": 0.66, "us_west": 0.82, "us_west_canada": 0.78, "mexico_us_south": 0.72, "multi_host": 0.70},
+    "CONCACAF": {"mexico_central": 0.26, "canada_east": 0.30, "us_east": 0.34, "us_east_canada": 0.32, "us_east_midwest": 0.34, "us_south": 0.34, "us_west": 0.36, "us_west_canada": 0.34, "mexico_us_south": 0.30, "multi_host": 0.34},
+    "CONMEBOL": {"mexico_central": 0.54, "canada_east": 0.66, "us_east": 0.52, "us_east_canada": 0.58, "us_east_midwest": 0.56, "us_south": 0.50, "us_west": 0.68, "us_west_canada": 0.70, "mexico_us_south": 0.56, "multi_host": 0.58},
+    "OFC": {"mexico_central": 0.86, "canada_east": 0.84, "us_east": 0.88, "us_east_canada": 0.86, "us_east_midwest": 0.82, "us_south": 0.80, "us_west": 0.56, "us_west_canada": 0.58, "mexico_us_south": 0.78, "multi_host": 0.74},
+    "UEFA": {"mexico_central": 0.72, "canada_east": 0.48, "us_east": 0.44, "us_east_canada": 0.46, "us_east_midwest": 0.52, "us_south": 0.58, "us_west": 0.68, "us_west_canada": 0.64, "mexico_us_south": 0.66, "multi_host": 0.58}
+  }
+}

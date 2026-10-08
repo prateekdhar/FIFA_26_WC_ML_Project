@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "created_at": "2026-06-08T16:37:30.683972+00:00",
+    "source_input": "player_performance_data_statbunker.json",
+    "candidate_player_count": 33,
+    "with_candidates": 0,
+    "without_candidates": 33,
+    "instructions": [
+      "To approve a match, copy player_key and transfermarkt_player_id into player_identity_overrides.json.",
+      "Prefer candidates with matching country/citizenship and club; use manual web verification for duplicate/common names."
+    ]
+  },
+  "players": [
+    {
+      "player_key": "Algeria::Raik Belghali",
+      "country": "Algeria",
+      "name": "Raik Belghali",
+      "club": "Hellas Verona FC (ITA)",
+      "position": "RB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Pico Lopes",
+      "country": "Cape Verde",
+      "name": "Pico Lopes",
+      "club": "Shamrock Rovers FC (IRL)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "DR Congo::Lionel Mp Asi",
+      "country": "DR Congo",
+      "name": "Lionel Mp Asi",
+      "club": "Le Havre AC (FRA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Mohanad Lashin",
+      "country": "Egypt",
+      "name": "Mohanad Lashin",
+      "club": "Pyramids FC (EGY)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Mostafa Zico",
+      "country": "Egypt",
+      "name": "Mostafa Zico",
+      "club": "Pyramids FC (EGY)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Nabil Donga",
+      "country": "Egypt",
+      "name": "Nabil Donga",
+      "club": "Al Najmah SC (KSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Haiti::Markhus Lacroix",
+      "country": "Haiti",
+      "name": "Markhus Lacroix",
+      "club": "Colorado Springs Switchbacks FC (USA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Amirmohammad Razaghinia",
+      "country": "Iran",
+      "name": "Amirmohammad Razaghinia",
+      "club": "Esteghlal Tehran FC (IRN)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Arya Yousefi",
+      "country": "Iran",
+      "name": "Arya Yousefi",
+      "club": "Sepahan SC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Hossein Kanani",
+      "country": "Iran",
+      "name": "Hossein Kanani",
+      "club": "Persepolis FC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Munaf Younus",
+      "country": "Iraq",
+      "name": "Munaf Younus",
+      "club": "Al Shorta SC (IRQ)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Rebin Ghareeb",
+      "country": "Iraq",
+      "name": "Rebin Ghareeb",
+      "club": "Port FC (THA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Zaid Ismael",
+      "country": "Iraq",
+      "name": "Zaid Ismael",
+      "club": "Al Talaba SC (IRQ)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Abdallah Alfakhori",
+      "country": "Jordan",
+      "name": "Abdallah Alfakhori",
+      "club": "Al Wahdat SC (JOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Mohammad Abuzraiq",
+      "country": "Jordan",
+      "name": "Mohammad Abuzraiq",
+      "club": "Raja Casablanca (MAR)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Nour Baniateyah",
+      "country": "Jordan",
+      "name": "Nour Baniateyah",
+      "club": "Al Faisaly SC (JOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Saed Alrosan",
+      "country": "Jordan",
+      "name": "Saed Alrosan",
+      "club": "Al Hussein SC (JOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Morocco::Ayoub Amaimouni",
+      "country": "Morocco",
+      "name": "Ayoub Amaimouni",
+      "club": "Eintracht Frankfurt (GER)",
+      "position": "RW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Morocco::Youssef Belamm Ari",
+      "country": "Morocco",
+      "name": "Youssef Belamm Ari",
+      "club": "Al Ahly FC (EGY)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Alhashmi Alhussein",
+      "country": "Qatar",
+      "name": "Alhashmi Alhussein",
+      "club": "Al Arabi SC (QAT)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Ayoub Aloui",
+      "country": "Qatar",
+      "name": "Ayoub Aloui",
+      "club": "Al Gharafa SC (QAT)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Ahmed Alkassar",
+      "country": "Saudi Arabia",
+      "name": "Ahmed Alkassar",
+      "club": "Al Qadsiah FC (KSA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Ala Alhajji",
+      "country": "Saudi Arabia",
+      "name": "Ala Alhajji",
+      "club": "Neom SC (KSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Hassan Kadish",
+      "country": "Saudi Arabia",
+      "name": "Hassan Kadish",
+      "club": "Al Ittihad (KSA)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Jehad Thikri",
+      "country": "Saudi Arabia",
+      "name": "Jehad Thikri",
+      "club": "Al Qadsiah FC (KSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Mohammed Alowais",
+      "country": "Saudi Arabia",
+      "name": "Mohammed Alowais",
+      "club": "Al Ula Saudi FC (KSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Nawaf Bu Washl",
+      "country": "Saudi Arabia",
+      "name": "Nawaf Bu Washl",
+      "club": "Al Nassr FC (KSA)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Bumkeun Song",
+      "country": "South Korea",
+      "name": "Bumkeun Song",
+      "club": "Jeonbuk Hyundai Motors FC (KOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Jinseob Park",
+      "country": "South Korea",
+      "name": "Jinseob Park",
+      "club": "Zhejiang FC (CHN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Raed Chikhaoui",
+      "country": "Tunisia",
+      "name": "Raed Chikhaoui",
+      "club": "US Monastir (TUN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Abduvohid Nematov",
+      "country": "Uzbekistan",
+      "name": "Abduvohid Nematov",
+      "club": "Nasaf Qarshi FC (UZB)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Avazbek Ulmasaliyev",
+      "country": "Uzbekistan",
+      "name": "Avazbek Ulmasaliyev",
+      "club": "OKMK FK (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Sherzod Nasrullaev",
+      "country": "Uzbekistan",
+      "name": "Sherzod Nasrullaev",
+      "club": "Pakhtakor Tashkent FK (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    }
+  ]
+}

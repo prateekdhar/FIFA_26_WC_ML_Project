@@ -5,6 +5,8 @@ from pathlib import Path
 
 from pypdf import PdfReader
 
+from name_cleaning import clean_player_name
+
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_PDF = ROOT / "fifa_squadlists_english.pdf"
@@ -48,14 +50,14 @@ def display_name_from_player_name(player_name):
     player_name = fix_pdf_spacing(player_name)
     parts = player_name.split()
     if len(parts) < 2:
-        return player_name.title()
+        return clean_player_name(player_name.title())
     surname = [parts[0]]
     index = 1
     while index < len(parts) and is_surname_token(parts[index]):
         surname.append(parts[index])
         index += 1
     given = parts[index:] or [surname[-1]]
-    return " ".join(given + [part.title() if part.upper() == part else part for part in surname])
+    return clean_player_name(" ".join(given + [part.title() if part.upper() == part else part for part in surname]))
 
 
 def split_player_line(line):

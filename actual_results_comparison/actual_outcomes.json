@@ -1,0 +1,24 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "verified_on": "2026-10-08",
+  "sources": {
+    "knockouts": "https://www.fifa.com/en/articles/knockout-stage-match-schedule-bracket?searchOverlay=1",
+    "standings": "https://www.fifa.com/en/articles/final-tournament-standings",
+    "awards": "https://www.fifa.com/en/articles/lessons-from-frances-2026-world-cup-campaign",
+    "final": "https://inside.fifa.com/organisation/news/new-york-jersey-stadium-spain-world-champions-mbappe-haaland"
+  },
+  "final_score": "Spain 1-0 Argentina after extra time",
+  "bronze_score": "France 4-6 England",
+  "golden_boot": {"player": "Kylian Mbappé", "team": "France", "goals": 10},
+  "stages": {
+    "round_of_32": ["South Africa", "Canada", "Germany", "Paraguay", "Netherlands", "Morocco", "Brazil", "Japan", "France", "Sweden", "Ivory Coast", "Norway", "Mexico", "Ecuador", "England", "DR Congo", "United States", "Bosnia & Herzegovina", "Belgium", "Senegal", "Portugal", "Croatia", "Spain", "Austria", "Switzerland", "Algeria", "Argentina", "Cape Verde", "Colombia", "Ghana", "Australia", "Egypt"],
+    "round_of_16": ["Canada", "Paraguay", "Morocco", "Brazil", "France", "Norway", "Mexico", "England", "United States", "Belgium", "Portugal", "Spain", "Switzerland", "Argentina", "Colombia", "Egypt"],
+    "quarter_finals": ["France", "Morocco", "Norway", "England", "Spain", "Belgium", "Argentina", "Switzerland"],
+    "semi_finals": ["France", "Spain", "England", "Argentina"],
+    "final": ["Spain", "Argentina"],
+    "champion": ["Spain"],
+    "third_place": ["England"],
+    "fourth_place": ["France"]
+  },
+  "name_mapping": {"USA": "United States", "Congo DR": "DR Congo", "Cote d'Ivoire": "Ivory Coast", "Cabo Verde": "Cape Verde", "Bosnia and Herzegovina": "Bosnia & Herzegovina"}
+}

@@ -1,0 +1,102 @@
+\clearpage
+\addcontentsline{toc}{section}{References and Data Sources}
+\renewcommand{\refname}{References and Data Sources}
+\begin{thebibliography}{99}
+\small\raggedright
+\setlength{\itemsep}{3pt}
+\setlength{\parskip}{1pt}
+\setlength{\parsep}{0pt}
+\bibitem{data-fifa-squads} FIFA. \emph{FIFA World Cup 2026 squad lists, English}.
+Local metadata identify Version 1, 3 June 2026; live URL may change.
+\par\url{https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf}
+\bibitem{data-eafc} Local EAFC 26 ratings export. \path{eafc26_players.csv}.
+18,405 records; update-date field 19 September 2025. Original download URL,
+distributor and licence not preserved. SoFIFA-hosted image links are recorded
+in the file but do not establish its full provenance.
+\bibitem{data-statbunker} StatBunker. Public football player competition tables.
+Provider and a concrete endpoint recorded in the collection manifest:
+\par\url{https://www.statbunker.com/}
+\par\url{https://www.statbunker.com/competitions/PlayerStandings?comp_id=776}
+\bibitem{data-transfermarkt} salimt. \emph{football-datasets}. Transfermarkt-derived
+CSV supplement; the local enrichment manifest identifies profile, performance,
+national-team and related CSV files.
+\par\url{https://github.com/salimt/football-datasets}
+\bibitem{data-wikipedia} English Wikipedia / MediaWiki. Player-biography infoboxes.
+Individual article URLs are stored in player records; the collector uses:
+\par\url{https://en.wikipedia.org/w/api.php}
+\bibitem{data-sofascore} SofaScore. Public player/season aggregate reconstruction
+recorded for two players in the local enrichment manifest:
+\par\url{https://www.sofascore.com/player/razzaghinia-amirmohammad/1500737}
+\par\url{https://www.sofascore.com/player/raed-chikhaoui/2018330}
+\bibitem{data-fifa-ranking} FIFA. Men's World Ranking. Preserved fallback metadata
+record 19 November 2025 as the ranking date; ranks were transformed locally.
+\par\url{https://inside.fifa.com/fifa-world-ranking/men}
+\bibitem{data-elo} World Football Elo Ratings. Later local import: 177 teams,
+as of 11 June 2026. Not the prior declared by the evaluated v2 runs.
+\par\url{https://www.eloratings.net/}
+\bibitem{data-historical} martj42. \emph{international\_results}. Planned historical
+match input; download failed in the stored June manifest.
+\par\url{https://github.com/martj42/international_results}
+\bibitem{data-draw} FIFA. Final draw results. Source recorded by tournament-structure metadata.
+\par\url{https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-draw-results}
+\bibitem{data-guardian} The Guardian. \emph{World Cup 2026: complete player guide},
+4 June 2026. Reference recorded in tournament-structure metadata.
+\par\url{https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide}
+\bibitem{outcome-knockouts} FIFA. Knockout-stage match schedule and results.
+\par\url{https://www.fifa.com/en/articles/knockout-stage-match-schedule-bracket?searchOverlay=1}
+\bibitem{outcome-standings} FIFA. Final tournament standings.
+\par\url{https://www.fifa.com/en/articles/final-tournament-standings}
+\bibitem{outcome-awards} FIFA. Lessons from France's 2026 World Cup campaign,
+including Mbapp\'{e}'s ten-goal Golden Boot result.
+\par\url{https://www.fifa.com/en/articles/lessons-from-frances-2026-world-cup-campaign}
+\bibitem{outcome-final} FIFA. Spain crowned champions in New York New Jersey.
+\par\url{https://inside.fifa.com/organisation/news/new-york-jersey-stadium-spain-world-champions-mbappe-haaland}
+\end{thebibliography}
+\clearpage
+\appendix
+\section{Repository and Reproduction Guide}
+\subsection{Pipeline Map}
+{\small
+\begin{description}
+\item[Squad preparation] \path{rebuild_squads_from_fifa_pdf.py} and
+\path{enrich_squads_with_eafc.py} prepare the roster and attach ratings.
+\item[Performance enrichment]\hfill\break \path{collect_player_performance_data_statbunker.py},
+\path{integrate_transfermarkt_data.py} and
+\path{collect_wikipedia_player_stats.py} collect and merge player evidence.
+\item[Tournament simulation] \path{simulate_world_cup.py} implements the baseline;
+\path{simulate_world_cup_v2.py} implements the event engine and optional RF layer.
+\item[Research diagnostics] \path{analyze_feature_importance.py} and
+\path{run_research_upgrade_pipeline.py} generate sensitivity and calibration studies.
+\item[Retrospective evaluation] \path{compare_simulation_with_actuals.py} checks the
+saved probabilities, scores outcomes and regenerates report inputs.
+\item[Typesetting] \path{comparison_latex.py} combines checked tables and the
+\path{report_templates/} text. \path{comparison_visuals.py} creates vector figures.
+\end{description}
+}
+\subsection{Reproduction Procedure}
+\begin{enumerate}
+\item Retain the four frozen result JSONs, the model-comparison CSVs, actual
+outcome file and dataset register. Check forecast hashes before evaluating.
+\item Run \texttt{python compare\_simulation\_with\_actuals.py} at repository root.
+This regenerates metrics, chart assets and the complete LaTeX source.
+\item Compile \path{comparison_report.tex} from its report directory.\par
+Use job name \path{comprehensive_report} and keep the adjacent
+\texttt{figures/} directory. Additional passes may be needed
+until contents pages and citations settle.
+\item Review the PDF for table and figure placement. Package the compiled PDF,
+LaTeX source and vector figures together for sharing.
+\end{enumerate}
+The simulation source inputs are partly excluded from Git. Reproducing this
+evaluation from frozen outputs is different from rerunning the full original
+data-collection and simulation pipeline. The latter requires the original source
+files, compatible dependencies and archived input versions. Pin software
+versions and record the code commit when publishing future forecasts.
+\subsection{Terminology}
+\begin{description}
+\item[Prior] A pre-existing strength estimate or assumption used by a model.
+\item[Calibration] Agreement between forecast probabilities and observed frequencies across repeated cases.
+\item[Brier score] Squared probability error; lower values indicate better forecasts.
+\item[Monte Carlo error] Sampling noise caused by a finite number of simulated tournaments.
+\item[Ablation] An experiment removing or neutralizing a feature or mechanism to study sensitivity.
+\item[Fallback rating] A default value substituted when no sufficiently matched rating is available.
+\end{description}

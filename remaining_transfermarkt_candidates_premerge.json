@@ -1,0 +1,3851 @@
+{
+  "metadata": {
+    "created_at": "2026-06-08T14:06:44.536786+00:00",
+    "source_input": "player_performance_data_statbunker.json",
+    "candidate_player_count": 267,
+    "with_candidates": 25,
+    "without_candidates": 242,
+    "instructions": [
+      "To approve a match, copy player_key and transfermarkt_player_id into player_identity_overrides.json.",
+      "Prefer candidates with matching country/citizenship and club; use manual web verification for duplicate/common names."
+    ]
+  },
+  "players": [
+    {
+      "player_key": "Algeria::Mohamed Amine Tougai",
+      "country": "Algeria",
+      "name": "Mohamed Amine Tougai",
+      "club": "Espérance De Tunisie (TUN)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Austria::Alessandro Schoepf",
+      "country": "Austria",
+      "name": "Alessandro Schoepf",
+      "club": "Wolfsberger AC (AUT)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.64,
+        "name_score": 0.5,
+        "club_score": 1.0,
+        "country_match": true,
+        "transfermarkt_player_id": "118397",
+        "player_name": "Alessandro Schöpf",
+        "name_in_home_country": "Alessandro André Schöpf",
+        "citizenship": "Austria",
+        "country_of_birth": "Austria",
+        "date_of_birth": "1994-02-07",
+        "position": "Midfield - Central Midfield",
+        "main_position": "Midfield",
+        "current_club_name": "Wolfsberger AC",
+        "latest_market_value": {
+          "date": "2025-06-05",
+          "value_eur": 700000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.64,
+          "name_score": 0.5,
+          "club_score": 1.0,
+          "country_match": true,
+          "transfermarkt_player_id": "118397",
+          "player_name": "Alessandro Schöpf",
+          "name_in_home_country": "Alessandro André Schöpf",
+          "citizenship": "Austria",
+          "country_of_birth": "Austria",
+          "date_of_birth": "1994-02-07",
+          "position": "Midfield - Central Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "Wolfsberger AC",
+          "latest_market_value": {
+            "date": "2025-06-05",
+            "value_eur": 700000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Brazil::Danilo Santos",
+      "country": "Brazil",
+      "name": "Danilo Santos",
+      "club": "Botafogo (BRA)",
+      "position": "RB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.7536,
+        "name_score": 0.88,
+        "club_score": 0.2,
+        "country_match": true,
+        "transfermarkt_player_id": "808509",
+        "player_name": "Danilo",
+        "name_in_home_country": "Danilo dos Santos de Oliveira",
+        "citizenship": "Brazil",
+        "country_of_birth": "Brazil",
+        "date_of_birth": "2001-04-29",
+        "position": "Midfield - Defensive Midfield",
+        "main_position": "Midfield",
+        "current_club_name": "Botafogo de Futebol e Regatas",
+        "latest_market_value": {
+          "date": "2025-05-29",
+          "value_eur": 28000000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.7536,
+          "name_score": 0.88,
+          "club_score": 0.2,
+          "country_match": true,
+          "transfermarkt_player_id": "808509",
+          "player_name": "Danilo",
+          "name_in_home_country": "Danilo dos Santos de Oliveira",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "2001-04-29",
+          "position": "Midfield - Defensive Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "Botafogo de Futebol e Regatas",
+          "latest_market_value": {
+            "date": "2025-05-29",
+            "value_eur": 28000000
+          }
+        },
+        {
+          "score": 0.7136,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "1093703",
+          "player_name": "Danilo",
+          "name_in_home_country": "Danilo Ferreira dos Santos",
+          "citizenship": "Brazil",
+          "country_of_birth": "",
+          "date_of_birth": "2004-07-10",
+          "position": "Defender - Right-Back",
+          "main_position": "Defender",
+          "current_club_name": "SCU Torreense Sub-23",
+          "latest_market_value": null
+        },
+        {
+          "score": 0.7136,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "178952",
+          "player_name": "Danilo Baia",
+          "name_in_home_country": "Danilo Ferreira dos Santos",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1986-03-15",
+          "position": "Defender - Right-Back",
+          "main_position": "Defender",
+          "current_club_name": "União Suzano AC",
+          "latest_market_value": {
+            "date": "2023-10-31",
+            "value_eur": 0
+          }
+        },
+        {
+          "score": 0.7136,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "292409",
+          "player_name": "Buba",
+          "name_in_home_country": "Wesley Danilo Morais dos Santos",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1993-04-23",
+          "position": "Attack - Second Striker",
+          "main_position": "Attack",
+          "current_club_name": "AA Aparecidense",
+          "latest_market_value": {
+            "date": "2018-10-01",
+            "value_eur": 0
+          }
+        },
+        {
+          "score": 0.7136,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "628523",
+          "player_name": "Danilo",
+          "name_in_home_country": "Danilo Santos Silva",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1991-08-12",
+          "position": "Defender - Left-Back",
+          "main_position": "Defender",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Brazil::Neymar Jr",
+      "country": "Brazil",
+      "name": "Neymar Jr",
+      "club": "Santos FC (BRA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.9136,
+        "name_score": 0.88,
+        "club_score": 1.0,
+        "country_match": true,
+        "transfermarkt_player_id": "68290",
+        "player_name": "Neymar",
+        "name_in_home_country": "Neymar da Silva Santos Júnior",
+        "citizenship": "Brazil",
+        "country_of_birth": "Brazil",
+        "date_of_birth": "1992-02-05",
+        "position": "Midfield - Attacking Midfield",
+        "main_position": "Midfield",
+        "current_club_name": "Santos FC",
+        "latest_market_value": {
+          "date": "2025-09-04",
+          "value_eur": 11000000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.9136,
+          "name_score": 0.88,
+          "club_score": 1.0,
+          "country_match": true,
+          "transfermarkt_player_id": "68290",
+          "player_name": "Neymar",
+          "name_in_home_country": "Neymar da Silva Santos Júnior",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1992-02-05",
+          "position": "Midfield - Attacking Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "Santos FC",
+          "latest_market_value": {
+            "date": "2025-09-04",
+            "value_eur": 11000000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Brazil::Rayan",
+      "country": "Brazil",
+      "name": "Rayan",
+      "club": "AFC Bournemouth (ENG)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.92,
+        "name_score": 1.0,
+        "club_score": 0.0,
+        "country_match": true,
+        "transfermarkt_player_id": "1012564",
+        "player_name": "Rayan",
+        "name_in_home_country": "Rayan Vitor Simplício Rocha",
+        "citizenship": "Brazil",
+        "country_of_birth": "Brazil",
+        "date_of_birth": "2006-08-03",
+        "position": "Attack - Right Winger",
+        "main_position": "Attack",
+        "current_club_name": "Clube de Regatas Vasco da Gama",
+        "latest_market_value": {
+          "date": "2025-09-04",
+          "value_eur": 18000000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.92,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "1012564",
+          "player_name": "Rayan",
+          "name_in_home_country": "Rayan Vitor Simplício Rocha",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "2006-08-03",
+          "position": "Attack - Right Winger",
+          "main_position": "Attack",
+          "current_club_name": "Clube de Regatas Vasco da Gama",
+          "latest_market_value": {
+            "date": "2025-09-04",
+            "value_eur": 18000000
+          }
+        },
+        {
+          "score": 0.92,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "1075064",
+          "player_name": "Rayan",
+          "name_in_home_country": "Rayan Gledstony Alves de Oliveira",
+          "citizenship": "Brazil",
+          "country_of_birth": "",
+          "date_of_birth": "2003-06-23",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "Nova Mutum Esporte Clube U20",
+          "latest_market_value": null
+        },
+        {
+          "score": 0.92,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "75378",
+          "player_name": "Rayan",
+          "name_in_home_country": "Rayan Poltronieri Pereira",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1989-12-21",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "Clube Náutico Capibaribe",
+          "latest_market_value": {
+            "date": "2025-01-29",
+            "value_eur": 0
+          }
+        },
+        {
+          "score": 0.92,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "872172",
+          "player_name": "Rayan",
+          "name_in_home_country": "Rayan Fernando da Silva Correa",
+          "citizenship": "Brazil",
+          "country_of_birth": "",
+          "date_of_birth": "2002-04-25",
+          "position": "Defender",
+          "main_position": "Defender",
+          "current_club_name": "Coimbra Esporte Clube Ltda (MG)",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Cape Verde::Gilson Benchimol",
+      "country": "Cape Verde",
+      "name": "Gilson Benchimol",
+      "club": "FC Akron Tolyatti (RUS)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.7803,
+        "name_score": 0.88,
+        "club_score": 0.3333,
+        "country_match": true,
+        "transfermarkt_player_id": "820252",
+        "player_name": "Benchimol",
+        "name_in_home_country": "Gilson Benchimol Tavares",
+        "citizenship": "Cape Verde  Portugal",
+        "country_of_birth": "Cape Verde",
+        "date_of_birth": "2001-12-29",
+        "position": "Attack - Centre-Forward",
+        "main_position": "Attack",
+        "current_club_name": "Akron Togliatti",
+        "latest_market_value": {
+          "date": "2025-06-03",
+          "value_eur": 700000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.7803,
+          "name_score": 0.88,
+          "club_score": 0.3333,
+          "country_match": true,
+          "transfermarkt_player_id": "820252",
+          "player_name": "Benchimol",
+          "name_in_home_country": "Gilson Benchimol Tavares",
+          "citizenship": "Cape Verde  Portugal",
+          "country_of_birth": "Cape Verde",
+          "date_of_birth": "2001-12-29",
+          "position": "Attack - Centre-Forward",
+          "main_position": "Attack",
+          "current_club_name": "Akron Togliatti",
+          "latest_market_value": {
+            "date": "2025-06-03",
+            "value_eur": 700000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Cape Verde::Joao Paulo",
+      "country": "Cape Verde",
+      "name": "Joao Paulo",
+      "club": "FC FCSB (ROU)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.82,
+        "name_score": 1.0,
+        "club_score": 0.5,
+        "country_match": false,
+        "transfermarkt_player_id": "112239",
+        "player_name": "João Paulo",
+        "name_in_home_country": "João Paulo da Silva",
+        "citizenship": "Brazil",
+        "country_of_birth": "Brazil",
+        "date_of_birth": "1985-02-22",
+        "position": "Midfield - Defensive Midfield",
+        "main_position": "Midfield",
+        "current_club_name": "Ypiranga FC",
+        "latest_market_value": {
+          "date": "2024-04-21",
+          "value_eur": 0
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.82,
+          "name_score": 1.0,
+          "club_score": 0.5,
+          "country_match": false,
+          "transfermarkt_player_id": "112239",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo da Silva",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1985-02-22",
+          "position": "Midfield - Defensive Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "Ypiranga FC",
+          "latest_market_value": {
+            "date": "2024-04-21",
+            "value_eur": 0
+          }
+        },
+        {
+          "score": 0.82,
+          "name_score": 1.0,
+          "club_score": 0.5,
+          "country_match": false,
+          "transfermarkt_player_id": "175087",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo Pereira Gomes",
+          "citizenship": "Portugal",
+          "country_of_birth": "Portugal",
+          "date_of_birth": "1989-05-08",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "Merelinense FC",
+          "latest_market_value": {
+            "date": "2023-06-30",
+            "value_eur": 0
+          }
+        },
+        {
+          "score": 0.7867,
+          "name_score": 1.0,
+          "club_score": 0.3333,
+          "country_match": false,
+          "transfermarkt_player_id": "135984",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo Mior",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1991-03-08",
+          "position": "Midfield - Central Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "Seattle Sounders FC",
+          "latest_market_value": {
+            "date": "2025-09-11",
+            "value_eur": 600000
+          }
+        },
+        {
+          "score": 0.7867,
+          "name_score": 1.0,
+          "club_score": 0.3333,
+          "country_match": false,
+          "transfermarkt_player_id": "519854",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo da Silva Alves",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1990-05-04",
+          "position": "Midfield - Attacking Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "São Bernardo FC",
+          "latest_market_value": {
+            "date": "2025-04-03",
+            "value_eur": 200000
+          }
+        },
+        {
+          "score": 0.72,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "1113448",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo Siqueira Ribeiro",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "2001-01-20",
+          "position": "Attack - Centre-Forward",
+          "main_position": "Attack",
+          "current_club_name": "CA Carlos Renaux",
+          "latest_market_value": {
+            "date": "2024-04-17",
+            "value_eur": 0
+          }
+        },
+        {
+          "score": 0.72,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "1203409",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo Sena",
+          "citizenship": "Brazil",
+          "country_of_birth": "",
+          "date_of_birth": "1990-04-23",
+          "position": "Midfield - Defensive Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "Retired",
+          "latest_market_value": null
+        },
+        {
+          "score": 0.72,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "14110",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo Andrade",
+          "citizenship": "Portugal",
+          "country_of_birth": "Portugal",
+          "date_of_birth": "1981-06-06",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "Retired",
+          "latest_market_value": {
+            "date": "2018-10-04",
+            "value_eur": 0
+          }
+        },
+        {
+          "score": 0.72,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "167471",
+          "player_name": "João Paulo",
+          "name_in_home_country": "João Paulo Gomes da Costa",
+          "citizenship": "Brazil",
+          "country_of_birth": "Brazil",
+          "date_of_birth": "1986-07-01",
+          "position": "Defender - Left-Back",
+          "main_position": "Defender",
+          "current_club_name": "Retired",
+          "latest_market_value": {
+            "date": "2023-11-12",
+            "value_eur": 0
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Egypt::Mohamed Abdelmoneim",
+      "country": "Egypt",
+      "name": "Mohamed Abdelmoneim",
+      "club": "OGC Nice (FRA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Egypt::Mohamed Alaa",
+      "country": "Egypt",
+      "name": "Mohamed Alaa",
+      "club": "El Gouna FC (EGY)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Egypt::Mohamed Elshenawy",
+      "country": "Egypt",
+      "name": "Mohamed Elshenawy",
+      "club": "Al Ahly FC (EGY)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Egypt::Mohamed Hany",
+      "country": "Egypt",
+      "name": "Mohamed Hany",
+      "club": "Al Ahly FC (EGY)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Germany::Alexander Nuebel",
+      "country": "Germany",
+      "name": "Alexander Nuebel",
+      "club": "VfB Stuttgart (GER)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.64,
+        "name_score": 0.5,
+        "club_score": 1.0,
+        "country_match": true,
+        "transfermarkt_player_id": "195778",
+        "player_name": "Alexander Nübel",
+        "name_in_home_country": "",
+        "citizenship": "Germany",
+        "country_of_birth": "Germany",
+        "date_of_birth": "1996-09-30",
+        "position": "Goalkeeper",
+        "main_position": "Goalkeeper",
+        "current_club_name": "VfB Stuttgart",
+        "latest_market_value": {
+          "date": "2025-06-04",
+          "value_eur": 12000000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.64,
+          "name_score": 0.5,
+          "club_score": 1.0,
+          "country_match": true,
+          "transfermarkt_player_id": "195778",
+          "player_name": "Alexander Nübel",
+          "name_in_home_country": "",
+          "citizenship": "Germany",
+          "country_of_birth": "Germany",
+          "date_of_birth": "1996-09-30",
+          "position": "Goalkeeper",
+          "main_position": "Goalkeeper",
+          "current_club_name": "VfB Stuttgart",
+          "latest_market_value": {
+            "date": "2025-06-04",
+            "value_eur": 12000000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Ghana::Baba Rahman",
+      "country": "Ghana",
+      "name": "Baba Rahman",
+      "club": "PAOK Saloniki (GRE)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.8136,
+        "name_score": 0.88,
+        "club_score": 0.5,
+        "country_match": true,
+        "transfermarkt_player_id": "224884",
+        "player_name": "Abdul Rahman Baba",
+        "name_in_home_country": "Baba Abdul Rahman",
+        "citizenship": "Ghana",
+        "country_of_birth": "Ghana",
+        "date_of_birth": "1994-07-02",
+        "position": "Defender - Left-Back",
+        "main_position": "Defender",
+        "current_club_name": "PAOK Thessaloniki",
+        "latest_market_value": {
+          "date": "2025-05-22",
+          "value_eur": 2000000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.8136,
+          "name_score": 0.88,
+          "club_score": 0.5,
+          "country_match": true,
+          "transfermarkt_player_id": "224884",
+          "player_name": "Abdul Rahman Baba",
+          "name_in_home_country": "Baba Abdul Rahman",
+          "citizenship": "Ghana",
+          "country_of_birth": "Ghana",
+          "date_of_birth": "1994-07-02",
+          "position": "Defender - Left-Back",
+          "main_position": "Defender",
+          "current_club_name": "PAOK Thessaloniki",
+          "latest_market_value": {
+            "date": "2025-05-22",
+            "value_eur": 2000000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Mexico::Armando Gonzalez",
+      "country": "Mexico",
+      "name": "Armando Gonzalez",
+      "club": "CD Guadalajara (MEX)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.92,
+        "name_score": 1.0,
+        "club_score": 0.5,
+        "country_match": true,
+        "transfermarkt_player_id": "837619",
+        "player_name": "Armando González",
+        "name_in_home_country": "Armando González Alba",
+        "citizenship": "Mexico",
+        "country_of_birth": "Mexico",
+        "date_of_birth": "2003-04-20",
+        "position": "Attack - Centre-Forward",
+        "main_position": "Attack",
+        "current_club_name": "Deportivo Guadalajara",
+        "latest_market_value": {
+          "date": "2025-05-25",
+          "value_eur": 1500000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.92,
+          "name_score": 1.0,
+          "club_score": 0.5,
+          "country_match": true,
+          "transfermarkt_player_id": "837619",
+          "player_name": "Armando González",
+          "name_in_home_country": "Armando González Alba",
+          "citizenship": "Mexico",
+          "country_of_birth": "Mexico",
+          "date_of_birth": "2003-04-20",
+          "position": "Attack - Centre-Forward",
+          "main_position": "Attack",
+          "current_club_name": "Deportivo Guadalajara",
+          "latest_market_value": {
+            "date": "2025-05-25",
+            "value_eur": 1500000
+          }
+        },
+        {
+          "score": 0.92,
+          "name_score": 1.0,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "378348",
+          "player_name": "Armando González",
+          "name_in_home_country": "Armando González Sandoval",
+          "citizenship": "Mexico",
+          "country_of_birth": "Mexico",
+          "date_of_birth": "1997-06-13",
+          "position": "Attack - Centre-Forward",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": {
+            "date": "2025-06-11",
+            "value_eur": 350000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Panama::Jorge Gutierrez",
+      "country": "Panama",
+      "name": "Jorge Gutierrez",
+      "club": "Deportivo La Guaira (VEN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "240026",
+        "player_name": "Jorge Díaz",
+        "name_in_home_country": "Jorge Luis Díaz Gutiérrez",
+        "citizenship": "Uruguay  Spain",
+        "country_of_birth": "Uruguay",
+        "date_of_birth": "1989-06-28",
+        "position": "Attack - Right Winger",
+        "main_position": "Attack",
+        "current_club_name": "AE Kifisias",
+        "latest_market_value": {
+          "date": "2025-05-15",
+          "value_eur": 75000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "240026",
+          "player_name": "Jorge Díaz",
+          "name_in_home_country": "Jorge Luis Díaz Gutiérrez",
+          "citizenship": "Uruguay  Spain",
+          "country_of_birth": "Uruguay",
+          "date_of_birth": "1989-06-28",
+          "position": "Attack - Right Winger",
+          "main_position": "Attack",
+          "current_club_name": "AE Kifisias",
+          "latest_market_value": {
+            "date": "2025-05-15",
+            "value_eur": 75000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Qatar::Homam Ahmed",
+      "country": "Qatar",
+      "name": "Homam Ahmed",
+      "club": "Cultural Leonesa (ESP)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.7136,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": true,
+        "transfermarkt_player_id": "556713",
+        "player_name": "Homam Al-Amin",
+        "name_in_home_country": "Homam Al-Amin Mohamed Ahmed, همام الأمين",
+        "citizenship": "Qatar  Sudan",
+        "country_of_birth": "Qatar",
+        "date_of_birth": "1999-08-25",
+        "position": "Defender - Left-Back",
+        "main_position": "Defender",
+        "current_club_name": "Al-Duhail SC",
+        "latest_market_value": {
+          "date": "2025-05-27",
+          "value_eur": 600000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.7136,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "556713",
+          "player_name": "Homam Al-Amin",
+          "name_in_home_country": "Homam Al-Amin Mohamed Ahmed, همام الأمين",
+          "citizenship": "Qatar  Sudan",
+          "country_of_birth": "Qatar",
+          "date_of_birth": "1999-08-25",
+          "position": "Defender - Left-Back",
+          "main_position": "Defender",
+          "current_club_name": "Al-Duhail SC",
+          "latest_market_value": {
+            "date": "2025-05-27",
+            "value_eur": 600000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Qatar::Issa Laye",
+      "country": "Qatar",
+      "name": "Issa Laye",
+      "club": "Al Arabi SC (QAT)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "272622",
+        "player_name": "Issa Diop",
+        "name_in_home_country": "Issa Laye Lucas Jean Diop",
+        "citizenship": "France  Senegal",
+        "country_of_birth": "France",
+        "date_of_birth": "1997-01-09",
+        "position": "Defender - Centre-Back",
+        "main_position": "Defender",
+        "current_club_name": "Fulham FC",
+        "latest_market_value": {
+          "date": "2025-05-29",
+          "value_eur": 14000000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "272622",
+          "player_name": "Issa Diop",
+          "name_in_home_country": "Issa Laye Lucas Jean Diop",
+          "citizenship": "France  Senegal",
+          "country_of_birth": "France",
+          "date_of_birth": "1997-01-09",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "Fulham FC",
+          "latest_market_value": {
+            "date": "2025-05-29",
+            "value_eur": 14000000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Qatar::Mohamed Manai",
+      "country": "Qatar",
+      "name": "Mohamed Manai",
+      "club": "Al Shamal SC (QAT)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Saudi Arabia::Mohamed Kanno",
+      "country": "Saudi Arabia",
+      "name": "Mohamed Kanno",
+      "club": "Al Hilal SC (KSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Saudi Arabia::Mohammed Abu Alshamat",
+      "country": "Saudi Arabia",
+      "name": "Mohammed Abu Alshamat",
+      "club": "Al Qadsiah FC (KSA)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "164478",
+        "player_name": "Mohammed Abu",
+        "name_in_home_country": "",
+        "citizenship": "Ghana",
+        "country_of_birth": "Ghana",
+        "date_of_birth": "1991-11-14",
+        "position": "Midfield - Defensive Midfield",
+        "main_position": "Midfield",
+        "current_club_name": "Retired",
+        "latest_market_value": {
+          "date": "2024-03-28",
+          "value_eur": 0
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "164478",
+          "player_name": "Mohammed Abu",
+          "name_in_home_country": "",
+          "citizenship": "Ghana",
+          "country_of_birth": "Ghana",
+          "date_of_birth": "1991-11-14",
+          "position": "Midfield - Defensive Midfield",
+          "main_position": "Midfield",
+          "current_club_name": "Retired",
+          "latest_market_value": {
+            "date": "2024-03-28",
+            "value_eur": 0
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "South Africa::Teboho Mokoena",
+      "country": "South Africa",
+      "name": "Teboho Mokoena",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.7136,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": true,
+        "transfermarkt_player_id": "4756",
+        "player_name": "Aaron Mokoena",
+        "name_in_home_country": "Teboho Aaron Mokoena",
+        "citizenship": "South Africa",
+        "country_of_birth": "South Africa",
+        "date_of_birth": "1980-11-25",
+        "position": "Defender - Centre-Back",
+        "main_position": "Defender",
+        "current_club_name": "Retired",
+        "latest_market_value": {
+          "date": "2013-06-30",
+          "value_eur": 0
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.7136,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "4756",
+          "player_name": "Aaron Mokoena",
+          "name_in_home_country": "Teboho Aaron Mokoena",
+          "citizenship": "South Africa",
+          "country_of_birth": "South Africa",
+          "date_of_birth": "1980-11-25",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "Retired",
+          "latest_market_value": {
+            "date": "2013-06-30",
+            "value_eur": 0
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Switzerland::Eray Coemert",
+      "country": "Switzerland",
+      "name": "Eray Coemert",
+      "club": "Valencia CF (ESP)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.64,
+        "name_score": 0.5,
+        "club_score": 1.0,
+        "country_match": true,
+        "transfermarkt_player_id": "298583",
+        "player_name": "Eray Cömert",
+        "name_in_home_country": "Eray Ervin Cömert",
+        "citizenship": "Switzerland  Türkiye",
+        "country_of_birth": "Switzerland",
+        "date_of_birth": "1998-02-04",
+        "position": "Defender - Centre-Back",
+        "main_position": "Defender",
+        "current_club_name": "Valencia CF",
+        "latest_market_value": {
+          "date": "2025-06-08",
+          "value_eur": 2000000
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.64,
+          "name_score": 0.5,
+          "club_score": 1.0,
+          "country_match": true,
+          "transfermarkt_player_id": "298583",
+          "player_name": "Eray Cömert",
+          "name_in_home_country": "Eray Ervin Cömert",
+          "citizenship": "Switzerland  Türkiye",
+          "country_of_birth": "Switzerland",
+          "date_of_birth": "1998-02-04",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "Valencia CF",
+          "latest_market_value": {
+            "date": "2025-06-08",
+            "value_eur": 2000000
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Tunisia::Mohamed Amine Ben Hmida",
+      "country": "Tunisia",
+      "name": "Mohamed Amine Ben Hmida",
+      "club": "Espérance De Tunisie (TUN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Tunisia::Mohamed Hadj Mahmoud",
+      "country": "Tunisia",
+      "name": "Mohamed Hadj Mahmoud",
+      "club": "FC Lugano (SUI)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.6336,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": false,
+        "transfermarkt_player_id": "627787",
+        "player_name": "Mohamed Mohamed",
+        "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+        "citizenship": "Greece",
+        "country_of_birth": "",
+        "date_of_birth": "2000-04-29",
+        "position": "Attack - Left Winger",
+        "main_position": "Attack",
+        "current_club_name": "Without Club",
+        "latest_market_value": null
+      },
+      "candidates": [
+        {
+          "score": 0.6336,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": false,
+          "transfermarkt_player_id": "627787",
+          "player_name": "Mohamed Mohamed",
+          "name_in_home_country": "Μοχάμεντ Μοχάμεντ",
+          "citizenship": "Greece",
+          "country_of_birth": "",
+          "date_of_birth": "2000-04-29",
+          "position": "Attack - Left Winger",
+          "main_position": "Attack",
+          "current_club_name": "Without Club",
+          "latest_market_value": null
+        }
+      ]
+    },
+    {
+      "player_key": "Uruguay::Rodrigo Aguirre",
+      "country": "Uruguay",
+      "name": "Rodrigo Aguirre",
+      "club": "Tigres UANL (MEX)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": {
+        "score": 0.7136,
+        "name_score": 0.88,
+        "club_score": 0.0,
+        "country_match": true,
+        "transfermarkt_player_id": "76611",
+        "player_name": "Sebastián Martínez",
+        "name_in_home_country": "Sebastián Rodrigo Martínez Aguirre",
+        "citizenship": "Uruguay",
+        "country_of_birth": "Uruguay",
+        "date_of_birth": "1983-04-11",
+        "position": "Defender - Centre-Back",
+        "main_position": "Defender",
+        "current_club_name": "CA Deportivo Paraguayo",
+        "latest_market_value": {
+          "date": "2020-11-27",
+          "value_eur": 0
+        }
+      },
+      "candidates": [
+        {
+          "score": 0.7136,
+          "name_score": 0.88,
+          "club_score": 0.0,
+          "country_match": true,
+          "transfermarkt_player_id": "76611",
+          "player_name": "Sebastián Martínez",
+          "name_in_home_country": "Sebastián Rodrigo Martínez Aguirre",
+          "citizenship": "Uruguay",
+          "country_of_birth": "Uruguay",
+          "date_of_birth": "1983-04-11",
+          "position": "Defender - Centre-Back",
+          "main_position": "Defender",
+          "current_club_name": "CA Deportivo Paraguayo",
+          "latest_market_value": {
+            "date": "2020-11-27",
+            "value_eur": 0
+          }
+        }
+      ]
+    },
+    {
+      "player_key": "Algeria::Achraf Abada",
+      "country": "Algeria",
+      "name": "Achraf Abada",
+      "club": "USM Alger (ALG)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Algeria::Adil Boulbina",
+      "country": "Algeria",
+      "name": "Adil Boulbina",
+      "club": "Al Duhail SC (QAT)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Algeria::Nadhir Benbouali",
+      "country": "Algeria",
+      "name": "Nadhir Benbouali",
+      "club": "Györi ETO FC (HUN)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Algeria::Oussama Benbot",
+      "country": "Algeria",
+      "name": "Oussama Benbot",
+      "club": "USM Alger (ALG)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Algeria::Raik Belghali",
+      "country": "Algeria",
+      "name": "Raik Belghali",
+      "club": "Hellas Verona FC (ITA)",
+      "position": "RB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Algeria::Yassine Titraoui",
+      "country": "Algeria",
+      "name": "Yassine Titraoui",
+      "club": "Sporting Charleroi (BEL)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Algeria::Zineddine Belaid",
+      "country": "Algeria",
+      "name": "Zineddine Belaid",
+      "club": "JS Kabylie (ALG)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Australia::Aiden Oneill",
+      "country": "Australia",
+      "name": "Aiden Oneill",
+      "club": "New York City FC (USA)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Australia::Jacob Italiano",
+      "country": "Australia",
+      "name": "Jacob Italiano",
+      "club": "Grazer AK (AUT)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Australia::Lucas Herrington",
+      "country": "Australia",
+      "name": "Lucas Herrington",
+      "club": "Colorado Rapids (USA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Austria::Florian Wiegele",
+      "country": "Austria",
+      "name": "Florian Wiegele",
+      "club": "FC Viktoria Plzeň (CZE)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Austria::Phillip Mwene",
+      "country": "Austria",
+      "name": "Phillip Mwene",
+      "club": "1. FSV Mainz 05 (GER)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Bosnia & Herzegovina::Amar Memic",
+      "country": "Bosnia & Herzegovina",
+      "name": "Amar Memic",
+      "club": "FC Viktoria Plzeň (CZE)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Bosnia & Herzegovina::Ermin Mahmic",
+      "country": "Bosnia & Herzegovina",
+      "name": "Ermin Mahmic",
+      "club": "FC Slovan Liberec (CZE)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Bosnia & Herzegovina::Jovo Lukic",
+      "country": "Bosnia & Herzegovina",
+      "name": "Jovo Lukic",
+      "club": "Universitatea Cluj (ROU)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Bosnia & Herzegovina::Kerim Alajbegovic",
+      "country": "Bosnia & Herzegovina",
+      "name": "Kerim Alajbegovic",
+      "club": "FC Red Bull Salzburg (AUT)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Bosnia & Herzegovina::Mladen Jurkas",
+      "country": "Bosnia & Herzegovina",
+      "name": "Mladen Jurkas",
+      "club": "FK Borac Banja Luka (BIH)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Bosnia & Herzegovina::Nihad Mujakic",
+      "country": "Bosnia & Herzegovina",
+      "name": "Nihad Mujakic",
+      "club": "Gaziantep FK (TUR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Canada::Alie Jones",
+      "country": "Canada",
+      "name": "Alie Jones",
+      "club": "Middlesbrough FC (ENG)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Canada::Promise David",
+      "country": "Canada",
+      "name": "Promise David",
+      "club": "Royale Union Saint-Gilloise (BEL)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Deroy Duarte",
+      "country": "Cape Verde",
+      "name": "Deroy Duarte",
+      "club": "PFC Ludogorets Razgrad (BUL)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Diney Borges",
+      "country": "Cape Verde",
+      "name": "Diney Borges",
+      "club": "Al Bataeh Club (UAE)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Kelvin Pires",
+      "country": "Cape Verde",
+      "name": "Kelvin Pires",
+      "club": "SJK (FIN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Laros Duarte",
+      "country": "Cape Verde",
+      "name": "Laros Duarte",
+      "club": "Puskás Akadémia FC (HUN)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Marcio Rosa",
+      "country": "Cape Verde",
+      "name": "Marcio Rosa",
+      "club": "PFC Montana (BUL)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Pico Lopes",
+      "country": "Cape Verde",
+      "name": "Pico Lopes",
+      "club": "Shamrock Rovers FC (IRL)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Cape Verde::Vozinha",
+      "country": "Cape Verde",
+      "name": "Vozinha",
+      "club": "GD Chaves (POR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Curacao::Arjany Martha",
+      "country": "Curacao",
+      "name": "Arjany Martha",
+      "club": "Rotherham United FC (ENG)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Curacao::Deveron Fonville",
+      "country": "Curacao",
+      "name": "Deveron Fonville",
+      "club": "NEC Nijmegen (NED)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Curacao::Juergen Locadia",
+      "country": "Curacao",
+      "name": "Juergen Locadia",
+      "club": "Miami FC (USA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Curacao::Kevin Felida",
+      "country": "Curacao",
+      "name": "Kevin Felida",
+      "club": "FC Den Bosch (NED)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Czech Republic::Alexandr Sojka",
+      "country": "Czech Republic",
+      "name": "Alexandr Sojka",
+      "club": "FC Viktoria Plzeň (CZE)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Czech Republic::Hugo Sochurek",
+      "country": "Czech Republic",
+      "name": "Hugo Sochurek",
+      "club": "AC Sparta Praha (CZE)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "DR Congo::Fiston Mayele",
+      "country": "DR Congo",
+      "name": "Fiston Mayele",
+      "club": "Pyramids FC (EGY)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "DR Congo::Lionel Mp Asi",
+      "country": "DR Congo",
+      "name": "Lionel Mp Asi",
+      "club": "Le Havre AC (FRA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "DR Congo::Ngalayel Mukau",
+      "country": "DR Congo",
+      "name": "Ngalayel Mukau",
+      "club": "Lille OSC (FRA)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Ecuador::Gonzalo Valle",
+      "country": "Ecuador",
+      "name": "Gonzalo Valle",
+      "club": "LDU Quito (ECU)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Ecuador::Yaimar Medina",
+      "country": "Ecuador",
+      "name": "Yaimar Medina",
+      "club": "KRC Genk (BEL)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Hamdy Fathy",
+      "country": "Egypt",
+      "name": "Hamdy Fathy",
+      "club": "Al Wakrah SC (QAT)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Hamza Abdelkarim",
+      "country": "Egypt",
+      "name": "Hamza Abdelkarim",
+      "club": "FC Barcelona (ESP)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Hossam Abdelmaguid",
+      "country": "Egypt",
+      "name": "Hossam Abdelmaguid",
+      "club": "Zamalek SC (EGY)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Ibrahim Adel",
+      "country": "Egypt",
+      "name": "Ibrahim Adel",
+      "club": "FC Nordsjælland (DEN)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Mahdy Soliman",
+      "country": "Egypt",
+      "name": "Mahdy Soliman",
+      "club": "Zamalek SC (EGY)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Mahmoud Saber",
+      "country": "Egypt",
+      "name": "Mahmoud Saber",
+      "club": "ZED FC (EGY)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Marawan Attia",
+      "country": "Egypt",
+      "name": "Marawan Attia",
+      "club": "Al Ahly FC (EGY)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Mohanad Lashin",
+      "country": "Egypt",
+      "name": "Mohanad Lashin",
+      "club": "Pyramids FC (EGY)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Mostafa Shoubir",
+      "country": "Egypt",
+      "name": "Mostafa Shoubir",
+      "club": "Al Ahly FC (EGY)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Mostafa Zico",
+      "country": "Egypt",
+      "name": "Mostafa Zico",
+      "club": "Pyramids FC (EGY)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Nabil Donga",
+      "country": "Egypt",
+      "name": "Nabil Donga",
+      "club": "Al Najmah SC (KSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Tarek Alaa",
+      "country": "Egypt",
+      "name": "Tarek Alaa",
+      "club": "ZED FC (EGY)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Yasser Ibrahim",
+      "country": "Egypt",
+      "name": "Yasser Ibrahim",
+      "club": "Al Ahly FC (EGY)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Egypt::Zizo",
+      "country": "Egypt",
+      "name": "Zizo",
+      "club": "Al Ahly FC (EGY)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "France::Ngolo Kante",
+      "country": "France",
+      "name": "Ngolo Kante",
+      "club": "Fenerbahçe SK (TUR)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Germany::Antonio Ruediger",
+      "country": "Germany",
+      "name": "Antonio Ruediger",
+      "club": "Real Madrid C. F. (ESP)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Ghana::Benjamin Asare",
+      "country": "Ghana",
+      "name": "Benjamin Asare",
+      "club": "Hearts Of Oak SC (GHA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Haiti::Dominique Simon",
+      "country": "Haiti",
+      "name": "Dominique Simon",
+      "club": "FC Tatran Prešov (SVK)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Haiti::Josue Duverger",
+      "country": "Haiti",
+      "name": "Josue Duverger",
+      "club": "FC Cosmos Koblenz (GER)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Haiti::Keeto Thermoncy",
+      "country": "Haiti",
+      "name": "Keeto Thermoncy",
+      "club": "BSC Young Boys (SUI)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Haiti::Louicius Deedson",
+      "country": "Haiti",
+      "name": "Louicius Deedson",
+      "club": "FC Dallas (USA)",
+      "position": "RW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Haiti::Markhus Lacroix",
+      "country": "Haiti",
+      "name": "Markhus Lacroix",
+      "club": "Colorado Springs Switchbacks FC (USA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Haiti::Woodensky Pierre",
+      "country": "Haiti",
+      "name": "Woodensky Pierre",
+      "club": "Violette AC (HAI)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Ali Nemati",
+      "country": "Iran",
+      "name": "Ali Nemati",
+      "club": "Foolad Khuzestan FC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Amirmohammad Razaghinia",
+      "country": "Iran",
+      "name": "Amirmohammad Razaghinia",
+      "club": "Esteghlal Tehran FC (IRN)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Arya Yousefi",
+      "country": "Iran",
+      "name": "Arya Yousefi",
+      "club": "Sepahan SC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Danial Iri",
+      "country": "Iran",
+      "name": "Danial Iri",
+      "club": "Malavan Anzali FC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Dennis Dargahi",
+      "country": "Iran",
+      "name": "Dennis Dargahi",
+      "club": "Standard Liège (BEL)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Ehsan Hajisafi",
+      "country": "Iran",
+      "name": "Ehsan Hajisafi",
+      "club": "Sepahan SC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Hossein Hosseini",
+      "country": "Iran",
+      "name": "Hossein Hosseini",
+      "club": "Sepahan SC (IRN)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Hossein Kanani",
+      "country": "Iran",
+      "name": "Hossein Kanani",
+      "club": "Persepolis FC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Mehdi Ghayedi",
+      "country": "Iran",
+      "name": "Mehdi Ghayedi",
+      "club": "Al Nasr SC (UAE)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Mohammad Ghorbani",
+      "country": "Iran",
+      "name": "Mohammad Ghorbani",
+      "club": "Al Wahda SC (UAE)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Mohammad Mohebbi",
+      "country": "Iran",
+      "name": "Mohammad Mohebbi",
+      "club": "FC Rostov (RUS)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Ramin Rezaeian",
+      "country": "Iran",
+      "name": "Ramin Rezaeian",
+      "club": "Foolad Khuzestan FC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Roozbeh Cheshmi",
+      "country": "Iran",
+      "name": "Roozbeh Cheshmi",
+      "club": "Esteghlal Tehran FC (IRN)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Saeid Ezatolahi",
+      "country": "Iran",
+      "name": "Saeid Ezatolahi",
+      "club": "Shabab Al Ahli Club (UAE)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Saleh Hardani",
+      "country": "Iran",
+      "name": "Saleh Hardani",
+      "club": "Esteghlal Tehran FC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iran::Shahriyar Moghanloo",
+      "country": "Iran",
+      "name": "Shahriyar Moghanloo",
+      "club": "Al Ittihad Kalba SCC (UAE)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Ahmed Basil",
+      "country": "Iraq",
+      "name": "Ahmed Basil",
+      "club": "Al Shorta SC (IRQ)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Ahmed Qasim",
+      "country": "Iraq",
+      "name": "Ahmed Qasim",
+      "club": "Nashville SC (USA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Ahmed Yahya",
+      "country": "Iraq",
+      "name": "Ahmed Yahya",
+      "club": "Al Shorta SC (IRQ)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Akam Hashim",
+      "country": "Iraq",
+      "name": "Akam Hashim",
+      "club": "Al Zawra'a SC (IRQ)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Ali Alhamadi",
+      "country": "Iraq",
+      "name": "Ali Alhamadi",
+      "club": "Luton Town FC (ENG)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Ali Yousif",
+      "country": "Iraq",
+      "name": "Ali Yousif",
+      "club": "Al Talaba SC (IRQ)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Aymen Hussein",
+      "country": "Iraq",
+      "name": "Aymen Hussein",
+      "club": "Al Karma SC (IRQ)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Fahad Talib",
+      "country": "Iraq",
+      "name": "Fahad Talib",
+      "club": "Al Talaba SC (IRQ)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Ibrahim Bayesh",
+      "country": "Iraq",
+      "name": "Ibrahim Bayesh",
+      "club": "Al Dhafra SCC (UAE)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Kevin Yakob",
+      "country": "Iraq",
+      "name": "Kevin Yakob",
+      "club": "Aarhus GF (DEN)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Merchas Doski",
+      "country": "Iraq",
+      "name": "Merchas Doski",
+      "club": "FC Viktoria Plzeň (CZE)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Munaf Younus",
+      "country": "Iraq",
+      "name": "Munaf Younus",
+      "club": "Al Shorta SC (IRQ)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Mustafa Saadoon",
+      "country": "Iraq",
+      "name": "Mustafa Saadoon",
+      "club": "Al Shorta SC (IRQ)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Rebin Ghareeb",
+      "country": "Iraq",
+      "name": "Rebin Ghareeb",
+      "club": "Port FC (THA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Zaid Ismael",
+      "country": "Iraq",
+      "name": "Zaid Ismael",
+      "club": "Al Talaba SC (IRQ)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Iraq::Zaid Tahseen",
+      "country": "Iraq",
+      "name": "Zaid Tahseen",
+      "club": "Pakhtakor Tashkent FK (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Ivory Coast::Parfait Guiagon",
+      "country": "Ivory Coast",
+      "name": "Parfait Guiagon",
+      "club": "Sporting Charleroi (BEL)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Japan::Kento Shiogai",
+      "country": "Japan",
+      "name": "Kento Shiogai",
+      "club": "VfL Wolfsburg (GER)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Japan::Kou Itakura",
+      "country": "Japan",
+      "name": "Kou Itakura",
+      "club": "AFC Ajax (NED)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Abdallah Alfakhori",
+      "country": "Jordan",
+      "name": "Abdallah Alfakhori",
+      "club": "Al Wahdat SC (JOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Abdallah Nasib",
+      "country": "Jordan",
+      "name": "Abdallah Nasib",
+      "club": "Al Zawra'a SC (IRQ)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Ali Azaizeh",
+      "country": "Jordan",
+      "name": "Ali Azaizeh",
+      "club": "Al Shabab FC (KSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Ali Olwan",
+      "country": "Jordan",
+      "name": "Ali Olwan",
+      "club": "Al Sailiya SC (QAT)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Amer Jamous",
+      "country": "Jordan",
+      "name": "Amer Jamous",
+      "club": "Al Zawra'a SC (IRQ)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Anas Badawi",
+      "country": "Jordan",
+      "name": "Anas Badawi",
+      "club": "Al Faisaly SC (JOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Ehsan Haddad",
+      "country": "Jordan",
+      "name": "Ehsan Haddad",
+      "club": "Al Hussein SC (JOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Husam Abudahab",
+      "country": "Jordan",
+      "name": "Husam Abudahab",
+      "club": "Al Faisaly SC (JOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Ibrahim Sadeh",
+      "country": "Jordan",
+      "name": "Ibrahim Sadeh",
+      "club": "Al Karma SC (IRQ)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Mahmoud Almardi",
+      "country": "Jordan",
+      "name": "Mahmoud Almardi",
+      "club": "Al Hussein SC (JOR)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Mohammad Abuhasheesh",
+      "country": "Jordan",
+      "name": "Mohammad Abuhasheesh",
+      "club": "Al Karma SC (IRQ)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Mohammad Abuzraiq",
+      "country": "Jordan",
+      "name": "Mohammad Abuzraiq",
+      "club": "Raja Casablanca (MAR)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Mohammad Aldaoud",
+      "country": "Jordan",
+      "name": "Mohammad Aldaoud",
+      "club": "Al Wahdat SC (JOR)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Mohannad Abutaha",
+      "country": "Jordan",
+      "name": "Mohannad Abutaha",
+      "club": "Al-Quwa Al-Jawiya (IRQ)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Mousa Altamari",
+      "country": "Jordan",
+      "name": "Mousa Altamari",
+      "club": "Stade Rennais FC (FRA)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Nizar Alrashdan",
+      "country": "Jordan",
+      "name": "Nizar Alrashdan",
+      "club": "Qatar SC (QAT)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Noor Alrawabdeh",
+      "country": "Jordan",
+      "name": "Noor Alrawabdeh",
+      "club": "Selangor FC (MAS)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Nour Baniateyah",
+      "country": "Jordan",
+      "name": "Nour Baniateyah",
+      "club": "Al Faisaly SC (JOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Odeh Fakhoury",
+      "country": "Jordan",
+      "name": "Odeh Fakhoury",
+      "club": "Pyramids FC (EGY)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Saed Alrosan",
+      "country": "Jordan",
+      "name": "Saed Alrosan",
+      "club": "Al Hussein SC (JOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Saleem Obaid",
+      "country": "Jordan",
+      "name": "Saleem Obaid",
+      "club": "Al Hussein SC (JOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Yazan Alarab",
+      "country": "Jordan",
+      "name": "Yazan Alarab",
+      "club": "FC Seoul (KOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Jordan::Yazeed Abulaila",
+      "country": "Jordan",
+      "name": "Yazeed Abulaila",
+      "club": "Al Hussein SC (JOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Morocco::Ayoub Amaimouni",
+      "country": "Morocco",
+      "name": "Ayoub Amaimouni",
+      "club": "Eintracht Frankfurt (GER)",
+      "position": "RW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Morocco::Souiane Rahimi",
+      "country": "Morocco",
+      "name": "Souiane Rahimi",
+      "club": "Al Ain FC (UAE)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Morocco::Youssef Belamm Ari",
+      "country": "Morocco",
+      "name": "Youssef Belamm Ari",
+      "club": "Al Ahly FC (EGY)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "New Zealand::Alex Paulsen",
+      "country": "New Zealand",
+      "name": "Alex Paulsen",
+      "club": "Lechia Gdańsk (POL)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "New Zealand::Callum McCowatt",
+      "country": "New Zealand",
+      "name": "Callum McCowatt",
+      "club": "Silkeborg IF (DEN)",
+      "position": "CAM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "New Zealand::Elijah Just",
+      "country": "New Zealand",
+      "name": "Elijah Just",
+      "club": "Motherwell FC (SCO)",
+      "position": "LW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "New Zealand::Nando Pijnaker",
+      "country": "New Zealand",
+      "name": "Nando Pijnaker",
+      "club": "Auckland FC (NZL)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Panama::Edgardo Farina",
+      "country": "Panama",
+      "name": "Edgardo Farina",
+      "club": "FC Pari Nizhny Novgorod (RUS)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Panama::Jiovany Ramos",
+      "country": "Panama",
+      "name": "Jiovany Ramos",
+      "club": "Puerto Cabello CF (VEN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Panama::Tomas Rodriguez",
+      "country": "Panama",
+      "name": "Tomas Rodriguez",
+      "club": "Deportivo Saprissa (CRC)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Alejandro Romero Gamarra",
+      "country": "Paraguay",
+      "name": "Alejandro Romero Gamarra",
+      "club": "Al Ain FC (UAE)",
+      "position": "CAM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Alex Arce",
+      "country": "Paraguay",
+      "name": "Alex Arce",
+      "club": "CS Independiente Rivadavia (ARG)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Alexandro Maidana",
+      "country": "Paraguay",
+      "name": "Alexandro Maidana",
+      "club": "CA Talleres (ARG)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Gatito Fernandez",
+      "country": "Paraguay",
+      "name": "Gatito Fernandez",
+      "club": "Cerro Porteño (PAR)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Gustavo Caballero",
+      "country": "Paraguay",
+      "name": "Gustavo Caballero",
+      "club": "Portsmouth FC (ENG)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Jose Canale",
+      "country": "Paraguay",
+      "name": "Jose Canale",
+      "club": "CA Lanús (ARG)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Juan Jose Caceres",
+      "country": "Paraguay",
+      "name": "Juan Jose Caceres",
+      "club": "FC Dynamo Moscow (RUS)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Paraguay::Orlando Gill",
+      "country": "Paraguay",
+      "name": "Orlando Gill",
+      "club": "CA San Lorenzo (ARG)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Ahmed Alganehi",
+      "country": "Qatar",
+      "name": "Ahmed Alganehi",
+      "club": "Al Gharafa SC (QAT)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Ahmed Fathy",
+      "country": "Qatar",
+      "name": "Ahmed Fathy",
+      "club": "Al Arabi SC (QAT)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Alhashmi Alhussein",
+      "country": "Qatar",
+      "name": "Alhashmi Alhussein",
+      "club": "Al Arabi SC (QAT)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Ayoub Aloui",
+      "country": "Qatar",
+      "name": "Ayoub Aloui",
+      "club": "Al Gharafa SC (QAT)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Hassan Alhaydos",
+      "country": "Qatar",
+      "name": "Hassan Alhaydos",
+      "club": "Al Sadd SC (QAT)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Sultan Albrake",
+      "country": "Qatar",
+      "name": "Sultan Albrake",
+      "club": "Al Duhail SC (QAT)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Qatar::Tahsin Jamshid",
+      "country": "Qatar",
+      "name": "Tahsin Jamshid",
+      "club": "Al Duhail SC (QAT)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Abdulelah Alamri",
+      "country": "Saudi Arabia",
+      "name": "Abdulelah Alamri",
+      "club": "Al Nassr FC (KSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Abdullah Alhamddan",
+      "country": "Saudi Arabia",
+      "name": "Abdullah Alhamddan",
+      "club": "Al Nassr FC (KSA)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Abdullah Alkhaibari",
+      "country": "Saudi Arabia",
+      "name": "Abdullah Alkhaibari",
+      "club": "Al Nassr FC (KSA)",
+      "position": "RB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Ahmed Alkassar",
+      "country": "Saudi Arabia",
+      "name": "Ahmed Alkassar",
+      "club": "Al Qadsiah FC (KSA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Aiman Yahya",
+      "country": "Saudi Arabia",
+      "name": "Aiman Yahya",
+      "club": "Al Nassr FC (KSA)",
+      "position": "RM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Ala Alhajji",
+      "country": "Saudi Arabia",
+      "name": "Ala Alhajji",
+      "club": "Neom SC (KSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Ali Lajami",
+      "country": "Saudi Arabia",
+      "name": "Ali Lajami",
+      "club": "Al Hilal SC (KSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Ali Majrashi",
+      "country": "Saudi Arabia",
+      "name": "Ali Majrashi",
+      "club": "Al Ahli FC (KSA)",
+      "position": "RB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Feras Albrikan",
+      "country": "Saudi Arabia",
+      "name": "Feras Albrikan",
+      "club": "Al Ahli FC (KSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Hassan Altambakti",
+      "country": "Saudi Arabia",
+      "name": "Hassan Altambakti",
+      "club": "Al Hilal SC (KSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Hassan Kadish",
+      "country": "Saudi Arabia",
+      "name": "Hassan Kadish",
+      "club": "Al Ittihad (KSA)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Jehad Thikri",
+      "country": "Saudi Arabia",
+      "name": "Jehad Thikri",
+      "club": "Al Qadsiah FC (KSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Khalid Alghannam",
+      "country": "Saudi Arabia",
+      "name": "Khalid Alghannam",
+      "club": "Al Ettifaq FC (KSA)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Mohammed Alowais",
+      "country": "Saudi Arabia",
+      "name": "Mohammed Alowais",
+      "club": "Al Ula Saudi FC (KSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Moteb Alharbi",
+      "country": "Saudi Arabia",
+      "name": "Moteb Alharbi",
+      "club": "Al Hilal SC (KSA)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Musab Aljuwayr",
+      "country": "Saudi Arabia",
+      "name": "Musab Aljuwayr",
+      "club": "Al Qadsiah FC (KSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Nasser Aldawsari",
+      "country": "Saudi Arabia",
+      "name": "Nasser Aldawsari",
+      "club": "Al Hilal SC (KSA)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Nawaf Alaqidi",
+      "country": "Saudi Arabia",
+      "name": "Nawaf Alaqidi",
+      "club": "Al Nassr FC (KSA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Nawaf Bu Washl",
+      "country": "Saudi Arabia",
+      "name": "Nawaf Bu Washl",
+      "club": "Al Nassr FC (KSA)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Saleh Alshehri",
+      "country": "Saudi Arabia",
+      "name": "Saleh Alshehri",
+      "club": "Al Ittihad (KSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Sultan Mandash",
+      "country": "Saudi Arabia",
+      "name": "Sultan Mandash",
+      "club": "Al Hilal SC (KSA)",
+      "position": "RW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Saudi Arabia::Ziyad Aljohani",
+      "country": "Saudi Arabia",
+      "name": "Ziyad Aljohani",
+      "club": "Al Ahli FC (KSA)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Scotland::Andy Robertson",
+      "country": "Scotland",
+      "name": "Andy Robertson",
+      "club": "Liverpool FC (ENG)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Senegal::Bara Sapoko Ndiaye",
+      "country": "Senegal",
+      "name": "Bara Sapoko Ndiaye",
+      "club": "FC Bayern München (GER)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Aubrey Modiba",
+      "country": "South Africa",
+      "name": "Aubrey Modiba",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Evidence Makgopa",
+      "country": "South Africa",
+      "name": "Evidence Makgopa",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Iqraam Rayners",
+      "country": "South Africa",
+      "name": "Iqraam Rayners",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Jayden Adams",
+      "country": "South Africa",
+      "name": "Jayden Adams",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Kamogelo Sebelebele",
+      "country": "South Africa",
+      "name": "Kamogelo Sebelebele",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Khuliso Mudau",
+      "country": "South Africa",
+      "name": "Khuliso Mudau",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Khulumani Ndamane",
+      "country": "South Africa",
+      "name": "Khulumani Ndamane",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Mbekezeli Mbokazi",
+      "country": "South Africa",
+      "name": "Mbekezeli Mbokazi",
+      "club": "Chicago Fire FC (USA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Nkosinathi Sibisi",
+      "country": "South Africa",
+      "name": "Nkosinathi Sibisi",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Oswin Appollis",
+      "country": "South Africa",
+      "name": "Oswin Appollis",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Relebohile Mofokeng",
+      "country": "South Africa",
+      "name": "Relebohile Mofokeng",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Ricardo Goss",
+      "country": "South Africa",
+      "name": "Ricardo Goss",
+      "club": "Siwelele FC (RSA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Ronwen Williams",
+      "country": "South Africa",
+      "name": "Ronwen Williams",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Sipho Chaine",
+      "country": "South Africa",
+      "name": "Sipho Chaine",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Thabang Matuludi",
+      "country": "South Africa",
+      "name": "Thabang Matuludi",
+      "club": "Polokwane City FC (RSA)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Thalente Mbatha",
+      "country": "South Africa",
+      "name": "Thalente Mbatha",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Thapelo Maseko",
+      "country": "South Africa",
+      "name": "Thapelo Maseko",
+      "club": "AEL Limassol (CYP)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Themba Zwane",
+      "country": "South Africa",
+      "name": "Themba Zwane",
+      "club": "Mamelodi Sundowns FC (RSA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Africa::Tshepang Moremi",
+      "country": "South Africa",
+      "name": "Tshepang Moremi",
+      "club": "Orlando Pirates FC (RSA)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Bumkeun Song",
+      "country": "South Korea",
+      "name": "Bumkeun Song",
+      "club": "Jeonbuk Hyundai Motors FC (KOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Donggyeong Lee",
+      "country": "South Korea",
+      "name": "Donggyeong Lee",
+      "club": "Ulsan HD (KOR)",
+      "position": "CAM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Gihyuk Lee",
+      "country": "South Korea",
+      "name": "Gihyuk Lee",
+      "club": "Gangwon FC (KOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Guesung Cho",
+      "country": "South Korea",
+      "name": "Guesung Cho",
+      "club": "FC Midtjylland (DEN)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Hanbeom Lee",
+      "country": "South Korea",
+      "name": "Hanbeom Lee",
+      "club": "FC Midtjylland (DEN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Heechan Hwang",
+      "country": "South Korea",
+      "name": "Heechan Hwang",
+      "club": "Wolverhampton Wanderers FC (ENG)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Hyeongyu Oh",
+      "country": "South Korea",
+      "name": "Hyeongyu Oh",
+      "club": "Beşiktaş JK (TUR)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Hyeonwoo Jo",
+      "country": "South Korea",
+      "name": "Hyeonwoo Jo",
+      "club": "Ulsan HD (KOR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Inbeom Hwang",
+      "country": "South Korea",
+      "name": "Inbeom Hwang",
+      "club": "Feyenoord Rotterdam (NED)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Jaesung Lee",
+      "country": "South Korea",
+      "name": "Jaesung Lee",
+      "club": "1. FSV Mainz 05 (GER)",
+      "position": "CAM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Jingyu Kim",
+      "country": "South Korea",
+      "name": "Jingyu Kim",
+      "club": "Jeonbuk Hyundai Motors FC (KOR)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Jinseob Park",
+      "country": "South Korea",
+      "name": "Jinseob Park",
+      "club": "Zhejiang FC (CHN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Junho Bae",
+      "country": "South Korea",
+      "name": "Junho Bae",
+      "club": "Stoke City FC (ENG)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Kangin Lee",
+      "country": "South Korea",
+      "name": "Kangin Lee",
+      "club": "Paris Saint-Germain (FRA)",
+      "position": "RW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Minjae Kim",
+      "country": "South Korea",
+      "name": "Minjae Kim",
+      "club": "FC Bayern München (GER)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Moonhwan Kim",
+      "country": "South Korea",
+      "name": "Moonhwan Kim",
+      "club": "Daejeon Hana Citizen FC (KOR)",
+      "position": "RB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Seunggyu Kim",
+      "country": "South Korea",
+      "name": "Seunggyu Kim",
+      "club": "FC Tokyo (JPN)",
+      "position": "LW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Seungho Paik",
+      "country": "South Korea",
+      "name": "Seungho Paik",
+      "club": "Birmingham City FC (ENG)",
+      "position": "CDM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Taehyeon Kim",
+      "country": "South Korea",
+      "name": "Taehyeon Kim",
+      "club": "Kashima Antlers (JPN)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Taeseok Lee",
+      "country": "South Korea",
+      "name": "Taeseok Lee",
+      "club": "FK Austria Wien (AUT)",
+      "position": "LB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Wije Cho",
+      "country": "South Korea",
+      "name": "Wije Cho",
+      "club": "Jeonbuk Hyundai Motors FC (KOR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "South Korea::Youngwoo Seol",
+      "country": "South Korea",
+      "name": "Youngwoo Seol",
+      "club": "FK Crvena Zvezda (SRB)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Adam Arous",
+      "country": "Tunisia",
+      "name": "Adam Arous",
+      "club": "Kasımpaşa SK (TUR)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Aymen Dahmen",
+      "country": "Tunisia",
+      "name": "Aymen Dahmen",
+      "club": "CS Sfaxien (TUN)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Firas Chaouat",
+      "country": "Tunisia",
+      "name": "Firas Chaouat",
+      "club": "Club Africain (TUN)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Hazem Mastouri",
+      "country": "Tunisia",
+      "name": "Hazem Mastouri",
+      "club": "FC Dynamo Makhachkala (RUS)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Khalil Ayari",
+      "country": "Tunisia",
+      "name": "Khalil Ayari",
+      "club": "Paris Saint-Germain (FRA)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Mouhib Chamakh",
+      "country": "Tunisia",
+      "name": "Mouhib Chamakh",
+      "club": "Club Africain (TUN)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Raed Chikhaoui",
+      "country": "Tunisia",
+      "name": "Raed Chikhaoui",
+      "club": "US Monastir (TUN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Rayan Elloumi",
+      "country": "Tunisia",
+      "name": "Rayan Elloumi",
+      "club": "Vancouver Whitecaps FC (CAN)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Tunisia::Sabri Ben Hessen",
+      "country": "Tunisia",
+      "name": "Sabri Ben Hessen",
+      "club": "Étoile Du Sahel (TUN)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Turkey::Oguz Aydin",
+      "country": "Turkey",
+      "name": "Oguz Aydin",
+      "club": "Fenerbahçe SK (TUR)",
+      "position": "LW",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Turkey::Ugurcan Cakir",
+      "country": "Turkey",
+      "name": "Ugurcan Cakir",
+      "club": "Galatasaray SK (TUR)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "United States::Alex Zendejas",
+      "country": "United States",
+      "name": "Alex Zendejas",
+      "club": "Club América (MEX)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "United States::Max Arfsten",
+      "country": "United States",
+      "name": "Max Arfsten",
+      "club": "Columbus Crew (USA)",
+      "position": "LM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uruguay::Santiago Mele",
+      "country": "Uruguay",
+      "name": "Santiago Mele",
+      "club": "CF Monterrey (MEX)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Abbosbek Fayzullaev",
+      "country": "Uzbekistan",
+      "name": "Abbosbek Fayzullaev",
+      "club": "Başakşehir FK (TUR)",
+      "position": "CAM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Abduvohid Nematov",
+      "country": "Uzbekistan",
+      "name": "Abduvohid Nematov",
+      "club": "Nasaf Qarshi FC (UZB)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Akmal Mozgovoy",
+      "country": "Uzbekistan",
+      "name": "Akmal Mozgovoy",
+      "club": "Pakhtakor Tashkent FK (UZB)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Avazbek Ulmasaliyev",
+      "country": "Uzbekistan",
+      "name": "Avazbek Ulmasaliyev",
+      "club": "OKMK FK (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Azizbek Amonov",
+      "country": "Uzbekistan",
+      "name": "Azizbek Amonov",
+      "club": "FK Dinamo Samarkand (UZB)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Azizjon Ganiev",
+      "country": "Uzbekistan",
+      "name": "Azizjon Ganiev",
+      "club": "Al Bataeh Club (UAE)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Behruzjon Karimov",
+      "country": "Uzbekistan",
+      "name": "Behruzjon Karimov",
+      "club": "Surkhon FK (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Botirali Ergashev",
+      "country": "Uzbekistan",
+      "name": "Botirali Ergashev",
+      "club": "FK Neftchi Farg'ona (UZB)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Dostonbek Khamdamov",
+      "country": "Uzbekistan",
+      "name": "Dostonbek Khamdamov",
+      "club": "Pakhtakor Tashkent FK (UZB)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Farrukh Sayfiev",
+      "country": "Uzbekistan",
+      "name": "Farrukh Sayfiev",
+      "club": "FK Neftchi Farg'ona (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Jakhongir Urozov",
+      "country": "Uzbekistan",
+      "name": "Jakhongir Urozov",
+      "club": "FK Dinamo Samarkand (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Khojiakbar Alijonov",
+      "country": "Uzbekistan",
+      "name": "Khojiakbar Alijonov",
+      "club": "Pakhtakor Tashkent FK (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Odiljon Xamrobekov",
+      "country": "Uzbekistan",
+      "name": "Odiljon Xamrobekov",
+      "club": "Tractor Sazi Tabriz FC (IRN)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Oston Urunov",
+      "country": "Uzbekistan",
+      "name": "Oston Urunov",
+      "club": "Persepolis FC (IRN)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Rustam Ashurmatov",
+      "country": "Uzbekistan",
+      "name": "Rustam Ashurmatov",
+      "club": "Esteghlal Tehran FC (IRN)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Sherzod Esanov",
+      "country": "Uzbekistan",
+      "name": "Sherzod Esanov",
+      "club": "FK Buxoro (UZB)",
+      "position": "CM",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Sherzod Nasrullaev",
+      "country": "Uzbekistan",
+      "name": "Sherzod Nasrullaev",
+      "club": "Pakhtakor Tashkent FK (UZB)",
+      "position": "CB",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Umar Eshmurodov",
+      "country": "Uzbekistan",
+      "name": "Umar Eshmurodov",
+      "club": "Nasaf Qarshi FC (UZB)",
+      "position": "ST",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    },
+    {
+      "player_key": "Uzbekistan::Utkir Yusupov",
+      "country": "Uzbekistan",
+      "name": "Utkir Yusupov",
+      "club": "PFC Navbahor Namangan (UZB)",
+      "position": "GK",
+      "override_exists": false,
+      "suggested_override": null,
+      "candidates": []
+    }
+  ]
+}

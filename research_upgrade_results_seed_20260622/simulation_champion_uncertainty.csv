@@ -1,0 +1,145 @@
+model_id,model_label,team,stage,probability_pct,standard_error_pct,ci95_low_pct,ci95_high_pct
+primitive_eafc_poisson,Primitive EAFC Poisson,France,champion,12.5,0.3307189138830738,11.866155899074082,13.162645036758407
+primitive_eafc_poisson,Primitive EAFC Poisson,Spain,champion,10.26,0.3034357263078954,9.680445039140208,10.870076272592673
+primitive_eafc_poisson,Primitive EAFC Poisson,England,champion,8.55,0.27962430151902035,8.017727790377691,9.114106844029154
+primitive_eafc_poisson,Primitive EAFC Poisson,Brazil,champion,8.42,0.27768752222597254,7.891569997129349,8.980364480521713
+primitive_eafc_poisson,Primitive EAFC Poisson,Portugal,champion,8.39,0.2772377860249212,7.862462112853587,8.949495405546145
+primitive_eafc_poisson,Primitive EAFC Poisson,Germany,champion,8.11,0.27298862613669456,7.590889514326474,8.661283051060803
+primitive_eafc_poisson,Primitive EAFC Poisson,Argentina,champion,7.67,0.26611484362958787,7.16451702657538,8.207993469792333
+primitive_eafc_poisson,Primitive EAFC Poisson,Netherlands,champion,6.17,0.24060987095295985,5.715026161255618,6.658636372545396
+primitive_eafc_poisson,Primitive EAFC Poisson,Belgium,champion,4.47,0.20664440471495957,4.082161554836096,4.892806621389322
+primitive_eafc_poisson,Primitive EAFC Poisson,Croatia,champion,2.54,0.15733670900333463,2.2493663104526926,2.8670841539369074
+primitive_eafc_poisson,Primitive EAFC Poisson,Turkey,champion,2.13,0.14438251279154274,1.864850748986901,2.4319146056344674
+primitive_eafc_poisson,Primitive EAFC Poisson,Morocco,champion,1.72,0.13001599901550578,1.4830840209116256,1.9939962239415112
+primitive_eafc_poisson,Primitive EAFC Poisson,Uruguay,champion,1.6,0.125475097130865,1.3720007796266298,1.8651716282211714
+primitive_eafc_poisson,Primitive EAFC Poisson,Norway,champion,1.59,0.12508872850900676,1.362759306024382,1.8544207820729748
+primitive_eafc_poisson,Primitive EAFC Poisson,Switzerland,champion,1.55,0.12353036064061337,1.3258184502970167,1.8113923587985616
+primitive_eafc_poisson,Primitive EAFC Poisson,Colombia,champion,1.52,0.12234770124526245,1.2981397657459572,1.7790940840982865
+primitive_eafc_poisson,Primitive EAFC Poisson,Sweden,champion,1.28,0.1124106756496019,1.0776333970748877,1.5197847787586842
+primitive_eafc_poisson,Primitive EAFC Poisson,United States,champion,1.16,0.10707679487171812,0.9680884264037688,1.3894219124244667
+primitive_eafc_poisson,Primitive EAFC Poisson,Austria,champion,1.15,0.10661965109678422,0.9589841805431688,1.3785338385346222
+primitive_eafc_poisson,Primitive EAFC Poisson,Ivory Coast,champion,1.02,0.10047865444958945,0.8410122627316854,1.2366055995903253
+primitive_eafc_poisson,Primitive EAFC Poisson,Czech Republic,champion,1.0,0.09949874371066199,0.8229306747947238,1.2147025480263973
+primitive_eafc_poisson,Primitive EAFC Poisson,Algeria,champion,0.98,0.09850867982061276,0.8048687008822802,1.1927798824379512
+primitive_eafc_poisson,Primitive EAFC Poisson,Senegal,champion,0.94,0.09649683932647743,0.7688059920403384,1.1488733122781143
+primitive_eafc_poisson,Primitive EAFC Poisson,Scotland,champion,0.63,0.07912212080069644,0.4927543308452964,0.8051630612093719
+primitive_eafc_poisson,Primitive EAFC Poisson,Mexico,champion,0.62,0.07849560497250785,0.4839762883673736,0.7939487839368499
+primitive_eafc_poisson,Primitive EAFC Poisson,Canada,champion,0.55,0.0739577582137263,0.4228212930668556,0.7151575409842552
+primitive_eafc_poisson,Primitive EAFC Poisson,Japan,champion,0.54,0.07328601503697688,0.41412973662823904,0.7038567776724273
+primitive_eafc_poisson,Primitive EAFC Poisson,Ghana,champion,0.45,0.06693093455196933,0.3364953436077258,0.6015602929389385
+primitive_eafc_poisson,Primitive EAFC Poisson,South Korea,champion,0.44,0.06618640343756413,0.3279423444651482,0.5901209723310713
+primitive_eafc_poisson,Primitive EAFC Poisson,Ecuador,champion,0.42,0.06467116822819888,0.31088599034471515,0.567192686950615
+primitive_eafc_poisson,Primitive EAFC Poisson,DR Congo,champion,0.32,0.05647796030311293,0.22676996380525222,0.45138551598563126
+primitive_eafc_poisson,Primitive EAFC Poisson,Bosnia & Herzegovina,champion,0.28,0.05284089325512959,0.19379927682506326,0.40438692396404163
+primitive_eafc_poisson,Primitive EAFC Poisson,Paraguay,champion,0.26,0.050923864739432334,0.1774976064828278,0.38070395480538755
+primitive_eafc_poisson,Primitive EAFC Poisson,Egypt,champion,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+primitive_eafc_poisson,Primitive EAFC Poisson,Saudi Arabia,champion,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+primitive_eafc_poisson,Primitive EAFC Poisson,Iran,champion,0.09,0.02998649696113236,0.04735716566504437,0.17097495986561176
+primitive_eafc_poisson,Primitive EAFC Poisson,Tunisia,champion,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+primitive_eafc_poisson,Primitive EAFC Poisson,New Zealand,champion,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+primitive_eafc_poisson,Primitive EAFC Poisson,Australia,champion,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+primitive_eafc_poisson,Primitive EAFC Poisson,Qatar,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Haiti,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Cape Verde,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Uzbekistan,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,South Africa,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+primitive_eafc_poisson,Primitive EAFC Poisson,Jordan,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+primitive_eafc_poisson,Primitive EAFC Poisson,Curacao,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+primitive_eafc_poisson,Primitive EAFC Poisson,Panama,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+primitive_eafc_poisson,Primitive EAFC Poisson,Iraq,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Brazil,champion,19.23,0.3941074853387081,18.46942333590504,20.01420879197671
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,France,champion,19.09,0.39301041970919803,18.331625854488095,19.87211379688743
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Germany,champion,18.3,0.38666652298847903,17.554354561356703,19.06999182973369
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Spain,champion,18.18,0.3856796079649532,17.436333631157883,18.948104922927175
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Argentina,champion,8.52,0.2791790823109783,7.98861106922229,9.08324660593322
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,England,champion,5.16,0.2212180824435471,4.743373093848816,5.611065145157285
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Portugal,champion,4.36,0.20420342798297977,3.976980840265766,4.778071818704762
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Netherlands,champion,4.3,0.20285709255532572,3.9196386326038466,4.715460107864013
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Belgium,champion,1.39,0.11707600095664354,1.1784837996855142,1.6388498934029487
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Turkey,champion,0.3,0.054690035655501276,0.2102274095435337,0.42794343074646046
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Mexico,champion,0.18,0.04238820590683215,0.11389185739970833,0.28437114588494977
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Switzerland,champion,0.17,0.041195994950965806,0.10616983407886484,0.2721008494553487
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,United States,champion,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Morocco,champion,0.15,0.038700775186034715,0.09092536302792231,0.24736068100540184
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Norway,champion,0.11,0.033148001448051134,0.06143442571264699,0.1968823393188985
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Sweden,champion,0.1,0.03160696125855822,0.05432800768105723,0.18399643760004356
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Czech Republic,champion,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Croatia,champion,0.05,0.02235508890610816,0.021358527533545963,0.1170043189953315
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Colombia,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Korea,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ivory Coast,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ecuador,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uruguay,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Senegal,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Austria,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Algeria,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Canada,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Japan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Scotland,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Bosnia & Herzegovina,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,DR Congo,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Ghana,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Paraguay,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Egypt,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Tunisia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Cape Verde,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Haiti,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Qatar,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Saudi Arabia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iran,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,New Zealand,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Australia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Uzbekistan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Curacao,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Panama,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Jordan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,Iraq,champion,0.0,0.0,0.0,0.038401247776654115
+v2_heuristic_nt_elo,V2 Heuristic Internal Forest + NT Elo,South Africa,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Brazil,champion,20.09,0.4006734206308175,19.31623270419964,20.886738922220353
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Germany,champion,19.75,0.39811273528989255,18.98137877472797,20.541853980176906
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,France,champion,19.46,0.3958924601454289,18.69583888174967,20.247616600392313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Spain,champion,17.11,0.3765963223399825,16.384535046869427,17.860725293918055
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Argentina,champion,6.93,0.2539635997539805,6.448591590253523,7.444487244581284
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,England,champion,6.76,0.25105824025512485,6.28434490795194,7.268864491125308
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Portugal,champion,4.35,0.20397977840952763,3.96742236093285,4.767637978287234
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Netherlands,champion,3.38,0.1807140282324535,3.043318947154386,3.7524863762725653
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Belgium,champion,1.1,0.10430244484191155,0.913523883452871,1.324032536872697
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Turkey,champion,0.25,0.04993746088859545,0.16939856428771646,0.36881067725005434
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Switzerland,champion,0.24,0.04893097178679368,0.1613367184247764,0.35688020336254966
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Norway,champion,0.13,0.03603206904966741,0.0759904548815886,0.2223109496508462
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,United States,champion,0.09,0.02998649696113236,0.04735716566504437,0.17097495986561176
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Morocco,champion,0.08,0.02827295527531567,0.04054288421193391,0.15779692156827754
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Croatia,champion,0.06,0.024487547856002243,0.027500972214041138,0.13085419406528095
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Korea,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Senegal,champion,0.04,0.01999599959991998,0.01555603210541602,0.10281449467301677
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Mexico,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ivory Coast,champion,0.03,0.01731790980459247,0.010203035287762114,0.088175171740226
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Czech Republic,champion,0.02,0.014140721339450827,0.005484777920906811,0.07290110935663663
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Sweden,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Canada,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Japan,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Algeria,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uruguay,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Colombia,champion,0.01,0.009999499987499374,0.001765221952685649,0.05662834557441313
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Austria,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Scotland,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ecuador,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,DR Congo,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Bosnia & Herzegovina,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Ghana,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Paraguay,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Egypt,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Tunisia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Cape Verde,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Haiti,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Qatar,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Saudi Arabia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iran,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,New Zealand,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Australia,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Uzbekistan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Curacao,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Panama,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Jordan,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,Iraq,champion,0.0,0.0,0.0,0.038401247776654115
+v2_random_forest_nt_elo,V2 sklearn Random Forest + NT Elo,South Africa,champion,0.0,0.0,0.0,0.038401247776654115

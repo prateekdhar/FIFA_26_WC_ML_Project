@@ -1,0 +1,1235 @@
+{
+  "metadata": {
+    "created_at": "2026-06-09T17:25:41.383390+00:00",
+    "players_reviewed": 33,
+    "players_updated": 33,
+    "players_without_verified_profile": 0,
+    "source": "Manual public web research using player profile and season pages, primarily Wikipedia snippets/pages.",
+    "limitations": [
+      "Rows are career/competition aggregates, not event-level data or recent-form ratings.",
+      "Some domestic-league profiles expose league totals but not full cup/continental splits."
+    ],
+    "last_extra_high_followup_at": "2026-06-09T17:45:49.484688+00:00"
+  },
+  "found_players": {
+    "Algeria::Raik Belghali": {
+      "name": "Rafik Belghali",
+      "status": "found",
+      "confidence": 0.93,
+      "url": "https://en.wikipedia.org/wiki/Rafik_Belghali",
+      "teams": [
+        "Lommel",
+        "Mechelen",
+        "Hellas Verona"
+      ],
+      "competitions": [
+        "Challenger Pro League",
+        "Belgian Pro League",
+        "Serie A",
+        "Belgian Cup"
+      ],
+      "career": {
+        "appearances": 117,
+        "goals": 12,
+        "league_appearances": 111,
+        "league_goals": 12,
+        "cup_appearances": 6,
+        "cup_goals": 0
+      },
+      "national": {
+        "caps": 11,
+        "goals": 1
+      },
+      "note": "Local name Raik appears to be Rafik Belghali."
+    },
+    "Cape Verde::Pico Lopes": {
+      "name": "Roberto Lopes",
+      "status": "found",
+      "confidence": 0.92,
+      "url": "https://en.wikipedia.org/wiki/Roberto_Lopes_(footballer,_born_1992)",
+      "teams": [
+        "Bohemians",
+        "Shamrock Rovers"
+      ],
+      "competitions": [
+        "League of Ireland Premier Division"
+      ],
+      "career": {
+        "league_appearances": 403,
+        "league_goals": 23
+      },
+      "national": {
+        "caps": 44,
+        "goals": 0
+      },
+      "note": "Pico is nickname; public profile is Roberto Lopes."
+    },
+    "DR Congo::Lionel Mp Asi": {
+      "name": "Lionel Mpasi",
+      "status": "found",
+      "confidence": 0.96,
+      "url": "https://en.wikipedia.org/wiki/Lionel_Mpasi",
+      "teams": [
+        "PSG II",
+        "Toulouse II",
+        "Rodez",
+        "Rodez II",
+        "Le Havre"
+      ],
+      "competitions": [
+        "CFA",
+        "CFA 2",
+        "National",
+        "Ligue 2",
+        "National 3",
+        "Ligue 1",
+        "Coupe de France"
+      ],
+      "career": {
+        "appearances": 187,
+        "goals": 1,
+        "league_appearances": 178,
+        "league_goals": 1,
+        "cup_appearances": 9,
+        "cup_goals": 0
+      },
+      "national": {
+        "caps": 27,
+        "goals": 0
+      },
+      "note": "Local name split differs from Lionnel/Lionel Mpasi Nzau."
+    },
+    "Egypt::Mohanad Lashin": {
+      "name": "Mohanad Lasheen",
+      "status": "found",
+      "confidence": 0.88,
+      "url": "https://es.wikipedia.org/wiki/Mohanad_Lasheen",
+      "teams": [
+        "Ismaily",
+        "Pyramids FC",
+        "Talaea El-Gaish SC",
+        "Modern Sport FC"
+      ],
+      "competitions": [
+        "Egyptian Premier League"
+      ],
+      "career": {
+        "league_appearances": 260,
+        "league_goals": 9
+      },
+      "national": {
+        "caps": 9,
+        "goals": 0
+      },
+      "note": "Spanish page has fuller club totals than English page."
+    },
+    "Egypt::Mostafa Zico": {
+      "name": "Mostafa Ziko",
+      "status": "partial",
+      "confidence": 0.72,
+      "url": "https://en.wikipedia.org/wiki/2023%E2%80%9324_ZED_FC_season",
+      "teams": [
+        "Haras El Hodoud",
+        "ZED",
+        "Pyramids"
+      ],
+      "competitions": [
+        "Egyptian Premier League",
+        "Egypt Cup",
+        "Egyptian League Cup"
+      ],
+      "career": {
+        "goals": 19
+      },
+      "national": {
+        "caps": null,
+        "goals": null
+      },
+      "note": "Verified as ZED league top scorer with 12 in 2023-24, Haras El Hodoud top scorer with 6 in 2022-23, plus an Egypt Cup goal for ZED; full player page not found."
+    },
+    "Egypt::Nabil Donga": {
+      "name": "Nabil Emad",
+      "status": "found",
+      "confidence": 0.92,
+      "url": "https://en.wikipedia.org/wiki/Nabil_Emad",
+      "teams": [
+        "Pyramids",
+        "Zamalek",
+        "Al-Najma"
+      ],
+      "competitions": [
+        "Egyptian Premier League",
+        "Saudi Pro League"
+      ],
+      "career": {
+        "league_appearances": 247,
+        "league_goals": 8
+      },
+      "national": {
+        "caps": 8,
+        "goals": 0
+      },
+      "note": "Donga/Dunga is nickname; public profile is Nabil Emad."
+    },
+    "Haiti::Markhus Lacroix": {
+      "name": "Duke Lacroix",
+      "status": "found",
+      "confidence": 0.93,
+      "url": "https://en.wikipedia.org/wiki/Duke_Lacroix",
+      "teams": [
+        "Ocean City Nor'easters",
+        "Indy Eleven",
+        "Orange County SC",
+        "Reno 1868",
+        "Charlotte Independence",
+        "Sacramento Republic",
+        "Colorado Springs Switchbacks"
+      ],
+      "competitions": [
+        "USL Championship",
+        "NASL",
+        "USL League Two"
+      ],
+      "career": {
+        "league_appearances": 269,
+        "league_goals": 15
+      },
+      "national": {
+        "caps": 14,
+        "goals": 2
+      },
+      "note": "Public profile uses Duke Lacroix; fullname is Markhus Lacroix."
+    },
+    "Iran::Arya Yousefi": {
+      "name": "Aria Yousefi",
+      "status": "found",
+      "confidence": 0.93,
+      "url": "https://en.wikipedia.org/wiki/Aria_Yousefi",
+      "teams": [
+        "Sepahan"
+      ],
+      "competitions": [
+        "Persian Gulf Pro League",
+        "Hazfi Cup",
+        "Asia",
+        "Iranian Super Cup"
+      ],
+      "career": {
+        "appearances": 107,
+        "goals": 8,
+        "league_appearances": 77,
+        "league_goals": 6,
+        "cup_appearances": 12,
+        "cup_goals": 0,
+        "continental_appearances": 17,
+        "continental_goals": 2,
+        "other_appearances": 1,
+        "other_goals": 0
+      },
+      "national": {
+        "caps": 12,
+        "goals": 0
+      },
+      "note": "Common Aria/Arya transliteration variation."
+    },
+    "Iran::Hossein Kanani": {
+      "name": "Hossein Kanaanizadegan",
+      "status": "found",
+      "confidence": 0.95,
+      "url": "https://en.wikipedia.org/wiki/Hossein_Kanaanizadegan",
+      "teams": [
+        "Persepolis",
+        "Beira-Mar",
+        "Malavan",
+        "Esteghlal",
+        "Saipa",
+        "Machine Sazi",
+        "Al Ahli"
+      ],
+      "competitions": [
+        "Persian Gulf Pro League",
+        "Hazfi Cup",
+        "AFC Champions League",
+        "Iranian Super Cup",
+        "Qatar Stars League"
+      ],
+      "career": {
+        "appearances": 284,
+        "goals": 28,
+        "league_appearances": 241,
+        "league_goals": 26,
+        "cup_appearances": 14,
+        "cup_goals": 1,
+        "continental_appearances": 27,
+        "continental_goals": 1,
+        "other_appearances": 2,
+        "other_goals": 0
+      },
+      "national": {
+        "caps": 63,
+        "goals": 6
+      },
+      "note": "Local short name maps to Mohammad Hossein Kanaanizadegan."
+    },
+    "Iraq::Munaf Younus": {
+      "name": "Manaf Younis",
+      "status": "found",
+      "confidence": 0.92,
+      "url": "https://en.wikipedia.org/wiki/Manaf_Younis",
+      "teams": [
+        "Salahaddin",
+        "Al-Karkh",
+        "Al-Shorta"
+      ],
+      "competitions": [
+        "Iraq Stars League",
+        "Iraq FA Cup",
+        "Iraqi Super Cup"
+      ],
+      "career": {
+        "league_appearances": 78,
+        "league_goals": 3
+      },
+      "national": {
+        "caps": 27,
+        "goals": 1
+      },
+      "note": "Common Manaf/Munaf and Younis/Younus transliteration variation."
+    },
+    "Iraq::Rebin Ghareeb": {
+      "name": "Rebin Sulaka",
+      "status": "found",
+      "confidence": 0.86,
+      "url": "https://en.wikipedia.org/wiki/Rebin_Sulaka",
+      "teams": [
+        "Eskilstuna City",
+        "Dalkurd",
+        "Ljungskile SK",
+        "Syrianska",
+        "Eskilstuna",
+        "Elverum",
+        "Al-Markhiya",
+        "Al-Khor",
+        "Al-Shahania",
+        "Radnicki Nis",
+        "Arda Kardzhali",
+        "Levski Sofia",
+        "Buriram United",
+        "Brommapojkarna",
+        "FC Seoul",
+        "Schaffhausen",
+        "Erbil SC",
+        "Port"
+      ],
+      "competitions": [
+        "domestic leagues across Sweden, Norway, Qatar, Serbia, Bulgaria, Thailand, Korea, Switzerland, Iraq and Thailand"
+      ],
+      "career": {
+        "league_appearances": 317,
+        "league_goals": 11
+      },
+      "national": {
+        "caps": 47,
+        "goals": 1
+      },
+      "note": "Full name is Rebin Gharib Sulaka Adhamat; local file captured the middle name."
+    },
+    "Iraq::Zaid Ismael": {
+      "name": "Zaid Ismail",
+      "status": "found",
+      "confidence": 0.92,
+      "url": "https://en.wikipedia.org/wiki/Zaid_Ismail",
+      "teams": [
+        "Al-Naft",
+        "Diyala",
+        "Newroz",
+        "Al-Talaba"
+      ],
+      "competitions": [
+        "Iraq Stars League",
+        "Iraq FA Cup"
+      ],
+      "career": {
+        "appearances": 50,
+        "goals": 5,
+        "league_appearances": 48,
+        "league_goals": 5,
+        "cup_appearances": 2,
+        "cup_goals": 0
+      },
+      "national": {
+        "caps": 4,
+        "goals": 0
+      },
+      "note": "Common Ismail/Ismael transliteration variation."
+    },
+    "Jordan::Abdallah Alfakhori": {
+      "name": "Abdallah Al-Fakhouri",
+      "status": "found",
+      "confidence": 0.94,
+      "url": "https://en.wikipedia.org/wiki/Abdallah_Al-Fakhouri",
+      "teams": [
+        "Al-Wehdat",
+        "Al-Ain"
+      ],
+      "competitions": [
+        "Jordanian Pro League",
+        "UAE First Division League"
+      ],
+      "career": {
+        "league_appearances": 94,
+        "league_goals": 0
+      },
+      "national": {
+        "caps": 10,
+        "goals": 0
+      },
+      "note": "Spanish page supplied fuller club totals."
+    },
+    "Jordan::Mohammad Abuzraiq": {
+      "name": "Mohammad Abu Zrayq",
+      "status": "found",
+      "confidence": 0.94,
+      "url": "https://en.wikipedia.org/wiki/Mohammad_Abu_Zrayq",
+      "teams": [
+        "Al-Ramtha",
+        "Al-Sailiya",
+        "Al Ahli Tripoli",
+        "Esperance de Tunis",
+        "Al Wehdat",
+        "Al-Shorta",
+        "Al-Hussein",
+        "Raja CA"
+      ],
+      "competitions": [
+        "Jordanian Pro League",
+        "Qatar Stars League",
+        "Libyan Premier League",
+        "Tunisian Ligue Professionnelle 1",
+        "Iraq Stars League",
+        "Botola Pro"
+      ],
+      "career": {
+        "league_appearances": 112,
+        "league_goals": 32
+      },
+      "national": {
+        "caps": 32,
+        "goals": 5
+      },
+      "note": "Sharara is nickname; public profile is Mohammad Abu Zrayq."
+    },
+    "Jordan::Nour Baniateyah": {
+      "name": "Nour Bani Attiah",
+      "status": "found",
+      "confidence": 0.88,
+      "url": "https://en.wikipedia.org/wiki/Nour_Bani_Attiah",
+      "teams": [
+        "Al-Faisaly",
+        "Shabab Al-Aqaba",
+        "Al-Jazeera"
+      ],
+      "competitions": [
+        "Jordanian Pro League"
+      ],
+      "career": {},
+      "national": {
+        "caps": 4,
+        "goals": 0
+      },
+      "note": "Verified identity and national caps; no reliable club appearance totals on page."
+    },
+    "Jordan::Saed Alrosan": {
+      "name": "Saed Al-Rosan",
+      "status": "found",
+      "confidence": 0.91,
+      "url": "https://en.wikipedia.org/wiki/Saed_Al-Rosan",
+      "teams": [
+        "Al-Arabi",
+        "Al-Ahli",
+        "Al-Sareeh",
+        "Mansheyat Bani Hasan",
+        "Al-Baqaa",
+        "Maan",
+        "Al-Hussein"
+      ],
+      "competitions": [
+        "Jordanian Pro League"
+      ],
+      "career": {},
+      "national": {
+        "caps": 16,
+        "goals": 2
+      },
+      "note": "Verified identity and national goals; club page has career path but not full appearance totals."
+    },
+    "Morocco::Ayoub Amaimouni": {
+      "name": "Ayoube Amaimouni",
+      "status": "partial",
+      "confidence": 0.78,
+      "url": "https://fr.wikipedia.org/wiki/Ayoube_Amaimouni",
+      "teams": [
+        "TSG Hoffenheim II",
+        "Eintracht Frankfurt"
+      ],
+      "competitions": [
+        "Regionalliga Sudwest",
+        "3. Liga",
+        "Bundesliga"
+      ],
+      "career": {
+        "league_appearances": 4,
+        "goals": 1,
+        "assists": 1
+      },
+      "national": {
+        "caps": null,
+        "goals": null
+      },
+      "note": "French page verifies Eintracht move and early Bundesliga output; full table not available."
+    },
+    "Morocco::Youssef Belamm Ari": {
+      "name": "Youssef Belammari",
+      "status": "found",
+      "confidence": 0.94,
+      "url": "https://en.wikipedia.org/wiki/Youssef_Belammari",
+      "teams": [
+        "FUS Rabat",
+        "Raja CA",
+        "Al Ahly"
+      ],
+      "competitions": [
+        "Botola Pro",
+        "Egyptian Premier League",
+        "Throne Cup",
+        "CAF competitions"
+      ],
+      "career": {
+        "league_appearances": 186,
+        "league_goals": 12
+      },
+      "national": {
+        "caps": 5,
+        "goals": 0
+      },
+      "note": "Local display name is split; public profile is Youssef Belammari."
+    },
+    "Qatar::Alhashmi Alhussein": {
+      "name": "Al-Hashmi Al-Hussain",
+      "status": "found",
+      "confidence": 0.95,
+      "url": "https://en.wikipedia.org/wiki/Al-Hashmi_Al-Hussain",
+      "teams": [
+        "Al-Arabi",
+        "Calahorra B",
+        "Alcorcon B"
+      ],
+      "competitions": [
+        "Qatar Stars League",
+        "Qatar Stars Cup",
+        "Tercera Federacion"
+      ],
+      "career": {
+        "appearances": 41,
+        "goals": 0,
+        "league_appearances": 37,
+        "league_goals": 0,
+        "cup_appearances": 4,
+        "cup_goals": 0
+      },
+      "national": {
+        "caps": 7,
+        "goals": 0
+      },
+      "note": "Transfermarkt cache also had matching profile id 943150."
+    },
+    "Qatar::Ayoub Aloui": {
+      "name": "Ayoub Al-Oui",
+      "status": "found",
+      "confidence": 0.9,
+      "url": "https://en.wikipedia.org/wiki/Ayoub_Al-Oui",
+      "teams": [
+        "Al-Gharafa"
+      ],
+      "competitions": [
+        "Qatar Stars League"
+      ],
+      "career": {
+        "league_appearances": 19,
+        "league_goals": 0
+      },
+      "national": {
+        "caps": 5,
+        "goals": 0
+      },
+      "note": "Local name omits hyphen in Al-Oui."
+    },
+    "Saudi Arabia::Ahmed Alkassar": {
+      "name": "Ahmed Al-Kassar",
+      "status": "found",
+      "confidence": 0.94,
+      "url": "https://en.wikipedia.org/wiki/Ahmed_Al-Kassar",
+      "teams": [
+        "Al-Raed",
+        "Al-Ettifaq",
+        "Al-Faisaly",
+        "Al-Fayha",
+        "Al-Qadsiah"
+      ],
+      "competitions": [
+        "Saudi Pro League",
+        "Saudi First Division League",
+        "King Cup",
+        "AFC Champions League",
+        "Crown Prince Cup"
+      ],
+      "career": {
+        "appearances": 237,
+        "goals": 0,
+        "league_appearances": 206,
+        "league_goals": 0,
+        "cup_appearances": 17,
+        "cup_goals": 0,
+        "continental_appearances": 6,
+        "continental_goals": 0,
+        "other_appearances": 8,
+        "other_goals": 0
+      },
+      "national": {
+        "caps": 8,
+        "goals": 0
+      },
+      "note": "Common spacing/hyphenation variation."
+    },
+    "Saudi Arabia::Hassan Kadish": {
+      "name": "Hassan Kadesh",
+      "status": "found",
+      "confidence": 0.93,
+      "url": "https://en.wikipedia.org/wiki/Hassan_Kadesh",
+      "teams": [
+        "Al-Ettifaq",
+        "Al-Hilal",
+        "Al-Taawoun",
+        "Al-Ittihad"
+      ],
+      "competitions": [
+        "Saudi Pro League",
+        "Saudi First Division League",
+        "King Cup",
+        "Crown Prince Cup",
+        "Asia"
+      ],
+      "career": {
+        "league_appearances": 302,
+        "league_goals": 12
+      },
+      "national": {
+        "caps": 18,
+        "goals": 2
+      },
+      "note": "Common Kadish/Kadesh transliteration variation."
+    },
+    "Saudi Arabia::Jehad Thikri": {
+      "name": "Jehad Thakri",
+      "status": "found",
+      "confidence": 0.9,
+      "url": "https://en.wikipedia.org/wiki/Jehad_Thakri",
+      "teams": [
+        "Al-Qadsiah"
+      ],
+      "competitions": [
+        "Saudi Pro League",
+        "Saudi First Division League",
+        "National Cup"
+      ],
+      "career": {
+        "league_appearances": 86,
+        "league_goals": 2
+      },
+      "national": {
+        "caps": 6,
+        "goals": 0
+      },
+      "note": "Common Thikri/Thakri transliteration variation."
+    },
+    "Saudi Arabia::Mohammed Alowais": {
+      "name": "Mohammed Al-Owais",
+      "status": "found",
+      "confidence": 0.94,
+      "url": "https://en.wikipedia.org/wiki/Mohammed_Al-Owais",
+      "teams": [
+        "Al-Shabab",
+        "Al-Ahli",
+        "Al-Hilal",
+        "Al-Ula"
+      ],
+      "competitions": [
+        "Saudi Pro League",
+        "Saudi First Division League",
+        "King Cup",
+        "Crown Prince Cup",
+        "AFC Champions League",
+        "FIFA Club World Cup"
+      ],
+      "career": {
+        "appearances": 193,
+        "goals": 0,
+        "league_appearances": 132,
+        "league_goals": 0,
+        "cup_appearances": 7,
+        "cup_goals": 0,
+        "league_cup_appearances": 8,
+        "league_cup_goals": 0,
+        "continental_appearances": 37,
+        "continental_goals": 0,
+        "other_appearances": 9,
+        "other_goals": 0
+      },
+      "national": {
+        "caps": 62,
+        "goals": 0
+      },
+      "note": "Local club lists Al-Ula; public page confirms 2025 move."
+    },
+    "Saudi Arabia::Nawaf Bu Washl": {
+      "name": "Nawaf Boushal",
+      "status": "found",
+      "confidence": 0.93,
+      "url": "https://en.wikipedia.org/wiki/Nawaf_Boushal",
+      "teams": [
+        "Al-Fateh",
+        "Al-Nassr"
+      ],
+      "competitions": [
+        "Saudi Pro League",
+        "King Cup",
+        "AFC Champions League",
+        "Saudi Super Cup",
+        "Arab Club Champions Cup"
+      ],
+      "career": {
+        "appearances": 125,
+        "goals": 3,
+        "league_appearances": 108,
+        "league_goals": 3,
+        "cup_appearances": 11,
+        "cup_goals": 0,
+        "continental_appearances": 4,
+        "continental_goals": 0,
+        "other_appearances": 2,
+        "other_goals": 0
+      },
+      "national": {
+        "caps": 23,
+        "goals": 0
+      },
+      "note": "Common Boushal/Bu Washl transliteration variation."
+    },
+    "South Korea::Bumkeun Song": {
+      "name": "Song Bum-keun",
+      "status": "found",
+      "confidence": 0.95,
+      "url": "https://en.wikipedia.org/wiki/Song_Bum-keun",
+      "teams": [
+        "Jeonbuk Hyundai Motors",
+        "Shonan Bellmare"
+      ],
+      "competitions": [
+        "K League 1",
+        "J1 League",
+        "Korean FA Cup",
+        "J.League Cup",
+        "AFC Champions League",
+        "AFC Champions League Two",
+        "K League Super Cup"
+      ],
+      "career": {
+        "appearances": 302,
+        "goals": 0,
+        "league_appearances": 259,
+        "league_goals": 0,
+        "cup_appearances": 12,
+        "cup_goals": 0,
+        "league_cup_appearances": 3,
+        "league_cup_goals": 0,
+        "continental_appearances": 27,
+        "continental_goals": 0,
+        "other_appearances": 1,
+        "other_goals": 0
+      },
+      "national": {
+        "caps": 2,
+        "goals": 0
+      },
+      "note": "Korean family-name-first profile spelling."
+    },
+    "South Korea::Jinseob Park": {
+      "name": "Park Jin-seob",
+      "status": "found",
+      "confidence": 0.95,
+      "url": "https://en.wikipedia.org/wiki/Park_Jin-seob_(footballer,_born_1995)",
+      "teams": [
+        "Daejeon Korail",
+        "Ansan Greeners",
+        "Daejeon Hana Citizen",
+        "Jeonbuk Hyundai Motors",
+        "Zhejiang FC"
+      ],
+      "competitions": [
+        "Korea National League",
+        "K League 2",
+        "K League 1",
+        "Chinese Super League",
+        "Korea Cup",
+        "AFC Champions League",
+        "AFC Champions League Two"
+      ],
+      "career": {
+        "appearances": 326,
+        "goals": 41,
+        "league_appearances": 276,
+        "league_goals": 31,
+        "cup_appearances": 21,
+        "cup_goals": 6,
+        "continental_appearances": 19,
+        "continental_goals": 1,
+        "other_appearances": 10,
+        "other_goals": 3
+      },
+      "national": {
+        "caps": 12,
+        "goals": 1
+      },
+      "note": "Korean family-name-first profile spelling."
+    },
+    "Uzbekistan::Abduvohid Nematov": {
+      "name": "Abduvohid Nematov",
+      "status": "found",
+      "confidence": 0.88,
+      "url": "https://en.wikipedia.org/wiki/Abduvohid_Nematov",
+      "teams": [
+        "Nasaf"
+      ],
+      "competitions": [
+        "Uzbekistan Super League",
+        "Uzbekistan Cup",
+        "Uzbekistan Super Cup"
+      ],
+      "career": {
+        "league_appearances": 118,
+        "league_goals": 2
+      },
+      "national": {
+        "caps": 7,
+        "goals": 0
+      },
+      "note": "English and Spanish pages disagree on club total; kept English infobox total and noted conflict."
+    },
+    "Uzbekistan::Sherzod Nasrullaev": {
+      "name": "Sherzod Nasrullaev",
+      "status": "found",
+      "confidence": 0.92,
+      "url": "https://en.wikipedia.org/wiki/Sherzod_Nasrullaev",
+      "teams": [
+        "Nasaf"
+      ],
+      "competitions": [
+        "Uzbekistan Super League",
+        "Uzbekistan Cup",
+        "Uzbekistan Super Cup"
+      ],
+      "career": {
+        "league_appearances": 134,
+        "league_goals": 7
+      },
+      "national": {
+        "caps": 29,
+        "goals": 2
+      },
+      "note": "Public page has Nasaf career and national goals."
+    },
+    "Iran::Amirmohammad Razaghinia": {
+      "matched_name": "Amir Mohammad Razzaghinia",
+      "status": "partial",
+      "confidence": 0.76,
+      "source_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Esteghlal_F.C._season",
+      "source_urls": [
+        "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Esteghlal_F.C._season"
+      ],
+      "teams": [
+        "Esteghlal",
+        "Kheybar Khorramabad",
+        "Gol Gohar"
+      ],
+      "competitions": [
+        "Persian Gulf Pro League",
+        "Hazfi Cup",
+        "Iranian Super Cup",
+        "AFC Champions League Two"
+      ],
+      "career": {},
+      "national": {},
+      "identity": {
+        "date_of_birth": "2006-04-11",
+        "height_cm": 187,
+        "position": "CM / AM"
+      },
+      "note": "Verified from FIFA squad PDF and Esteghlal 2025-26 roster/transfer table as Amir Mohammad Razzaghinia; no public individual stat table found after English, Persian, Soccerway, Transfermarkt-cache, Wikidata, and search-engine checks."
+    },
+    "Saudi Arabia::Ala Alhajji": {
+      "matched_name": "Alaa Al-Hejji",
+      "status": "found",
+      "confidence": 0.96,
+      "source_url": "https://en.wikipedia.org/wiki/Alaa_Al-Hejji",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Alaa_Al-Hejji",
+        "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+      ],
+      "teams": [
+        "Al-Khaleej",
+        "Al-Wehda",
+        "Neom"
+      ],
+      "competitions": [
+        "Saudi First Division League",
+        "Saudi Pro League"
+      ],
+      "career": {
+        "league_appearances": 233,
+        "league_goals": 18,
+        "appearances": 233,
+        "goals": 18
+      },
+      "national": {
+        "caps": 2,
+        "goals": 0
+      },
+      "identity": {
+        "date_of_birth": "1995-12-03",
+        "height_cm": 178,
+        "position": "Midfielder"
+      },
+      "note": "Local Ala Alhajji maps to FIFA/EAFC Ala'a Al Hajji and public profile Alaa Al-Hejji; profile gives club league totals through 21 May 2026 and Saudi caps through 6 June 2026."
+    },
+    "Tunisia::Raed Chikhaoui": {
+      "matched_name": "Raed Chikhaoui",
+      "status": "partial",
+      "confidence": 0.72,
+      "source_url": "https://cadenaser.com/nacional/2026/05/20/tunez-se-queda-sin-su-estrella-emergente-para-el-mundial-por-un-telefonazo-de-su-padre-cadena-ser/",
+      "source_urls": [
+        "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+        "https://cadenaser.com/nacional/2026/05/20/tunez-se-queda-sin-su-estrella-emergente-para-el-mundial-por-un-telefonazo-de-su-padre-cadena-ser/",
+        "https://en.wikipedia.org/wiki/US_Monastir_(football)"
+      ],
+      "teams": [
+        "US Monastir"
+      ],
+      "competitions": [
+        "Tunisian Ligue Professionnelle 1",
+        "Tunisian Cup",
+        "CAF Champions League"
+      ],
+      "career": {},
+      "national": {},
+      "identity": {
+        "date_of_birth": "2004-06-09",
+        "height_cm": 191,
+        "position": "Defender"
+      },
+      "note": "Verified as Tunisia World Cup squad defender at Monastir via FIFA squad PDF and independent squad-list reporting; no public individual club-stat page found and not conflated with Raed Bouchniba."
+    },
+    "Uzbekistan::Avazbek Ulmasaliyev": {
+      "matched_name": "Avazbek Ulmasaliev",
+      "status": "found",
+      "confidence": 0.95,
+      "source_url": "https://es.wikipedia.org/wiki/Avazbek_Ulmasaliev",
+      "source_urls": [
+        "https://es.wikipedia.org/wiki/Avazbek_Ulmasaliev",
+        "https://en.wikipedia.org/wiki/2021_FC_Bunyodkor_season",
+        "https://en.wikipedia.org/wiki/2022_FC_Bunyodkor_season",
+        "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+      ],
+      "teams": [
+        "Neftchi Fergana",
+        "Lokomotiv Tashkent",
+        "Bunyodkor",
+        "OKMK"
+      ],
+      "competitions": [
+        "Uzbekistan Super League",
+        "Uzbekistan Cup"
+      ],
+      "career": {
+        "league_appearances": 141,
+        "league_goals": 11,
+        "appearances": 141,
+        "goals": 11,
+        "known_cup_appearances": 9,
+        "known_cup_goals": 1
+      },
+      "national": {
+        "caps": 1,
+        "goals": 0
+      },
+      "identity": {
+        "date_of_birth": "2000-03-27",
+        "height_cm": 185,
+        "position": "Defender"
+      },
+      "note": "Local Ulmasaliyev maps to Avazbek Ulmasaliev/O?lmasaliyev; Spanish profile gives club league totals and Bunyodkor season pages provide 2021-22 league/cup splits."
+    }
+  },
+  "not_verified": {},
+  "extra_high_followup": {
+    "metadata": {
+      "created_at": "2026-06-09T17:45:49.484688+00:00",
+      "players_reviewed": 4,
+      "players_updated": 4,
+      "players_with_stat_profiles": 2,
+      "players_with_verified_partial_context": 2,
+      "remaining_without_external_stats": 0,
+      "resources_used": [
+        "FIFA official squad PDF text extraction",
+        "local EAFC dataset",
+        "local Transfermarkt CSV cache",
+        "Wikipedia multilingual pages",
+        "public web search",
+        "club/season pages",
+        "news squad list reporting"
+      ],
+      "limitations": [
+        "Razaghinia and Chikhaoui still lack public individual appearance tables; their rows contain verified identity, club, and competition context only.",
+        "League/cup splits are only included where public season tables expose them."
+      ]
+    },
+    "players": {
+      "Iran::Amirmohammad Razaghinia": {
+        "matched_name": "Amir Mohammad Razzaghinia",
+        "status": "partial",
+        "confidence": 0.76,
+        "source_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Esteghlal_F.C._season",
+        "source_urls": [
+          "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Esteghlal_F.C._season"
+        ],
+        "teams": [
+          "Esteghlal",
+          "Kheybar Khorramabad",
+          "Gol Gohar"
+        ],
+        "competitions": [
+          "Persian Gulf Pro League",
+          "Hazfi Cup",
+          "Iranian Super Cup",
+          "AFC Champions League Two"
+        ],
+        "career": {},
+        "national": {},
+        "identity": {
+          "date_of_birth": "2006-04-11",
+          "height_cm": 187,
+          "position": "CM / AM"
+        },
+        "note": "Verified from FIFA squad PDF and Esteghlal 2025-26 roster/transfer table as Amir Mohammad Razzaghinia; no public individual stat table found after English, Persian, Soccerway, Transfermarkt-cache, Wikidata, and search-engine checks."
+      },
+      "Saudi Arabia::Ala Alhajji": {
+        "matched_name": "Alaa Al-Hejji",
+        "status": "found",
+        "confidence": 0.96,
+        "source_url": "https://en.wikipedia.org/wiki/Alaa_Al-Hejji",
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Alaa_Al-Hejji",
+          "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+        ],
+        "teams": [
+          "Al-Khaleej",
+          "Al-Wehda",
+          "Neom"
+        ],
+        "competitions": [
+          "Saudi First Division League",
+          "Saudi Pro League"
+        ],
+        "career": {
+          "league_appearances": 233,
+          "league_goals": 18,
+          "appearances": 233,
+          "goals": 18
+        },
+        "national": {
+          "caps": 2,
+          "goals": 0
+        },
+        "identity": {
+          "date_of_birth": "1995-12-03",
+          "height_cm": 178,
+          "position": "Midfielder"
+        },
+        "note": "Local Ala Alhajji maps to FIFA/EAFC Ala'a Al Hajji and public profile Alaa Al-Hejji; profile gives club league totals through 21 May 2026 and Saudi caps through 6 June 2026."
+      },
+      "Tunisia::Raed Chikhaoui": {
+        "matched_name": "Raed Chikhaoui",
+        "status": "partial",
+        "confidence": 0.72,
+        "source_url": "https://cadenaser.com/nacional/2026/05/20/tunez-se-queda-sin-su-estrella-emergente-para-el-mundial-por-un-telefonazo-de-su-padre-cadena-ser/",
+        "source_urls": [
+          "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+          "https://cadenaser.com/nacional/2026/05/20/tunez-se-queda-sin-su-estrella-emergente-para-el-mundial-por-un-telefonazo-de-su-padre-cadena-ser/",
+          "https://en.wikipedia.org/wiki/US_Monastir_(football)"
+        ],
+        "teams": [
+          "US Monastir"
+        ],
+        "competitions": [
+          "Tunisian Ligue Professionnelle 1",
+          "Tunisian Cup",
+          "CAF Champions League"
+        ],
+        "career": {},
+        "national": {},
+        "identity": {
+          "date_of_birth": "2004-06-09",
+          "height_cm": 191,
+          "position": "Defender"
+        },
+        "note": "Verified as Tunisia World Cup squad defender at Monastir via FIFA squad PDF and independent squad-list reporting; no public individual club-stat page found and not conflated with Raed Bouchniba."
+      },
+      "Uzbekistan::Avazbek Ulmasaliyev": {
+        "matched_name": "Avazbek Ulmasaliev",
+        "status": "found",
+        "confidence": 0.95,
+        "source_url": "https://es.wikipedia.org/wiki/Avazbek_Ulmasaliev",
+        "source_urls": [
+          "https://es.wikipedia.org/wiki/Avazbek_Ulmasaliev",
+          "https://en.wikipedia.org/wiki/2021_FC_Bunyodkor_season",
+          "https://en.wikipedia.org/wiki/2022_FC_Bunyodkor_season",
+          "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+        ],
+        "teams": [
+          "Neftchi Fergana",
+          "Lokomotiv Tashkent",
+          "Bunyodkor",
+          "OKMK"
+        ],
+        "competitions": [
+          "Uzbekistan Super League",
+          "Uzbekistan Cup"
+        ],
+        "career": {
+          "league_appearances": 141,
+          "league_goals": 11,
+          "appearances": 141,
+          "goals": 11,
+          "known_cup_appearances": 9,
+          "known_cup_goals": 1
+        },
+        "national": {
+          "caps": 1,
+          "goals": 0
+        },
+        "identity": {
+          "date_of_birth": "2000-03-27",
+          "height_cm": 185,
+          "position": "Defender"
+        },
+        "note": "Local Ulmasaliyev maps to Avazbek Ulmasaliev/O?lmasaliyev; Spanish profile gives club league totals and Bunyodkor season pages provide 2021-22 league/cup splits."
+      }
+    }
+  },
+  "matchlog_reconstruction_followup": {
+    "metadata": {
+      "created_at": "2026-06-09T18:36:03.396457+00:00",
+      "players_attempted": 2,
+      "players_reconstructed": 2,
+      "source": "SofaScore public player/statistics endpoints",
+      "source_urls": [
+        "https://www.sofascore.com/player/razzaghinia-amirmohammad/1500737",
+        "https://www.sofascore.com/player/raed-chikhaoui/2018330"
+      ],
+      "remaining_partial_context_rows": 2,
+      "limitations": [
+        "The reconstruction uses SofaScore season-competition aggregate endpoints, not a downloaded event-by-event log.",
+        "Some competitions expose goals-only placeholders; those are not counted unless appearances/minutes are present.",
+        "starts is only counted where the endpoint exposes matchesStarted."
+      ]
+    },
+    "summary": {
+      "Iran::Amirmohammad Razaghinia": {
+        "row_count": 3,
+        "seasons": [
+          "25/26",
+          "24/25"
+        ],
+        "teams": [
+          "Esteghlal FC",
+          "Gol Gohar Sirjan"
+        ],
+        "competitions": [
+          "AFC Champions League Two",
+          "Persian Gulf Pro League"
+        ],
+        "appearances": 37,
+        "starts": 25,
+        "starts_known_rows": 2,
+        "starts_unknown_rows": 1,
+        "minutes_played": 2599,
+        "goals": 1,
+        "assists": 0,
+        "goal_contributions": 1,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "clean_sheets": 1,
+        "goals_conceded": 3,
+        "per_90": {
+          "goals": 0.0346,
+          "assists": 0.0,
+          "goal_contributions": 0.0346,
+          "cards": 0.0693
+        },
+        "per_appearance": {
+          "goals": 0.027,
+          "assists": 0.0,
+          "goal_contributions": 0.027
+        }
+      },
+      "Tunisia::Raed Chikhaoui": {
+        "row_count": 2,
+        "seasons": [
+          "25/26",
+          "24/25"
+        ],
+        "teams": [
+          "US Monastir"
+        ],
+        "competitions": [
+          "Tunisian Ligue Professionnelle 1"
+        ],
+        "appearances": 27,
+        "starts": 6,
+        "starts_known_rows": 1,
+        "starts_unknown_rows": 1,
+        "minutes_played": 1815,
+        "goals": 3,
+        "assists": 0,
+        "goal_contributions": 3,
+        "yellow_cards": 5,
+        "red_cards": 1,
+        "clean_sheets": 0,
+        "goals_conceded": 0,
+        "per_90": {
+          "goals": 0.1488,
+          "assists": 0.0,
+          "goal_contributions": 0.1488,
+          "cards": 0.2975
+        },
+        "per_appearance": {
+          "goals": 0.1111,
+          "assists": 0.0,
+          "goal_contributions": 0.1111
+        }
+      }
+    },
+    "audit_file": "remaining_player_matchlog_reconstruction.json"
+  }
+}

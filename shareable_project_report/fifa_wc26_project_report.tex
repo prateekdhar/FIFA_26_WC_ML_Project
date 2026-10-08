@@ -1,0 +1,614 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=0.65in]{geometry}
+
+\usepackage{booktabs,longtable,array,xcolor,hyperref}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+
+\setlength{\parindent}{0pt}
+
+\setlength{\parskip}{6pt}
+
+\title{\textbf{FIFA World Cup 2026 Simulation Project}\\Data, Models, Results, and Research State}
+
+\author{Generated from the local FIFA\_WC\_26 workspace}
+
+\date{2026-06-12}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Executive Summary}
+
+This project is now a multi-layer FIFA World Cup 2026 simulation and analysis system. It includes a primitive EAFC/Poisson baseline, a second-generation event simulator with possession, fatigue, substitutions, cards, extra time, penalties, venue and schedule context, a scikit-learn Random Forest outcome layer, a heuristic internal forest, 10,000-run model comparisons, feature importance analysis, calibration diagnostics, uncertainty intervals, tactical priors, and external-data ingestion paths.
+
+\begin{itemize}
+  \item Current primary champion consensus across the three 10,000-run primary models begins with France, Brazil, Germany, and Spain.
+  \item The current validation layer ranks calibrated logistic regression first by log loss, followed by the weighted validation ensemble and Random Forest.
+  \item The Random Forest feature study identifies squad strength, possession edge, attack-versus-defense, midfield edge, defense-versus-attack, and Elo difference as the strongest individual signals.
+  \item The project now has a complete 2026-06-11 raw World Football Elo export imported locally; martj42/international\_results is still awaiting a local results.csv because direct network access is blocked.
+  \item The stored 10,000-run result artifacts should be rerun before they are treated as final raw-Elo simulation probabilities.
+  \item Until real historical match data is supplied, model results explain calibrated assumptions more than validated real-world causality.
+\end{itemize}
+
+\newpage
+
+\section{1. Project Objective And Starting Point}
+
+The project began as a question: can we build a FIFA World Cup 2026 simulator that is transparent enough to inspect, flexible enough to improve, and rich enough to study why teams become likely winners rather than only outputting a champion list?
+
+The first target was not a perfect prediction engine. The first target was a reproducible baseline: take squads, attach player strength, simulate a tournament thousands of times, store probabilities, and then progressively replace assumptions with better data. That framing matters because every later improvement keeps the earlier baseline available for comparison.
+
+The workspace now contains a complete chain from squad parsing and enrichment to event simulation, machine-learning outcome layers, feature analysis, uncertainty reporting, and external-data ingestion. The report below explains that chain from scratch.
+
+\begin{itemize}
+  \item Tournament scope: the 48-team FIFA World Cup 2026 structure.
+  \item Core outputs: team stage probabilities, champion probabilities, player scoring/assist leaderboards, event totals, feature importances, calibration tables, and data-quality diagnostics.
+  \item Philosophy: keep every assumption auditable and every generated result stored as JSON, CSV, Markdown, LaTeX, or PDF.
+\end{itemize}
+
+\section{2. Raw Data Foundations}
+
+The project starts from squad and rating information. The squad file is guardian\_world\_cup\_2026\_player\_guide.json, which represents the active 48-team, 1,248-player working squad dataset. The original baseline also depends on fifa\_squadlists\_english.pdf and eafc26\_players.csv, which are large local source files and are intentionally ignored by Git.
+
+The squad rebuild path is handled by rebuild\_squads\_from\_fifa\_pdf.py. The enrichment path is handled by enrich\_squads\_with\_eafc.py. Together, those scripts establish team rosters, player names, official positions, and EAFC/FIFA-style ratings or fallback ratings where no confident EAFC match exists.
+
+The latest squad quality report checks 48 teams and 1248 players. It currently marks the data as needs\_refresh with 17 squad-shape issues, mostly position-distribution anomalies that should be refreshed against the official PDF before treating player-level outputs as final.
+
+\begin{itemize}
+  \item The primitive baseline uses EAFC-style player ratings as its main strength signal.
+  \item The v2 simulator uses the richer player-performance dataset player\_performance\_data\_statbunker.json when building effective ratings and event tendencies.
+  \item The project keeps large generated and source files outside Git where practical, but keeps scripts, templates, and reports in the workspace.
+\end{itemize}
+
+\section{3. Player Performance Data Collection}
+
+The second phase tried to move beyond static ratings. Several collectors were created because public football data is fragmented and often blocked for automated access. collect\_player\_performance\_data.py targets SofaScore-style profile evidence; collect\_player\_performance\_data\_edge.py tries browser-assisted access when direct requests are blocked; collect\_player\_performance\_data\_providers.py supports key-based providers such as Sportmonks, API-Football/API-Sports, and FootyStats; collect\_player\_performance\_data\_statbunker.py collects public StatBunker competition tables.
+
+StatBunker became the current free fallback. It gives useful public player-table data such as appearances, goals, assists, cards, penalties, fantasy points where requested, and goalkeeper clean-sheet data. It does not fully solve the problem because it lacks many event-level metrics such as xG, xA, pressures, carries, tackles, saves, and SofaScore-style match ratings.
+
+Because player coverage is uneven, the research pipeline now creates player\_data\_coverage.csv. This explicitly identifies teams where low-confidence players or zero-minute players weaken the model. That turns data quality into a measurable object rather than a vague concern.
+
+\begin{itemize}
+  \item SofaScore access was unreliable because direct endpoints often return 403 outside a browser session.
+  \item Browser-assisted collection can recover some profile evidence, but is not a robust full dataset.
+  \item Paid/key-based providers remain the best future route for complete player-level event data.
+  \item Current lowest-confidence coverage includes Panama, Senegal, Mexico, Scotland, Canada, Ivory Coast, Czech Republic, and the United States.
+\end{itemize}
+
+\section{4. Primitive Baseline Simulator}
+
+The first working model is simulate\_world\_cup.py. It exists as an intentionally simple baseline. Each tournament epoch simulates the group stage, ranks group tables, advances top-two teams plus the eight best third-place teams, simulates knockouts, simulates the third-place match, and stores team and player outputs.
+
+Team strength in this baseline is built from best XI average, top-18 depth, and full-squad average. Match goals are generated from a Poisson model. Knockout draws are resolved through extra time and penalties. Player goals and assists are assigned probabilistically using player position and rating.
+
+The primitive 10,000-run output is simulation\_results\_10000.json, with a visual report in simulation\_report\_10000. It remains valuable because it tells us what the simplest rating-and-goals model thinks before later event, Elo, and ML layers alter the result.
+
+\begin{itemize}
+  \item Primitive champion leader: France at 12.50\%.
+  \item Other high primitive probabilities include Spain, England, Brazil, Portugal, Germany, Argentina, and the Netherlands.
+  \item This model does not include possession, fatigue, cards, travel, climate, Random Forest adjustment, player availability, or calibrated historical supervision.
+\end{itemize}
+
+\section{5. V2 Event Simulator}
+
+simulate\_world\_cup\_v2.py is the major modelling upgrade. It keeps the tournament structure but changes the match engine from a simple Poisson-only model into a compressed event simulator. A 90-minute match is represented by 9 simulated minutes, and extra time is represented by 3 simulated minutes.
+
+The v2 engine adds possession, fouls, yellow cards, red cards, second yellows, player removals, substitutions, fatigue, set-piece goals, game-state behavior, extra time, penalties, rest-day context, date-aware scheduling, host-country signals, venue/climate/travel priors, and constrained Round-of-32 routing.
+
+Only the team with possession can score during an event tick. Cards and fatigue alter team state. Red cards and second yellows remove players. Substitutes are modelled as fresher than tired starters. These mechanics are still simplified, but they are much closer to the match process we want to study than the primitive baseline.
+
+\begin{itemize}
+  \item The engine exports pandas-compatible feature frames for inspection.
+  \item It can run CPU-parallel tournament batches, which is why 10,000-run v2 simulations were practical on the Ryzen 7 8845HS.
+  \item It supports a heuristic internal forest or scikit-learn Random Forest match outcome layer.
+\end{itemize}
+
+\section{6. National-Team Elo And Rating Priors}
+
+The simulator now reads national\_team\_elo\_ratings.json as a national-team prior. The file can contain all national teams, not just the World Cup teams. The simulator consumes the teams in the tournament structure, while aliases help historical match training match names such as USA, Czechia, Korea Republic, and Cote d'Ivoire.
+
+The current import report contains 177 teams from raw World Football Elo as of 2026-06-11, sourced as World Football Elo Ratings System user-supplied export. Missing required World Cup teams: 0.
+
+The active ratings now come from external\_data/world\_football\_elo/international\_football\_elo\_20260611.json. The earlier FIFA-rank-derived fallback was preserved in external\_data/world\_football\_elo for audit and rollback.
+
+\begin{itemize}
+  \item Preferred priority: world\_football\_elo first, then elo/rating, then FIFA points, then FIFA rank-derived Elo, then squad proxy fallback.
+  \item World Football Elo source is configured as https://www.eloratings.net/.
+  \item A template exists at world\_football\_elo\_current\_template.csv.
+\end{itemize}
+
+\section{7. Historical Match Data Path}
+
+The Random Forest and research pipeline are prepared for supervised historical match training, but the local workspace does not yet contain the historical results CSV. The chosen source is martj42/international\_results, specifically its results.csv with date, home\_team, away\_team, home\_score, away\_score, tournament, city, country, and neutral columns.
+
+fetch\_external\_football\_data.py can download and normalize that CSV when network access is available. In this workspace, direct access to raw.githubusercontent.com is blocked, so the manifest records the failed download and tells us where the raw file should be placed: external\_data/international\_results/results.csv.
+
+The current research pipeline therefore reports historical data readiness as missing, with 0 usable historical matches. As a result, model validation currently measures the simulator's synthetic/profile calibration, not real-world historical predictive performance.
+
+\begin{itemize}
+  \item Once results.csv is placed locally, fetch\_external\_football\_data.py normalizes it into historical\_international\_results.csv.
+  \item simulate\_world\_cup\_v2.py and analyze\_feature\_importance.py already accept --historical-matches.
+  \item If the historical file is small, the project blends it with synthetic calibration rows instead of discarding it.
+\end{itemize}
+
+\section{8. Random Forest And Model Training Layer}
+
+The machine-learning layer was introduced so we can study factors rather than only simulate outcomes. The Random Forest consumes match-level feature differences: Elo difference, squad rating difference, attack-versus-defense, defense-versus-attack, midfield difference, goalkeeper difference, possession difference, discipline difference, data confidence, host context, rest, fatigue, lineup replacements, altitude, travel, heat, humidity, venue altitude, stage type, draw allowance, and match-day index.
+
+In the current feature-importance run, the training source is synthetic\_profile\_calibration with 6768 rows. These are synthetic profile-calibration rows because historical match data is not yet present.
+
+The best current validation model is calibrated\_logistic\_sigmoid with log loss 0.75862, accuracy 0.69208, and expected calibration error 0.05681.
+
+\begin{itemize}
+  \item Random Forest is used as one model, not the only model.
+  \item The research layer also trains Extra Trees, histogram gradient boosting, logistic regression, and calibrated logistic regression.
+  \item The ensemble weights are derived from validation log loss so stronger validation models receive slightly higher influence.
+\end{itemize}
+
+\section{9. 10,000-Run Simulation Comparisons}
+
+The project now stores comparable 10,000-run outputs for three primary model families: primitive EAFC Poisson, v2 heuristic internal forest with NT Elo, and v2 scikit-learn Random Forest with NT Elo. It also preserves a legacy v2 Random Forest run that used squad-proxy Elo before the NT Elo import.
+
+The leading consensus teams across the primary 10,000-run models are France (17.02\%), Brazil (15.91\%), Germany (15.39\%), Spain (15.18\%).
+
+generate\_10000\_model\_comparison\_report.py turns those runs into a common table structure. That matters because each raw simulation JSON has a slightly different schema, and the comparison report provides a single long team summary, champion matrix, metadata file, and player leaderboards.
+
+\begin{itemize}
+  \item Primitive EAFC Poisson top winner: France.
+  \item V2 heuristic with NT Elo top winner: Brazil.
+  \item V2 Random Forest with NT Elo top winner: Brazil.
+  \item The v2 event models concentrate more probability among Brazil, Germany, France, and Spain than the primitive model does.
+\end{itemize}
+
+\section{10. Feature Importance And Explainability}
+
+analyze\_feature\_importance.py was added to answer a more important research question: which factors actually drive the model's predictions? It trains several comparison models, exports Random Forest trees, calculates built-in tree importances, permutation importances, logistic coefficients, local occlusion effects, partial dependence, ICE curves, validation group ablations, and tournament simulation ablation scenarios.
+
+The strongest Random Forest permutation features are squad\_rating\_diff, possession\_diff, attack\_vs\_defense, midfield\_diff, defense\_vs\_attack, elo\_diff, and gk\_diff. Local occlusion tells a similar story: neutralizing squad rating, possession, attacking matchup, midfield, and defensive matchup moves the model's true-class probabilities the most.
+
+At the group level, unit\_matchups is the most important ablation group. This group includes attack\_vs\_defense, defense\_vs\_attack, midfield\_diff, gk\_diff, and possession\_diff. In plain English, the model is not only looking at which team is stronger overall; it cares about how specific units match up.
+
+\begin{itemize}
+  \item Feature importance outputs live in feature\_importance\_results\_seed\_20260618.
+  \item Random Forest trees were exported to text and JSON for inspection.
+  \item The feature report warns that current importances explain simulator assumptions until real historical rows are supplied.
+\end{itemize}
+
+\section{11. Calibration, Uncertainty, And Ensemble Research Layer}
+
+run\_research\_upgrade\_pipeline.py adds a research layer on top of the simulator outputs. It trains comparison models, evaluates accuracy, balanced accuracy, log loss, multiclass Brier score, and expected calibration error, then writes calibration bins and ensemble weights.
+
+It also computes Wilson 95 percent uncertainty intervals for every stored 10,000-run stage probability. This changes how probabilities should be read: Brazil at about 20 percent is not a single exact truth; it is an estimate with simulation uncertainty and model uncertainty.
+
+The pipeline also writes tactical priors and player data coverage diagnostics. Tactical priors are inferred from current squad profiles, so they are useful modelling features but should not be mistaken for validated event-style data.
+
+\begin{itemize}
+  \item Current best validation log loss: calibrated\_logistic\_sigmoid.
+  \item Current strongest calibration by ECE: histogram gradient boosting in the stored research report.
+  \item Consensus ensemble and uncertainty tables live in research\_upgrade\_results\_seed\_20260622.
+\end{itemize}
+
+\section{12. How To Read The Results}
+
+The results should be read as model-conditioned tournament probabilities. They are not declarations of what will happen. Every number depends on the current squad data, current player-performance coverage, current Elo prior, current fixture assumptions, and current match engine.
+
+The most useful result is not just the top champion. The useful result is how different model families disagree. For example, the primitive baseline gives France the highest title chance, while both v2 event models make Brazil the top title candidate. That disagreement tells us that event-engine assumptions and rating priors materially affect the output.
+
+The player leaderboards are especially sensitive to squad-shape and player-data quality. They are good for checking whether the simulator behaves plausibly, but they should not be shared as final player award predictions until the squad quality issues and player coverage weaknesses are resolved.
+
+\begin{itemize}
+  \item Use consensus tables for a conservative model-family view.
+  \item Use uncertainty intervals to avoid over-reading small percentage differences.
+  \item Use feature importance and ablation tables to understand model behavior.
+  \item Use coverage tables to decide what data to improve next.
+\end{itemize}
+
+\section{13. Reproducible Build Ledger}
+
+This section records what was actually built in the workspace. It is included so the report can be shared with someone who has not watched the project evolve conversation by conversation.
+
+The project did not jump straight to a Random Forest. It moved through a deliberate sequence: establish a squad dataset, build a primitive baseline, enrich player evidence, add a more realistic event engine, add rating priors, add machine-learning layers, run comparable 10,000 simulations, explain the model, and finally add research diagnostics and external-data ingestion.
+
+\begin{itemize}
+  \item Created or maintained rebuild\_squads\_from\_fifa\_pdf.py to parse FIFA squad-list inputs into the working squad JSON.
+  \item Created or maintained enrich\_squads\_with\_eafc.py to attach EAFC/FIFA-style player ratings, detailed positions, and fallback ratings.
+  \item Ran the primitive simulator simulate\_world\_cup.py and generated simulation\_results\_10000.json plus simulation\_report\_10000.
+  \item Created generate\_simulation\_report.py for the original HTML/SVG simulation report.
+  \item Built performance data collectors for SofaScore-style pages, browser-assisted fallback, key-based providers, and StatBunker public tables.
+  \item Stored player\_performance\_data\_statbunker.json as the current free public performance-data layer.
+  \item Created simulate\_world\_cup\_v2.py with possession, fouls, cards, removals, fatigue, substitutions, set pieces, compressed match time, extra time, penalties, rest, venue, climate, travel, and bracket routing.
+  \item Added --trace-one output so one simulated tournament can be watched and recorded in the console.
+  \item Added CPU-parallel v2 tournament execution for large runs on the Ryzen 7 8845HS.
+  \item Created import\_national\_team\_elo.py and national\_team\_elo\_ratings.json to support all-national-team rating priors and aliases.
+  \item Created world\_cup\_2026\_venue\_context.json for group-level and knockout-level venue, climate, altitude, and travel priors.
+  \item Added scikit-learn Random Forest support with synthetic calibration and optional historical CSV training.
+  \item Exported Random Forest trees to readable text and JSON using export\_random\_forest\_trees.py.
+  \item Ran 10,000 simulations for primitive EAFC Poisson, v2 heuristic with NT Elo, and v2 Random Forest with NT Elo.
+  \item Created generate\_10000\_model\_comparison\_report.py to compare all stored 10,000-run model outputs.
+  \item Created analyze\_feature\_importance.py to compute model metrics, feature importance, local occlusion, PDP/ICE, and ablation studies.
+  \item Created run\_research\_upgrade\_pipeline.py for calibration, ensemble weights, uncertainty intervals, tactical priors, player-data coverage, source manifests, and a local dashboard.
+  \item Created fetch\_external\_football\_data.py to normalize martj42/international\_results and import World Football Elo CSV/JSON files.
+  \item Created generate\_shareable\_latex\_report.py to produce this PDF and matching LaTeX source from the stored outputs.
+\end{itemize}
+
+\section{14. What The Stored Files Mean}
+
+The project stores raw model outputs separately from reports. This is intentional: reports can be regenerated, while CSV and JSON outputs remain the auditable data behind those reports.
+
+The most important folder for current study is research\_upgrade\_results\_seed\_20260622. It contains validation metrics, calibration bins, uncertainty intervals, consensus champion probabilities, tactical priors, player coverage, and the local HTML dashboard. The most important folder for model comparison is simulation\_10000\_model\_comparison. The most important folder for feature interpretation is feature\_importance\_results\_seed\_20260618.
+
+\begin{itemize}
+  \item simulation\_10000\_model\_team\_summary.csv is the long table of team stage probabilities by model.
+  \item simulation\_10000\_model\_champion\_matrix.csv is the wide title-probability comparison across models.
+  \item simulation\_consensus\_ensemble.csv is the current primary cross-model champion consensus.
+  \item simulation\_stage\_uncertainty.csv gives Wilson intervals for all stage probabilities.
+  \item model\_validation\_metrics.csv compares candidate predictive models on accuracy, balanced accuracy, log loss, Brier score, and calibration error.
+  \item feature\_importance\_permutation.csv gives model-agnostic feature importance by shuffling each feature.
+  \item feature\_group\_ablation\_validation.csv estimates how much validation performance drops when a feature group is neutralized.
+  \item player\_data\_coverage.csv identifies which teams most need better player-level data before player outputs should be trusted.
+  \item external\_football\_data\_manifest.json records the configured historical-results and World Football Elo sources.
+\end{itemize}
+
+\newpage
+
+\section{Current Artifacts}
+
+\begin{longtable}{p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}}
+\caption{Stored 10,000-run model outputs}\\
+\toprule
+model & file & epochs & seed & elo\_source & forest & training\_rows \\
+\midrule
+\endfirsthead
+\toprule
+model & file & epochs & seed & elo\_source & forest & training\_rows \\
+\midrule
+\endhead
+Primitive EAFC Poisson & simulation\_results\_10000.json & 10000 & 20260605 &  & none &  \\
+V2 Heuristic Internal Forest + NT Elo & simulation\_results\_v2\_heuristic\_10000.json & 10000 & 20260620 & FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior & heuristic\_internal\_forest & 0.0 \\
+V2 sklearn Random Forest + NT Elo & simulation\_results\_v2\_rf\_elo\_10000.json & 10000 & 20260621 & FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior & sklearn\_random\_forest & 6768.0 \\
+V2 sklearn Random Forest + squad-proxy Elo legacy & simulation\_results\_v2\_rf\_10000.json & 10000 & 20260618 & squad\_proxy & sklearn\_random\_forest & 6768.0 \\
+\bottomrule
+\end{longtable}
+
+
+\section{10,000 Simulation Results}
+
+\begin{longtable}{p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}}
+\caption{Cross-model champion consensus}\\
+\toprule
+team & mean title \% & median title \% & model range & v2 mean title \% \\
+\midrule
+\endfirsthead
+\toprule
+team & mean title \% & median title \% & model range & v2 mean title \% \\
+\midrule
+\endhead
+France & 17.02\% & 19.09\% & 6.96\% & 19.27\% \\
+Brazil & 15.91\% & 19.23\% & 11.67\% & 19.66\% \\
+Germany & 15.39\% & 18.30\% & 11.64\% & 19.02\% \\
+Spain & 15.18\% & 17.11\% & 7.92\% & 17.64\% \\
+Argentina & 7.71\% & 7.67\% & 1.59\% & 7.72\% \\
+England & 6.82\% & 6.76\% & 3.39\% & 5.96\% \\
+Portugal & 5.70\% & 4.36\% & 4.04\% & 4.36\% \\
+Netherlands & 4.62\% & 4.30\% & 2.79\% & 3.84\% \\
+Belgium & 2.32\% & 1.39\% & 3.37\% & 1.25\% \\
+Turkey & 0.89\% & 0.30\% & 1.88\% & 0.28\% \\
+Croatia & 0.88\% & 0.06\% & 2.49\% & 0.06\% \\
+Switzerland & 0.65\% & 0.24\% & 1.38\% & 0.20\% \\
+\bottomrule
+\end{longtable}
+
+
+\begin{longtable}{p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}}
+\caption{Champion probability uncertainty, Wilson 95 percent intervals}\\
+\toprule
+model & team & title \% & 95\% low & 95\% high \\
+\midrule
+\endfirsthead
+\toprule
+model & team & title \% & 95\% low & 95\% high \\
+\midrule
+\endhead
+Primitive EAFC Poisson & France & 12.50\% & 11.87\% & 13.16\% \\
+Primitive EAFC Poisson & Spain & 10.26\% & 9.68\% & 10.87\% \\
+Primitive EAFC Poisson & England & 8.55\% & 8.02\% & 9.11\% \\
+Primitive EAFC Poisson & Brazil & 8.42\% & 7.89\% & 8.98\% \\
+Primitive EAFC Poisson & Portugal & 8.39\% & 7.86\% & 8.95\% \\
+V2 Heuristic Internal Forest + NT Elo & Brazil & 19.23\% & 18.47\% & 20.01\% \\
+V2 Heuristic Internal Forest + NT Elo & France & 19.09\% & 18.33\% & 19.87\% \\
+V2 Heuristic Internal Forest + NT Elo & Germany & 18.30\% & 17.55\% & 19.07\% \\
+V2 Heuristic Internal Forest + NT Elo & Spain & 18.18\% & 17.44\% & 18.95\% \\
+V2 Heuristic Internal Forest + NT Elo & Argentina & 8.52\% & 7.99\% & 9.08\% \\
+V2 sklearn Random Forest + NT Elo & Brazil & 20.09\% & 19.32\% & 20.89\% \\
+V2 sklearn Random Forest + NT Elo & Germany & 19.75\% & 18.98\% & 20.54\% \\
+V2 sklearn Random Forest + NT Elo & France & 19.46\% & 18.70\% & 20.25\% \\
+V2 sklearn Random Forest + NT Elo & Spain & 17.11\% & 16.38\% & 17.86\% \\
+V2 sklearn Random Forest + NT Elo & Argentina & 6.93\% & 6.45\% & 7.44\% \\
+\bottomrule
+\end{longtable}
+
+
+\section{Validation, Calibration, and Ensemble}
+
+\begin{longtable}{p{0.157\linewidth}p{0.157\linewidth}p{0.157\linewidth}p{0.157\linewidth}p{0.157\linewidth}p{0.157\linewidth}}
+\caption{Validation metrics from the research upgrade pipeline}\\
+\toprule
+model & accuracy & balanced acc. & log\_loss & Brier & ece \\
+\midrule
+\endfirsthead
+\toprule
+model & accuracy & balanced acc. & log\_loss & Brier & ece \\
+\midrule
+\endhead
+calibrated\_logistic\_sigmoid & 0.692 & 0.550 & 0.759 & 0.434 & 0.057 \\
+weighted\_validation\_ensemble & 0.690 & 0.572 & 0.773 & 0.443 & 0.076 \\
+random\_forest & 0.671 & 0.589 & 0.794 & 0.458 & 0.086 \\
+hist\_gradient\_boosting & 0.689 & 0.557 & 0.802 & 0.450 & 0.044 \\
+extra\_trees & 0.659 & 0.601 & 0.819 & 0.477 & 0.111 \\
+logistic\_l2 & 0.624 & 0.580 & 0.828 & 0.485 & 0.097 \\
+\bottomrule
+\end{longtable}
+
+
+\begin{longtable}{p{0.280\linewidth}p{0.280\linewidth}p{0.280\linewidth}}
+\caption{Validation-loss-based ensemble weights}\\
+\toprule
+model & log\_loss & weight \\
+\midrule
+\endfirsthead
+\toprule
+model & log\_loss & weight \\
+\midrule
+\endhead
+calibrated\_logistic\_sigmoid & 0.759 & 0.211 \\
+random\_forest & 0.794 & 0.201 \\
+hist\_gradient\_boosting & 0.802 & 0.199 \\
+extra\_trees & 0.819 & 0.195 \\
+logistic\_l2 & 0.828 & 0.193 \\
+\bottomrule
+\end{longtable}
+
+
+\section{Feature Importance}
+
+The feature-importance run used synthetic\_profile\_calibration with 6768 rows.
+
+\begin{longtable}{p{0.280\linewidth}p{0.280\linewidth}p{0.280\linewidth}}
+\caption{Random Forest permutation feature importance}\\
+\toprule
+feature & perm. log-loss delta & std \\
+\midrule
+\endfirsthead
+\toprule
+feature & perm. log-loss delta & std \\
+\midrule
+\endhead
+squad\_rating\_diff & 0.059 & 0.003 \\
+possession\_diff & 0.033 & 0.002 \\
+attack\_vs\_defense & 0.027 & 0.002 \\
+midfield\_diff & 0.016 & 0.001 \\
+defense\_vs\_attack & 0.015 & 0.001 \\
+elo\_diff & 0.011 & 0.002 \\
+gk\_diff & 0.005 & 0.001 \\
+data\_confidence\_diff & 0.002 & 0.001 \\
+travel\_diff & 0.002 & 0.001 \\
+match\_day\_index & 0.001 & 0.001 \\
+\bottomrule
+\end{longtable}
+
+
+\begin{longtable}{p{0.280\linewidth}p{0.280\linewidth}p{0.280\linewidth}}
+\caption{Feature group ablation on validation loss}\\
+\toprule
+group & log-loss increase & accuracy drop \\
+\midrule
+\endfirsthead
+\toprule
+group & log-loss increase & accuracy drop \\
+\midrule
+\endhead
+unit\_matchups & 0.023 & 0.012 \\
+team\_strength & 0.005 & 0.005 \\
+rest\_fatigue\_availability & 0.005 & 0.000 \\
+discipline & 0.003 & -0.002 \\
+venue\_climate\_travel & 0.002 & -0.001 \\
+tournament\_structure & 0.001 & -0.003 \\
+host\_context & 0.000 & -0.002 \\
+data\_quality & 0.000 & 0.005 \\
+\bottomrule
+\end{longtable}
+
+
+\section{Player and Tactical Layer}
+
+\begin{longtable}{p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}p{0.134\linewidth}}
+\caption{Top tactical priors inferred from current team profiles}\\
+\toprule
+team & pressing & counter & low block & set pieces & tempo & confidence \\
+\midrule
+\endfirsthead
+\toprule
+team & pressing & counter & low block & set pieces & tempo & confidence \\
+\midrule
+\endhead
+Spain & 88.510 & 86.660 & 86.779 & 88.081 & 88.843 & 0.937 \\
+England & 88.022 & 87.362 & 85.099 & 88.077 & 88.626 & 0.952 \\
+Germany & 87.907 & 85.891 & 85.879 & 87.350 & 88.229 & 0.873 \\
+Portugal & 87.415 & 86.117 & 85.068 & 87.154 & 87.822 & 0.859 \\
+France & 87.071 & 88.961 & 87.706 & 88.144 & 87.991 & 0.902 \\
+Brazil & 86.695 & 86.388 & 87.998 & 86.779 & 87.329 & 0.860 \\
+Argentina & 86.344 & 86.809 & 85.042 & 87.022 & 87.363 & 0.831 \\
+Netherlands & 86.038 & 85.180 & 83.099 & 85.962 & 86.477 & 0.920 \\
+Belgium & 85.534 & 84.431 & 85.303 & 85.234 & 85.911 & 0.781 \\
+Norway & 82.846 & 82.057 & 78.064 & 82.963 & 83.653 & 0.781 \\
+Croatia & 82.673 & 81.862 & 80.509 & 82.843 & 83.463 & 0.692 \\
+Turkey & 82.250 & 80.674 & 79.729 & 82.064 & 82.872 & 0.696 \\
+\bottomrule
+\end{longtable}
+
+
+\begin{longtable}{p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}}
+\caption{Player data coverage weak spots}\\
+\toprule
+team & avg confidence & low conf. players & zero-minute players & primary\_sources \\
+\midrule
+\endfirsthead
+\toprule
+team & avg confidence & low conf. players & zero-minute players & primary\_sources \\
+\midrule
+\endhead
+Panama & 0.501 & 18 & 24 & statbunker:18; wikipedia:4; transfermarkt:4 \\
+Senegal & 0.585 & 14 & 25 & statbunker:24; wikipedia:1; transfermarkt:1 \\
+Mexico & 0.633 & 11 & 17 & statbunker:15; transfermarkt:10; wikipedia:1 \\
+Scotland & 0.636 & 11 & 24 & statbunker:23; transfermarkt:2; wikipedia:1 \\
+Canada & 0.644 & 11 & 21 & statbunker:17; transfermarkt:7; wikipedia:2 \\
+Ivory Coast & 0.645 & 10 & 22 & statbunker:19; transfermarkt:6; wikipedia:1 \\
+Czech Republic & 0.649 & 11 & 22 & statbunker:19; transfermarkt:5; wikipedia:2 \\
+United States & 0.659 & 10 & 23 & statbunker:19; transfermarkt:5; wikipedia:2 \\
+Australia & 0.669 & 11 & 14 & transfermarkt:12; statbunker:11; wikipedia:3 \\
+Qatar & 0.670 & 12 & 22 & statbunker:12; wikipedia:8; transfermarkt:4; manual\_web\_research:2 \\
+\bottomrule
+\end{longtable}
+
+
+\begin{longtable}{p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}}
+\caption{Top simulated scorers by primary model}\\
+\toprule
+model & rank & player & team & goals/tourn. \\
+\midrule
+\endfirsthead
+\toprule
+model & rank & player & team & goals/tourn. \\
+\midrule
+\endhead
+Primitive EAFC Poisson & 1 & Lautaro Martinez & Argentina & 1.449 \\
+Primitive EAFC Poisson & 2 & Kylian Mbappe & France & 1.446 \\
+Primitive EAFC Poisson & 3 & Romelu Lukaku & Belgium & 1.398 \\
+Primitive EAFC Poisson & 4 & Cristiano Ronaldo & Portugal & 1.391 \\
+Primitive EAFC Poisson & 5 & Julian Alvarez & Argentina & 1.385 \\
+V2 Heuristic Internal Forest + NT Elo & 1 & Kylian Mbappe & France & 2.946 \\
+V2 Heuristic Internal Forest + NT Elo & 2 & Lautaro Martinez & Argentina & 2.739 \\
+V2 Heuristic Internal Forest + NT Elo & 3 & Cristiano Ronaldo & Portugal & 2.719 \\
+V2 Heuristic Internal Forest + NT Elo & 4 & Harry Kane & England & 2.629 \\
+V2 Heuristic Internal Forest + NT Elo & 5 & Romelu Lukaku & Belgium & 2.540 \\
+V2 sklearn Random Forest + NT Elo & 1 & Kylian Mbappe & France & 2.904 \\
+V2 sklearn Random Forest + NT Elo & 2 & Cristiano Ronaldo & Portugal & 2.720 \\
+V2 sklearn Random Forest + NT Elo & 3 & Harry Kane & England & 2.679 \\
+V2 sklearn Random Forest + NT Elo & 4 & Lautaro Martinez & Argentina & 2.593 \\
+V2 sklearn Random Forest + NT Elo & 5 & Romelu Lukaku & Belgium & 2.491 \\
+\bottomrule
+\end{longtable}
+
+
+\begin{longtable}{p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}}
+\caption{Top simulated assisters by primary model}\\
+\toprule
+model & rank & player & team & assists/tourn. \\
+\midrule
+\endfirsthead
+\toprule
+model & rank & player & team & assists/tourn. \\
+\midrule
+\endhead
+Primitive EAFC Poisson & 1 & Jude Bellingham & England & 0.828 \\
+Primitive EAFC Poisson & 2 & Florian Wirtz & Germany & 0.792 \\
+Primitive EAFC Poisson & 3 & Jamal Musiala & Germany & 0.757 \\
+Primitive EAFC Poisson & 4 & Matheus Cunha & Brazil & 0.754 \\
+Primitive EAFC Poisson & 5 & Raphinha & Brazil & 0.751 \\
+V2 Heuristic Internal Forest + NT Elo & 1 & Florian Wirtz & Germany & 1.814 \\
+V2 Heuristic Internal Forest + NT Elo & 2 & Jamal Musiala & Germany & 1.696 \\
+V2 Heuristic Internal Forest + NT Elo & 3 & Lamine Yamal & Spain & 1.645 \\
+V2 Heuristic Internal Forest + NT Elo & 4 & Raphinha & Brazil & 1.636 \\
+V2 Heuristic Internal Forest + NT Elo & 5 & Jude Bellingham & England & 1.603 \\
+V2 sklearn Random Forest + NT Elo & 1 & Florian Wirtz & Germany & 1.816 \\
+V2 sklearn Random Forest + NT Elo & 2 & Jamal Musiala & Germany & 1.694 \\
+V2 sklearn Random Forest + NT Elo & 3 & Raphinha & Brazil & 1.652 \\
+V2 sklearn Random Forest + NT Elo & 4 & Lamine Yamal & Spain & 1.625 \\
+V2 sklearn Random Forest + NT Elo & 5 & Jude Bellingham & England & 1.617 \\
+\bottomrule
+\end{longtable}
+
+
+\section{External Data and Elo}
+
+Historical data readiness status: missing. Usable historical matches currently detected: 0.
+
+The current import report contains 177 teams from raw World Football Elo as of 2026-06-11, sourced as World Football Elo Ratings System user-supplied export. Missing required World Cup teams: 0.
+
+\begin{longtable}{p{0.235\linewidth}p{0.235\linewidth}p{0.235\linewidth}p{0.235\linewidth}}
+\caption{External data manifest}\\
+\toprule
+name & purpose & local\_filename & status \\
+\midrule
+\endfirsthead
+\toprule
+name & purpose & local\_filename & status \\
+\midrule
+\endhead
+International football results & Historical match outcomes for supervised model training and calibration & external\_data/international\_results/results.csv or historical\_international\_results.csv & download\_blocked\_in\_workspace; place the CSV locally to activate historical training \\
+World Football Elo Ratings & Time-aware national-team Elo before each match and current NT priors & external\_data/world\_football\_elo/international\_football\_elo\_20260611.json; national\_team\_elo\_snapshots.csv later & baseline\_imported\_2026-06-11; historical time-aware Elo snapshots still needed; rerun simulations for raw-Elo result artifacts \\
+Current project squad/player data & Team strength, unit matchups, discipline priors, and tactical priors & guardian\_world\_cup\_2026\_player\_guide.json; player\_performance\_data\_statbunker.json & available \\
+\bottomrule
+\end{longtable}
+
+
+\subsection{Configured Sources}
+
+\begin{itemize}
+  \item International results repo: https://github.com/martj42/international\_results
+  \item International results raw CSV: https://raw.githubusercontent.com/martj42/international\_results/master/results.csv
+  \item World Football Elo source: https://www.eloratings.net/
+  \item Expected local historical file: external\_data/international\_results/results.csv or historical\_international\_results.csv
+  \item Active Elo import file: external\_data/world\_football\_elo/international\_football\_elo\_20260611.json.
+\end{itemize}
+
+\section{What Is Still Missing}
+
+\begin{itemize}
+  \item Raw historical international match results are not yet present locally because the workspace cannot reach raw.githubusercontent.com.
+  \item Time-aware Elo snapshots before every historical match are not yet present; the current active Elo file is a 2026-06-11 tournament-baseline snapshot.
+  \item The existing 10,000-run probability artifacts predate the full raw Elo import and should be regenerated for a clean raw-Elo study.
+  \item The Random Forest remains synthetically calibrated until enough real historical rows are available.
+  \item Tactical priors are inferred from squad profiles and need real event/style data for validation.
+  \item Player-level data coverage is uneven; Panama, Senegal, Mexico, Scotland, Canada, Ivory Coast, Czech Republic, and the United States are among the teams where better player data would improve confidence.
+\end{itemize}
+
+\section{Reproduction Commands}
+
+\begin{verbatim}
+
+python fetch_external_football_data.py --download-international-results
+
+python import_national_team_elo.py --input external_data/world_football_elo/international_football_elo_20260611.json --as-of 2026-06-11 --rating-type world_football_elo
+
+python run_research_upgrade_pipeline.py --seed 20260622 --output-dir research_upgrade_results_seed_20260622
+
+python generate_10000_model_comparison_report.py
+
+python analyze_feature_importance.py --seed 20260618 --simulation-ablation-epochs 30 --output-dir feature_importance_results_seed_20260618
+
+\end{verbatim}
+
+\section{Shareable File Index}
+
+\begin{itemize}
+  \item shareable\_project\_report/fifa\_wc26\_project\_report.pdf
+  \item shareable\_project\_report/fifa\_wc26\_project\_report.tex
+  \item research\_upgrade\_results\_seed\_20260622/research\_upgrade\_report.md
+  \item simulation\_10000\_model\_comparison/simulation\_10000\_models\_report.md
+  \item feature\_importance\_results\_seed\_20260618/feature\_importance\_report.md
+  \item external\_football\_data\_manifest.json
+\end{itemize}
+
+\end{document}

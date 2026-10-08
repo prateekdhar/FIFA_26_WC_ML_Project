@@ -5,6 +5,7 @@ import os
 import random
 from collections import Counter, defaultdict
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from datetime import date
 from pathlib import Path
 
 try:
@@ -12,12 +13,89 @@ try:
 except ImportError:  # pragma: no cover - pandas is available in the Codex runtime.
     pd = None
 
+try:
+    from sklearn.ensemble import RandomForestClassifier
+except ImportError:  # pragma: no cover - optional user/runtime dependency.
+    RandomForestClassifier = None
+
 
 ROOT = Path(__file__).resolve().parent
 SQUAD_FILE = ROOT / "guardian_world_cup_2026_player_guide.json"
 PERFORMANCE_FILE = ROOT / "player_performance_data_statbunker.json"
 STRUCTURE_FILE = ROOT / "world_cup_2026_simulation_structure.json"
 DEFAULT_ELO_FILE = ROOT / "national_team_elo_ratings.json"
+VENUE_CONTEXT_FILE = ROOT / "world_cup_2026_venue_context.json"
+TOURNAMENT_START_DATE = date(2026, 6, 11)
+HOST_COUNTRIES = {"Canada", "Mexico", "United States"}
+MEXICO_ALTITUDE_GROUPS = {"A"}
+VENUE_CONTEXT_CACHE = None
+
+GROUP_MATCH_DATES = {
+    (1, "A", 0): date(2026, 6, 11),
+    (1, "A", 1): date(2026, 6, 11),
+    (1, "B", 0): date(2026, 6, 12),
+    (1, "B", 1): date(2026, 6, 13),
+    (1, "C", 0): date(2026, 6, 13),
+    (1, "C", 1): date(2026, 6, 13),
+    (1, "D", 0): date(2026, 6, 12),
+    (1, "D", 1): date(2026, 6, 13),
+    (1, "E", 0): date(2026, 6, 14),
+    (1, "E", 1): date(2026, 6, 14),
+    (1, "F", 0): date(2026, 6, 14),
+    (1, "F", 1): date(2026, 6, 14),
+    (1, "G", 0): date(2026, 6, 15),
+    (1, "G", 1): date(2026, 6, 15),
+    (1, "H", 0): date(2026, 6, 15),
+    (1, "H", 1): date(2026, 6, 15),
+    (1, "I", 0): date(2026, 6, 16),
+    (1, "I", 1): date(2026, 6, 16),
+    (1, "J", 0): date(2026, 6, 16),
+    (1, "J", 1): date(2026, 6, 16),
+    (1, "K", 0): date(2026, 6, 17),
+    (1, "K", 1): date(2026, 6, 17),
+    (1, "L", 0): date(2026, 6, 17),
+    (1, "L", 1): date(2026, 6, 17),
+}
+
+GROUP_MATCHDAY_DATES = {
+    2: {
+        "A": date(2026, 6, 18),
+        "B": date(2026, 6, 18),
+        "C": date(2026, 6, 19),
+        "D": date(2026, 6, 19),
+        "E": date(2026, 6, 20),
+        "F": date(2026, 6, 20),
+        "G": date(2026, 6, 21),
+        "H": date(2026, 6, 21),
+        "I": date(2026, 6, 22),
+        "J": date(2026, 6, 22),
+        "K": date(2026, 6, 23),
+        "L": date(2026, 6, 23),
+    },
+    3: {
+        "A": date(2026, 6, 24),
+        "B": date(2026, 6, 24),
+        "C": date(2026, 6, 24),
+        "D": date(2026, 6, 25),
+        "E": date(2026, 6, 25),
+        "F": date(2026, 6, 25),
+        "G": date(2026, 6, 26),
+        "H": date(2026, 6, 26),
+        "I": date(2026, 6, 26),
+        "J": date(2026, 6, 27),
+        "K": date(2026, 6, 27),
+        "L": date(2026, 6, 27),
+    },
+}
+
+KNOCKOUT_STAGE_DAYS = {
+    "round_of_32": [17, 18, 19, 20, 21, 22],
+    "round_of_16": [23, 24, 25, 26],
+    "quarter_finals": [28, 29, 30],
+    "semi_finals": [33, 34],
+    "third_place_match": [37],
+    "final": [38],
+}
 
 DEFENDERS = {"LB", "CB", "RB", "LWB", "RWB"}
 MIDFIELDERS = {"CDM", "CM", "CAM", "LM", "RM"}
@@ -38,6 +116,25 @@ STAGE_ORDER = [
     "quarter_finals",
     "semi_finals",
     "final",
+]
+
+ROUND_OF_32_SLOTS = [
+    (("W", "A"), ("T", ("C", "E", "F", "H", "I"))),
+    (("R", "A"), ("R", "B")),
+    (("W", "B"), ("T", ("E", "F", "G", "I", "J"))),
+    (("W", "C"), ("R", "F")),
+    (("W", "D"), ("T", ("B", "E", "F", "I", "J"))),
+    (("R", "D"), ("R", "G")),
+    (("W", "E"), ("T", ("A", "B", "C", "D", "F"))),
+    (("R", "E"), ("R", "I")),
+    (("W", "F"), ("R", "C")),
+    (("W", "G"), ("T", ("A", "E", "H", "I", "J"))),
+    (("W", "H"), ("R", "J")),
+    (("W", "I"), ("T", ("C", "D", "F", "G", "H"))),
+    (("W", "J"), ("R", "H")),
+    (("W", "K"), ("T", ("D", "E", "I", "J", "L"))),
+    (("R", "K"), ("R", "L")),
+    (("W", "L"), ("T", ("E", "H", "I", "J", "K"))),
 ]
 
 
@@ -335,31 +432,82 @@ def weighted_average(players, weight_fn, field="effective_rating", default=68.0)
     return total / total_weight if total_weight else default
 
 
+def rank_to_estimated_elo(rank):
+    rank = max(1.0, safe_float(rank, 999.0))
+    return round(2170 - 130 * math.log(rank), 1)
+
+
+def split_aliases(value):
+    if not value:
+        return []
+    if isinstance(value, list):
+        aliases = value
+    else:
+        aliases = str(value).replace(";", "|").split("|")
+    return [str(alias).strip() for alias in aliases if str(alias).strip()]
+
+
+def rating_from_metadata(row):
+    if not isinstance(row, dict):
+        return safe_float(row, 0.0), "elo"
+    source_fields = [
+        ("world_football_elo", "world_football_elo"),
+        ("elo", row.get("rating_type") or "elo"),
+        ("rating", row.get("rating_type") or "rating"),
+        ("fifa_points", "fifa_points"),
+        ("points", row.get("rating_type") or "points"),
+    ]
+    for field, rating_type in source_fields:
+        value = safe_float(row.get(field), 0.0)
+        if value > 0:
+            return value, rating_type
+    if row.get("fifa_rank") or row.get("rank"):
+        return rank_to_estimated_elo(row.get("fifa_rank") or row.get("rank")), "fifa_rank_derived_elo"
+    return 0.0, "missing"
+
+
 def load_elo_ratings(path):
     path = Path(path)
     if not path.exists():
-        return {}, "squad_proxy"
+        return {}, "squad_proxy", {}
     data = json.loads(path.read_text(encoding="utf-8"))
     rows = data.get("teams", data if isinstance(data, list) else {})
     ratings = {}
+    metadata_by_team = {}
     if isinstance(rows, dict):
-        for team, value in rows.items():
-            if isinstance(value, dict):
-                value = value.get("elo") or value.get("rating")
-            ratings[team] = safe_float(value, 0.0)
+        for team, row in rows.items():
+            metadata = row if isinstance(row, dict) else {}
+            canonical_team = normalize_team_name(team)
+            value, rating_type = rating_from_metadata(row)
+            if value > 0:
+                ratings[canonical_team] = safe_float(value, 0.0)
+            metadata_by_team[canonical_team] = {**metadata, "rating_type": metadata.get("rating_type") or rating_type}
+            for alias in split_aliases(metadata.get("aliases")):
+                TEAM_NAME_ALIASES[alias] = canonical_team
+                if value > 0:
+                    ratings[normalize_team_name(alias)] = safe_float(value, 0.0)
+                    metadata_by_team[normalize_team_name(alias)] = metadata_by_team[canonical_team]
     else:
         for row in rows:
             team = row.get("team") or row.get("country") or row.get("name")
-            value = row.get("elo") or row.get("rating")
             if team:
-                ratings[team] = safe_float(value, 0.0)
+                canonical_team = normalize_team_name(team)
+                value, rating_type = rating_from_metadata(row)
+                if value > 0:
+                    ratings[canonical_team] = safe_float(value, 0.0)
+                metadata_by_team[canonical_team] = {**row, "rating_type": row.get("rating_type") or rating_type}
+                for alias in split_aliases(row.get("aliases")):
+                    TEAM_NAME_ALIASES[alias] = canonical_team
+                    if value > 0:
+                        ratings[normalize_team_name(alias)] = safe_float(value, 0.0)
+                        metadata_by_team[normalize_team_name(alias)] = metadata_by_team[canonical_team]
     ratings = {team: value for team, value in ratings.items() if value > 0}
-    return ratings, data.get("metadata", {}).get("source", "national_team_elo_ratings.json")
+    return ratings, data.get("metadata", {}).get("source", "national_team_elo_ratings.json"), metadata_by_team
 
 
 def build_team_profiles(elo_file=DEFAULT_ELO_FILE):
     performance = json.loads(PERFORMANCE_FILE.read_text(encoding="utf-8"))
-    elo_ratings, elo_source = load_elo_ratings(elo_file)
+    elo_ratings, elo_source, team_prior_metadata = load_elo_ratings(elo_file)
     profiles = {}
     for row in performance["players"]:
         country = row["country"]
@@ -388,6 +536,7 @@ def build_team_profiles(elo_file=DEFAULT_ELO_FILE):
         foul_rate = sum(row["foul_rate"] for row in lineup)
         data_confidence = average([row["source_confidence"] for row in players], default=0.6)
         real_elo = elo_ratings.get(country)
+        prior_metadata = team_prior_metadata.get(country, {})
         if real_elo is None:
             real_elo = clamp(1350 + (squad_rating - 66) * 35, 1125, 2160)
         profile.update(
@@ -408,15 +557,79 @@ def build_team_profiles(elo_file=DEFAULT_ELO_FILE):
                 "data_confidence": round(data_confidence, 3),
                 "nt_elo": round(real_elo, 1),
                 "elo_source": elo_source if country in elo_ratings else "squad_proxy",
+                "fifa_rank": prior_metadata.get("fifa_rank"),
+                "confederation": prior_metadata.get("confederation"),
             }
         )
     return profiles, elo_source
 
 
-def team_feature_row(match_id, stage, group_name, team, opponent, profiles, allow_draw, minute_scale, round_index):
+def day_index_from_date(match_date):
+    return (match_date - TOURNAMENT_START_DATE).days
+
+
+def group_fixture_date(group_name, matchday, pair_slot):
+    if matchday == 1:
+        return GROUP_MATCH_DATES[(matchday, group_name, pair_slot)]
+    return GROUP_MATCHDAY_DATES[matchday][group_name]
+
+
+def team_host_factor(team, stage, group_name=None):
+    if team not in HOST_COUNTRIES:
+        return 0.0
+    if stage == "group":
+        if team == "Mexico" and group_name == "A":
+            return 1.0
+        if team == "Canada" and group_name == "B":
+            return 1.0
+        if team == "United States" and group_name == "D":
+            return 1.0
+        return 0.65
+    return 0.38
+
+
+def altitude_factor(team, opponent, stage, group_name=None):
+    if stage != "group" or group_name not in MEXICO_ALTITUDE_GROUPS:
+        return 0.0
+    if team == "Mexico":
+        return 1.0
+    if opponent == "Mexico":
+        return -0.6
+    return 0.0
+
+
+def load_venue_context():
+    global VENUE_CONTEXT_CACHE
+    if VENUE_CONTEXT_CACHE is not None:
+        return VENUE_CONTEXT_CACHE
+    if not VENUE_CONTEXT_FILE.exists():
+        VENUE_CONTEXT_CACHE = {}
+        return VENUE_CONTEXT_CACHE
+    VENUE_CONTEXT_CACHE = json.loads(VENUE_CONTEXT_FILE.read_text(encoding="utf-8"))
+    return VENUE_CONTEXT_CACHE
+
+
+def venue_context_for_match(stage, group_name=None):
+    context = load_venue_context()
+    if stage == "group" and group_name:
+        return context.get("groups", {}).get(group_name, {})
+    return context.get("knockout_stages", {}).get(stage, context.get("knockout_stages", {}).get("round_of_32", {}))
+
+
+def travel_load_for_team(team, profiles, venue):
+    if team in HOST_COUNTRIES:
+        return 0.10
+    confederation = profiles.get(team, {}).get("confederation") or "UEFA"
+    region = venue.get("region", "multi_host")
+    travel_table = load_venue_context().get("confederation_travel_load", {})
+    return safe_float(travel_table.get(confederation, {}).get(region), 0.58)
+
+
+def team_feature_row(match_id, stage, group_name, team, opponent, profiles, allow_draw, minute_scale, round_index, match_day_index=0):
     left = profiles[team]
     right = profiles[opponent]
     elo_diff = left["nt_elo"] - right["nt_elo"]
+    venue = venue_context_for_match(stage, group_name)
     return {
         "match_id": match_id,
         "stage": stage,
@@ -426,6 +639,7 @@ def team_feature_row(match_id, stage, group_name, team, opponent, profiles, allo
         "opponent": opponent,
         "allow_draw": allow_draw,
         "compressed_minutes": minute_scale,
+        "match_day_index": match_day_index,
         "nt_elo": left["nt_elo"],
         "opponent_nt_elo": right["nt_elo"],
         "elo_diff": elo_diff,
@@ -448,6 +662,15 @@ def team_feature_row(match_id, stage, group_name, team, opponent, profiles, allo
         "opponent_discipline_risk": right["discipline_risk"],
         "foul_rate": left["foul_rate"],
         "data_confidence": left["data_confidence"],
+        "host_factor": team_host_factor(team, stage, group_name),
+        "opponent_host_factor": team_host_factor(opponent, stage, group_name),
+        "altitude_factor": altitude_factor(team, opponent, stage, group_name),
+        "venue_region": venue.get("region"),
+        "venue_altitude_m": venue.get("altitude_m", 0),
+        "venue_heat_index": venue.get("heat_index", 0),
+        "venue_humidity": venue.get("humidity", 0),
+        "travel_load": travel_load_for_team(team, profiles, venue),
+        "opponent_travel_load": travel_load_for_team(opponent, profiles, venue),
     }
 
 
@@ -458,6 +681,8 @@ def build_group_fixtures(structure):
     for group_name, teams in structure["groups"].items():
         for pair_index, (left_seed, right_seed) in enumerate(pairings):
             matchday = pair_index // 2 + 1
+            pair_slot = pair_index % 2
+            match_date = group_fixture_date(group_name, matchday, pair_slot)
             fixtures.append(
                 {
                     "match_id": match_id,
@@ -466,12 +691,13 @@ def build_group_fixtures(structure):
                     "team_a": teams[left_seed - 1],
                     "team_b": teams[right_seed - 1],
                     "matchday": matchday,
-                    "day_index": (matchday - 1) * 6 + ord(group_name) - ord("A"),
+                    "match_date": match_date.isoformat(),
+                    "day_index": day_index_from_date(match_date),
                     "allow_draw": True,
                 }
             )
             match_id += 1
-    fixtures.sort(key=lambda row: (row["matchday"], row["group"], row["match_id"]))
+    fixtures.sort(key=lambda row: (row["day_index"], row["group"], row["match_id"]))
     for index, row in enumerate(fixtures, start=1):
         row["match_id"] = index
     return fixtures
@@ -491,6 +717,7 @@ def build_feature_dataframe(structure, profiles):
                 True,
                 9,
                 fixture["matchday"],
+                fixture["day_index"],
             )
         )
         rows.append(
@@ -504,6 +731,7 @@ def build_feature_dataframe(structure, profiles):
                 True,
                 9,
                 fixture["matchday"],
+                fixture["day_index"],
             )
         )
     if pd is None:
@@ -562,7 +790,313 @@ def decision_forest_modifiers(features):
     }
 
 
-def expected_goal_model(team_a, team_b, profiles):
+ML_FEATURE_NAMES = [
+    "elo_diff",
+    "squad_rating_diff",
+    "attack_vs_defense",
+    "defense_vs_attack",
+    "midfield_diff",
+    "gk_diff",
+    "possession_diff",
+    "discipline_diff",
+    "data_confidence_diff",
+    "host_diff",
+    "rest_diff",
+    "fatigue_diff",
+    "lineup_replacements_diff",
+    "altitude_factor",
+    "travel_diff",
+    "heat_index",
+    "humidity",
+    "venue_altitude_km",
+    "stage_is_knockout",
+    "allow_draw",
+    "match_day_index",
+]
+
+
+def match_model_features(team_a, team_b, profiles, match_context=None):
+    match_context = match_context or {}
+    left = profiles[team_a]
+    right = profiles[team_b]
+    return {
+        "elo_diff": left["nt_elo"] - right["nt_elo"],
+        "squad_rating_diff": left["squad_rating"] - right["squad_rating"],
+        "attack_vs_defense": left["attack_score"] - right["defense_score"],
+        "defense_vs_attack": left["defense_score"] - right["attack_score"],
+        "midfield_diff": left["midfield_score"] - right["midfield_score"],
+        "gk_diff": left["gk_score"] - right["gk_score"],
+        "possession_diff": left["possession_score"] - right["possession_score"],
+        "discipline_diff": left["discipline_risk"] - right["discipline_risk"],
+        "data_confidence_diff": left["data_confidence"] - right["data_confidence"],
+        "host_diff": match_context.get("host_factor_a", 0.0) - match_context.get("host_factor_b", 0.0),
+        "rest_diff": match_context.get("rest_days_a", 5) - match_context.get("rest_days_b", 5),
+        "fatigue_diff": match_context.get("carry_fatigue_a", 0.0) - match_context.get("carry_fatigue_b", 0.0),
+        "lineup_replacements_diff": match_context.get("lineup_replacements_a", 0) - match_context.get("lineup_replacements_b", 0),
+        "altitude_factor": match_context.get("altitude_factor_a", 0.0),
+        "travel_diff": match_context.get("travel_load_a", 0.0) - match_context.get("travel_load_b", 0.0),
+        "heat_index": match_context.get("heat_index", 0.0),
+        "humidity": match_context.get("humidity", 0.0),
+        "venue_altitude_km": match_context.get("venue_altitude_m", 0.0) / 1000,
+        "stage_is_knockout": 0.0 if match_context.get("allow_draw", True) else 1.0,
+        "allow_draw": 1.0 if match_context.get("allow_draw", True) else 0.0,
+        "match_day_index": match_context.get("match_day_index", 0),
+    }
+
+
+def feature_vector(feature_dict):
+    return [float(feature_dict.get(name, 0.0)) for name in ML_FEATURE_NAMES]
+
+
+def synthetic_outcome_probabilities(feature_dict):
+    score = (
+        feature_dict["elo_diff"] / 520
+        + feature_dict["squad_rating_diff"] / 11
+        + feature_dict["attack_vs_defense"] / 18
+        + feature_dict["defense_vs_attack"] / 24
+        + feature_dict["midfield_diff"] / 18
+        + feature_dict["gk_diff"] / 42
+        + feature_dict["host_diff"] * 0.22
+        + feature_dict["rest_diff"] * 0.035
+        - feature_dict["fatigue_diff"] * 0.30
+        - feature_dict["lineup_replacements_diff"] * 0.08
+        + feature_dict["altitude_factor"] * 0.12
+    )
+    win_share = logistic(score)
+    draw_base = 0.31 if feature_dict["allow_draw"] else 0.18
+    draw_probability = clamp(draw_base - abs(win_share - 0.5) * 0.38, 0.08, draw_base)
+    non_draw = 1.0 - draw_probability
+    return {
+        "A": non_draw * win_share,
+        "D": draw_probability,
+        "B": non_draw * (1.0 - win_share),
+    }
+
+
+def add_jittered_training_row(rows, labels, base_features, rng):
+    row = dict(base_features)
+    row["elo_diff"] += rng.uniform(-45, 45)
+    row["squad_rating_diff"] += rng.uniform(-1.8, 1.8)
+    row["attack_vs_defense"] += rng.uniform(-2.5, 2.5)
+    row["defense_vs_attack"] += rng.uniform(-2.5, 2.5)
+    row["midfield_diff"] += rng.uniform(-2.2, 2.2)
+    row["gk_diff"] += rng.uniform(-2.0, 2.0)
+    row["possession_diff"] += rng.uniform(-3.0, 3.0)
+    row["discipline_diff"] += rng.uniform(-0.018, 0.018)
+    row["rest_diff"] += rng.choice([-1, 0, 1])
+    row["travel_diff"] += rng.uniform(-0.08, 0.08)
+    row["heat_index"] = clamp(row["heat_index"] + rng.uniform(-0.06, 0.06), 0.0, 1.0)
+    row["humidity"] = clamp(row["humidity"] + rng.uniform(-0.05, 0.05), 0.0, 1.0)
+    probabilities = synthetic_outcome_probabilities(row)
+    labels.append(weighted_choice(list(probabilities), lambda label: probabilities[label], rng))
+    rows.append(feature_vector(row))
+
+
+def build_synthetic_training_data(structure, profiles, seed):
+    rng = random.Random(seed + 7703)
+    rows = []
+    labels = []
+    teams = sorted(profiles)
+    contexts = [
+        {"stage": "group", "allow_draw": True, "match_day_index": 4},
+        {"stage": "group", "allow_draw": True, "match_day_index": 13},
+        {"stage": "final", "allow_draw": False, "match_day_index": 38},
+    ]
+    group_by_team = {team: group for group, group_teams in structure["groups"].items() for team in group_teams}
+    for team_a in teams:
+        for team_b in teams:
+            if team_a == team_b:
+                continue
+            group_name = group_by_team.get(team_a)
+            for context in contexts:
+                venue = venue_context_for_match(context["stage"], group_name)
+                match_context = {
+                    **context,
+                    "host_factor_a": team_host_factor(team_a, context["stage"], group_name),
+                    "host_factor_b": team_host_factor(team_b, context["stage"], group_name),
+                    "rest_days_a": rng.choice([3, 4, 5, 6, 7]),
+                    "rest_days_b": rng.choice([3, 4, 5, 6, 7]),
+                    "carry_fatigue_a": rng.random() * 0.12,
+                    "carry_fatigue_b": rng.random() * 0.12,
+                    "lineup_replacements_a": rng.choice([0, 0, 0, 1]),
+                    "lineup_replacements_b": rng.choice([0, 0, 0, 1]),
+                    "altitude_factor_a": altitude_factor(team_a, team_b, context["stage"], group_name),
+                    "travel_load_a": travel_load_for_team(team_a, profiles, venue),
+                    "travel_load_b": travel_load_for_team(team_b, profiles, venue),
+                    "heat_index": venue.get("heat_index", 0.0),
+                    "humidity": venue.get("humidity", 0.0),
+                    "venue_altitude_m": venue.get("altitude_m", 0.0),
+                }
+                base_features = match_model_features(team_a, team_b, profiles, match_context)
+                add_jittered_training_row(rows, labels, base_features, rng)
+    return rows, labels
+
+
+TEAM_NAME_ALIASES = {
+    "Bosnia and Herzegovina": "Bosnia & Herzegovina",
+    "Bosnia-Herzegovina": "Bosnia & Herzegovina",
+    "Cape Verde Islands": "Cape Verde",
+    "Cote d'Ivoire": "Ivory Coast",
+    "Côte d'Ivoire": "Ivory Coast",
+    "Curacao": "Curacao",
+    "Curaçao": "Curacao",
+    "Czechia": "Czech Republic",
+    "Czech Rep": "Czech Republic",
+    "Czech Republic": "Czech Republic",
+    "Democratic Republic of Congo": "DR Congo",
+    "DR Congo": "DR Congo",
+    "Korea Republic": "South Korea",
+    "Republic of Ireland": "Ireland",
+    "South Korea": "South Korea",
+    "Türkiye": "Turkey",
+    "Turkey": "Turkey",
+    "USA": "United States",
+    "United States of America": "United States",
+}
+
+
+def normalize_team_name(value):
+    name = str(value).strip()
+    if not name or name.lower() in {"nan", "none"}:
+        return ""
+    return TEAM_NAME_ALIASES.get(name, name)
+
+
+def parse_boolish(value):
+    if isinstance(value, bool):
+        return value
+    text = str(value).strip().lower()
+    return text in {"1", "true", "yes", "y", "neutral"}
+
+
+def historical_context_from_row(row, columns, team_a, team_b, profiles):
+    tournament_col = columns.get("tournament") or columns.get("competition") or columns.get("stage")
+    neutral_col = columns.get("neutral")
+    date_col = columns.get("date")
+    tournament = str(row[tournament_col]).lower() if tournament_col else ""
+    allow_draw = "world cup" not in tournament or "qualification" in tournament or "qualifier" in tournament
+    match_day_index = 0
+    if date_col:
+        try:
+            match_date = pd.to_datetime(row[date_col], errors="coerce")
+            if match_date is not pd.NaT:
+                match_day_index = int((match_date.date() - TOURNAMENT_START_DATE).days)
+        except Exception:
+            match_day_index = 0
+    neutral = parse_boolish(row[neutral_col]) if neutral_col else True
+    host_factor_a = 0.0 if neutral else team_host_factor(team_a, "historical")
+    host_factor_b = 0.0 if neutral else team_host_factor(team_b, "historical")
+    return {
+        "stage": "historical",
+        "allow_draw": allow_draw,
+        "match_day_index": match_day_index,
+        "host_factor_a": host_factor_a,
+        "host_factor_b": host_factor_b,
+        "rest_days_a": 5,
+        "rest_days_b": 5,
+        "carry_fatigue_a": 0.0,
+        "carry_fatigue_b": 0.0,
+        "lineup_replacements_a": 0,
+        "lineup_replacements_b": 0,
+        "altitude_factor_a": 0.0,
+        "travel_load_a": 0.0,
+        "travel_load_b": 0.0,
+        "heat_index": 0.0,
+        "humidity": 0.0,
+    }
+
+
+def read_historical_training_data(historical_matches_file, profiles):
+    if not historical_matches_file or pd is None:
+        return [], [], {"source_rows": 0, "usable_matches": 0, "skipped_rows": 0}
+    path = Path(historical_matches_file)
+    if not path.exists():
+        return [], [], {"source_rows": 0, "usable_matches": 0, "skipped_rows": 0}
+    frame = pd.read_csv(path)
+    columns = {column.lower(): column for column in frame.columns}
+    team_a_col = columns.get("team_a") or columns.get("home_team") or columns.get("team")
+    team_b_col = columns.get("team_b") or columns.get("away_team") or columns.get("opponent")
+    goals_a_col = columns.get("goals_a") or columns.get("home_goals") or columns.get("goals_for")
+    goals_b_col = columns.get("goals_b") or columns.get("away_goals") or columns.get("goals_against")
+    if not all([team_a_col, team_b_col, goals_a_col, goals_b_col]):
+        return [], [], {"source_rows": len(frame), "usable_matches": 0, "skipped_rows": len(frame), "missing_columns": True}
+
+    rows = []
+    labels = []
+    usable_matches = 0
+    skipped_rows = 0
+    for _, row in frame.iterrows():
+        team_a = normalize_team_name(row[team_a_col])
+        team_b = normalize_team_name(row[team_b_col])
+        if team_a not in profiles or team_b not in profiles:
+            skipped_rows += 1
+            continue
+        goals_a = safe_float(row[goals_a_col], None)
+        goals_b = safe_float(row[goals_b_col], None)
+        if goals_a is None or goals_b is None:
+            skipped_rows += 1
+            continue
+        context = historical_context_from_row(row, columns, team_a, team_b, profiles)
+        label = "A" if goals_a > goals_b else "B" if goals_b > goals_a else "D"
+        rows.append(feature_vector(match_model_features(team_a, team_b, profiles, context)))
+        labels.append(label)
+        reverse_label = "A" if label == "B" else "B" if label == "A" else "D"
+        rows.append(feature_vector(match_model_features(team_b, team_a, profiles, context)))
+        labels.append(reverse_label)
+        usable_matches += 1
+    return rows, labels, {"source_rows": len(frame), "usable_matches": usable_matches, "skipped_rows": skipped_rows}
+
+
+def build_match_model_bundle(structure, profiles, seed, mode="auto", historical_matches_file=None):
+    if mode == "heuristic":
+        return None, {"kind": "heuristic_internal_forest", "training_rows": 0, "sklearn_available": RandomForestClassifier is not None}
+    if RandomForestClassifier is None:
+        return None, {"kind": "heuristic_internal_forest", "training_rows": 0, "sklearn_available": False}
+
+    historical_rows, historical_labels, historical_status = read_historical_training_data(historical_matches_file, profiles)
+    synthetic_rows, synthetic_labels = [], []
+    if len(set(historical_labels)) >= 3 and len(historical_labels) >= 300:
+        rows, labels = historical_rows, historical_labels
+        training_source = "historical_csv"
+    else:
+        synthetic_rows, synthetic_labels = build_synthetic_training_data(structure, profiles, seed)
+        rows, labels = historical_rows + synthetic_rows, historical_labels + synthetic_labels
+        training_source = "historical_plus_synthetic_calibration" if historical_rows else "synthetic_profile_calibration"
+
+    model = RandomForestClassifier(
+        n_estimators=96,
+        max_depth=8,
+        min_samples_leaf=6,
+        class_weight="balanced_subsample",
+        random_state=seed,
+        n_jobs=1,
+    )
+    model.fit(rows, labels)
+    training_accuracy = round(float(model.score(rows, labels)), 4) if labels else None
+    status = {
+        "kind": "sklearn_random_forest",
+        "training_source": training_source,
+        "training_rows": len(labels),
+        "training_accuracy": training_accuracy,
+        "historical_rows": len(historical_labels),
+        "historical_status": historical_status,
+        "synthetic_rows": len(synthetic_labels),
+        "features": ML_FEATURE_NAMES,
+        "sklearn_available": True,
+    }
+    return {"model": model, "feature_names": ML_FEATURE_NAMES, "status": status}, status
+
+
+def random_forest_probabilities(model_bundle, feature_dict):
+    if not model_bundle:
+        return None
+    model = model_bundle["model"]
+    probabilities = model.predict_proba([feature_vector(feature_dict)])[0]
+    return {label: float(probability) for label, probability in zip(model.classes_, probabilities)}
+
+
+def expected_goal_model(team_a, team_b, profiles, match_context=None, model_bundle=None):
+    match_context = match_context or {}
     left = profiles[team_a]
     right = profiles[team_b]
     elo_diff = left["nt_elo"] - right["nt_elo"]
@@ -580,9 +1114,36 @@ def expected_goal_model(team_a, team_b, profiles):
         "discipline_diff": left["discipline_risk"] - right["discipline_risk"],
     }
     forest = decision_forest_modifiers(features)
-    strength = elo_diff / 430 + rating_diff / 9.5 + attack_diff / 13.0 - defense_diff / 18.0
-    share_a = clamp(logistic(strength + forest["attack_shift"]), 0.18, 0.82)
-    total_goals = clamp(2.55 * forest["tempo_multiplier"] + (left["attack_score"] + right["attack_score"] - 145) * 0.015, 1.65, 3.65)
+    travel_diff = match_context.get("travel_load_a", 0.0) - match_context.get("travel_load_b", 0.0)
+    heat_index = match_context.get("heat_index", 0.0)
+    humidity = match_context.get("humidity", 0.0)
+    context_shift = (
+        (match_context.get("host_factor_a", 0.0) - match_context.get("host_factor_b", 0.0)) * 0.24
+        + (match_context.get("rest_days_a", 5) - match_context.get("rest_days_b", 5)) * 0.035
+        - (match_context.get("carry_fatigue_a", 0.0) - match_context.get("carry_fatigue_b", 0.0)) * 0.30
+        - (match_context.get("lineup_replacements_a", 0) - match_context.get("lineup_replacements_b", 0)) * 0.08
+        + match_context.get("altitude_factor_a", 0.0) * 0.12
+        - travel_diff * 0.16
+    )
+    strength = elo_diff / 430 + rating_diff / 9.5 + attack_diff / 13.0 - defense_diff / 18.0 + context_shift
+    base_share_a = clamp(logistic(strength + forest["attack_shift"]), 0.18, 0.82)
+    climate_tempo = 1.0 - heat_index * 0.055 - humidity * 0.025
+    total_goals = clamp((2.55 * forest["tempo_multiplier"] + (left["attack_score"] + right["attack_score"] - 145) * 0.015) * climate_tempo, 1.55, 3.65)
+    model_features = match_model_features(team_a, team_b, profiles, match_context)
+    rf_probabilities = random_forest_probabilities(model_bundle, model_features)
+    if rf_probabilities:
+        decisive_total = max(0.01, rf_probabilities.get("A", 0.0) + rf_probabilities.get("B", 0.0))
+        rf_share_a = rf_probabilities.get("A", 0.0) / decisive_total
+        share_a = clamp(base_share_a * 0.72 + rf_share_a * 0.28, 0.16, 0.84)
+        draw_probability = rf_probabilities.get("D", 0.0)
+        total_goals = clamp(total_goals * (1.04 - draw_probability * 0.30), 1.55, 3.80)
+        forest["sklearn_random_forest"] = {
+            "p_team_a_win": round(rf_probabilities.get("A", 0.0), 4),
+            "p_draw": round(draw_probability, 4),
+            "p_team_b_win": round(rf_probabilities.get("B", 0.0), 4),
+        }
+    else:
+        share_a = base_share_a
     xg_a = clamp(total_goals * share_a, 0.20, 3.3)
     xg_b = clamp(total_goals * (1.0 - share_a), 0.20, 3.3)
     possession_a = clamp(0.50 + possession_diff / 60 + forest["possession_shift"], 0.35, 0.65)
@@ -645,6 +1206,39 @@ def initialize_match_team(country, profile, tournament_state, current_day):
     }
 
 
+def active_average_fatigue(match_team):
+    active = [player for player in match_team["active"] if not player.get("sent_off")]
+    return average([player.get("fatigue", 0.0) for player in active], default=0.0)
+
+
+def build_match_context(team_a, team_b, profiles, stage, group_name, allow_draw, current_day, state_a, state_b, rng):
+    referee_strictness = clamp(rng.gauss(1.0, 0.10), 0.78, 1.28)
+    venue = venue_context_for_match(stage, group_name)
+    context = {
+        "stage": stage,
+        "group": group_name,
+        "allow_draw": allow_draw,
+        "match_day_index": current_day,
+        "host_factor_a": team_host_factor(team_a, stage, group_name),
+        "host_factor_b": team_host_factor(team_b, stage, group_name),
+        "altitude_factor_a": altitude_factor(team_a, team_b, stage, group_name),
+        "rest_days_a": state_a["rest_days"],
+        "rest_days_b": state_b["rest_days"],
+        "carry_fatigue_a": active_average_fatigue(state_a),
+        "carry_fatigue_b": active_average_fatigue(state_b),
+        "lineup_replacements_a": state_a["lineup_replacements"],
+        "lineup_replacements_b": state_b["lineup_replacements"],
+        "referee_strictness": referee_strictness,
+        "venue_region": venue.get("region"),
+        "venue_altitude_m": venue.get("altitude_m", 0.0),
+        "heat_index": venue.get("heat_index", 0.0),
+        "humidity": venue.get("humidity", 0.0),
+        "travel_load_a": travel_load_for_team(team_a, profiles, venue),
+        "travel_load_b": travel_load_for_team(team_b, profiles, venue),
+    }
+    return context
+
+
 def active_strength(match_team, role=None):
     active = [player for player in match_team["active"] if not player.get("sent_off")]
     if not active:
@@ -661,11 +1255,11 @@ def active_strength(match_team, role=None):
     return average([player["effective_rating"] for player in active]) - fatigue_penalty - red_penalty
 
 
-def apply_fatigue(match_team, extra_time=False):
+def apply_fatigue(match_team, extra_time=False, climate_load=0.0):
     active = [player for player in match_team["active"] if not player.get("sent_off")]
     red_load = max(0, 11 - len(active)) * 0.012
     for player in active:
-        increment = (0.082 if not extra_time else 0.115) / max(0.78, player.get("stamina", 0.9)) + red_load
+        increment = ((0.082 if not extra_time else 0.115) * (1.0 + climate_load)) / max(0.78, player.get("stamina", 0.9)) + red_load
         player["fatigue"] = clamp(player.get("fatigue", 0.0) + increment, 0.0, 1.0)
 
 
@@ -686,16 +1280,17 @@ def find_bench_replacement(match_team, outgoing):
     return replacement
 
 
-def maybe_substitute(match_team, tick, event_stats, extra_time=False):
+def maybe_substitute(match_team, tick, event_stats, extra_time=False, urgency=0.0):
     if match_team["substitutions"] >= match_team["max_substitutions"]:
         return
-    if tick < 6 and not extra_time:
+    early_window = 5 if urgency > 0 else 6
+    if tick < early_window and not extra_time:
         return
     active = [player for player in match_team["active"] if not player.get("sent_off")]
     if not active or not match_team["bench"]:
         return
     outgoing = max(active, key=substitution_need)
-    threshold = 0.74 if not extra_time else 0.64
+    threshold = (0.74 if not extra_time else 0.64) - urgency * 0.07
     if substitution_need(outgoing) < threshold and match_team["substitutions"] >= 3:
         return
     replacement = find_bench_replacement(match_team, outgoing)
@@ -705,6 +1300,8 @@ def maybe_substitute(match_team, tick, event_stats, extra_time=False):
     match_team["active"].append(replacement)
     match_team["substitutions"] += 1
     event_stats[match_team["country"]]["substitutions"] += 1
+    if urgency > 0:
+        event_stats[match_team["country"]]["chasing_substitutions"] += 1
 
 
 def send_off(match_team, player, event_stats, second_yellow=False):
@@ -721,19 +1318,19 @@ def send_off(match_team, player, event_stats, second_yellow=False):
     event_stats[match_team["country"]]["red_cards"] += 1
 
 
-def process_fouls(match_team, opponent, rng, event_stats, tick_scale=1.0):
+def process_fouls(match_team, opponent, rng, event_stats, tick_scale=1.0, referee_strictness=1.0):
     active = [player for player in match_team["active"] if not player.get("sent_off")]
     if not active:
-        return
-    team_foul_lambda = sum(player["foul_rate"] for player in active) / 9.0 * tick_scale
+        return 0
+    team_foul_lambda = sum(player["foul_rate"] for player in active) / 9.0 * tick_scale * referee_strictness
     fouls = poisson(clamp(team_foul_lambda, 0.0, 3.2), rng)
     event_stats[match_team["country"]]["fouls"] += fouls
     for _ in range(fouls):
         offender = weighted_choice(active, card_weight, rng)
         if offender is None:
             continue
-        yellow_probability = clamp(0.075 + offender["card_risk"] * 0.42, 0.04, 0.28)
-        direct_red_probability = clamp(0.004 + offender["card_risk"] * 0.025, 0.002, 0.025)
+        yellow_probability = clamp((0.075 + offender["card_risk"] * 0.42) * referee_strictness, 0.035, 0.34)
+        direct_red_probability = clamp((0.004 + offender["card_risk"] * 0.025) * referee_strictness, 0.0015, 0.035)
         roll = rng.random()
         if roll < direct_red_probability:
             send_off(match_team, offender, event_stats, second_yellow=False)
@@ -745,15 +1342,18 @@ def process_fouls(match_team, opponent, rng, event_stats, tick_scale=1.0):
             if offender["match_yellows"] >= 2:
                 send_off(match_team, offender, event_stats, second_yellow=True)
                 active = [player for player in match_team["active"] if not player.get("sent_off")]
+    set_pieces = 0
     if fouls and rng.random() < 0.35:
         event_stats[opponent["country"]]["set_piece_possessions"] += 1
+        set_pieces = 1
+    return set_pieces
 
 
 def allocate_goal(match_team, rng, player_stats, include_assist=True):
     active = [player for player in match_team["active"] if not player.get("sent_off")]
     scorer = weighted_choice(active, scoring_weight, rng)
     if scorer is None:
-        return
+        return None
     key = f"{match_team['country']}::{scorer['name']}"
     player_stats[key]["team"] = match_team["country"]
     player_stats[key]["name"] = scorer["name"]
@@ -767,13 +1367,47 @@ def allocate_goal(match_team, rng, player_stats, include_assist=True):
             player_stats[assist_key]["name"] = assister["name"]
             player_stats[assist_key]["position"] = assister["position"]
             player_stats[assist_key]["assists"] += 1
+    return scorer
 
 
-def simulate_period(team_a_state, team_b_state, base_xg_a, base_xg_b, possession_a, ticks, rng, event_stats, player_stats, extra_time=False):
+def score_state_multiplier(goals_for, goals_against, tick, ticks, extra_time=False):
+    late = (tick + 1) / max(1, ticks)
+    if goals_for < goals_against:
+        return clamp(1.05 + late * (0.18 if not extra_time else 0.24), 1.05, 1.30)
+    if goals_for > goals_against:
+        return clamp(0.96 - late * (0.12 if not extra_time else 0.16), 0.78, 0.94)
+    if extra_time and late > 0.65:
+        return 0.93
+    return 1.0
+
+
+def record_score_state(event_stats, team_state, goals_for, goals_against):
+    if goals_for < goals_against:
+        event_stats[team_state["country"]]["chasing_ticks"] += 1
+    elif goals_for > goals_against:
+        event_stats[team_state["country"]]["protecting_ticks"] += 1
+
+
+def maybe_score_set_piece(attacking_team, defending_team, rng, event_stats, player_stats):
+    attack = active_strength(attacking_team, "attack")
+    defense = active_strength(defending_team, "defense")
+    chance = clamp(0.042 + (attack - defense) / 480 + attacking_team["substitutions"] * 0.002, 0.018, 0.095)
+    if rng.random() >= chance:
+        return 0
+    event_stats[attacking_team["country"]]["goals"] += 1
+    event_stats[attacking_team["country"]]["set_piece_goals"] += 1
+    allocate_goal(attacking_team, rng, player_stats)
+    return 1
+
+
+def simulate_period(team_a_state, team_b_state, base_xg_a, base_xg_b, possession_a, ticks, rng, event_stats, player_stats, extra_time=False, match_context=None):
+    match_context = match_context or {}
     goals_a = 0
     goals_b = 0
     possession = "A" if rng.random() < possession_a else "B"
     scale = ticks / 9.0
+    referee_strictness = match_context.get("referee_strictness", 1.0)
+    climate_load = match_context.get("heat_index", 0.0) * 0.10 + match_context.get("humidity", 0.0) * 0.04
     for tick in range(ticks):
         a_strength = active_strength(team_a_state)
         b_strength = active_strength(team_b_state)
@@ -781,10 +1415,13 @@ def simulate_period(team_a_state, team_b_state, base_xg_a, base_xg_b, possession
         b_attack = active_strength(team_b_state, "attack")
         a_defense = active_strength(team_a_state, "defense")
         b_defense = active_strength(team_b_state, "defense")
+        record_score_state(event_stats, team_a_state, goals_a, goals_b)
+        record_score_state(event_stats, team_b_state, goals_b, goals_a)
 
         if possession == "A":
             event_stats[team_a_state["country"]]["possession_ticks"] += 1
             chance = base_xg_a / max(1, ticks) * clamp((a_attack - b_defense) / 32 + (a_strength - b_strength) / 55 + 1.0, 0.45, 1.75)
+            chance *= score_state_multiplier(goals_a, goals_b, tick, ticks, extra_time=extra_time)
             chance = clamp(chance, 0.01, 0.48)
             if rng.random() < chance:
                 goals_a += 1
@@ -796,6 +1433,7 @@ def simulate_period(team_a_state, team_b_state, base_xg_a, base_xg_b, possession
         else:
             event_stats[team_b_state["country"]]["possession_ticks"] += 1
             chance = base_xg_b / max(1, ticks) * clamp((b_attack - a_defense) / 32 + (b_strength - a_strength) / 55 + 1.0, 0.45, 1.75)
+            chance *= score_state_multiplier(goals_b, goals_a, tick, ticks, extra_time=extra_time)
             chance = clamp(chance, 0.01, 0.48)
             if rng.random() < chance:
                 goals_b += 1
@@ -807,18 +1445,26 @@ def simulate_period(team_a_state, team_b_state, base_xg_a, base_xg_b, possession
 
         # Defending teams commit most fouls, but the attacking team can foul too.
         if possession == "A":
-            process_fouls(team_b_state, team_a_state, rng, event_stats, tick_scale=scale * 1.05)
+            set_pieces = process_fouls(team_b_state, team_a_state, rng, event_stats, tick_scale=scale * 1.05, referee_strictness=referee_strictness)
+            if set_pieces:
+                goals_a += maybe_score_set_piece(team_a_state, team_b_state, rng, event_stats, player_stats)
             if rng.random() < 0.38:
-                process_fouls(team_a_state, team_b_state, rng, event_stats, tick_scale=scale * 0.45)
+                set_pieces = process_fouls(team_a_state, team_b_state, rng, event_stats, tick_scale=scale * 0.45, referee_strictness=referee_strictness)
+                if set_pieces:
+                    goals_b += maybe_score_set_piece(team_b_state, team_a_state, rng, event_stats, player_stats)
         else:
-            process_fouls(team_a_state, team_b_state, rng, event_stats, tick_scale=scale * 1.05)
+            set_pieces = process_fouls(team_a_state, team_b_state, rng, event_stats, tick_scale=scale * 1.05, referee_strictness=referee_strictness)
+            if set_pieces:
+                goals_b += maybe_score_set_piece(team_b_state, team_a_state, rng, event_stats, player_stats)
             if rng.random() < 0.38:
-                process_fouls(team_b_state, team_a_state, rng, event_stats, tick_scale=scale * 0.45)
+                set_pieces = process_fouls(team_b_state, team_a_state, rng, event_stats, tick_scale=scale * 0.45, referee_strictness=referee_strictness)
+                if set_pieces:
+                    goals_a += maybe_score_set_piece(team_a_state, team_b_state, rng, event_stats, player_stats)
 
-        apply_fatigue(team_a_state, extra_time=extra_time)
-        apply_fatigue(team_b_state, extra_time=extra_time)
-        maybe_substitute(team_a_state, tick, event_stats, extra_time=extra_time)
-        maybe_substitute(team_b_state, tick, event_stats, extra_time=extra_time)
+        apply_fatigue(team_a_state, extra_time=extra_time, climate_load=climate_load + match_context.get("travel_load_a", 0.0) * 0.025)
+        apply_fatigue(team_b_state, extra_time=extra_time, climate_load=climate_load + match_context.get("travel_load_b", 0.0) * 0.025)
+        maybe_substitute(team_a_state, tick, event_stats, extra_time=extra_time, urgency=max(0, goals_b - goals_a))
+        maybe_substitute(team_b_state, tick, event_stats, extra_time=extra_time, urgency=max(0, goals_a - goals_b))
     return goals_a, goals_b
 
 
@@ -894,23 +1540,32 @@ def finalize_match_team(match_team, tournament_state):
         carry[player["name"]] = max(carry.get(player["name"], 0.0), player.get("fatigue", 0.0) * 0.35)
 
 
-def simulate_match(team_a, team_b, profiles, rng, tournament_state, allow_draw, current_day, player_stats):
-    xg_a, xg_b, possession_a, forest = expected_goal_model(team_a, team_b, profiles)
+def simulate_match(team_a, team_b, profiles, rng, tournament_state, allow_draw, current_day, player_stats, stage="group", group_name=None, model_bundle=None):
     state_a = initialize_match_team(team_a, profiles[team_a], tournament_state, current_day)
     state_b = initialize_match_team(team_b, profiles[team_b], tournament_state, current_day)
+    match_context = build_match_context(team_a, team_b, profiles, stage, group_name, allow_draw, current_day, state_a, state_b, rng)
+    xg_a, xg_b, possession_a, forest = expected_goal_model(team_a, team_b, profiles, match_context=match_context, model_bundle=model_bundle)
     event_stats = defaultdict(Counter)
     event_stats[team_a]["xg_model"] += xg_a
     event_stats[team_b]["xg_model"] += xg_b
+    event_stats[team_a]["rest_days"] += match_context["rest_days_a"]
+    event_stats[team_b]["rest_days"] += match_context["rest_days_b"]
+    event_stats[team_a]["host_factor"] += match_context["host_factor_a"]
+    event_stats[team_b]["host_factor"] += match_context["host_factor_b"]
+    event_stats[team_a]["lineup_replacements"] += match_context["lineup_replacements_a"]
+    event_stats[team_b]["lineup_replacements"] += match_context["lineup_replacements_b"]
+    event_stats[team_a]["referee_strictness"] += match_context["referee_strictness"]
+    event_stats[team_b]["referee_strictness"] += match_context["referee_strictness"]
     event_stats[team_a]["kickoffs"] += 1
 
-    goals_a, goals_b = simulate_period(state_a, state_b, xg_a, xg_b, possession_a, 9, rng, event_stats, player_stats)
+    goals_a, goals_b = simulate_period(state_a, state_b, xg_a, xg_b, possession_a, 9, rng, event_stats, player_stats, match_context=match_context)
     resolution = "regular_time"
     winner = None
     penalty_score = None
 
     if not allow_draw and goals_a == goals_b:
         resolution = "extra_time"
-        et_a, et_b = simulate_period(state_a, state_b, xg_a * 0.33, xg_b * 0.33, possession_a, 3, rng, event_stats, player_stats, extra_time=True)
+        et_a, et_b = simulate_period(state_a, state_b, xg_a * 0.33, xg_b * 0.33, possession_a, 3, rng, event_stats, player_stats, extra_time=True, match_context=match_context)
         goals_a += et_a
         goals_b += et_b
         if goals_a == goals_b:
@@ -936,6 +1591,7 @@ def simulate_match(team_a, team_b, profiles, rng, tournament_state, allow_draw, 
         "penalty_score": penalty_score,
         "event_stats": {team: dict(counter) for team, counter in event_stats.items()},
         "forest": forest,
+        "context": match_context,
     }
 
 
@@ -987,13 +1643,57 @@ def record_result(table, team_a, team_b, goals_a, goals_b, event_stats):
         table[team]["fair_play_points"] += fair_play
 
 
-def rank_table(table, profiles, rng):
-    teams = list(table)
+def head_to_head_rows(teams, match_results):
+    rows = {
+        team: {"points": 0, "goal_difference": 0, "goals_for": 0}
+        for team in teams
+    }
+    team_set = set(teams)
+    for result in match_results or []:
+        team_a = result["team_a"]
+        team_b = result["team_b"]
+        if team_a not in team_set or team_b not in team_set:
+            continue
+        goals_a = result["goals_a"]
+        goals_b = result["goals_b"]
+        rows[team_a]["goals_for"] += goals_a
+        rows[team_b]["goals_for"] += goals_b
+        rows[team_a]["goal_difference"] += goals_a - goals_b
+        rows[team_b]["goal_difference"] += goals_b - goals_a
+        if goals_a > goals_b:
+            rows[team_a]["points"] += 3
+        elif goals_b > goals_a:
+            rows[team_b]["points"] += 3
+        else:
+            rows[team_a]["points"] += 1
+            rows[team_b]["points"] += 1
+    return rows
+
+
+def partition_by_head_to_head(teams, match_results):
+    if len(teams) <= 1:
+        return [teams]
+    rows = head_to_head_rows(teams, match_results)
+    grouped = defaultdict(list)
+    for team in teams:
+        row = rows[team]
+        grouped[(row["points"], row["goal_difference"], row["goals_for"])].append(team)
+    if len(grouped) == 1:
+        return [teams]
+    partitions = []
+    for _, group in sorted(grouped.items(), key=lambda item: item[0], reverse=True):
+        if len(group) == 1:
+            partitions.append(group)
+        else:
+            partitions.extend(partition_by_head_to_head(group, match_results))
+    return partitions
+
+
+def rank_overall_subset(teams, table, profiles, rng):
     rng.shuffle(teams)
     return sorted(
         teams,
         key=lambda team: (
-            table[team]["points"],
             table[team]["goal_difference"],
             table[team]["goals_for"],
             table[team]["fair_play_points"],
@@ -1001,6 +1701,23 @@ def rank_table(table, profiles, rng):
         ),
         reverse=True,
     )
+
+
+def rank_table(table, profiles, rng, match_results=None):
+    teams = list(table)
+    rng.shuffle(teams)
+    point_groups = defaultdict(list)
+    for team in teams:
+        point_groups[table[team]["points"]].append(team)
+
+    ranked = []
+    for _, tied_teams in sorted(point_groups.items(), key=lambda item: item[0], reverse=True):
+        if len(tied_teams) == 1:
+            ranked.extend(tied_teams)
+            continue
+        for partition in partition_by_head_to_head(tied_teams, match_results):
+            ranked.extend(rank_overall_subset(partition, table, profiles, rng))
+    return ranked
 
 
 def merge_counter_dict(target, source):
@@ -1052,6 +1769,18 @@ def append_match_trace(trace, label, result):
         f"cards Y/R {event_value(result, team_a, 'yellow_cards')}/{event_value(result, team_a, 'red_cards')}-"
         f"{event_value(result, team_b, 'yellow_cards')}/{event_value(result, team_b, 'red_cards')} | "
         f"subs {event_value(result, team_a, 'substitutions')}-{event_value(result, team_b, 'substitutions')}"
+    )
+    context = result.get("context") or {}
+    rf = (result.get("forest") or {}).get("sklearn_random_forest")
+    model_note = ""
+    if rf:
+        model_note = f" | RF A/D/B {rf['p_team_a_win']:.2f}/{rf['p_draw']:.2f}/{rf['p_team_b_win']:.2f}"
+    trace.append(
+        "  "
+        f"day +{context.get('match_day_index', 0)}, rest {context.get('rest_days_a', 0)}-{context.get('rest_days_b', 0)}, "
+        f"host {context.get('host_factor_a', 0.0):.2f}-{context.get('host_factor_b', 0.0):.2f}, "
+        f"travel {context.get('travel_load_a', 0.0):.2f}-{context.get('travel_load_b', 0.0):.2f}, "
+        f"heat {context.get('heat_index', 0.0):.2f}, ref {context.get('referee_strictness', 1.0):.2f}{model_note}"
     )
 
 
@@ -1108,13 +1837,15 @@ def append_tournament_summary(trace, stages, player_stats, team_event_totals):
         for team, row in event_rows[:12]:
             trace.append(
                 f"  {team:<24} goals {row.get('goals', 0):>2}, fouls {row.get('fouls', 0):>3}, "
-                f"Y/R {row.get('yellow_cards', 0)}/{row.get('red_cards', 0)}, subs {row.get('substitutions', 0)}"
+                f"Y/R {row.get('yellow_cards', 0)}/{row.get('red_cards', 0)}, "
+                f"set pieces {row.get('set_piece_goals', 0)}, subs {row.get('substitutions', 0)}"
             )
 
 
-def simulate_group_stage(structure, profiles, rng, tournament_state, player_stats, team_event_totals, trace=None):
+def simulate_group_stage(structure, profiles, rng, tournament_state, player_stats, team_event_totals, trace=None, model_bundle=None):
     fixtures = build_group_fixtures(structure)
     tables = {group_name: blank_table(teams) for group_name, teams in structure["groups"].items()}
+    group_match_results = {group_name: [] for group_name in structure["groups"]}
     group_results = {}
     if trace is not None:
         trace.append("")
@@ -1129,8 +1860,12 @@ def simulate_group_stage(structure, profiles, rng, tournament_state, player_stat
             allow_draw=True,
             current_day=fixture["day_index"],
             player_stats=player_stats,
+            stage="group",
+            group_name=fixture["group"],
+            model_bundle=model_bundle,
         )
         record_result(tables[fixture["group"]], fixture["team_a"], fixture["team_b"], result["goals_a"], result["goals_b"], result["event_stats"])
+        group_match_results[fixture["group"]].append(result)
         if trace is not None:
             append_match_trace(trace, f"M{fixture['match_id']:03d} Group {fixture['group']} MD{fixture['matchday']}", result)
         for team, stats in result["event_stats"].items():
@@ -1140,7 +1875,7 @@ def simulate_group_stage(structure, profiles, rng, tournament_state, player_stat
     thirds = []
     performance_rows = []
     for group_name, table in tables.items():
-        ranked = rank_table(table, profiles, rng)
+        ranked = rank_table(table, profiles, rng, group_match_results[group_name])
         group_results[group_name] = {"ranking": ranked, "table": table}
         qualifiers.extend(ranked[:2])
         thirds.append(ranked[2])
@@ -1184,12 +1919,84 @@ def simulate_group_stage(structure, profiles, rng, tournament_state, player_stat
                 f"  {index:>2}. {team:<24} {row['points']:>2} pts, GD {row['goal_difference']:>3}, "
                 f"GF {row['goals_for']:>2}, fair play {row['fair_play_points']:>3} - {marker}"
             )
-    return qualifiers, group_results
+    return qualifiers, group_results, qualified_thirds
 
 
-def simulate_knockouts(qualified, profiles, rng, tournament_state, player_stats, team_event_totals, trace=None):
+def team_from_group_slot(group_results, slot):
+    slot_type, group_name = slot
+    ranking = group_results[group_name]["ranking"]
+    if slot_type == "W":
+        return ranking[0]
+    if slot_type == "R":
+        return ranking[1]
+    if slot_type == "T":
+        return ranking[2]
+    raise ValueError(f"Unknown bracket slot type: {slot_type}")
+
+
+def assign_third_place_slots(group_results, qualified_thirds, rng):
+    third_group_by_team = {
+        group_name: result["ranking"][2]
+        for group_name, result in group_results.items()
+        if len(group_name) == 1
+    }
+    qualified_groups = {
+        group_name
+        for group_name, team in third_group_by_team.items()
+        if team in set(qualified_thirds)
+    }
+    third_slots = [
+        (slot_index, opponent_slot[1])
+        for slot_index, (_left_slot, opponent_slot) in enumerate(ROUND_OF_32_SLOTS)
+        if opponent_slot[0] == "T"
+    ]
+    ordered_slots = sorted(third_slots, key=lambda item: len(set(item[1]) & qualified_groups))
+    assignments = {}
+
+    def backtrack(index, remaining_groups):
+        if index >= len(ordered_slots):
+            return True
+        slot_index, allowed_groups = ordered_slots[index]
+        candidates = sorted(set(allowed_groups) & remaining_groups)
+        rng.shuffle(candidates)
+        candidates.sort(key=lambda group_name: qualified_thirds.index(third_group_by_team[group_name]))
+        for group_name in candidates:
+            assignments[slot_index] = group_name
+            if backtrack(index + 1, remaining_groups - {group_name}):
+                return True
+            del assignments[slot_index]
+        return False
+
+    if not backtrack(0, set(qualified_groups)):
+        assignments.clear()
+        remaining_groups = list(qualified_groups)
+        for slot_index, allowed_groups in third_slots:
+            candidate = next((group for group in remaining_groups if group in allowed_groups), None)
+            if candidate is None and remaining_groups:
+                candidate = remaining_groups[0]
+            if candidate is not None:
+                assignments[slot_index] = candidate
+                remaining_groups.remove(candidate)
+    return {slot_index: third_group_by_team[group_name] for slot_index, group_name in assignments.items()}
+
+
+def build_round_of_32_bracket(group_results, qualified_thirds, rng):
+    third_assignments = assign_third_place_slots(group_results, qualified_thirds, rng)
+    bracket = []
+    for slot_index, (left_slot, right_slot) in enumerate(ROUND_OF_32_SLOTS):
+        team_a = team_from_group_slot(group_results, left_slot)
+        if right_slot[0] == "T":
+            team_b = third_assignments[slot_index]
+        else:
+            team_b = team_from_group_slot(group_results, right_slot)
+        bracket.extend([team_a, team_b])
+    return bracket
+
+
+def simulate_knockouts(qualified, group_results, qualified_thirds, profiles, rng, tournament_state, player_stats, team_event_totals, trace=None, model_bundle=None):
+    round_of_32_bracket = build_round_of_32_bracket(group_results, qualified_thirds, rng)
     stages = {
-        "round_of_32": qualified[:],
+        "round_of_32": round_of_32_bracket[:],
         "round_of_16": [],
         "quarter_finals": [],
         "semi_finals": [],
@@ -1199,8 +2006,7 @@ def simulate_knockouts(qualified, profiles, rng, tournament_state, player_stats,
         "fourth_place": None,
         "champion": None,
     }
-    current = qualified[:]
-    current_day = 22
+    current = round_of_32_bracket[:]
     semi_losers = []
     next_stage_names = ["round_of_16", "quarter_finals", "semi_finals", "final", "champion"]
     match_stage_names = ["round_of_32", "round_of_16", "quarter_finals", "semi_finals", "final"]
@@ -1215,9 +2021,23 @@ def simulate_knockouts(qualified, profiles, rng, tournament_state, player_stats,
             trace.append("")
             trace.append(stage_display_name(match_stage_names[stage_index]).upper())
         for i in range(len(current) // 2):
-            team_a = current[i]
-            team_b = current[-(i + 1)]
-            result = simulate_match(team_a, team_b, profiles, rng, tournament_state, allow_draw=False, current_day=current_day, player_stats=player_stats)
+            team_a = current[i * 2]
+            team_b = current[i * 2 + 1]
+            match_stage = match_stage_names[stage_index]
+            match_days = KNOCKOUT_STAGE_DAYS[match_stage]
+            current_day = match_days[i % len(match_days)]
+            result = simulate_match(
+                team_a,
+                team_b,
+                profiles,
+                rng,
+                tournament_state,
+                allow_draw=False,
+                current_day=current_day,
+                player_stats=player_stats,
+                stage=match_stage,
+                model_bundle=model_bundle,
+            )
             winner = result["winner"]
             loser = team_b if winner == team_a else team_a
             winners.append(winner)
@@ -1233,10 +2053,20 @@ def simulate_knockouts(qualified, profiles, rng, tournament_state, player_stats,
         else:
             stages[stage_name] = winners[:]
         current = winners
-        current_day += 4 if stage_index < 2 else 3
 
     stages["third_place_match"] = semi_losers
-    third_result = simulate_match(semi_losers[0], semi_losers[1], profiles, rng, tournament_state, allow_draw=False, current_day=current_day + 2, player_stats=player_stats)
+    third_result = simulate_match(
+        semi_losers[0],
+        semi_losers[1],
+        profiles,
+        rng,
+        tournament_state,
+        allow_draw=False,
+        current_day=KNOCKOUT_STAGE_DAYS["third_place_match"][0],
+        player_stats=player_stats,
+        stage="third_place_match",
+        model_bundle=model_bundle,
+    )
     third_winner = third_result["winner"]
     if trace is not None:
         trace.append("")
@@ -1261,17 +2091,17 @@ def initial_tournament_state(profiles):
     }
 
 
-def simulate_one_tournament(structure, profiles, rng, trace=None):
+def simulate_one_tournament(structure, profiles, rng, trace=None, model_bundle=None):
     player_stats = defaultdict(lambda: {"team": None, "name": None, "position": None, "goals": 0, "assists": 0})
     team_event_totals = defaultdict(Counter)
     tournament_state = initial_tournament_state(profiles)
-    qualified, group_results = simulate_group_stage(structure, profiles, rng, tournament_state, player_stats, team_event_totals, trace=trace)
-    stages = simulate_knockouts(qualified, profiles, rng, tournament_state, player_stats, team_event_totals, trace=trace)
+    qualified, group_results, qualified_thirds = simulate_group_stage(structure, profiles, rng, tournament_state, player_stats, team_event_totals, trace=trace, model_bundle=model_bundle)
+    stages = simulate_knockouts(qualified, group_results, qualified_thirds, profiles, rng, tournament_state, player_stats, team_event_totals, trace=trace, model_bundle=model_bundle)
     return group_results, stages, player_stats, team_event_totals
 
 
 def simulate_chunk(args):
-    chunk_epochs, seed, structure, profiles = args
+    chunk_epochs, seed, structure, profiles, model_bundle = args
     rng = random.Random(seed)
     teams = sorted(profiles)
     counts = {
@@ -1294,7 +2124,7 @@ def simulate_chunk(args):
     player_totals = defaultdict(lambda: {"team": None, "name": None, "position": None, "goals": 0, "assists": 0})
 
     for _ in range(chunk_epochs):
-        group_results, stages, player_stats, tournament_events = simulate_one_tournament(structure, profiles, rng)
+        group_results, stages, player_stats, tournament_events = simulate_one_tournament(structure, profiles, rng, model_bundle=model_bundle)
         for group in group_results.values():
             for team, row in group["table"].items():
                 group_points[team] += row["points"]
@@ -1370,6 +2200,8 @@ def merge_chunk_results(chunks, profiles, epochs):
                 "team": team,
                 "nt_elo": profiles[team]["nt_elo"],
                 "elo_source": profiles[team]["elo_source"],
+                "fifa_rank": profiles[team].get("fifa_rank"),
+                "confederation": profiles[team].get("confederation"),
                 "squad_rating": profiles[team]["squad_rating"],
                 "attack_score": profiles[team]["attack_score"],
                 "defense_score": profiles[team]["defense_score"],
@@ -1383,6 +2215,10 @@ def merge_chunk_results(chunks, profiles, epochs):
                 "yellow_cards_per_tournament": round(event_row.get("yellow_cards", 0) / epochs, 3),
                 "red_cards_per_tournament": round(event_row.get("red_cards", 0) / epochs, 3),
                 "substitutions_per_tournament": round(event_row.get("substitutions", 0) / epochs, 3),
+                "set_piece_goals_per_tournament": round(event_row.get("set_piece_goals", 0) / epochs, 3),
+                "chasing_ticks_per_tournament": round(event_row.get("chasing_ticks", 0) / epochs, 3),
+                "protecting_ticks_per_tournament": round(event_row.get("protecting_ticks", 0) / epochs, 3),
+                "lineup_replacements_per_tournament": round(event_row.get("lineup_replacements", 0) / epochs, 3),
                 "possession_tick_share": round(
                     event_row.get("possession_ticks", 0)
                     / max(1, event_row.get("possession_ticks", 0) + sum(team_events[other].get("possession_ticks", 0) for other in teams if other != team) / max(1, len(teams) - 1)),
@@ -1411,9 +2247,10 @@ def chunk_sizes(epochs, workers):
     return [base + (1 if index < remainder else 0) for index in range(workers) if base + (1 if index < remainder else 0) > 0]
 
 
-def run_simulation(epochs, seed, workers, elo_file, features_output=None):
+def run_simulation(epochs, seed, workers, elo_file, features_output=None, match_model="auto", historical_matches_file=None):
     structure = json.loads(STRUCTURE_FILE.read_text(encoding="utf-8"))
     profiles, elo_source = build_team_profiles(elo_file)
+    model_bundle, model_status = build_match_model_bundle(structure, profiles, seed, mode=match_model, historical_matches_file=historical_matches_file)
     features = build_feature_dataframe(structure, profiles)
     if features_output:
         output_path = ROOT / features_output
@@ -1426,7 +2263,7 @@ def run_simulation(epochs, seed, workers, elo_file, features_output=None):
     tasks = []
     offset = 0
     for index, size in enumerate(sizes):
-        tasks.append((size, seed + 1009 * index + offset, structure, profiles))
+        tasks.append((size, seed + 1009 * index + offset, structure, profiles, model_bundle))
         offset += size
 
     if workers == 1:
@@ -1450,8 +2287,9 @@ def run_simulation(epochs, seed, workers, elo_file, features_output=None):
             "elo_file": str(elo_file) if Path(elo_file).exists() else None,
             "elo_source": elo_source,
             "features_output": features_output,
-            "model": "v2 event simulator: NT Elo/squad prior, pandas feature frame, heuristic decision forest, 9-minute compressed possession events, fatigue, substitutions, cards, extra time, penalties",
-            "decision_forest_status": "heuristic_internal_forest; sklearn is available, but this run is not yet using a trained RandomForest model",
+            "model": "v2 event simulator: NT Elo/squad prior, pandas feature frame, optional sklearn random forest, 9-minute compressed possession events, fatigue, substitutions, cards, set pieces, game-state behavior, exact WC26 round calendar, extra time, penalties",
+            "decision_forest_status": model_status,
+            "historical_matches_file": str(historical_matches_file) if historical_matches_file else None,
             "compressed_time": {"regular_minutes": 9, "extra_time_minutes": 3},
         },
         "team_profiles": {
@@ -1474,6 +2312,8 @@ def run_simulation(epochs, seed, workers, elo_file, features_output=None):
                     "data_confidence",
                     "nt_elo",
                     "elo_source",
+                    "fifa_rank",
+                    "confederation",
                 }
             }
             for team, profile in profiles.items()
@@ -1483,9 +2323,10 @@ def run_simulation(epochs, seed, workers, elo_file, features_output=None):
     }
 
 
-def run_trace_tournament(seed, elo_file):
+def run_trace_tournament(seed, elo_file, match_model="auto", historical_matches_file=None):
     structure = json.loads(STRUCTURE_FILE.read_text(encoding="utf-8"))
     profiles, elo_source = build_team_profiles(elo_file)
+    model_bundle, model_status = build_match_model_bundle(structure, profiles, seed, mode=match_model, historical_matches_file=historical_matches_file)
     rng = random.Random(seed)
     trace = [
         "FIFA WORLD CUP 2026 - SINGLE SIMULATION TRACE",
@@ -1493,9 +2334,10 @@ def run_trace_tournament(seed, elo_file):
         "Clock: 9 compressed minutes for regulation, 3 compressed minutes for extra time",
         f"Teams: {len(profiles)}",
         f"Elo source: {elo_source}",
-        "Model: v2 possession/event simulator with fouls, cards, fatigue, substitutions, extra time and penalties",
+        f"Match model: {model_status['kind']} ({model_status.get('training_source', 'no_training')}, rows={model_status.get('training_rows', 0)})",
+        "Model: v2 possession/event simulator with fouls, cards, set pieces, fatigue, substitutions, game-state behavior, extra time and penalties",
     ]
-    group_results, stages, player_stats, team_event_totals = simulate_one_tournament(structure, profiles, rng, trace=trace)
+    group_results, stages, player_stats, team_event_totals = simulate_one_tournament(structure, profiles, rng, trace=trace, model_bundle=model_bundle)
     append_tournament_summary(trace, stages, player_stats, team_event_totals)
     return "\n".join(trace)
 
@@ -1515,12 +2357,14 @@ def main():
     parser.add_argument("--elo-file", default=str(DEFAULT_ELO_FILE))
     parser.add_argument("--output", default="simulation_results_v2_1000.json")
     parser.add_argument("--features-output", default="simulation_features_v2.csv")
+    parser.add_argument("--match-model", default="auto", choices=["auto", "random-forest", "heuristic"], help="Use sklearn random forest when available, or force the heuristic model.")
+    parser.add_argument("--historical-matches", default=None, help="Optional CSV with team_a/team_b/goals_a/goals_b or home/away equivalent columns for supervised training.")
     parser.add_argument("--trace-one", action="store_true", help="Print one full tournament transcript and save it to --trace-output.")
     parser.add_argument("--trace-output", default="simulation_trace_v2.txt", help="Text file for --trace-one output. Use an empty string to skip saving.")
     args = parser.parse_args()
 
     if args.trace_one:
-        transcript = run_trace_tournament(args.seed, args.elo_file)
+        transcript = run_trace_tournament(args.seed, args.elo_file, match_model=args.match_model, historical_matches_file=args.historical_matches)
         print(transcript)
         if args.trace_output:
             trace_path = ROOT / args.trace_output
@@ -1529,7 +2373,7 @@ def main():
         return
 
     workers = parse_workers(str(args.workers), args.epochs)
-    results = run_simulation(args.epochs, args.seed, workers, args.elo_file, args.features_output)
+    results = run_simulation(args.epochs, args.seed, workers, args.elo_file, args.features_output, match_model=args.match_model, historical_matches_file=args.historical_matches)
     output_path = ROOT / args.output
     output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 

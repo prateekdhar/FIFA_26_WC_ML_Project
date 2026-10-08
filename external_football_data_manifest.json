@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-06-12",
+  "sources": {
+    "international_results": {
+      "repo": "https://github.com/martj42/international_results",
+      "raw_results_url": "https://raw.githubusercontent.com/martj42/international_results/master/results.csv",
+      "raw_results_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\external_data\\international_results\\results.csv",
+      "normalized_results_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\historical_international_results.csv",
+      "status": {
+        "downloaded": false,
+        "download_error": "<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>",
+        "normalized": false,
+        "normalize_error": "Raw results file was not available after download attempt."
+      }
+    },
+    "world_football_elo": {
+      "source_url": "https://www.eloratings.net/",
+      "template_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\world_football_elo_current_template.csv",
+      "raw_export_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\external_data\\world_football_elo\\international_football_elo_20260611.json",
+      "csv_export_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\external_data\\world_football_elo\\international_football_elo_20260611.csv",
+      "target_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\national_team_elo_ratings.json",
+      "status": {
+        "imported": true,
+        "as_of": "2026-06-11",
+        "source_rows": 177,
+        "imported_team_rows": 177,
+        "missing_required_teams": [],
+        "rating_type": "world_football_elo",
+        "template_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\world_football_elo_current_template.csv",
+        "fallback_backup_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\external_data\\world_football_elo\\national_team_elo_ratings_fifa_rank_fallback_20260611.json"
+      },
+      "note": "The active simulator Elo file now uses the user-supplied full World Football Elo export dated 2026-06-11. The earlier FIFA-rank-derived fallback was preserved in external_data/world_football_elo."
+    }
+  }
+}

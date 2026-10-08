@@ -1,0 +1,169 @@
+scenario,team,champion_pct,final_pct,semi_final_pct
+baseline,Algeria,0.0,0.0,3.3333
+baseline,Argentina,6.6667,13.3333,36.6667
+baseline,Belgium,0.0,3.3333,16.6667
+baseline,Bosnia & Herzegovina,0.0,0.0,3.3333
+baseline,Brazil,23.3333,46.6667,66.6667
+baseline,Czech Republic,0.0,3.3333,3.3333
+baseline,England,6.6667,16.6667,43.3333
+baseline,France,10.0,20.0,30.0
+baseline,Germany,20.0,36.6667,80.0
+baseline,Netherlands,10.0,16.6667,30.0
+baseline,Norway,0.0,0.0,10.0
+baseline,Portugal,0.0,0.0,13.3333
+baseline,Senegal,0.0,3.3333,6.6667
+baseline,Spain,23.3333,33.3333,36.6667
+baseline,Sweden,0.0,3.3333,3.3333
+baseline,Switzerland,0.0,3.3333,6.6667
+baseline,Turkey,0.0,0.0,3.3333
+baseline,United States,0.0,0.0,6.6667
+team_strength,Argentina,0.0,6.6667,36.6667
+team_strength,Belgium,6.6667,10.0,16.6667
+team_strength,Brazil,20.0,40.0,66.6667
+team_strength,Croatia,0.0,0.0,3.3333
+team_strength,Czech Republic,0.0,0.0,3.3333
+team_strength,England,6.6667,10.0,23.3333
+team_strength,France,30.0,40.0,46.6667
+team_strength,Germany,16.6667,40.0,66.6667
+team_strength,Japan,0.0,0.0,6.6667
+team_strength,Netherlands,3.3333,13.3333,16.6667
+team_strength,Portugal,3.3333,6.6667,36.6667
+team_strength,Scotland,0.0,0.0,6.6667
+team_strength,South Korea,0.0,0.0,3.3333
+team_strength,Spain,13.3333,26.6667,40.0
+team_strength,Switzerland,0.0,3.3333,13.3333
+team_strength,Turkey,0.0,3.3333,13.3333
+unit_matchups,Argentina,0.0,13.3333,36.6667
+unit_matchups,Austria,0.0,0.0,3.3333
+unit_matchups,Belgium,3.3333,6.6667,13.3333
+unit_matchups,Brazil,30.0,46.6667,80.0
+unit_matchups,Croatia,0.0,0.0,3.3333
+unit_matchups,Czech Republic,0.0,0.0,6.6667
+unit_matchups,England,3.3333,10.0,36.6667
+unit_matchups,France,20.0,26.6667,30.0
+unit_matchups,Germany,20.0,40.0,66.6667
+unit_matchups,Mexico,0.0,0.0,3.3333
+unit_matchups,Netherlands,3.3333,10.0,23.3333
+unit_matchups,Norway,0.0,0.0,6.6667
+unit_matchups,Portugal,0.0,13.3333,23.3333
+unit_matchups,Scotland,0.0,0.0,3.3333
+unit_matchups,Spain,20.0,33.3333,43.3333
+unit_matchups,Switzerland,0.0,0.0,3.3333
+unit_matchups,Turkey,0.0,0.0,6.6667
+unit_matchups,United States,0.0,0.0,10.0
+discipline,Argentina,0.0,10.0,23.3333
+discipline,Belgium,0.0,0.0,6.6667
+discipline,Brazil,23.3333,53.3333,70.0
+discipline,Croatia,0.0,3.3333,3.3333
+discipline,England,13.3333,13.3333,23.3333
+discipline,France,36.6667,43.3333,46.6667
+discipline,Germany,10.0,33.3333,70.0
+discipline,Ivory Coast,0.0,0.0,6.6667
+discipline,Mexico,0.0,0.0,6.6667
+discipline,Netherlands,0.0,0.0,10.0
+discipline,Norway,0.0,0.0,3.3333
+discipline,Portugal,0.0,13.3333,50.0
+discipline,Senegal,0.0,0.0,3.3333
+discipline,South Korea,3.3333,3.3333,3.3333
+discipline,Spain,10.0,16.6667,30.0
+discipline,Switzerland,3.3333,10.0,23.3333
+discipline,Turkey,0.0,0.0,10.0
+discipline,United States,0.0,0.0,6.6667
+discipline,Uruguay,0.0,0.0,3.3333
+data_quality,Argentina,6.6667,13.3333,40.0
+data_quality,Belgium,0.0,3.3333,6.6667
+data_quality,Brazil,26.6667,46.6667,76.6667
+data_quality,Canada,0.0,0.0,3.3333
+data_quality,Croatia,0.0,0.0,3.3333
+data_quality,Czech Republic,0.0,0.0,3.3333
+data_quality,England,6.6667,6.6667,30.0
+data_quality,France,13.3333,16.6667,20.0
+data_quality,Germany,16.6667,53.3333,73.3333
+data_quality,Morocco,0.0,0.0,3.3333
+data_quality,Netherlands,3.3333,6.6667,13.3333
+data_quality,Norway,0.0,0.0,6.6667
+data_quality,Portugal,3.3333,6.6667,30.0
+data_quality,South Korea,0.0,0.0,3.3333
+data_quality,Spain,23.3333,43.3333,53.3333
+data_quality,Sweden,0.0,3.3333,10.0
+data_quality,Switzerland,0.0,0.0,6.6667
+data_quality,Turkey,0.0,0.0,10.0
+data_quality,United States,0.0,0.0,6.6667
+host_context,Argentina,3.3333,6.6667,40.0
+host_context,Belgium,0.0,0.0,6.6667
+host_context,Bosnia & Herzegovina,0.0,0.0,3.3333
+host_context,Brazil,16.6667,26.6667,60.0
+host_context,Ecuador,0.0,0.0,6.6667
+host_context,England,13.3333,26.6667,43.3333
+host_context,France,10.0,23.3333,30.0
+host_context,Germany,23.3333,53.3333,73.3333
+host_context,Ivory Coast,0.0,0.0,3.3333
+host_context,Mexico,0.0,0.0,6.6667
+host_context,Morocco,0.0,0.0,3.3333
+host_context,Netherlands,3.3333,10.0,26.6667
+host_context,Norway,0.0,0.0,3.3333
+host_context,Portugal,10.0,13.3333,20.0
+host_context,South Korea,0.0,0.0,3.3333
+host_context,Spain,20.0,23.3333,33.3333
+host_context,Sweden,0.0,6.6667,6.6667
+host_context,Switzerland,0.0,6.6667,13.3333
+host_context,Turkey,0.0,0.0,13.3333
+host_context,United States,0.0,3.3333,3.3333
+rest_fatigue_availability,Argentina,10.0,10.0,30.0
+rest_fatigue_availability,Belgium,0.0,3.3333,10.0
+rest_fatigue_availability,Brazil,20.0,56.6667,76.6667
+rest_fatigue_availability,Ecuador,0.0,0.0,3.3333
+rest_fatigue_availability,England,3.3333,16.6667,36.6667
+rest_fatigue_availability,France,23.3333,26.6667,46.6667
+rest_fatigue_availability,Germany,6.6667,30.0,60.0
+rest_fatigue_availability,Mexico,0.0,0.0,6.6667
+rest_fatigue_availability,Netherlands,13.3333,16.6667,30.0
+rest_fatigue_availability,Norway,0.0,0.0,6.6667
+rest_fatigue_availability,Portugal,6.6667,13.3333,33.3333
+rest_fatigue_availability,Scotland,0.0,0.0,3.3333
+rest_fatigue_availability,Senegal,0.0,3.3333,6.6667
+rest_fatigue_availability,Spain,13.3333,16.6667,23.3333
+rest_fatigue_availability,Turkey,3.3333,6.6667,23.3333
+rest_fatigue_availability,United States,0.0,0.0,3.3333
+venue_climate_travel,Argentina,10.0,20.0,40.0
+venue_climate_travel,Austria,0.0,3.3333,3.3333
+venue_climate_travel,Belgium,0.0,6.6667,23.3333
+venue_climate_travel,Brazil,20.0,40.0,63.3333
+venue_climate_travel,Canada,0.0,3.3333,3.3333
+venue_climate_travel,Croatia,0.0,0.0,3.3333
+venue_climate_travel,Czech Republic,0.0,0.0,3.3333
+venue_climate_travel,England,6.6667,13.3333,43.3333
+venue_climate_travel,France,23.3333,23.3333,33.3333
+venue_climate_travel,Germany,13.3333,36.6667,73.3333
+venue_climate_travel,Mexico,0.0,0.0,3.3333
+venue_climate_travel,Morocco,0.0,3.3333,6.6667
+venue_climate_travel,Netherlands,0.0,10.0,13.3333
+venue_climate_travel,Norway,0.0,0.0,6.6667
+venue_climate_travel,Portugal,6.6667,13.3333,20.0
+venue_climate_travel,Senegal,0.0,3.3333,3.3333
+venue_climate_travel,Spain,20.0,23.3333,33.3333
+venue_climate_travel,Switzerland,0.0,0.0,10.0
+venue_climate_travel,Turkey,0.0,0.0,3.3333
+venue_climate_travel,United States,0.0,0.0,6.6667
+venue_climate_travel,Uruguay,0.0,0.0,3.3333
+tournament_structure,Argentina,6.6667,10.0,20.0
+tournament_structure,Austria,0.0,0.0,3.3333
+tournament_structure,Belgium,0.0,0.0,10.0
+tournament_structure,Brazil,23.3333,50.0,70.0
+tournament_structure,Canada,0.0,0.0,3.3333
+tournament_structure,DR Congo,0.0,0.0,6.6667
+tournament_structure,England,10.0,13.3333,36.6667
+tournament_structure,France,16.6667,23.3333,36.6667
+tournament_structure,Germany,13.3333,40.0,66.6667
+tournament_structure,Mexico,0.0,3.3333,6.6667
+tournament_structure,Morocco,0.0,3.3333,3.3333
+tournament_structure,Netherlands,3.3333,6.6667,13.3333
+tournament_structure,Norway,0.0,0.0,6.6667
+tournament_structure,Portugal,6.6667,10.0,26.6667
+tournament_structure,South Korea,0.0,0.0,3.3333
+tournament_structure,Spain,20.0,33.3333,53.3333
+tournament_structure,Sweden,0.0,0.0,3.3333
+tournament_structure,Switzerland,0.0,0.0,10.0
+tournament_structure,Turkey,0.0,3.3333,13.3333
+tournament_structure,United States,0.0,3.3333,3.3333
+tournament_structure,Uruguay,0.0,0.0,3.3333

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="355" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 355" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="355"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-355)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="900" height="355" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="24" y="325" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,650) scale(1,-1)">Who each model expected to win</text>
+			<text x="24" y="304" style="font-family: Helvetica; font-size: 11px;fill: rgb(34%,40%,43%); stroke:none;" transform="translate(0,608) scale(1,-1)">Title probabilities (%); Spain is the actual champion. Identical colours identify the same team.</text>
+			<g transform="">
+				<path d="M 159.5,203.5 L 159.5,281 A 77.5,77.5 0 0 0 214.300776,258.300776 L 159.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(13%,52%,49%); fill-rule: evenodd;"/>
+				<path d="M 159.5,203.5 L 214.300776,258.300776 A 77.5,77.5 0 0 0 234.467368,223.15054 L 159.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(70%,29%,38%); fill-rule: evenodd;"/>
+				<path d="M 159.5,203.5 L 234.467368,223.15054 A 77.5,77.5 0 0 0 234.528732,184.085074 L 159.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(20%,47%,67%); fill-rule: evenodd;"/>
+				<path d="M 159.5,203.5 L 234.528732,184.085074 A 77.5,77.5 0 0 0 207.804142,142.895051 L 159.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(85%,67%,22%); fill-rule: evenodd;"/>
+				<path d="M 159.5,203.5 L 207.804142,142.895051 A 77.5,77.5 0 0 0 174.213334,127.409476 L 159.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(50%,38%,64%); fill-rule: evenodd;"/>
+				<path d="M 159.5,203.5 L 174.213334,127.409476 A 77.5,77.5 0 1 0 159.5,281 L 159.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(40%,43%,42%); fill-rule: evenodd;"/>
+			</g>
+			<text x="117.6515" y="294" style="font-family: Helvetica; font-size: 13px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,588) scale(1,-1)">EAFC baseline</text>
+			<rect x="24" y="100" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,52%,49%); fill-rule: evenodd;"/>
+			<text x="38" y="102" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,204) scale(1,-1)">France 12.50%</text>
+			<rect x="169" y="100" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,29%,38%); fill-rule: evenodd;"/>
+			<text x="183" y="102" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,204) scale(1,-1)">Brazil 8.42%</text>
+			<rect x="24" y="77" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,47%,67%); fill-rule: evenodd;"/>
+			<text x="38" y="79" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,158) scale(1,-1)">Germany 8.11%</text>
+			<rect x="169" y="77" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,67%,22%); fill-rule: evenodd;"/>
+			<text x="183" y="79" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,158) scale(1,-1)">Spain 10.26%</text>
+			<rect x="24" y="54" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,38%,64%); fill-rule: evenodd;"/>
+			<text x="38" y="56" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,112) scale(1,-1)">Argentina 7.67%</text>
+			<rect x="169" y="54" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,43%,42%); fill-rule: evenodd;"/>
+			<text x="183" y="56" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,112) scale(1,-1)">Others 53.04%</text>
+			<g transform="">
+				<path d="M 454.5,203.5 L 454.5,281 A 77.5,77.5 0 0 0 526.717856,231.621722 L 454.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(13%,52%,49%); fill-rule: evenodd;"/>
+				<path d="M 454.5,203.5 L 526.717856,231.621722 A 77.5,77.5 0 0 0 506.405853,145.94974 L 454.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(70%,29%,38%); fill-rule: evenodd;"/>
+				<path d="M 454.5,203.5 L 506.405853,145.94974 A 77.5,77.5 0 0 0 423.185641,132.608104 L 454.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(20%,47%,67%); fill-rule: evenodd;"/>
+				<path d="M 454.5,203.5 L 423.185641,132.608104 A 77.5,77.5 0 0 0 377.006119,202.526132 L 454.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(85%,67%,22%); fill-rule: evenodd;"/>
+				<path d="M 454.5,203.5 L 377.006119,202.526132 A 77.5,77.5 0 0 0 387.350592,242.193759 L 454.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(50%,38%,64%); fill-rule: evenodd;"/>
+				<path d="M 454.5,203.5 L 387.350592,242.193759 A 77.5,77.5 0 0 0 454.5,281 L 454.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(40%,43%,42%); fill-rule: evenodd;"/>
+			</g>
+			<text x="422.0505" y="294" style="font-family: Helvetica; font-size: 13px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,588) scale(1,-1)">Heuristic v2</text>
+			<rect x="319" y="100" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,52%,49%); fill-rule: evenodd;"/>
+			<text x="333" y="102" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,204) scale(1,-1)">France 19.09%</text>
+			<rect x="464" y="100" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,29%,38%); fill-rule: evenodd;"/>
+			<text x="478" y="102" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,204) scale(1,-1)">Brazil 19.23%</text>
+			<rect x="319" y="77" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,47%,67%); fill-rule: evenodd;"/>
+			<text x="333" y="79" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,158) scale(1,-1)">Germany 18.30%</text>
+			<rect x="464" y="77" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,67%,22%); fill-rule: evenodd;"/>
+			<text x="478" y="79" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,158) scale(1,-1)">Spain 18.18%</text>
+			<rect x="319" y="54" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,38%,64%); fill-rule: evenodd;"/>
+			<text x="333" y="56" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,112) scale(1,-1)">Argentina 8.52%</text>
+			<rect x="464" y="54" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,43%,42%); fill-rule: evenodd;"/>
+			<text x="478" y="56" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,112) scale(1,-1)">Others 16.68%</text>
+			<g transform="">
+				<path d="M 749.5,203.5 L 749.5,281 A 77.5,77.5 0 0 0 822.35205,229.935369 L 749.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(13%,52%,49%); fill-rule: evenodd;"/>
+				<path d="M 749.5,203.5 L 822.35205,229.935369 A 77.5,77.5 0 0 0 796.807681,142.114062 L 749.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(70%,29%,38%); fill-rule: evenodd;"/>
+				<path d="M 749.5,203.5 L 796.807681,142.114062 A 77.5,77.5 0 0 0 706.747445,138.858921 L 749.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(20%,47%,67%); fill-rule: evenodd;"/>
+				<path d="M 749.5,203.5 L 706.747445,138.858921 A 77.5,77.5 0 0 0 672.303938,210.356973 L 749.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(85%,67%,22%); fill-rule: evenodd;"/>
+				<path d="M 749.5,203.5 L 672.303938,210.356973 A 77.5,77.5 0 0 0 682.399269,242.27811 L 749.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(50%,38%,64%); fill-rule: evenodd;"/>
+				<path d="M 749.5,203.5 L 682.399269,242.27811 A 77.5,77.5 0 0 0 749.5,281 L 749.5,203.5 Z" style="font-family: Times-Roman; font-size: 10px; stroke: rgb(100%,100%,100%); stroke-linecap: round; stroke-width: 0; fill: rgb(40%,43%,42%); fill-rule: evenodd;"/>
+			</g>
+			<text x="697.5375" y="294" style="font-family: Helvetica; font-size: 13px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,588) scale(1,-1)">Random Forest v2</text>
+			<rect x="614" y="100" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,52%,49%); fill-rule: evenodd;"/>
+			<text x="628" y="102" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,204) scale(1,-1)">France 19.46%</text>
+			<rect x="759" y="100" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,29%,38%); fill-rule: evenodd;"/>
+			<text x="773" y="102" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,204) scale(1,-1)">Brazil 20.09%</text>
+			<rect x="614" y="77" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,47%,67%); fill-rule: evenodd;"/>
+			<text x="628" y="79" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,158) scale(1,-1)">Germany 19.75%</text>
+			<rect x="759" y="77" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,67%,22%); fill-rule: evenodd;"/>
+			<text x="773" y="79" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,158) scale(1,-1)">Spain 17.11%</text>
+			<rect x="614" y="54" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,38%,64%); fill-rule: evenodd;"/>
+			<text x="628" y="56" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,112) scale(1,-1)">Argentina 6.93%</text>
+			<rect x="759" y="54" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,43%,42%); fill-rule: evenodd;"/>
+			<text x="773" y="56" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,17%,19%); stroke:none;" transform="translate(0,112) scale(1,-1)">Others 16.66%</text>
+		</g>
+	</g>
+</svg>

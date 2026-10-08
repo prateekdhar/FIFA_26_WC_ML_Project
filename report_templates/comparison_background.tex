@@ -1,0 +1,325 @@
+\begin{abstract}
+This study develops and retrospectively evaluates a probabilistic simulation
+framework for the FIFA World Cup 2026. The repository combines official squad
+records, EAFC-style player ratings, public player statistics and national-team
+strength priors to simulate complete tournaments. Three primary approaches are
+compared: a Poisson baseline, a heuristic event simulator, and the same event
+simulator augmented with a trained Random Forest. A legacy Random Forest run
+is retained as a reference. Each saved forecast contains 10,000 tournament
+realisations. Predictions are compared with FIFA's published outcomes using
+stage-wise Brier scores, champion log loss and top-$k$ qualifier overlap.
+Spain, the eventual champion, received title probabilities of 10.26\%, 18.18\%
+and 17.11\% in the primary models, although none ranked Spain first. Heuristic
+v2 achieved the lowest mean six-stage Brier score, 0.0840, compared with 0.0872
+for the baseline and 0.0867 for Random Forest v2. Both v2 approaches ranked
+Kylian Mbapp\'{e} first by expected goals. The analysis also identifies substantial
+errors in Germany's and Brazil's projected advancement and in the prospects
+of Norway and Morocco. Interpretation is limited by heterogeneous player-data
+coverage, synthetic model training, and the absence of independently audited
+pre-tournament publication timestamps. The results support the value of a
+transparent simulation pipeline while motivating historical backtesting,
+probability calibration and better source-version tracking.
+\end{abstract}
+\noindent\textbf{Keywords:} Monte Carlo simulation; football forecasting;
+Poisson model; Random Forest; Brier score; data provenance.
+\clearpage
+\renewcommand{\contentsname}{Contents}
+\tableofcontents
+\clearpage
+\listoffigures
+\listoftables
+\clearpage
+
+\section{Introduction and Project Objectives}
+\label{sec:introduction}
+Tournament forecasting involves several sources of uncertainty: which players
+are available, how team strength translates into match outcomes, and how the
+draw and knockout path shape progression. A team can have the greatest chance
+of winning while still being more likely to lose the tournament than to win it.
+The project's central output is therefore a distribution of possible outcomes.
+
+The repository began with an interpretable baseline and subsequently added
+player-performance information, team-rating priors and a more detailed match
+engine. Keeping the baseline makes it possible to ask whether additional
+complexity improves the forecasts, and where it fails to do so.
+\subsection{Research Questions}
+\begin{enumerate}
+\item How much forecast probability did each model assign to the eventual champion?
+\item How accurately did the models allocate advancement probabilities across all 48 teams?
+\item Did the event simulator and learned outcome layer improve on the simpler baseline?
+\item Which unexpected results reveal weaknesses in team strength, tournament routing or data coverage?
+\item Which conclusions are supported by saved evidence, and which require further validation?
+\end{enumerate}
+\subsection{Scope and Contributions}
+The project covers a 48-team competition with 12 groups of four, followed by
+a 32-team knockout phase. The top two teams in each group and eight best
+third-place teams progress. Outputs include title and stage probabilities,
+player goal and assist summaries, match-event totals, model explanations and
+data-quality reports.
+
+This report brings together the data pipeline, model definitions and evaluation
+of the saved forecasts. The comparison uses stored results without retraining
+on the observed tournament. The current source code documents the implemented
+mechanisms, but its presence alone does not establish an immutable code version
+for every June run. Frozen JSON metadata are the primary evidence for each
+run's inputs, seed and model mode.
+\subsection{Observed Tournament Outcome}
+Spain defeated Argentina 1--0 after extra time in the final. England finished
+third and France fourth. Mbapp\'{e} won the Golden Boot with 10 goals
+\cite{outcome-final,outcome-standings,outcome-awards}. These observations supply
+evaluation targets; they are not used to update the frozen forecasts.
+\clearpage
+
+\section{Datasets, Sources and Preparation}
+\label{sec:data}
+The project uses several datasets with different coverage, units and time
+granularities. A player appearing in the combined file does not imply that
+every player has a complete, comparable recent-season record.
+\subsection{Official Squads}
+The working roster contains 48 teams and 1,248 players. Its metadata identify
+FIFA's English squad-list PDF, Version 1, dated 3 June 2026 at 11:30 UTC, as the
+source \cite{data-fifa-squads}. The script
+\path{rebuild_squads_from_fifa_pdf.py} extracts squad records; the active output
+is \path{guardian_world_cup_2026_player_guide.json}. Despite its inherited
+filename, the current file identifies FIFA as its squad source. The Guardian
+guide is separately listed in tournament-structure provenance \cite{data-guardian}.
+
+The source URL is a live resource: when checked for this report, the online PDF
+showed a later July timestamp. That page cannot, by itself, prove the exact
+contents of the locally recorded June snapshot. Archive the original file and
+its checksum when reproducing or extending the study.
+\subsection{EAFC Player Ratings}
+The local \path{eafc26_players.csv} contains 18,405 records. Its update-date
+column is 19 September 2025 throughout the file. It supplies player names,
+nationality, positions, overall ratings and additional attributes. The saved
+baseline reports 980 matched players and 268 fallback ratings out of 1,248:
+approximately 78.5\% matched coverage and 21.5\% fallback coverage.
+
+The export includes SoFIFA-hosted image URLs and player-path fields. These are
+provenance clues, not proof of the file's original distributor. The repository
+does not preserve a verified download URL, dataset release identifier or licence
+for this exact CSV. Accordingly, this report cites the local artifact and
+records that upstream provenance gap explicitly \cite{data-eafc}.
+\subsection{Public Player-Performance Data}
+The v2 input is \path{player_performance_data_statbunker.json}. Its metadata
+record 19,923 source rows and 1,248 output players. Source rows can repeat a
+player across competitions, seasons and table types; they are not 19,923 unique
+players. StatBunker supplies the main public competition-table input, including
+appearances, goals, assists, cards and goalkeeper clean sheets \cite{data-statbunker}.
+
+Transfermarkt-derived CSVs from \path{salimt/football-datasets} supplement player
+identity and performance information \cite{data-transfermarkt}. English Wikipedia
+biographies and manual public-web research fill some remaining gaps
+\cite{data-wikipedia}. Two players have SofaScore-derived aggregate statistics
+recorded in the final metadata \cite{data-sofascore}. The final source-summary
+counts are shown in Table~\ref{tab:coverage}.
+\clearpage
+@@SOURCE_TABLE@@
+\subsection{Coverage and Missingness}
+StatBunker's default pages do not supply complete minutes, expected goals,
+expected assists, progressive passing, tackles, saves or match ratings. Wikipedia
+infoboxes often contain career totals rather than recent-season splits.
+Transfermarkt supplements do not make all records equivalent in detail or
+freshness. The metadata's ``complete'' flag describes populated player records;
+two partial-context rows remain documented.
+
+The research coverage report illustrates the unevenness. Panama has 18 players
+below the stored 0.55 confidence threshold and 24 with zero recorded minutes;
+Senegal has 14 and 25 respectively. A zero in these source-derived fields can
+reflect missing evidence rather than a player having played no football.
+The stored confidence measure is an engineering heuristic, not a calibrated
+probability that the record is correct.
+
+An earlier squad-quality report recorded 17 squad-shape issues and a
+\texttt{needs\_refresh} status. It predates later enrichment, so it should be
+treated as a historical diagnostic requiring a fresh check, not proof that all
+17 issues remain in the current roster.
+\subsection{National-Team Rating Priors}
+The primary v2 forecasts used FIFA ranking positions transformed to an
+Elo-like scale \cite{data-fifa-ranking}:
+\begin{equation}
+R_{\mathrm{prior}}=2170-130\ln(r),
+\end{equation}
+where $r$ is ranking position. The preserved fallback file records a ranking
+date of 19 November 2025. This is a model-defined transformation of ranking
+positions, not FIFA ranking points and not a historical World Football Elo series.
+
+A subsequent import brought in 177 World Football Elo team records with an
+as-of date of 11 June 2026 \cite{data-elo}. The import report shows coverage of all
+required teams. These newer inputs are present locally, but the frozen v2 runs
+evaluated here still declare the older rank-derived prior. The current input
+file and the input version used by a saved result must therefore be distinguished.
+\clearpage
+\subsection{Tournament and Venue Context}
+Groups and tournament rules are stored in
+\path{world_cup_2026_simulation_structure.json}, whose metadata cite FIFA draw
+information and the Guardian player guide \cite{data-draw,data-guardian}.
+\path{world_cup_2026_venue_context.json} provides group-region and stage-level
+context. Heat, humidity and travel-load values are modelling priors; they are
+not measured match-day weather observations or a complete travel itinerary.
+\subsection{Identity Resolution and Enrichment}
+The preparation pipeline has four steps:
+\begin{enumerate}
+\item Extract squad identities, broad positions and clubs from the official list.
+\item Normalize names and compare candidates using nationality, name similarity,
+exact aliases and club information. Review overrides are stored separately.
+\item Attach ratings and detailed positions. For unmatched EAFC players, use
+role-based defaults: 68 for goalkeepers/defenders and 69 for midfielders/forwards.
+\item Merge public statistics with source identity, collection status and confidence,
+then construct team profiles from player records.
+\end{enumerate}
+Name normalization supports matching across sources; presentation should retain
+the player's proper spelling. The report therefore uses Kylian Mbapp\'{e}.
+Some archived records retain unaccented matching keys; those frozen identifiers
+are preserved to keep the evaluation reproducible.
+
+\path{performance_data_config.json} specifies intended collection windows,
+competition weights and stage multipliers. These settings describe collection
+and modelling intentions. A listed field or provider is not evidence that it
+was available for every player or consumed by every saved simulation.
+\subsection{Attempted and Future Data Sources}
+SofaScore access was explored through direct and browser-assisted collectors;
+the final source summary records only two primary SofaScore rows. Sportmonks,
+API-Football/API-Sports and FootyStats have provider-ready collection paths,
+but the saved input summary does not identify them as primary suppliers.
+
+The project also attempted to fetch the international-results dataset maintained
+by \path{martj42/international_results} \cite{data-historical}. The June manifest
+records a failed download and no normalized results file. The stored Random
+Forest training metadata consequently report zero historical rows. This
+dataset is a planned input for supervised backtesting, not training evidence
+for the forecasts evaluated here.
+\subsection{Dataset Register}
+The accompanying \path{dataset_sources.csv} records each source, the corresponding
+local artifact, how it was used, and its provenance limitations. Provider URLs
+are distinguished from verified URLs for the exact snapshot. The register
+should be updated whenever inputs change.
+\clearpage
+
+\section{Models and Simulation Architecture}
+\label{sec:models}
+\subsection{Monte Carlo Tournament Simulation}
+Monte Carlo simulation repeatedly draws match outcomes and plays through the
+competition. For event $A$, its estimated probability after $N$ tournaments is
+\begin{equation}
+\widehat{P}(A)=\frac{1}{N}\sum_{i=1}^{N}\mathbf{1}\{A\text{ occurs in run }i\}.
+\end{equation}
+Here $N=10{,}000$ for each compared artifact. This is a count of simulated
+tournaments, not machine-learning training epochs. Under independent runs,
+the conditional Monte Carlo standard error is approximately
+$\sqrt{\widehat p(1-\widehat p)/N}$. For a 20\% title probability it is about
+0.4 percentage points. Running more simulations reduces this sampling noise;
+it does not repair biased ratings or inaccurate football assumptions.
+
+\subsection{Model 1: EAFC--Poisson Baseline}
+The baseline in \path{simulate_world_cup.py} builds a position-aware starting
+XI, a top-18 group and a full-squad mean. Team strength is
+\begin{equation}
+S=0.62\overline R_{\mathrm{XI}}+0.28\overline R_{18}
+  +0.10\overline R_{\mathrm{squad}}.
+\end{equation}
+For strength difference $\Delta=S_A-S_B$, expected goals are
+\begin{align}
+\lambda_A&=\operatorname{clip}(1.28+0.045\Delta,\,0.25,\,3.4),\\
+\lambda_B&=\operatorname{clip}(1.28-0.045\Delta,\,0.25,\,3.4).
+\end{align}
+The match score is sampled using Poisson goal counts. The baseline is useful
+because its rating-to-score relationship is simple to inspect. Its limitations
+include static strength, role-based fallback ratings and limited representation
+of changing match state. Its stored metadata describe knockout seeding based on
+group-stage performance, whereas v2 uses constrained bracket routing; differences
+between model results therefore reflect more than the learning algorithm alone.
+
+\subsection{Shared v2 Event Engine}
+The v2 implementation adds position-sensitive player-performance adjustments,
+lineup selection and separate attack, midfield, defence, goalkeeper and
+possession profiles. Match context includes team priors, host advantage,
+rest, accumulated fatigue, lineup replacements and venue/travel assumptions.
+Regulation time is compressed into nine simulated ticks and extra time into
+three. Possession, fouls, cards, removals, substitutions, set pieces and game
+state can affect scoring; tied knockout matches proceed to extra time and
+penalties. The engine carries player state through the tournament and supports
+CPU-parallel tournament batches.
+\clearpage
+\subsection{Model 2: Heuristic Event Simulator}
+The heuristic mode uses 96 deterministic, seeded rule-based votes to adjust
+attack share, tempo, discipline and possession. The thresholds are hand-built
+mechanics, not trees learned from observed match outcomes. The aggregate
+modifiers feed the expected-goal calculation before the event engine produces
+the match result.
+
+This version asks whether additional team and match context improves on the
+baseline without fitting a supervised outcome classifier. It is more expressive,
+but the additional coefficients and constraints also introduce assumptions
+requiring validation. Both v2 modes retain this heuristic component.
+\subsection{Model 3: Random Forest-Augmented Event Simulator}
+The learned component is a scikit-learn Random Forest classifier with outcomes
+$A$ win, draw and $B$ win. The inspected implementation uses 96 trees, maximum
+depth 8, at least 6 samples per leaf, balanced-subsample class weighting and a
+fixed seed. Its 21 inputs cover strength and unit differences, discipline and
+data confidence, host/rest/fatigue context, venue/travel conditions and tournament
+stage information. A model feature need not represent directly measured evidence:
+several inputs are derived priors.
+
+The forest modifies the event simulator rather than replacing it. Let
+$s_{\mathrm{base}}$ be the engine's attacking share and $p_A,p_D,p_B$ the forest's
+outcome probabilities. The pre-clipping blend is
+\begin{equation}
+s_A=0.72s_{\mathrm{base}}+
+0.28\frac{p_A}{\max(0.01,p_A+p_B)}.
+\end{equation}
+The draw probability also adjusts total expected goals. Consequently, the final
+tournament probabilities reflect the combined rating model, heuristic rules,
+learned adjustment and stochastic event engine.
+\subsection{Synthetic Training and Its Implications}
+The stored forest uses 6,768 synthetic rows and no historical match rows. This
+count follows from $48\times47$ ordered team pairings across three contexts.
+The generator perturbs features and samples outcome labels from a hand-defined
+probability function involving team strength, unit matchups and context.
+
+The model therefore learns the behaviour of the synthetic generator. Good
+performance on held-out synthetic rows does not establish real-match accuracy.
+The saved RF run's 0.7301 accuracy is measured on its training data and must not
+be presented as a 73.01\% World Cup prediction success rate. The code supports
+historical training when enough usable labels exist; that path was not active
+for these artifacts.
+\clearpage
+\subsection{Legacy Reference and Experimental Controls}
+The legacy RF run uses squad-proxy Elo rather than the national-team rank prior.
+It is retained to expose the effect of earlier assumptions, but excluded from
+the primary model-average comparison. Different seeds, bracket mechanics,
+priors and context versions mean the stored runs are not a controlled ablation
+of one factor at a time.
+@@RUN_TABLE@@
+\subsection{Additional Research Models}
+The research pipeline also benchmarks L2 logistic regression, sigmoid-calibrated
+logistic regression, Extra Trees, histogram gradient boosting and an ensemble
+weighted by inverse validation log loss. Logistic regression provides a linear
+reference; calibration adjusts probability outputs; the tree ensembles explore
+nonlinear feature interactions. These are diagnostic experiments, not five
+additional frozen tournament forecasts in this retrospective comparison.
+
+The stored research split contains 5,076 training rows and 1,692 test rows from
+the synthetic frame. Calibrated logistic regression has log loss 0.75862;
+Random Forest has 0.79449. These numbers use synthetic targets and are not
+comparable to champion log loss on the actual tournament.
+
+The ensemble chooses its weights using the same held-out results on which the
+ensemble is then scored. Its reported score is consequently not an independent
+final test. Future work should separate fitting, calibration, model selection
+and final chronological evaluation. Random splitting of related synthetic
+team pairings is also weaker evidence than held-out tournaments or dates.
+\subsection{Feature Importance and Explainability}
+The earlier feature study uses tree importance, permutation importance,
+feature-group ablation, partial dependence, individual conditional expectation
+and local feature occlusion. Squad-rating difference, possession difference and
+attack-versus-defence are leading signals in the stored permutation results.
+Unit-matchup ablation yields the largest reported validation log-loss increase,
+approximately 0.0228.
+
+These results explain sensitivity within the synthetic modelling framework;
+they do not establish causal determinants of real football outcomes. The
+tournament-level RF ablation uses only 30 runs per scenario and leaves the
+hand-built expected-goal mechanics active. Those exploratory results are not
+equivalent to full-engine ablation or a 10,000-run controlled comparison.
+\clearpage

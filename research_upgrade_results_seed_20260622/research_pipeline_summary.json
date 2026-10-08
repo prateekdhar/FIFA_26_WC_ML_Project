@@ -1,0 +1,57 @@
+{
+  "seed": 20260622,
+  "elo_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\national_team_elo_ratings.json",
+  "elo_source": "FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior",
+  "post_run_update": {
+    "date": "2026-06-12",
+    "current_elo_source": "World Football Elo Ratings System user-supplied export",
+    "current_elo_as_of": "2026-06-11",
+    "current_elo_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\national_team_elo_ratings.json",
+    "note": "This research run was generated before the raw Elo import. Rerun the research pipeline and 10,000-simulation comparisons before treating stored probabilities as raw-Elo results."
+  },
+  "training_source": "synthetic_profile_calibration",
+  "rows": 6768,
+  "historical_rows": 0,
+  "synthetic_rows": 6768,
+  "historical_status": {
+    "source_rows": 0,
+    "usable_matches": 0,
+    "skipped_rows": 0
+  },
+  "class_distribution": {
+    "D": 1087,
+    "A": 2834,
+    "B": 2847
+  },
+  "output_dir": "research_upgrade_results_seed_20260622",
+  "historical_file": "",
+  "simulation_team_summary": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\simulation_10000_model_comparison\\simulation_10000_model_team_summary.csv",
+  "historical_template": "historical_matches_template.csv",
+  "elo_snapshot_template": "national_team_elo_snapshots_template.csv",
+  "data_sources": [
+    {
+      "name": "International football results",
+      "purpose": "Historical match outcomes for supervised model training and calibration",
+      "url": "https://raw.githubusercontent.com/martj42/international_results/master/results.csv",
+      "local_filename": "external_data/international_results/results.csv or historical_international_results.csv",
+      "expected_columns": "date,home_team,away_team,home_score,away_score,tournament,city,country,neutral",
+      "status": "download_blocked_in_workspace; place the CSV locally to activate historical training"
+    },
+    {
+      "name": "World Football Elo Ratings",
+      "purpose": "Time-aware national-team Elo before each match and current NT priors",
+      "url": "https://www.eloratings.net/",
+      "local_filename": "external_data/world_football_elo/international_football_elo_20260611.json; national_team_elo_snapshots.csv later",
+      "expected_columns": "date,team,elo,source,source_url",
+      "status": "baseline_imported_2026-06-11; historical time-aware Elo snapshots still needed; rerun simulations for raw-Elo result artifacts"
+    },
+    {
+      "name": "Current project squad/player data",
+      "purpose": "Team strength, unit matchups, discipline priors, and tactical priors",
+      "url": "",
+      "local_filename": "guardian_world_cup_2026_player_guide.json; player_performance_data_statbunker.json",
+      "expected_columns": "",
+      "status": "available"
+    }
+  ]
+}

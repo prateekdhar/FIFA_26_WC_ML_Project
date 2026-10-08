@@ -1,0 +1,1246 @@
+{
+  "as_of_date": "2026-06-11",
+  "source": "World Football Elo Ratings System",
+  "total_teams": 177,
+  "teams": [
+    {
+      "rank": 1,
+      "country": "Spain",
+      "code": "ESP",
+      "elo": 2157,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 2,
+      "country": "Argentina",
+      "code": "ARG",
+      "elo": 2115,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 3,
+      "country": "France",
+      "code": "FRA",
+      "elo": 2063,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 4,
+      "country": "England",
+      "code": "ENG",
+      "elo": 2024,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 5,
+      "country": "Brazil",
+      "code": "BRA",
+      "elo": 1991,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 6,
+      "country": "Portugal",
+      "code": "POR",
+      "elo": 1989,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 7,
+      "country": "Colombia",
+      "code": "COL",
+      "elo": 1982,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 8,
+      "country": "Netherlands",
+      "code": "NED",
+      "elo": 1948,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 9,
+      "country": "Ecuador",
+      "code": "ECU",
+      "elo": 1938,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 10,
+      "country": "Germany",
+      "code": "GER",
+      "elo": 1932,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 11,
+      "country": "Norway",
+      "code": "NOR",
+      "elo": 1914,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 12,
+      "country": "Croatia",
+      "code": "CRO",
+      "elo": 1912,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 13,
+      "country": "Turkey",
+      "code": "TUR",
+      "elo": 1911,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 14,
+      "country": "Japan",
+      "code": "JPN",
+      "elo": 1906,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 15,
+      "country": "Belgium",
+      "code": "BEL",
+      "elo": 1894,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 16,
+      "country": "Uruguay",
+      "code": "URU",
+      "elo": 1892,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 17,
+      "country": "Switzerland",
+      "code": "SUI",
+      "elo": 1891,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 18,
+      "country": "Mexico",
+      "code": "MEX",
+      "elo": 1881,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 19,
+      "country": "Denmark",
+      "code": "DEN",
+      "elo": 1869,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 19,
+      "country": "Italy",
+      "code": "ITA",
+      "elo": 1869,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 21,
+      "country": "Senegal",
+      "code": "SEN",
+      "elo": 1860,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 22,
+      "country": "Paraguay",
+      "code": "PAR",
+      "elo": 1834,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 23,
+      "country": "Austria",
+      "code": "AUT",
+      "elo": 1830,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 24,
+      "country": "Morocco",
+      "code": "MAR",
+      "elo": 1827,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 25,
+      "country": "Canada",
+      "code": "CAN",
+      "elo": 1788,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 26,
+      "country": "South Korea",
+      "code": "KOR",
+      "elo": 1786,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 27,
+      "country": "Scotland",
+      "code": "SCO",
+      "elo": 1782,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 28,
+      "country": "Australia",
+      "code": "AUS",
+      "elo": 1777,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 29,
+      "country": "Algeria",
+      "code": "ALG",
+      "elo": 1772,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 29,
+      "country": "Iran",
+      "code": "IRN",
+      "elo": 1772,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 31,
+      "country": "Ukraine",
+      "code": "UKR",
+      "elo": 1765,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 32,
+      "country": "Serbia",
+      "code": "SRB",
+      "elo": 1758,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 33,
+      "country": "Hungary",
+      "code": "HUN",
+      "elo": 1754,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 34,
+      "country": "Sweden",
+      "code": "SWE",
+      "elo": 1748,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 35,
+      "country": "Venezuela",
+      "code": "VEN",
+      "elo": 1740,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 36,
+      "country": "Poland",
+      "code": "POL",
+      "elo": 1735,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 37,
+      "country": "Panama",
+      "code": "PAN",
+      "elo": 1730,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 38,
+      "country": "United States",
+      "code": "USA",
+      "elo": 1726,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 39,
+      "country": "Wales",
+      "code": "WAL",
+      "elo": 1720,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 40,
+      "country": "Uzbekistan",
+      "code": "UZB",
+      "elo": 1714,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 41,
+      "country": "Czechia",
+      "code": "CZE",
+      "elo": 1712,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 42,
+      "country": "Greece",
+      "code": "GRE",
+      "elo": 1705,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 43,
+      "country": "Chile",
+      "code": "CHI",
+      "elo": 1702,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 44,
+      "country": "Egypt",
+      "code": "EGY",
+      "elo": 1696,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 45,
+      "country": "Ivory Coast",
+      "code": "CIV",
+      "elo": 1695,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 46,
+      "country": "Slovenia",
+      "code": "SVN",
+      "elo": 1688,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 47,
+      "country": "Jordan",
+      "code": "JOR",
+      "elo": 1680,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 48,
+      "country": "Nigeria",
+      "code": "NGA",
+      "elo": 1675,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 49,
+      "country": "Slovakia",
+      "code": "SVK",
+      "elo": 1668,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 50,
+      "country": "Peru",
+      "code": "PER",
+      "elo": 1662,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 51,
+      "country": "Tunisia",
+      "code": "TUN",
+      "elo": 1658,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 52,
+      "country": "DR Congo",
+      "code": "COD",
+      "elo": 1652,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 53,
+      "country": "Romania",
+      "code": "ROU",
+      "elo": 1645,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 54,
+      "country": "Jamaica",
+      "code": "JAM",
+      "elo": 1638,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 55,
+      "country": "Georgia",
+      "code": "GEO",
+      "elo": 1622,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 56,
+      "country": "Finland",
+      "code": "FIN",
+      "elo": 1615,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 57,
+      "country": "Iraq",
+      "code": "IRQ",
+      "elo": 1607,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 58,
+      "country": "Northern Ireland",
+      "code": "NIR",
+      "elo": 1606,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 59,
+      "country": "Mali",
+      "code": "MLI",
+      "elo": 1600,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 60,
+      "country": "Bosnia & Herzegovina",
+      "code": "BIH",
+      "elo": 1595,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 61,
+      "country": "Costa Rica",
+      "code": "CRC",
+      "elo": 1590,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 62,
+      "country": "Cameroon",
+      "code": "CMR",
+      "elo": 1585,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 63,
+      "country": "Cape Verde",
+      "code": "CPV",
+      "elo": 1578,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 64,
+      "country": "Saudi Arabia",
+      "code": "KSA",
+      "elo": 1576,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 65,
+      "country": "Honduras",
+      "code": "HON",
+      "elo": 1570,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 66,
+      "country": "Albania",
+      "code": "ALB",
+      "elo": 1568,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 67,
+      "country": "South Africa",
+      "code": "RSA",
+      "elo": 1565,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 68,
+      "country": "New Zealand",
+      "code": "NZL",
+      "elo": 1562,
+      "confederation": "OFC"
+    },
+    {
+      "rank": 69,
+      "country": "Iceland",
+      "code": "ISL",
+      "elo": 1555,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 70,
+      "country": "Haiti",
+      "code": "HAI",
+      "elo": 1548,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 71,
+      "country": "Bolivia",
+      "code": "BOL",
+      "elo": 1540,
+      "confederation": "CONMEBOL"
+    },
+    {
+      "rank": 72,
+      "country": "Burkina Faso",
+      "code": "BFA",
+      "elo": 1535,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 73,
+      "country": "UAE",
+      "code": "UAE",
+      "elo": 1532,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 74,
+      "country": "Ghana",
+      "code": "GHA",
+      "elo": 1528,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 75,
+      "country": "Israel",
+      "code": "ISR",
+      "elo": 1522,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 76,
+      "country": "Angola",
+      "code": "ANG",
+      "elo": 1515,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 77,
+      "country": "Ireland",
+      "code": "IRL",
+      "elo": 1510,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 78,
+      "country": "Oman",
+      "code": "OMA",
+      "elo": 1493,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 79,
+      "country": "Qatar",
+      "code": "QAT",
+      "elo": 1486,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 80,
+      "country": "Montenegro",
+      "code": "MNE",
+      "elo": 1480,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 81,
+      "country": "Guinea",
+      "code": "GUI",
+      "elo": 1475,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 82,
+      "country": "El Salvador",
+      "code": "SLV",
+      "elo": 1468,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 83,
+      "country": "Bulgaria",
+      "code": "BUL",
+      "elo": 1460,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 84,
+      "country": "Gabon",
+      "code": "GAB",
+      "elo": 1455,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 85,
+      "country": "Syria",
+      "code": "SYR",
+      "elo": 1448,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 85,
+      "country": "Palestine",
+      "code": "PLE",
+      "elo": 1448,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 87,
+      "country": "Zambia",
+      "code": "ZAM",
+      "elo": 1440,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 88,
+      "country": "Curaçao",
+      "code": "CUW",
+      "elo": 1434,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 89,
+      "country": "Luxembourg",
+      "code": "LUX",
+      "elo": 1428,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 90,
+      "country": "Bahrain",
+      "code": "BHR",
+      "elo": 1418,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 91,
+      "country": "Armenia",
+      "code": "ARM",
+      "elo": 1412,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 92,
+      "country": "China PR",
+      "code": "CHN",
+      "elo": 1403,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 93,
+      "country": "Equatorial Guinea",
+      "code": "EQG",
+      "elo": 1395,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 94,
+      "country": "Uganda",
+      "code": "UGA",
+      "elo": 1390,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 95,
+      "country": "North Korea",
+      "code": "PRK",
+      "elo": 1375,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 96,
+      "country": "Thailand",
+      "code": "THA",
+      "elo": 1368,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 97,
+      "country": "Benin",
+      "code": "BEN",
+      "elo": 1360,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 98,
+      "country": "Lebanon",
+      "code": "LBN",
+      "elo": 1351,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 99,
+      "country": "Sudan",
+      "code": "SUD",
+      "elo": 1350,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 100,
+      "country": "Indonesia",
+      "code": "IDN",
+      "elo": 1341,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 101,
+      "country": "Tanzania",
+      "code": "TAN",
+      "elo": 1340,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 102,
+      "country": "Kuwait",
+      "code": "KUW",
+      "elo": 1328,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 103,
+      "country": "Vietnam",
+      "code": "VIE",
+      "elo": 1326,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 104,
+      "country": "Trinidad & Tobago",
+      "code": "TRI",
+      "elo": 1320,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 105,
+      "country": "Malaysia",
+      "code": "MAS",
+      "elo": 1313,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 105,
+      "country": "Kyrgyzstan",
+      "code": "KGZ",
+      "elo": 1313,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 107,
+      "country": "Latvia",
+      "code": "LAT",
+      "elo": 1305,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 108,
+      "country": "Tajikistan",
+      "code": "TJK",
+      "elo": 1297,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 109,
+      "country": "Guatemala",
+      "code": "GUA",
+      "elo": 1292,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 110,
+      "country": "Lithuania",
+      "code": "LTU",
+      "elo": 1286,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 111,
+      "country": "Kazakhstan",
+      "code": "KAZ",
+      "elo": 1275,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 112,
+      "country": "Malawi",
+      "code": "MWI",
+      "elo": 1268,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 113,
+      "country": "Azerbaijan",
+      "code": "AZE",
+      "elo": 1260,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 114,
+      "country": "Malta",
+      "code": "MLT",
+      "elo": 1255,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 115,
+      "country": "Cyprus",
+      "code": "CYP",
+      "elo": 1248,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 116,
+      "country": "Kenya",
+      "code": "KEN",
+      "elo": 1240,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 117,
+      "country": "Turkmenistan",
+      "code": "TKM",
+      "elo": 1217,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 118,
+      "country": "Libya",
+      "code": "LBY",
+      "elo": 1210,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 119,
+      "country": "Estonia",
+      "code": "EST",
+      "elo": 1205,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 120,
+      "country": "Faroe Islands",
+      "code": "FRO",
+      "elo": 1195,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 121,
+      "country": "Nicaragua",
+      "code": "NCA",
+      "elo": 1188,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 122,
+      "country": "Madagascar",
+      "code": "MAD",
+      "elo": 1180,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 123,
+      "country": "Zimbabwe",
+      "code": "ZIM",
+      "elo": 1175,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 124,
+      "country": "Philippines",
+      "code": "PHI",
+      "elo": 1156,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 125,
+      "country": "Yemen",
+      "code": "YEM",
+      "elo": 1151,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 126,
+      "country": "Hong Kong",
+      "code": "HKG",
+      "elo": 1136,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 127,
+      "country": "Singapore",
+      "code": "SGP",
+      "elo": 1131,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 128,
+      "country": "India",
+      "code": "IND",
+      "elo": 1123,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 129,
+      "country": "Niger",
+      "code": "NIG",
+      "elo": 1115,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 130,
+      "country": "Fiji",
+      "code": "FIJ",
+      "elo": 1105,
+      "confederation": "OFC"
+    },
+    {
+      "rank": 131,
+      "country": "Solomon Islands",
+      "code": "SOL",
+      "elo": 1098,
+      "confederation": "OFC"
+    },
+    {
+      "rank": 132,
+      "country": "Moldova",
+      "code": "MDA",
+      "elo": 1090,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 133,
+      "country": "Guyana",
+      "code": "GUY",
+      "elo": 1085,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 134,
+      "country": "Suriname",
+      "code": "SUR",
+      "elo": 1078,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 135,
+      "country": "New Caledonia",
+      "code": "NCL",
+      "elo": 1070,
+      "confederation": "OFC"
+    },
+    {
+      "rank": 136,
+      "country": "Rwanda",
+      "code": "RWA",
+      "elo": 1065,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 137,
+      "country": "Bermuda",
+      "code": "BER",
+      "elo": 1058,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 138,
+      "country": "Belize",
+      "code": "BLZ",
+      "elo": 1050,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 139,
+      "country": "Tahiti",
+      "code": "TAH",
+      "elo": 1042,
+      "confederation": "OFC"
+    },
+    {
+      "rank": 140,
+      "country": "Afghanistan",
+      "code": "AFG",
+      "elo": 1035,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 141,
+      "country": "Vanuatu",
+      "code": "VAN",
+      "elo": 1028,
+      "confederation": "OFC"
+    },
+    {
+      "rank": 142,
+      "country": "Andorra",
+      "code": "AND",
+      "elo": 1020,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 143,
+      "country": "Gibraltar",
+      "code": "GIB",
+      "elo": 1011,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 144,
+      "country": "Liechtenstein",
+      "code": "LIE",
+      "elo": 995,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 145,
+      "country": "Eswatini",
+      "code": "SWZ",
+      "elo": 988,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 146,
+      "country": "Lesotho",
+      "code": "LES",
+      "elo": 980,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 147,
+      "country": "Antigua & Barbuda",
+      "code": "ATG",
+      "elo": 972,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 148,
+      "country": "Dominican Republic",
+      "code": "DOM",
+      "elo": 965,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 149,
+      "country": "Myanmar",
+      "code": "MYA",
+      "elo": 945,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 150,
+      "country": "Bangladesh",
+      "code": "BAN",
+      "elo": 940,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 151,
+      "country": "Saint Lucia",
+      "code": "LCA",
+      "elo": 932,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 152,
+      "country": "Nepal",
+      "code": "NEP",
+      "elo": 919,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 153,
+      "country": "Grenada",
+      "code": "GRN",
+      "elo": 910,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 154,
+      "country": "Cuba",
+      "code": "CUB",
+      "elo": 902,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 155,
+      "country": "Puerto Rico",
+      "code": "PUR",
+      "elo": 895,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 156,
+      "country": "Saint Kitts & Nevis",
+      "code": "SKN",
+      "elo": 888,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 157,
+      "country": "San Marino",
+      "code": "SMR",
+      "elo": 535,
+      "confederation": "UEFA"
+    },
+    {
+      "rank": 158,
+      "country": "Taiwan",
+      "code": "TPE",
+      "elo": 866,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 159,
+      "country": "Cambodia",
+      "code": "CAM",
+      "elo": 844,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 160,
+      "country": "Maldives",
+      "code": "MDV",
+      "elo": 841,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 161,
+      "country": "Pakistan",
+      "code": "PAK",
+      "elo": 830,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 162,
+      "country": "Cayman Islands",
+      "code": "CAY",
+      "elo": 800,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 163,
+      "country": "Sri Lanka",
+      "code": "SRI",
+      "elo": 783,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 164,
+      "country": "Montserrat",
+      "code": "MSR",
+      "elo": 775,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 165,
+      "country": "Seychelles",
+      "code": "SEY",
+      "elo": 760,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 166,
+      "country": "Somalia",
+      "code": "SOM",
+      "elo": 750,
+      "confederation": "CAF"
+    },
+    {
+      "rank": 167,
+      "country": "Mongolia",
+      "code": "MGL",
+      "elo": 730,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 168,
+      "country": "Guam",
+      "code": "GUM",
+      "elo": 714,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 169,
+      "country": "Laos",
+      "code": "LAO",
+      "elo": 711,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 170,
+      "country": "East Timor",
+      "code": "TLS",
+      "elo": 680,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 171,
+      "country": "Brunei",
+      "code": "BRU",
+      "elo": 655,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 172,
+      "country": "Bhutan",
+      "code": "BHU",
+      "elo": 615,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 173,
+      "country": "Macao",
+      "code": "MAC",
+      "elo": 596,
+      "confederation": "AFC"
+    },
+    {
+      "rank": 174,
+      "country": "Anguilla",
+      "code": "AIA",
+      "elo": 520,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 175,
+      "country": "Turks & Caicos",
+      "code": "TCA",
+      "elo": 510,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 176,
+      "country": "U.S. Virgin Islands",
+      "code": "VIR",
+      "elo": 505,
+      "confederation": "CONCACAF"
+    },
+    {
+      "rank": 177,
+      "country": "British Virgin Islands",
+      "code": "VGB",
+      "elo": 490,
+      "confederation": "CONCACAF"
+    }
+  ]
+}

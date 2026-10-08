@@ -1,0 +1,5 @@
+model,primary,predicted_winner,spain_rank,spain_champion_pct,champion_log_loss,champion_brier_sum
+primitive_eafc_poisson,True,France,2,10.26,2.276917346245468,0.8640751799999999
+v2_heuristic_nt_elo,True,Brazil,4,18.18,1.7048480972387587,0.7902500600000001
+v2_random_forest_nt_elo,True,Brazil,4,17.11,1.7655070980839893,0.81685548
+v2_random_forest_squad_proxy_legacy,False,France,2,14.38,1.9393318336951906,0.8703750199999999

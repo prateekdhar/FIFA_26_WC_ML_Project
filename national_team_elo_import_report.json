@@ -1,0 +1,19 @@
+{
+  "input": "external_data\\world_football_elo\\international_football_elo_20260611.json",
+  "output": "national_team_elo_ratings.json",
+  "source_rows": 177,
+  "imported_team_rows": 177,
+  "skipped_rows": [],
+  "source_field_counts": {
+    "elo": 177
+  },
+  "validation": {
+    "team_count": 177,
+    "alias_count": 21,
+    "missing_required_teams": [],
+    "rating_type_counts": {
+      "world_football_elo": 177
+    },
+    "teams_missing_confederation": []
+  }
+}

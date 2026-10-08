@@ -1,0 +1,135 @@
+{
+  "seed": 20260618,
+  "elo_file": "C:\\Users\\prate\\OneDrive\\Documents\\FIFA_WC_26\\national_team_elo_ratings.json",
+  "elo_source": "FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior",
+  "training_source": "synthetic_profile_calibration",
+  "rows": 6768,
+  "historical_rows": 0,
+  "historical_status": {
+    "source_rows": 0,
+    "usable_matches": 0,
+    "skipped_rows": 0
+  },
+  "synthetic_rows": 6768,
+  "features": [
+    "elo_diff",
+    "squad_rating_diff",
+    "attack_vs_defense",
+    "defense_vs_attack",
+    "midfield_diff",
+    "gk_diff",
+    "possession_diff",
+    "discipline_diff",
+    "data_confidence_diff",
+    "host_diff",
+    "rest_diff",
+    "fatigue_diff",
+    "lineup_replacements_diff",
+    "altitude_factor",
+    "travel_diff",
+    "heat_index",
+    "humidity",
+    "venue_altitude_km",
+    "stage_is_knockout",
+    "allow_draw",
+    "match_day_index"
+  ],
+  "feature_groups": {
+    "team_strength": [
+      "elo_diff",
+      "squad_rating_diff"
+    ],
+    "unit_matchups": [
+      "attack_vs_defense",
+      "defense_vs_attack",
+      "midfield_diff",
+      "gk_diff",
+      "possession_diff"
+    ],
+    "discipline": [
+      "discipline_diff"
+    ],
+    "data_quality": [
+      "data_confidence_diff"
+    ],
+    "host_context": [
+      "host_diff",
+      "altitude_factor"
+    ],
+    "rest_fatigue_availability": [
+      "rest_diff",
+      "fatigue_diff",
+      "lineup_replacements_diff"
+    ],
+    "venue_climate_travel": [
+      "travel_diff",
+      "heat_index",
+      "humidity",
+      "venue_altitude_km"
+    ],
+    "tournament_structure": [
+      "stage_is_knockout",
+      "allow_draw",
+      "match_day_index"
+    ]
+  },
+  "class_distribution": {
+    "B": 2777,
+    "A": 2920,
+    "D": 1071
+  },
+  "model_metrics": [
+    {
+      "model": "random_forest",
+      "train_rows": 5076,
+      "test_rows": 1692,
+      "accuracy": 0.66371,
+      "balanced_accuracy": 0.57009,
+      "log_loss": 0.81023
+    },
+    {
+      "model": "decision_tree_depth4",
+      "train_rows": 5076,
+      "test_rows": 1692,
+      "accuracy": 0.61052,
+      "balanced_accuracy": 0.54321,
+      "log_loss": 0.87307
+    },
+    {
+      "model": "logistic_l2",
+      "train_rows": 5076,
+      "test_rows": 1692,
+      "accuracy": 0.6247,
+      "balanced_accuracy": 0.57099,
+      "log_loss": 0.83872
+    },
+    {
+      "model": "elastic_net_logistic",
+      "train_rows": 5076,
+      "test_rows": 1692,
+      "accuracy": 0.6247,
+      "balanced_accuracy": 0.57099,
+      "log_loss": 0.83861
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "train_rows": 5076,
+      "test_rows": 1692,
+      "accuracy": 0.6773,
+      "balanced_accuracy": 0.5434,
+      "log_loss": 0.82251
+    }
+  ],
+  "top_features_for_pdp": [
+    "squad_rating_diff",
+    "possession_diff",
+    "attack_vs_defense",
+    "midfield_diff",
+    "defense_vs_attack",
+    "elo_diff",
+    "gk_diff",
+    "data_confidence_diff"
+  ],
+  "chart_files": [],
+  "simulation_ablation_epochs": 30
+}

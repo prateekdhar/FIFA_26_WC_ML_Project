@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "source": "FIFA/Coca-Cola Men's World Ranking ranks converted to Elo-scale prior",
+    "source_url": "https://inside.fifa.com/fifa-world-ranking/men",
+    "as_of": "2025-11-19",
+    "created_at": "2026-06-11",
+    "rating_priority": [
+      "world_football_elo",
+      "elo",
+      "rating",
+      "fifa_points",
+      "points",
+      "fifa_rank_derived_elo"
+    ],
+    "notes": [
+      "This file can contain every men's national team; the simulator consumes the teams present in the tournament structure.",
+      "If a row only has fifa_rank/rank, elo is estimated as 2170 - 130 * ln(rank)."
+    ],
+    "default_rating_type": "fifa_rank_derived_elo"
+  },
+  "teams": {
+    "Algeria": {
+      "elo": 1707.8,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "fifa_rank": 35,
+      "source_field": "fifa_rank"
+    },
+    "Argentina": {
+      "elo": 2079.9,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONMEBOL",
+      "fifa_rank": 2,
+      "source_field": "fifa_rank"
+    },
+    "Australia": {
+      "elo": 1746.4,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 26,
+      "source_field": "fifa_rank"
+    },
+    "Austria": {
+      "elo": 1756.9,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 24,
+      "source_field": "fifa_rank"
+    },
+    "Belgium": {
+      "elo": 1899.7,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 8,
+      "source_field": "fifa_rank"
+    },
+    "Bosnia & Herzegovina": {
+      "elo": 1615.9,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "aliases": [
+        "Bosnia Herzegovina",
+        "Bosnia and Herzegovina",
+        "Bosnia-Herzegovina"
+      ],
+      "fifa_rank": 71,
+      "source_field": "fifa_rank"
+    },
+    "Brazil": {
+      "elo": 1960.8,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONMEBOL",
+      "fifa_rank": 5,
+      "source_field": "fifa_rank"
+    },
+    "Canada": {
+      "elo": 1741.5,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONCACAF",
+      "fifa_rank": 27,
+      "source_field": "fifa_rank"
+    },
+    "Cape Verde": {
+      "elo": 1621.5,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "aliases": [
+        "Cape Verde Islands"
+      ],
+      "fifa_rank": 68,
+      "source_field": "fifa_rank"
+    },
+    "Colombia": {
+      "elo": 1836.6,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONMEBOL",
+      "fifa_rank": 13,
+      "source_field": "fifa_rank"
+    },
+    "Croatia": {
+      "elo": 1870.7,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 10,
+      "source_field": "fifa_rank"
+    },
+    "Curacao": {
+      "elo": 1597.1,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONCACAF",
+      "aliases": [
+        "Curaçao"
+      ],
+      "fifa_rank": 82,
+      "source_field": "fifa_rank"
+    },
+    "Czech Republic": {
+      "elo": 1678.1,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "aliases": [
+        "Czech Rep",
+        "Czechia"
+      ],
+      "fifa_rank": 44,
+      "source_field": "fifa_rank"
+    },
+    "DR Congo": {
+      "elo": 1646.7,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "aliases": [
+        "Congo DR",
+        "Congo-Kinshasa",
+        "Democratic Republic of Congo"
+      ],
+      "fifa_rank": 56,
+      "source_field": "fifa_rank"
+    },
+    "Ecuador": {
+      "elo": 1762.4,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONMEBOL",
+      "fifa_rank": 23,
+      "source_field": "fifa_rank"
+    },
+    "Egypt": {
+      "elo": 1711.6,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "fifa_rank": 34,
+      "source_field": "fifa_rank"
+    },
+    "England": {
+      "elo": 1989.8,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 4,
+      "source_field": "fifa_rank"
+    },
+    "France": {
+      "elo": 2027.2,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 3,
+      "source_field": "fifa_rank"
+    },
+    "Germany": {
+      "elo": 1884.4,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 9,
+      "source_field": "fifa_rank"
+    },
+    "Ghana": {
+      "elo": 1614.0,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "fifa_rank": 72,
+      "source_field": "fifa_rank"
+    },
+    "Haiti": {
+      "elo": 1594.0,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONCACAF",
+      "fifa_rank": 84,
+      "source_field": "fifa_rank"
+    },
+    "Iran": {
+      "elo": 1780.6,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 20,
+      "source_field": "fifa_rank"
+    },
+    "Iraq": {
+      "elo": 1642.1,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 58,
+      "source_field": "fifa_rank"
+    },
+    "Ivory Coast": {
+      "elo": 1684.1,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "aliases": [
+        "CIV",
+        "Cote d'Ivoire",
+        "Côte d'Ivoire"
+      ],
+      "fifa_rank": 42,
+      "source_field": "fifa_rank"
+    },
+    "Japan": {
+      "elo": 1794.3,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 18,
+      "source_field": "fifa_rank"
+    },
+    "Jordan": {
+      "elo": 1625.3,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 66,
+      "source_field": "fifa_rank"
+    },
+    "Mexico": {
+      "elo": 1818.0,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONCACAF",
+      "fifa_rank": 15,
+      "source_field": "fifa_rank"
+    },
+    "Morocco": {
+      "elo": 1858.3,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "fifa_rank": 11,
+      "source_field": "fifa_rank"
+    },
+    "Netherlands": {
+      "elo": 1917.0,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 7,
+      "source_field": "fifa_rank"
+    },
+    "New Zealand": {
+      "elo": 1590.9,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "OFC",
+      "aliases": [
+        "Aotearoa New Zealand"
+      ],
+      "fifa_rank": 86,
+      "source_field": "fifa_rank"
+    },
+    "Norway": {
+      "elo": 1732.3,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 29,
+      "source_field": "fifa_rank"
+    },
+    "Panama": {
+      "elo": 1727.8,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONCACAF",
+      "fifa_rank": 30,
+      "source_field": "fifa_rank"
+    },
+    "Paraguay": {
+      "elo": 1693.7,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONMEBOL",
+      "fifa_rank": 39,
+      "source_field": "fifa_rank"
+    },
+    "Portugal": {
+      "elo": 1937.1,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 6,
+      "source_field": "fifa_rank"
+    },
+    "Qatar": {
+      "elo": 1658.9,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 51,
+      "source_field": "fifa_rank"
+    },
+    "Saudi Arabia": {
+      "elo": 1637.7,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 60,
+      "source_field": "fifa_rank"
+    },
+    "Scotland": {
+      "elo": 1704.1,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 36,
+      "source_field": "fifa_rank"
+    },
+    "Senegal": {
+      "elo": 1787.2,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "fifa_rank": 19,
+      "source_field": "fifa_rank"
+    },
+    "South Africa": {
+      "elo": 1635.6,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "fifa_rank": 61,
+      "source_field": "fifa_rank"
+    },
+    "South Korea": {
+      "elo": 1768.2,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "aliases": [
+        "Korea Republic",
+        "Republic of Korea"
+      ],
+      "fifa_rank": 22,
+      "source_field": "fifa_rank"
+    },
+    "Spain": {
+      "elo": 2170.0,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 1,
+      "source_field": "fifa_rank"
+    },
+    "Sweden": {
+      "elo": 1681.0,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 43,
+      "source_field": "fifa_rank"
+    },
+    "Switzerland": {
+      "elo": 1801.7,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "fifa_rank": 17,
+      "source_field": "fifa_rank"
+    },
+    "Tunisia": {
+      "elo": 1690.4,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CAF",
+      "fifa_rank": 40,
+      "source_field": "fifa_rank"
+    },
+    "Turkey": {
+      "elo": 1751.5,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "UEFA",
+      "aliases": [
+        "Turkiye",
+        "Türkiye"
+      ],
+      "fifa_rank": 25,
+      "source_field": "fifa_rank"
+    },
+    "United States": {
+      "elo": 1826.9,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONCACAF",
+      "aliases": [
+        "USA",
+        "USMNT",
+        "United States of America"
+      ],
+      "fifa_rank": 14,
+      "source_field": "fifa_rank"
+    },
+    "Uruguay": {
+      "elo": 1809.6,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "CONMEBOL",
+      "fifa_rank": 16,
+      "source_field": "fifa_rank"
+    },
+    "Uzbekistan": {
+      "elo": 1661.4,
+      "rating_type": "fifa_rank_derived_elo",
+      "confederation": "AFC",
+      "fifa_rank": 50,
+      "source_field": "fifa_rank"
+    }
+  }
+}

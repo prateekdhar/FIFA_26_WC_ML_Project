@@ -1,0 +1,1537 @@
+model,team,stage,forecast_pct,actual_reached,absolute_error,squared_error
+primitive_eafc_poisson,France,round_of_32,93.67,1,0.06330000000000002,0.0040068900000000025
+primitive_eafc_poisson,Spain,round_of_32,93.65,1,0.06349999999999989,0.004032249999999986
+primitive_eafc_poisson,England,round_of_32,91.09,1,0.08909999999999996,0.007938809999999992
+primitive_eafc_poisson,Brazil,round_of_32,90.1,1,0.09900000000000009,0.009801000000000018
+primitive_eafc_poisson,Portugal,round_of_32,91.21,1,0.08790000000000009,0.007726410000000016
+primitive_eafc_poisson,Germany,round_of_32,92.83,1,0.07169999999999999,0.005140889999999998
+primitive_eafc_poisson,Argentina,round_of_32,90.65,1,0.09349999999999992,0.008742249999999984
+primitive_eafc_poisson,Netherlands,round_of_32,87.63,1,0.12370000000000003,0.015301690000000008
+primitive_eafc_poisson,Belgium,round_of_32,91.78,1,0.08219999999999994,0.0067568399999999905
+primitive_eafc_poisson,Croatia,round_of_32,79.62,1,0.20379999999999998,0.04153443999999999
+primitive_eafc_poisson,Turkey,round_of_32,84.43,0,0.8443,0.7128424900000001
+primitive_eafc_poisson,Morocco,round_of_32,75.93,1,0.24069999999999991,0.05793648999999996
+primitive_eafc_poisson,Uruguay,round_of_32,76.81,0,0.7681,0.58997761
+primitive_eafc_poisson,Norway,round_of_32,74.6,1,0.254,0.064516
+primitive_eafc_poisson,Switzerland,round_of_32,82.35,1,0.1765000000000001,0.031152250000000034
+primitive_eafc_poisson,Colombia,round_of_32,74.78,1,0.2522,0.06360484
+primitive_eafc_poisson,Sweden,round_of_32,72.04,1,0.27959999999999996,0.07817615999999998
+primitive_eafc_poisson,United States,round_of_32,77.49,1,0.22510000000000008,0.050670010000000036
+primitive_eafc_poisson,Austria,round_of_32,71.96,1,0.2804000000000001,0.07862416000000005
+primitive_eafc_poisson,Ivory Coast,round_of_32,73.3,1,0.267,0.071289
+primitive_eafc_poisson,Czech Republic,round_of_32,78.21,0,0.7820999999999999,0.6116804099999998
+primitive_eafc_poisson,Algeria,round_of_32,69.19,1,0.30810000000000004,0.09492561000000002
+primitive_eafc_poisson,Senegal,round_of_32,70.07,1,0.2993000000000001,0.08958049000000007
+primitive_eafc_poisson,Scotland,round_of_32,63.59,0,0.6359,0.40436881
+primitive_eafc_poisson,Mexico,round_of_32,74.43,1,0.2556999999999999,0.06538248999999996
+primitive_eafc_poisson,Canada,round_of_32,72.81,1,0.27190000000000003,0.07392961000000002
+primitive_eafc_poisson,Japan,round_of_32,64.69,1,0.35309999999999997,0.12467960999999998
+primitive_eafc_poisson,Ghana,round_of_32,60.17,1,0.3983,0.15864288999999998
+primitive_eafc_poisson,South Korea,round_of_32,73.4,0,0.7340000000000001,0.5387560000000001
+primitive_eafc_poisson,Ecuador,round_of_32,64.42,1,0.3558,0.12659364
+primitive_eafc_poisson,DR Congo,round_of_32,62.43,1,0.37570000000000003,0.14115049000000002
+primitive_eafc_poisson,Bosnia & Herzegovina,round_of_32,65.01,1,0.3499,0.12243000999999999
+primitive_eafc_poisson,Paraguay,round_of_32,61.419999999999995,1,0.38580000000000003,0.14884164000000003
+primitive_eafc_poisson,Egypt,round_of_32,64.1,1,0.3590000000000001,0.12888100000000008
+primitive_eafc_poisson,Saudi Arabia,round_of_32,50.22,0,0.5022,0.25220484
+primitive_eafc_poisson,Iran,round_of_32,55.14,0,0.5514,0.30404196
+primitive_eafc_poisson,Tunisia,round_of_32,42.82,0,0.4282,0.18335524000000003
+primitive_eafc_poisson,New Zealand,round_of_32,54.22,0,0.5422,0.29398084
+primitive_eafc_poisson,Australia,round_of_32,45.9,1,0.541,0.292681
+primitive_eafc_poisson,Qatar,round_of_32,50.6,0,0.506,0.256036
+primitive_eafc_poisson,Haiti,round_of_32,37.78,0,0.3778,0.14273284000000003
+primitive_eafc_poisson,Cape Verde,round_of_32,42.58,1,0.5742,0.3297056400000001
+primitive_eafc_poisson,Uzbekistan,round_of_32,36.81,0,0.36810000000000004,0.13549761000000002
+primitive_eafc_poisson,South Africa,round_of_32,45.04,1,0.5496000000000001,0.3020601600000001
+primitive_eafc_poisson,Jordan,round_of_32,33.65,0,0.33649999999999997,0.11323224999999998
+primitive_eafc_poisson,Curacao,round_of_32,35.39,0,0.3539,0.12524521
+primitive_eafc_poisson,Panama,round_of_32,33.43,0,0.3343,0.11175648999999999
+primitive_eafc_poisson,Iraq,round_of_32,26.56,0,0.2656,0.07054336
+primitive_eafc_poisson,France,round_of_16,69.58,1,0.3042,0.09253764000000002
+primitive_eafc_poisson,Spain,round_of_16,66.67,1,0.33329999999999993,0.11108888999999995
+primitive_eafc_poisson,England,round_of_16,63.6,1,0.364,0.132496
+primitive_eafc_poisson,Brazil,round_of_16,62.74999999999999,1,0.37250000000000005,0.13875625000000005
+primitive_eafc_poisson,Portugal,round_of_16,64.38,1,0.35620000000000007,0.12687844000000006
+primitive_eafc_poisson,Germany,round_of_16,66.06,0,0.6606000000000001,0.4363923600000001
+primitive_eafc_poisson,Argentina,round_of_16,62.55,1,0.37450000000000006,0.14025025000000005
+primitive_eafc_poisson,Netherlands,round_of_16,58.660000000000004,0,0.5866,0.34409956
+primitive_eafc_poisson,Belgium,round_of_16,57.69,1,0.42310000000000003,0.17901361000000002
+primitive_eafc_poisson,Croatia,round_of_16,45.17,0,0.4517,0.20403289
+primitive_eafc_poisson,Turkey,round_of_16,47.37,0,0.47369999999999995,0.22439168999999995
+primitive_eafc_poisson,Morocco,round_of_16,40.46,1,0.5953999999999999,0.3545011599999999
+primitive_eafc_poisson,Uruguay,round_of_16,39.41,0,0.39409999999999995,0.15531480999999997
+primitive_eafc_poisson,Norway,round_of_16,40.16,1,0.5984,0.35808256000000005
+primitive_eafc_poisson,Switzerland,round_of_16,44.69,1,0.5531,0.30591961000000006
+primitive_eafc_poisson,Colombia,round_of_16,39.45,1,0.6054999999999999,0.36663024999999994
+primitive_eafc_poisson,Sweden,round_of_16,36.72,0,0.36719999999999997,0.13483583999999998
+primitive_eafc_poisson,United States,round_of_16,38.69,1,0.6131,0.37589161
+primitive_eafc_poisson,Austria,round_of_16,35.27,0,0.3527,0.12439729000000001
+primitive_eafc_poisson,Ivory Coast,round_of_16,35.56,0,0.3556,0.12645136
+primitive_eafc_poisson,Czech Republic,round_of_16,38.41,0,0.38409999999999994,0.14753280999999996
+primitive_eafc_poisson,Algeria,round_of_16,32.83,0,0.3283,0.10778088999999999
+primitive_eafc_poisson,Senegal,round_of_16,34.21,0,0.3421,0.11703241000000002
+primitive_eafc_poisson,Scotland,round_of_16,29.45,0,0.2945,0.08673025
+primitive_eafc_poisson,Mexico,round_of_16,33.16,1,0.6684000000000001,0.44675856000000014
+primitive_eafc_poisson,Canada,round_of_16,31.97,1,0.6803,0.46280809
+primitive_eafc_poisson,Japan,round_of_16,29.42,0,0.2942,0.08655364000000002
+primitive_eafc_poisson,Ghana,round_of_16,25.06,0,0.2506,0.06280036
+primitive_eafc_poisson,South Korea,round_of_16,32.11,0,0.3211,0.10310521
+primitive_eafc_poisson,Ecuador,round_of_16,27.26,0,0.2726,0.07431076
+primitive_eafc_poisson,DR Congo,round_of_16,25.3,0,0.253,0.064009
+primitive_eafc_poisson,Bosnia & Herzegovina,round_of_16,26.150000000000002,0,0.2615,0.06838225
+primitive_eafc_poisson,Paraguay,round_of_16,23.07,1,0.7693,0.59182249
+primitive_eafc_poisson,Egypt,round_of_16,22.93,1,0.7706999999999999,0.5939784899999999
+primitive_eafc_poisson,Saudi Arabia,round_of_16,17.08,0,0.17079999999999998,0.029172639999999993
+primitive_eafc_poisson,Iran,round_of_16,17.27,0,0.1727,0.029825289999999997
+primitive_eafc_poisson,Tunisia,round_of_16,13.720000000000002,0,0.13720000000000002,0.018823840000000005
+primitive_eafc_poisson,New Zealand,round_of_16,15.620000000000001,0,0.1562,0.02439844
+primitive_eafc_poisson,Australia,round_of_16,14.17,0,0.1417,0.02007889
+primitive_eafc_poisson,Qatar,round_of_16,15.36,0,0.1536,0.023592959999999996
+primitive_eafc_poisson,Haiti,round_of_16,11.58,0,0.1158,0.01340964
+primitive_eafc_poisson,Cape Verde,round_of_16,12.98,0,0.1298,0.016848039999999998
+primitive_eafc_poisson,Uzbekistan,round_of_16,10.15,0,0.1015,0.01030225
+primitive_eafc_poisson,South Africa,round_of_16,11.47,0,0.11470000000000001,0.013156090000000002
+primitive_eafc_poisson,Jordan,round_of_16,9.59,0,0.0959,0.00919681
+primitive_eafc_poisson,Curacao,round_of_16,9.55,0,0.0955,0.00912025
+primitive_eafc_poisson,Panama,round_of_16,8.87,0,0.08869999999999999,0.007867689999999998
+primitive_eafc_poisson,Iraq,round_of_16,6.370000000000001,0,0.0637,0.004057690000000001
+primitive_eafc_poisson,France,quarter_finals,48.44,1,0.5156000000000001,0.2658433600000001
+primitive_eafc_poisson,Spain,quarter_finals,44.75,1,0.5525,0.30525625
+primitive_eafc_poisson,England,quarter_finals,41.19,1,0.5881000000000001,0.3458616100000001
+primitive_eafc_poisson,Brazil,quarter_finals,41.47,0,0.4147,0.17197609
+primitive_eafc_poisson,Portugal,quarter_finals,41.24,0,0.41240000000000004,0.17007376000000005
+primitive_eafc_poisson,Germany,quarter_finals,43.05,0,0.4305,0.18533025
+primitive_eafc_poisson,Argentina,quarter_finals,40.27,1,0.5972999999999999,0.3567672899999999
+primitive_eafc_poisson,Netherlands,quarter_finals,36.22,0,0.36219999999999997,0.13118883999999997
+primitive_eafc_poisson,Belgium,quarter_finals,32.08,1,0.6792,0.46131264000000005
+primitive_eafc_poisson,Croatia,quarter_finals,23.27,0,0.2327,0.054149289999999996
+primitive_eafc_poisson,Turkey,quarter_finals,24.12,0,0.2412,0.05817744
+primitive_eafc_poisson,Morocco,quarter_finals,19.89,1,0.8011,0.6417612100000001
+primitive_eafc_poisson,Uruguay,quarter_finals,19.12,0,0.1912,0.036557440000000004
+primitive_eafc_poisson,Norway,quarter_finals,19.9,1,0.801,0.6416010000000001
+primitive_eafc_poisson,Switzerland,quarter_finals,21.65,1,0.7835,0.61387225
+primitive_eafc_poisson,Colombia,quarter_finals,18.9,0,0.18899999999999997,0.03572099999999999
+primitive_eafc_poisson,Sweden,quarter_finals,17.24,0,0.1724,0.02972176
+primitive_eafc_poisson,United States,quarter_finals,17.69,0,0.1769,0.03129361
+primitive_eafc_poisson,Austria,quarter_finals,15.920000000000002,0,0.1592,0.02534464
+primitive_eafc_poisson,Ivory Coast,quarter_finals,16.46,0,0.1646,0.027093159999999998
+primitive_eafc_poisson,Czech Republic,quarter_finals,17.11,0,0.1711,0.02927521
+primitive_eafc_poisson,Algeria,quarter_finals,14.610000000000001,0,0.1461,0.021345210000000003
+primitive_eafc_poisson,Senegal,quarter_finals,15.590000000000002,0,0.1559,0.024304810000000003
+primitive_eafc_poisson,Scotland,quarter_finals,12.34,0,0.1234,0.01522756
+primitive_eafc_poisson,Mexico,quarter_finals,13.33,0,0.1333,0.01776889
+primitive_eafc_poisson,Canada,quarter_finals,13.3,0,0.133,0.017689000000000003
+primitive_eafc_poisson,Japan,quarter_finals,12.36,0,0.12359999999999999,0.015276959999999997
+primitive_eafc_poisson,Ghana,quarter_finals,9.82,0,0.09820000000000001,0.009643240000000003
+primitive_eafc_poisson,South Korea,quarter_finals,13.05,0,0.1305,0.01703025
+primitive_eafc_poisson,Ecuador,quarter_finals,11.1,0,0.111,0.012321
+primitive_eafc_poisson,DR Congo,quarter_finals,10.16,0,0.1016,0.01032256
+primitive_eafc_poisson,Bosnia & Herzegovina,quarter_finals,9.34,0,0.0934,0.00872356
+primitive_eafc_poisson,Paraguay,quarter_finals,8.33,0,0.0833,0.00693889
+primitive_eafc_poisson,Egypt,quarter_finals,7.77,0,0.07769999999999999,0.006037289999999999
+primitive_eafc_poisson,Saudi Arabia,quarter_finals,5.42,0,0.0542,0.0029376399999999996
+primitive_eafc_poisson,Iran,quarter_finals,5.06,0,0.0506,0.00256036
+primitive_eafc_poisson,Tunisia,quarter_finals,4.55,0,0.0455,0.00207025
+primitive_eafc_poisson,New Zealand,quarter_finals,4.52,0,0.0452,0.00204304
+primitive_eafc_poisson,Australia,quarter_finals,4.04,0,0.0404,0.00163216
+primitive_eafc_poisson,Qatar,quarter_finals,4.39,0,0.043899999999999995,0.0019272099999999995
+primitive_eafc_poisson,Haiti,quarter_finals,3.35,0,0.0335,0.0011222500000000002
+primitive_eafc_poisson,Cape Verde,quarter_finals,3.5699999999999994,0,0.035699999999999996,0.0012744899999999997
+primitive_eafc_poisson,Uzbekistan,quarter_finals,2.97,0,0.0297,0.0008820900000000001
+primitive_eafc_poisson,South Africa,quarter_finals,2.63,0,0.0263,0.00069169
+primitive_eafc_poisson,Jordan,quarter_finals,2.49,0,0.024900000000000002,0.00062001
+primitive_eafc_poisson,Curacao,quarter_finals,2.37,0,0.023700000000000002,0.0005616900000000001
+primitive_eafc_poisson,Panama,quarter_finals,2.2,0,0.022000000000000002,0.0004840000000000001
+primitive_eafc_poisson,Iraq,quarter_finals,1.36,0,0.013600000000000001,0.00018496000000000002
+primitive_eafc_poisson,France,semi_finals,32.03,1,0.6797,0.46199208999999997
+primitive_eafc_poisson,Spain,semi_finals,28.449999999999996,1,0.7155,0.51194025
+primitive_eafc_poisson,England,semi_finals,25.72,1,0.7428,0.55175184
+primitive_eafc_poisson,Brazil,semi_finals,25.97,0,0.2597,0.06744409
+primitive_eafc_poisson,Portugal,semi_finals,25.39,0,0.2539,0.06446521000000001
+primitive_eafc_poisson,Germany,semi_finals,26.49,0,0.26489999999999997,0.07017200999999998
+primitive_eafc_poisson,Argentina,semi_finals,24.11,1,0.7589,0.5759292100000001
+primitive_eafc_poisson,Netherlands,semi_finals,21.32,0,0.2132,0.04545424
+primitive_eafc_poisson,Belgium,semi_finals,17.1,0,0.171,0.029241000000000003
+primitive_eafc_poisson,Croatia,semi_finals,11.77,0,0.1177,0.013853289999999999
+primitive_eafc_poisson,Turkey,semi_finals,11.02,0,0.11019999999999999,0.012144039999999998
+primitive_eafc_poisson,Morocco,semi_finals,9.53,0,0.0953,0.00908209
+primitive_eafc_poisson,Uruguay,semi_finals,8.75,0,0.0875,0.007656249999999999
+primitive_eafc_poisson,Norway,semi_finals,9.24,0,0.0924,0.008537759999999998
+primitive_eafc_poisson,Switzerland,semi_finals,9.45,0,0.09449999999999999,0.008930249999999997
+primitive_eafc_poisson,Colombia,semi_finals,8.26,0,0.08259999999999999,0.006822759999999999
+primitive_eafc_poisson,Sweden,semi_finals,7.73,0,0.07730000000000001,0.005975290000000001
+primitive_eafc_poisson,United States,semi_finals,7.670000000000001,0,0.0767,0.005882890000000001
+primitive_eafc_poisson,Austria,semi_finals,6.98,0,0.0698,0.00487204
+primitive_eafc_poisson,Ivory Coast,semi_finals,7.01,0,0.0701,0.004914009999999999
+primitive_eafc_poisson,Czech Republic,semi_finals,6.87,0,0.0687,0.0047196899999999995
+primitive_eafc_poisson,Algeria,semi_finals,5.87,0,0.0587,0.0034456900000000004
+primitive_eafc_poisson,Senegal,semi_finals,6.41,0,0.0641,0.004108810000000001
+primitive_eafc_poisson,Scotland,semi_finals,4.85,0,0.048499999999999995,0.0023522499999999993
+primitive_eafc_poisson,Mexico,semi_finals,4.76,0,0.047599999999999996,0.0022657599999999995
+primitive_eafc_poisson,Canada,semi_finals,5.09,0,0.0509,0.0025908100000000002
+primitive_eafc_poisson,Japan,semi_finals,5.15,0,0.051500000000000004,0.0026522500000000005
+primitive_eafc_poisson,Ghana,semi_finals,3.65,0,0.0365,0.0013322499999999999
+primitive_eafc_poisson,South Korea,semi_finals,4.66,0,0.0466,0.0021715600000000003
+primitive_eafc_poisson,Ecuador,semi_finals,4.07,0,0.0407,0.00165649
+primitive_eafc_poisson,DR Congo,semi_finals,3.3300000000000005,0,0.0333,0.0011088900000000002
+primitive_eafc_poisson,Bosnia & Herzegovina,semi_finals,3.15,0,0.0315,0.00099225
+primitive_eafc_poisson,Paraguay,semi_finals,2.97,0,0.0297,0.0008820900000000001
+primitive_eafc_poisson,Egypt,semi_finals,2.57,0,0.025699999999999997,0.0006604899999999999
+primitive_eafc_poisson,Saudi Arabia,semi_finals,1.6500000000000001,0,0.0165,0.00027225000000000003
+primitive_eafc_poisson,Iran,semi_finals,1.18,0,0.0118,0.00013924
+primitive_eafc_poisson,Tunisia,semi_finals,1.22,0,0.012199999999999999,0.00014883999999999996
+primitive_eafc_poisson,New Zealand,semi_finals,1.05,0,0.0105,0.00011025000000000001
+primitive_eafc_poisson,Australia,semi_finals,1.09,0,0.0109,0.00011881
+primitive_eafc_poisson,Qatar,semi_finals,1.15,0,0.0115,0.00013225
+primitive_eafc_poisson,Haiti,semi_finals,0.9399999999999998,0,0.009399999999999999,8.835999999999997e-05
+primitive_eafc_poisson,Cape Verde,semi_finals,0.95,0,0.0095,9.025e-05
+primitive_eafc_poisson,Uzbekistan,semi_finals,0.74,0,0.0074,5.4760000000000004e-05
+primitive_eafc_poisson,South Africa,semi_finals,0.6,0,0.006,3.6e-05
+primitive_eafc_poisson,Jordan,semi_finals,0.62,0,0.0062,3.844e-05
+primitive_eafc_poisson,Curacao,semi_finals,0.57,0,0.005699999999999999,3.2489999999999996e-05
+primitive_eafc_poisson,Panama,semi_finals,0.53,0,0.0053,2.809e-05
+primitive_eafc_poisson,Iraq,semi_finals,0.32,0,0.0032,1.024e-05
+primitive_eafc_poisson,France,final,20.41,0,0.2041,0.04165681
+primitive_eafc_poisson,Spain,final,17.77,1,0.8223,0.67617729
+primitive_eafc_poisson,England,final,15.120000000000001,0,0.1512,0.02286144
+primitive_eafc_poisson,Brazil,final,15.25,0,0.1525,0.02325625
+primitive_eafc_poisson,Portugal,final,15.28,0,0.1528,0.023347839999999998
+primitive_eafc_poisson,Germany,final,15.190000000000001,0,0.1519,0.02307361
+primitive_eafc_poisson,Argentina,final,13.86,1,0.8613999999999999,0.7420099599999999
+primitive_eafc_poisson,Netherlands,final,11.42,0,0.1142,0.013041639999999998
+primitive_eafc_poisson,Belgium,final,8.92,0,0.0892,0.007956640000000001
+primitive_eafc_poisson,Croatia,final,5.39,0,0.053899999999999997,0.0029052099999999997
+primitive_eafc_poisson,Turkey,final,4.88,0,0.048799999999999996,0.0023814399999999994
+primitive_eafc_poisson,Morocco,final,4.14,0,0.0414,0.00171396
+primitive_eafc_poisson,Uruguay,final,3.93,0,0.0393,0.0015444900000000001
+primitive_eafc_poisson,Norway,final,4.07,0,0.0407,0.00165649
+primitive_eafc_poisson,Switzerland,final,3.7599999999999993,0,0.037599999999999995,0.0014137599999999996
+primitive_eafc_poisson,Colombia,final,3.5699999999999994,0,0.035699999999999996,0.0012744899999999997
+primitive_eafc_poisson,Sweden,final,3.18,0,0.0318,0.00101124
+primitive_eafc_poisson,United States,final,3.38,0,0.0338,0.0011424399999999998
+primitive_eafc_poisson,Austria,final,2.95,0,0.029500000000000002,0.0008702500000000001
+primitive_eafc_poisson,Ivory Coast,final,2.63,0,0.0263,0.00069169
+primitive_eafc_poisson,Czech Republic,final,2.84,0,0.028399999999999998,0.0008065599999999999
+primitive_eafc_poisson,Algeria,final,2.18,0,0.0218,0.00047524
+primitive_eafc_poisson,Senegal,final,2.36,0,0.0236,0.00055696
+primitive_eafc_poisson,Scotland,final,1.92,0,0.0192,0.00036863999999999994
+primitive_eafc_poisson,Mexico,final,1.73,0,0.0173,0.00029928999999999996
+primitive_eafc_poisson,Canada,final,1.69,0,0.0169,0.00028560999999999994
+primitive_eafc_poisson,Japan,final,1.76,0,0.0176,0.00030976
+primitive_eafc_poisson,Ghana,final,1.23,0,0.0123,0.00015129
+primitive_eafc_poisson,South Korea,final,1.38,0,0.0138,0.00019044
+primitive_eafc_poisson,Ecuador,final,1.34,0,0.0134,0.00017956000000000002
+primitive_eafc_poisson,DR Congo,final,1.16,0,0.0116,0.00013455999999999999
+primitive_eafc_poisson,Bosnia & Herzegovina,final,0.8699999999999999,0,0.0087,7.568999999999999e-05
+primitive_eafc_poisson,Paraguay,final,0.88,0,0.0088,7.744e-05
+primitive_eafc_poisson,Egypt,final,0.69,0,0.0069,4.761e-05
+primitive_eafc_poisson,Saudi Arabia,final,0.38,0,0.0038,1.444e-05
+primitive_eafc_poisson,Iran,final,0.34,0,0.0034000000000000002,1.1560000000000001e-05
+primitive_eafc_poisson,Tunisia,final,0.29,0,0.0029,8.409999999999999e-06
+primitive_eafc_poisson,New Zealand,final,0.27,0,0.0027,7.2900000000000005e-06
+primitive_eafc_poisson,Australia,final,0.2,0,0.002,4e-06
+primitive_eafc_poisson,Qatar,final,0.3,0,0.003,9e-06
+primitive_eafc_poisson,Haiti,final,0.27,0,0.0027,7.2900000000000005e-06
+primitive_eafc_poisson,Cape Verde,final,0.22999999999999998,0,0.0023,5.29e-06
+primitive_eafc_poisson,Uzbekistan,final,0.13,0,0.0013,1.69e-06
+primitive_eafc_poisson,South Africa,final,0.08,0,0.0008,6.4e-07
+primitive_eafc_poisson,Jordan,final,0.11,0,0.0011,1.21e-06
+primitive_eafc_poisson,Curacao,final,0.13,0,0.0013,1.69e-06
+primitive_eafc_poisson,Panama,final,0.1,0,0.001,1e-06
+primitive_eafc_poisson,Iraq,final,0.04,0,0.0004,1.6e-07
+primitive_eafc_poisson,France,champion,12.5,0,0.125,0.015625
+primitive_eafc_poisson,Spain,champion,10.26,1,0.8974,0.8053267599999999
+primitive_eafc_poisson,England,champion,8.55,0,0.0855,0.007310250000000001
+primitive_eafc_poisson,Brazil,champion,8.42,0,0.0842,0.0070896399999999995
+primitive_eafc_poisson,Portugal,champion,8.39,0,0.0839,0.007039210000000001
+primitive_eafc_poisson,Germany,champion,8.11,0,0.08109999999999999,0.006577209999999998
+primitive_eafc_poisson,Argentina,champion,7.670000000000001,0,0.0767,0.005882890000000001
+primitive_eafc_poisson,Netherlands,champion,6.17,0,0.0617,0.00380689
+primitive_eafc_poisson,Belgium,champion,4.47,0,0.0447,0.0019980899999999997
+primitive_eafc_poisson,Croatia,champion,2.54,0,0.0254,0.00064516
+primitive_eafc_poisson,Turkey,champion,2.13,0,0.0213,0.00045369
+primitive_eafc_poisson,Morocco,champion,1.72,0,0.0172,0.00029584
+primitive_eafc_poisson,Uruguay,champion,1.6,0,0.016,0.000256
+primitive_eafc_poisson,Norway,champion,1.59,0,0.0159,0.00025281
+primitive_eafc_poisson,Switzerland,champion,1.55,0,0.0155,0.00024024999999999999
+primitive_eafc_poisson,Colombia,champion,1.52,0,0.0152,0.00023104
+primitive_eafc_poisson,Sweden,champion,1.28,0,0.0128,0.00016384
+primitive_eafc_poisson,United States,champion,1.16,0,0.0116,0.00013455999999999999
+primitive_eafc_poisson,Austria,champion,1.15,0,0.0115,0.00013225
+primitive_eafc_poisson,Ivory Coast,champion,1.02,0,0.0102,0.00010404000000000001
+primitive_eafc_poisson,Czech Republic,champion,1.0,0,0.01,0.0001
+primitive_eafc_poisson,Algeria,champion,0.98,0,0.0098,9.604e-05
+primitive_eafc_poisson,Senegal,champion,0.9399999999999998,0,0.009399999999999999,8.835999999999997e-05
+primitive_eafc_poisson,Scotland,champion,0.63,0,0.0063,3.969e-05
+primitive_eafc_poisson,Mexico,champion,0.62,0,0.0062,3.844e-05
+primitive_eafc_poisson,Canada,champion,0.55,0,0.0055000000000000005,3.0250000000000007e-05
+primitive_eafc_poisson,Japan,champion,0.54,0,0.0054,2.9160000000000002e-05
+primitive_eafc_poisson,Ghana,champion,0.45000000000000007,0,0.0045000000000000005,2.0250000000000004e-05
+primitive_eafc_poisson,South Korea,champion,0.44,0,0.0044,1.936e-05
+primitive_eafc_poisson,Ecuador,champion,0.42,0,0.0042,1.7639999999999997e-05
+primitive_eafc_poisson,DR Congo,champion,0.32,0,0.0032,1.024e-05
+primitive_eafc_poisson,Bosnia & Herzegovina,champion,0.28,0,0.0028000000000000004,7.840000000000003e-06
+primitive_eafc_poisson,Paraguay,champion,0.26,0,0.0026,6.76e-06
+primitive_eafc_poisson,Egypt,champion,0.13,0,0.0013,1.69e-06
+primitive_eafc_poisson,Saudi Arabia,champion,0.1,0,0.001,1e-06
+primitive_eafc_poisson,Iran,champion,0.09,0,0.0009,8.1e-07
+primitive_eafc_poisson,Tunisia,champion,0.08,0,0.0008,6.4e-07
+primitive_eafc_poisson,New Zealand,champion,0.06,0,0.0006,3.5999999999999994e-07
+primitive_eafc_poisson,Australia,champion,0.06,0,0.0006,3.5999999999999994e-07
+primitive_eafc_poisson,Qatar,champion,0.04,0,0.0004,1.6e-07
+primitive_eafc_poisson,Haiti,champion,0.04,0,0.0004,1.6e-07
+primitive_eafc_poisson,Cape Verde,champion,0.04,0,0.0004,1.6e-07
+primitive_eafc_poisson,Uzbekistan,champion,0.04,0,0.0004,1.6e-07
+primitive_eafc_poisson,South Africa,champion,0.04,0,0.0004,1.6e-07
+primitive_eafc_poisson,Jordan,champion,0.02,0,0.0002,4e-08
+primitive_eafc_poisson,Curacao,champion,0.01,0,0.0001,1e-08
+primitive_eafc_poisson,Panama,champion,0.01,0,0.0001,1e-08
+primitive_eafc_poisson,Iraq,champion,0.01,0,0.0001,1e-08
+primitive_eafc_poisson,France,third_place,7.53,0,0.0753,0.005670090000000001
+primitive_eafc_poisson,Spain,third_place,6.65,0,0.0665,0.004422250000000001
+primitive_eafc_poisson,England,third_place,6.7,1,0.933,0.8704890000000001
+primitive_eafc_poisson,Brazil,third_place,6.4399999999999995,0,0.0644,0.00414736
+primitive_eafc_poisson,Portugal,third_place,6.32,0,0.0632,0.0039942400000000005
+primitive_eafc_poisson,Germany,third_place,7.23,0,0.0723,0.005227290000000001
+primitive_eafc_poisson,Argentina,third_place,6.09,0,0.060899999999999996,0.0037088099999999995
+primitive_eafc_poisson,Netherlands,third_place,5.82,0,0.0582,0.00338724
+primitive_eafc_poisson,Belgium,third_place,4.68,0,0.046799999999999994,0.0021902399999999995
+primitive_eafc_poisson,Croatia,third_place,3.09,0,0.030899999999999997,0.0009548099999999998
+primitive_eafc_poisson,Turkey,third_place,2.68,0,0.0268,0.0007182400000000001
+primitive_eafc_poisson,Morocco,third_place,2.34,0,0.023399999999999997,0.0005475599999999999
+primitive_eafc_poisson,Uruguay,third_place,2.0,0,0.02,0.0004
+primitive_eafc_poisson,Norway,third_place,2.33,0,0.0233,0.0005428900000000001
+primitive_eafc_poisson,Switzerland,third_place,2.42,0,0.0242,0.00058564
+primitive_eafc_poisson,Colombia,third_place,2.05,0,0.020499999999999997,0.0004202499999999999
+primitive_eafc_poisson,Sweden,third_place,1.9,0,0.019,0.000361
+primitive_eafc_poisson,United States,third_place,1.83,0,0.0183,0.00033489
+primitive_eafc_poisson,Austria,third_place,1.72,0,0.0172,0.00029584
+primitive_eafc_poisson,Ivory Coast,third_place,1.94,0,0.0194,0.00037636
+primitive_eafc_poisson,Czech Republic,third_place,1.66,0,0.0166,0.00027556
+primitive_eafc_poisson,Algeria,third_place,1.59,0,0.0159,0.00025281
+primitive_eafc_poisson,Senegal,third_place,1.68,0,0.0168,0.00028223999999999995
+primitive_eafc_poisson,Scotland,third_place,1.21,0,0.0121,0.00014641
+primitive_eafc_poisson,Mexico,third_place,1.13,0,0.0113,0.00012769
+primitive_eafc_poisson,Canada,third_place,1.28,0,0.0128,0.00016384
+primitive_eafc_poisson,Japan,third_place,1.22,0,0.012199999999999999,0.00014883999999999996
+primitive_eafc_poisson,Ghana,third_place,0.8500000000000001,0,0.0085,7.225000000000001e-05
+primitive_eafc_poisson,South Korea,third_place,1.32,0,0.0132,0.00017423999999999999
+primitive_eafc_poisson,Ecuador,third_place,1.03,0,0.0103,0.00010609000000000001
+primitive_eafc_poisson,DR Congo,third_place,0.78,0,0.0078000000000000005,6.084000000000001e-05
+primitive_eafc_poisson,Bosnia & Herzegovina,third_place,0.68,0,0.0068000000000000005,4.6240000000000005e-05
+primitive_eafc_poisson,Paraguay,third_place,0.68,0,0.0068000000000000005,4.6240000000000005e-05
+primitive_eafc_poisson,Egypt,third_place,0.58,0,0.0058,3.3639999999999996e-05
+primitive_eafc_poisson,Saudi Arabia,third_place,0.32,0,0.0032,1.024e-05
+primitive_eafc_poisson,Iran,third_place,0.22,0,0.0022,4.84e-06
+primitive_eafc_poisson,Tunisia,third_place,0.25,0,0.0025,6.25e-06
+primitive_eafc_poisson,New Zealand,third_place,0.19,0,0.0019,3.61e-06
+primitive_eafc_poisson,Australia,third_place,0.18,0,0.0018,3.24e-06
+primitive_eafc_poisson,Qatar,third_place,0.28,0,0.0028000000000000004,7.840000000000003e-06
+primitive_eafc_poisson,Haiti,third_place,0.21,0,0.0021,4.409999999999999e-06
+primitive_eafc_poisson,Cape Verde,third_place,0.18,0,0.0018,3.24e-06
+primitive_eafc_poisson,Uzbekistan,third_place,0.13,0,0.0013,1.69e-06
+primitive_eafc_poisson,South Africa,third_place,0.1,0,0.001,1e-06
+primitive_eafc_poisson,Jordan,third_place,0.15,0,0.0015,2.25e-06
+primitive_eafc_poisson,Curacao,third_place,0.13,0,0.0013,1.69e-06
+primitive_eafc_poisson,Panama,third_place,0.13,0,0.0013,1.69e-06
+primitive_eafc_poisson,Iraq,third_place,0.08,0,0.0008,6.4e-07
+primitive_eafc_poisson,France,fourth_place,4.09,1,0.9591,0.9198728099999999
+primitive_eafc_poisson,Spain,fourth_place,4.03,0,0.0403,0.0016240900000000001
+primitive_eafc_poisson,England,fourth_place,3.9,0,0.039,0.001521
+primitive_eafc_poisson,Brazil,fourth_place,4.28,0,0.042800000000000005,0.0018318400000000004
+primitive_eafc_poisson,Portugal,fourth_place,3.7900000000000005,0,0.0379,0.0014364100000000002
+primitive_eafc_poisson,Germany,fourth_place,4.07,0,0.0407,0.00165649
+primitive_eafc_poisson,Argentina,fourth_place,4.16,0,0.0416,0.00173056
+primitive_eafc_poisson,Netherlands,fourth_place,4.08,0,0.0408,0.0016646400000000002
+primitive_eafc_poisson,Belgium,fourth_place,3.5000000000000004,0,0.035,0.0012250000000000002
+primitive_eafc_poisson,Croatia,fourth_place,3.29,0,0.0329,0.00108241
+primitive_eafc_poisson,Turkey,fourth_place,3.46,0,0.0346,0.0011971599999999998
+primitive_eafc_poisson,Morocco,fourth_place,3.05,0,0.0305,0.00093025
+primitive_eafc_poisson,Uruguay,fourth_place,2.82,0,0.0282,0.00079524
+primitive_eafc_poisson,Norway,fourth_place,2.84,0,0.028399999999999998,0.0008065599999999999
+primitive_eafc_poisson,Switzerland,fourth_place,3.27,0,0.0327,0.00106929
+primitive_eafc_poisson,Colombia,fourth_place,2.64,0,0.0264,0.0006969599999999999
+primitive_eafc_poisson,Sweden,fourth_place,2.65,0,0.0265,0.00070225
+primitive_eafc_poisson,United States,fourth_place,2.46,0,0.0246,0.00060516
+primitive_eafc_poisson,Austria,fourth_place,2.31,0,0.0231,0.0005336099999999999
+primitive_eafc_poisson,Ivory Coast,fourth_place,2.44,0,0.024399999999999998,0.0005953599999999999
+primitive_eafc_poisson,Czech Republic,fourth_place,2.37,0,0.023700000000000002,0.0005616900000000001
+primitive_eafc_poisson,Algeria,fourth_place,2.1,0,0.021,0.00044100000000000004
+primitive_eafc_poisson,Senegal,fourth_place,2.37,0,0.023700000000000002,0.0005616900000000001
+primitive_eafc_poisson,Scotland,fourth_place,1.72,0,0.0172,0.00029584
+primitive_eafc_poisson,Mexico,fourth_place,1.9,0,0.019,0.000361
+primitive_eafc_poisson,Canada,fourth_place,2.12,0,0.0212,0.00044944
+primitive_eafc_poisson,Japan,fourth_place,2.17,0,0.0217,0.00047089
+primitive_eafc_poisson,Ghana,fourth_place,1.5700000000000003,0,0.015700000000000002,0.0002464900000000001
+primitive_eafc_poisson,South Korea,fourth_place,1.96,0,0.0196,0.00038416
+primitive_eafc_poisson,Ecuador,fourth_place,1.7000000000000002,0,0.017,0.00028900000000000003
+primitive_eafc_poisson,DR Congo,fourth_place,1.39,0,0.0139,0.00019320999999999997
+primitive_eafc_poisson,Bosnia & Herzegovina,fourth_place,1.6,0,0.016,0.000256
+primitive_eafc_poisson,Paraguay,fourth_place,1.41,0,0.0141,0.00019881
+primitive_eafc_poisson,Egypt,fourth_place,1.3,0,0.013000000000000001,0.00016900000000000004
+primitive_eafc_poisson,Saudi Arabia,fourth_place,0.95,0,0.0095,9.025e-05
+primitive_eafc_poisson,Iran,fourth_place,0.62,0,0.0062,3.844e-05
+primitive_eafc_poisson,Tunisia,fourth_place,0.68,0,0.0068000000000000005,4.6240000000000005e-05
+primitive_eafc_poisson,New Zealand,fourth_place,0.59,0,0.0059,3.481e-05
+primitive_eafc_poisson,Australia,fourth_place,0.71,0,0.0070999999999999995,5.0409999999999993e-05
+primitive_eafc_poisson,Qatar,fourth_place,0.57,0,0.005699999999999999,3.2489999999999996e-05
+primitive_eafc_poisson,Haiti,fourth_place,0.45999999999999996,0,0.0046,2.116e-05
+primitive_eafc_poisson,Cape Verde,fourth_place,0.54,0,0.0054,2.9160000000000002e-05
+primitive_eafc_poisson,Uzbekistan,fourth_place,0.48,0,0.0048,2.3039999999999996e-05
+primitive_eafc_poisson,South Africa,fourth_place,0.42,0,0.0042,1.7639999999999997e-05
+primitive_eafc_poisson,Jordan,fourth_place,0.36,0,0.0036,1.296e-05
+primitive_eafc_poisson,Curacao,fourth_place,0.31,0,0.0031,9.61e-06
+primitive_eafc_poisson,Panama,fourth_place,0.3,0,0.003,9e-06
+primitive_eafc_poisson,Iraq,fourth_place,0.2,0,0.002,4e-06
+v2_heuristic_nt_elo,Brazil,round_of_32,99.56,1,0.0043999999999999595,1.9359999999999645e-05
+v2_heuristic_nt_elo,France,round_of_32,99.89,1,0.0010999999999999899,1.2099999999999778e-06
+v2_heuristic_nt_elo,Germany,round_of_32,99.71,1,0.0029000000000000137,8.410000000000079e-06
+v2_heuristic_nt_elo,Spain,round_of_32,99.91,1,0.0009000000000000119,8.100000000000215e-07
+v2_heuristic_nt_elo,Argentina,round_of_32,99.85,1,0.0015000000000000568,2.2500000000001707e-06
+v2_heuristic_nt_elo,England,round_of_32,99.91,1,0.0009000000000000119,8.100000000000215e-07
+v2_heuristic_nt_elo,Portugal,round_of_32,99.82,1,0.0018000000000000238,3.240000000000086e-06
+v2_heuristic_nt_elo,Netherlands,round_of_32,99.72,1,0.0028000000000000247,7.840000000000138e-06
+v2_heuristic_nt_elo,Belgium,round_of_32,99.9,1,0.0009999999999998899,9.999999999997797e-07
+v2_heuristic_nt_elo,Turkey,round_of_32,95.65,0,0.9565,0.9148922500000001
+v2_heuristic_nt_elo,Mexico,round_of_32,97.85,1,0.021500000000000075,0.0004622500000000032
+v2_heuristic_nt_elo,Switzerland,round_of_32,97.32,1,0.026800000000000046,0.0007182400000000025
+v2_heuristic_nt_elo,United States,round_of_32,97.75,1,0.022499999999999964,0.0005062499999999985
+v2_heuristic_nt_elo,Morocco,round_of_32,91.15,1,0.08849999999999991,0.007832249999999985
+v2_heuristic_nt_elo,Norway,round_of_32,86.15,1,0.13849999999999996,0.019182249999999988
+v2_heuristic_nt_elo,Sweden,round_of_32,82.79,1,0.17209999999999992,0.029618409999999974
+v2_heuristic_nt_elo,Czech Republic,round_of_32,82.72,0,0.8271999999999999,0.6842598399999998
+v2_heuristic_nt_elo,Croatia,round_of_32,96.28,1,0.03720000000000001,0.0013838400000000008
+v2_heuristic_nt_elo,Colombia,round_of_32,90.43,1,0.0956999999999999,0.009158489999999981
+v2_heuristic_nt_elo,South Korea,round_of_32,89.2,0,0.892,0.795664
+v2_heuristic_nt_elo,Ivory Coast,round_of_32,79.98,1,0.20019999999999993,0.040080039999999977
+v2_heuristic_nt_elo,Ecuador,round_of_32,79.88,1,0.20120000000000005,0.04048144000000002
+v2_heuristic_nt_elo,Uruguay,round_of_32,94.85,0,0.9484999999999999,0.8996522499999998
+v2_heuristic_nt_elo,Senegal,round_of_32,85.65,1,0.14349999999999996,0.02059224999999999
+v2_heuristic_nt_elo,Austria,round_of_32,83.61,1,0.16390000000000005,0.026863210000000016
+v2_heuristic_nt_elo,Algeria,round_of_32,86.04,1,0.13959999999999995,0.019488159999999984
+v2_heuristic_nt_elo,Canada,round_of_32,93.35,1,0.0665,0.004422250000000001
+v2_heuristic_nt_elo,Japan,round_of_32,79.89,1,0.20109999999999995,0.04044120999999998
+v2_heuristic_nt_elo,Scotland,round_of_32,64.54,0,0.6454000000000001,0.41654116000000013
+v2_heuristic_nt_elo,Bosnia & Herzegovina,round_of_32,59.20000000000001,1,0.4079999999999999,0.16646399999999995
+v2_heuristic_nt_elo,DR Congo,round_of_32,68.27,1,0.3173,0.10067929000000002
+v2_heuristic_nt_elo,Ghana,round_of_32,50.88,1,0.49119999999999997,0.24127743999999998
+v2_heuristic_nt_elo,Paraguay,round_of_32,49.63,1,0.5037,0.25371369000000005
+v2_heuristic_nt_elo,Egypt,round_of_32,86.92,1,0.13080000000000003,0.01710864000000001
+v2_heuristic_nt_elo,Tunisia,round_of_32,8.77,0,0.0877,0.00769129
+v2_heuristic_nt_elo,Cape Verde,round_of_32,29.45,1,0.7055,0.49773025000000004
+v2_heuristic_nt_elo,Haiti,round_of_32,10.67,0,0.1067,0.01138489
+v2_heuristic_nt_elo,Qatar,round_of_32,19.2,0,0.192,0.036864
+v2_heuristic_nt_elo,Saudi Arabia,round_of_32,25.8,0,0.258,0.066564
+v2_heuristic_nt_elo,Iran,round_of_32,54.74,0,0.5474,0.29964676
+v2_heuristic_nt_elo,New Zealand,round_of_32,17.72,0,0.1772,0.03139984
+v2_heuristic_nt_elo,Australia,round_of_32,20.59,1,0.7941,0.6305948100000001
+v2_heuristic_nt_elo,Uzbekistan,round_of_32,8.55,0,0.0855,0.007310250000000001
+v2_heuristic_nt_elo,Curacao,round_of_32,8.27,0,0.0827,0.00683929
+v2_heuristic_nt_elo,Panama,round_of_32,9.82,0,0.09820000000000001,0.009643240000000003
+v2_heuristic_nt_elo,Jordan,round_of_32,4.95,0,0.0495,0.00245025
+v2_heuristic_nt_elo,Iraq,round_of_32,4.02,0,0.04019999999999999,0.0016160399999999994
+v2_heuristic_nt_elo,South Africa,round_of_32,9.2,1,0.908,0.8244640000000001
+v2_heuristic_nt_elo,Brazil,round_of_16,85.29,1,0.1470999999999999,0.02163840999999997
+v2_heuristic_nt_elo,France,round_of_16,95.28,1,0.04720000000000002,0.0022278400000000018
+v2_heuristic_nt_elo,Germany,round_of_16,92.37,0,0.9237000000000001,0.8532216900000001
+v2_heuristic_nt_elo,Spain,round_of_16,87.76,1,0.12239999999999995,0.014981759999999988
+v2_heuristic_nt_elo,Argentina,round_of_16,83.01,1,0.16989999999999994,0.02886600999999998
+v2_heuristic_nt_elo,England,round_of_16,92.13,1,0.07869999999999999,0.006193689999999999
+v2_heuristic_nt_elo,Portugal,round_of_16,90.12,1,0.0988,0.00976144
+v2_heuristic_nt_elo,Netherlands,round_of_16,74.35,0,0.7434999999999999,0.5527922499999999
+v2_heuristic_nt_elo,Belgium,round_of_16,88.69,1,0.11309999999999998,0.012791609999999995
+v2_heuristic_nt_elo,Turkey,round_of_16,72.05,0,0.7204999999999999,0.5191202499999998
+v2_heuristic_nt_elo,Mexico,round_of_16,56.55,1,0.4345,0.18879025
+v2_heuristic_nt_elo,Switzerland,round_of_16,65.84,1,0.3416,0.11669056000000001
+v2_heuristic_nt_elo,United States,round_of_16,72.55,1,0.2745000000000001,0.07535025000000005
+v2_heuristic_nt_elo,Morocco,round_of_16,30.79,1,0.6920999999999999,0.47900240999999993
+v2_heuristic_nt_elo,Norway,round_of_16,42.05,1,0.5795,0.33582025000000004
+v2_heuristic_nt_elo,Sweden,round_of_16,18.05,0,0.1805,0.03258025
+v2_heuristic_nt_elo,Czech Republic,round_of_16,30.39,0,0.3039,0.09235521000000001
+v2_heuristic_nt_elo,Croatia,round_of_16,53.92,0,0.5392,0.29073664
+v2_heuristic_nt_elo,Colombia,round_of_16,39.16,1,0.6084,0.3701505600000001
+v2_heuristic_nt_elo,South Korea,round_of_16,41.13,0,0.4113,0.16916769
+v2_heuristic_nt_elo,Ivory Coast,round_of_16,31.019999999999996,0,0.3102,0.09622403999999998
+v2_heuristic_nt_elo,Ecuador,round_of_16,24.82,0,0.2482,0.061603240000000004
+v2_heuristic_nt_elo,Uruguay,round_of_16,19.1,0,0.191,0.036481
+v2_heuristic_nt_elo,Senegal,round_of_16,43.0,0,0.43,0.18489999999999998
+v2_heuristic_nt_elo,Austria,round_of_16,17.88,0,0.1788,0.031969439999999995
+v2_heuristic_nt_elo,Algeria,round_of_16,13.140000000000002,0,0.13140000000000002,0.017265960000000004
+v2_heuristic_nt_elo,Canada,round_of_16,41.57,1,0.5843,0.34140649000000006
+v2_heuristic_nt_elo,Japan,round_of_16,14.46,0,0.1446,0.020909160000000003
+v2_heuristic_nt_elo,Scotland,round_of_16,11.63,0,0.11630000000000001,0.013525690000000003
+v2_heuristic_nt_elo,Bosnia & Herzegovina,round_of_16,10.08,0,0.1008,0.01016064
+v2_heuristic_nt_elo,DR Congo,round_of_16,9.74,0,0.0974,0.00948676
+v2_heuristic_nt_elo,Ghana,round_of_16,6.17,0,0.0617,0.00380689
+v2_heuristic_nt_elo,Paraguay,round_of_16,12.2,1,0.878,0.770884
+v2_heuristic_nt_elo,Egypt,round_of_16,14.069999999999999,1,0.8593,0.73839649
+v2_heuristic_nt_elo,Tunisia,round_of_16,0.71,0,0.0070999999999999995,5.0409999999999993e-05
+v2_heuristic_nt_elo,Cape Verde,round_of_16,1.3,0,0.013000000000000001,0.00016900000000000004
+v2_heuristic_nt_elo,Haiti,round_of_16,0.59,0,0.0059,3.481e-05
+v2_heuristic_nt_elo,Qatar,round_of_16,1.92,0,0.0192,0.00036863999999999994
+v2_heuristic_nt_elo,Saudi Arabia,round_of_16,1.6200000000000003,0,0.016200000000000003,0.00026244000000000007
+v2_heuristic_nt_elo,Iran,round_of_16,5.73,0,0.057300000000000004,0.0032832900000000003
+v2_heuristic_nt_elo,New Zealand,round_of_16,1.68,0,0.0168,0.00028223999999999995
+v2_heuristic_nt_elo,Australia,round_of_16,3.3300000000000005,0,0.0333,0.0011088900000000002
+v2_heuristic_nt_elo,Uzbekistan,round_of_16,0.4099999999999999,0,0.0040999999999999995,1.6809999999999997e-05
+v2_heuristic_nt_elo,Curacao,round_of_16,0.6,0,0.006,3.6e-05
+v2_heuristic_nt_elo,Panama,round_of_16,0.4099999999999999,0,0.0040999999999999995,1.6809999999999997e-05
+v2_heuristic_nt_elo,Jordan,round_of_16,0.25,0,0.0025,6.25e-06
+v2_heuristic_nt_elo,Iraq,round_of_16,0.3,0,0.003,9e-06
+v2_heuristic_nt_elo,South Africa,round_of_16,0.79,0,0.0079,6.241000000000001e-05
+v2_heuristic_nt_elo,Brazil,quarter_finals,76.47,0,0.7646999999999999,0.5847660899999999
+v2_heuristic_nt_elo,France,quarter_finals,51.34000000000001,1,0.4865999999999999,0.23677955999999992
+v2_heuristic_nt_elo,Germany,quarter_finals,79.83,0,0.7983,0.63728289
+v2_heuristic_nt_elo,Spain,quarter_finals,54.49,1,0.45509999999999995,0.20711600999999996
+v2_heuristic_nt_elo,Argentina,quarter_finals,61.11,1,0.3889,0.15124321000000002
+v2_heuristic_nt_elo,England,quarter_finals,71.45,1,0.2855,0.08151024999999999
+v2_heuristic_nt_elo,Portugal,quarter_finals,38.09,0,0.3809,0.14508481
+v2_heuristic_nt_elo,Netherlands,quarter_finals,54.50000000000001,0,0.545,0.29702500000000004
+v2_heuristic_nt_elo,Belgium,quarter_finals,38.15,1,0.6185,0.3825422500000001
+v2_heuristic_nt_elo,Turkey,quarter_finals,40.59,0,0.40590000000000004,0.16475481000000003
+v2_heuristic_nt_elo,Mexico,quarter_finals,31.81,0,0.3181,0.10118761
+v2_heuristic_nt_elo,Switzerland,quarter_finals,20.83,1,0.7917000000000001,0.6267888900000002
+v2_heuristic_nt_elo,United States,quarter_finals,39.77,0,0.39770000000000005,0.15816529000000004
+v2_heuristic_nt_elo,Morocco,quarter_finals,15.659999999999998,1,0.8434,0.7113235600000001
+v2_heuristic_nt_elo,Norway,quarter_finals,10.38,1,0.8962,0.80317444
+v2_heuristic_nt_elo,Sweden,quarter_finals,7.739999999999999,0,0.0774,0.0059907599999999995
+v2_heuristic_nt_elo,Czech Republic,quarter_finals,11.61,0,0.1161,0.013479209999999998
+v2_heuristic_nt_elo,Croatia,quarter_finals,13.99,0,0.1399,0.019572009999999997
+v2_heuristic_nt_elo,Colombia,quarter_finals,7.64,0,0.0764,0.0058369599999999995
+v2_heuristic_nt_elo,South Korea,quarter_finals,16.31,0,0.1631,0.026601609999999998
+v2_heuristic_nt_elo,Ivory Coast,quarter_finals,6.25,0,0.0625,0.00390625
+v2_heuristic_nt_elo,Ecuador,quarter_finals,4.22,0,0.042199999999999994,0.0017808399999999995
+v2_heuristic_nt_elo,Uruguay,quarter_finals,4.13,0,0.041299999999999996,0.0017056899999999997
+v2_heuristic_nt_elo,Senegal,quarter_finals,9.55,0,0.0955,0.00912025
+v2_heuristic_nt_elo,Austria,quarter_finals,3.72,0,0.037200000000000004,0.0013838400000000003
+v2_heuristic_nt_elo,Algeria,quarter_finals,2.52,0,0.0252,0.00063504
+v2_heuristic_nt_elo,Canada,quarter_finals,9.76,0,0.09759999999999999,0.009525759999999998
+v2_heuristic_nt_elo,Japan,quarter_finals,5.21,0,0.0521,0.00271441
+v2_heuristic_nt_elo,Scotland,quarter_finals,4.73,0,0.0473,0.0022372900000000003
+v2_heuristic_nt_elo,Bosnia & Herzegovina,quarter_finals,1.72,0,0.0172,0.00029584
+v2_heuristic_nt_elo,DR Congo,quarter_finals,0.73,0,0.0073,5.329e-05
+v2_heuristic_nt_elo,Ghana,quarter_finals,0.6,0,0.006,3.6e-05
+v2_heuristic_nt_elo,Paraguay,quarter_finals,1.76,0,0.0176,0.00030976
+v2_heuristic_nt_elo,Egypt,quarter_finals,1.5,0,0.015,0.000225
+v2_heuristic_nt_elo,Tunisia,quarter_finals,0.12,0,0.0012,1.4399999999999998e-06
+v2_heuristic_nt_elo,Cape Verde,quarter_finals,0.16,0,0.0016,2.56e-06
+v2_heuristic_nt_elo,Haiti,quarter_finals,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_heuristic_nt_elo,Qatar,quarter_finals,0.35,0,0.0034999999999999996,1.2249999999999998e-05
+v2_heuristic_nt_elo,Saudi Arabia,quarter_finals,0.11,0,0.0011,1.21e-06
+v2_heuristic_nt_elo,Iran,quarter_finals,0.4099999999999999,0,0.0040999999999999995,1.6809999999999997e-05
+v2_heuristic_nt_elo,New Zealand,quarter_finals,0.12,0,0.0012,1.4399999999999998e-06
+v2_heuristic_nt_elo,Australia,quarter_finals,0.34,0,0.0034000000000000002,1.1560000000000001e-05
+v2_heuristic_nt_elo,Uzbekistan,quarter_finals,0.04,0,0.0004,1.6e-07
+v2_heuristic_nt_elo,Curacao,quarter_finals,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Panama,quarter_finals,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Jordan,quarter_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iraq,quarter_finals,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,South Africa,quarter_finals,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_heuristic_nt_elo,Brazil,semi_finals,66.3,0,0.6629999999999999,0.4395689999999999
+v2_heuristic_nt_elo,France,semi_finals,38.13,1,0.6187,0.38278969
+v2_heuristic_nt_elo,Germany,semi_finals,68.69,0,0.6869,0.47183160999999996
+v2_heuristic_nt_elo,Spain,semi_finals,39.25,1,0.6074999999999999,0.3690562499999999
+v2_heuristic_nt_elo,Argentina,semi_finals,45.08,1,0.5492,0.30162064000000005
+v2_heuristic_nt_elo,England,semi_finals,26.39,1,0.7361,0.54184321
+v2_heuristic_nt_elo,Portugal,semi_finals,23.24,0,0.2324,0.05400976
+v2_heuristic_nt_elo,Netherlands,semi_finals,20.86,0,0.2086,0.043513960000000004
+v2_heuristic_nt_elo,Belgium,semi_finals,11.52,0,0.1152,0.01327104
+v2_heuristic_nt_elo,Turkey,semi_finals,8.85,0,0.0885,0.007832249999999999
+v2_heuristic_nt_elo,Mexico,semi_finals,6.4,0,0.064,0.004096
+v2_heuristic_nt_elo,Switzerland,semi_finals,7.780000000000001,0,0.07780000000000001,0.006052840000000001
+v2_heuristic_nt_elo,United States,semi_finals,7.73,0,0.07730000000000001,0.005975290000000001
+v2_heuristic_nt_elo,Morocco,semi_finals,5.58,0,0.0558,0.0031136400000000004
+v2_heuristic_nt_elo,Norway,semi_finals,3.17,0,0.0317,0.00100489
+v2_heuristic_nt_elo,Sweden,semi_finals,2.23,0,0.0223,0.0004972900000000001
+v2_heuristic_nt_elo,Czech Republic,semi_finals,2.05,0,0.020499999999999997,0.0004202499999999999
+v2_heuristic_nt_elo,Croatia,semi_finals,1.92,0,0.0192,0.00036863999999999994
+v2_heuristic_nt_elo,Colombia,semi_finals,0.86,0,0.0086,7.396e-05
+v2_heuristic_nt_elo,South Korea,semi_finals,2.89,0,0.028900000000000002,0.0008352100000000001
+v2_heuristic_nt_elo,Ivory Coast,semi_finals,1.6099999999999999,0,0.0161,0.00025921
+v2_heuristic_nt_elo,Ecuador,semi_finals,0.89,0,0.0089,7.921e-05
+v2_heuristic_nt_elo,Uruguay,semi_finals,0.63,0,0.0063,3.969e-05
+v2_heuristic_nt_elo,Senegal,semi_finals,2.5,0,0.025,0.0006250000000000001
+v2_heuristic_nt_elo,Austria,semi_finals,0.77,0,0.0077,5.929e-05
+v2_heuristic_nt_elo,Algeria,semi_finals,0.49,0,0.0049,2.401e-05
+v2_heuristic_nt_elo,Canada,semi_finals,1.56,0,0.015600000000000001,0.00024336000000000003
+v2_heuristic_nt_elo,Japan,semi_finals,1.15,0,0.0115,0.00013225
+v2_heuristic_nt_elo,Scotland,semi_finals,0.8699999999999999,0,0.0087,7.568999999999999e-05
+v2_heuristic_nt_elo,Bosnia & Herzegovina,semi_finals,0.2,0,0.002,4e-06
+v2_heuristic_nt_elo,DR Congo,semi_finals,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Ghana,semi_finals,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Paraguay,semi_finals,0.13,0,0.0013,1.69e-06
+v2_heuristic_nt_elo,Egypt,semi_finals,0.13,0,0.0013,1.69e-06
+v2_heuristic_nt_elo,Tunisia,semi_finals,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Cape Verde,semi_finals,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Haiti,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Qatar,semi_finals,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Saudi Arabia,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iran,semi_finals,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,New Zealand,semi_finals,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Australia,semi_finals,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Uzbekistan,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Curacao,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Panama,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Jordan,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iraq,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,South Africa,semi_finals,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Brazil,final,40.72,0,0.4072,0.16581184000000002
+v2_heuristic_nt_elo,France,final,27.87,0,0.2787,0.07767369
+v2_heuristic_nt_elo,Germany,final,41.27,0,0.4127,0.17032129000000001
+v2_heuristic_nt_elo,Spain,final,27.51,1,0.7249,0.52548001
+v2_heuristic_nt_elo,Argentina,final,17.25,1,0.8275,0.6847562500000001
+v2_heuristic_nt_elo,England,final,9.7,0,0.09699999999999999,0.009408999999999997
+v2_heuristic_nt_elo,Portugal,final,8.43,0,0.0843,0.00710649
+v2_heuristic_nt_elo,Netherlands,final,10.08,0,0.1008,0.01016064
+v2_heuristic_nt_elo,Belgium,final,4.64,0,0.0464,0.0021529599999999998
+v2_heuristic_nt_elo,Turkey,final,2.2,0,0.022000000000000002,0.0004840000000000001
+v2_heuristic_nt_elo,Mexico,final,1.3,0,0.013000000000000001,0.00016900000000000004
+v2_heuristic_nt_elo,Switzerland,final,1.9299999999999997,0,0.019299999999999998,0.0003724899999999999
+v2_heuristic_nt_elo,United States,final,1.63,0,0.0163,0.00026568999999999996
+v2_heuristic_nt_elo,Morocco,final,1.02,0,0.0102,0.00010404000000000001
+v2_heuristic_nt_elo,Norway,final,0.9199999999999999,0,0.0092,8.464e-05
+v2_heuristic_nt_elo,Sweden,final,0.5,0,0.005,2.5e-05
+v2_heuristic_nt_elo,Czech Republic,final,0.35,0,0.0034999999999999996,1.2249999999999998e-05
+v2_heuristic_nt_elo,Croatia,final,0.2,0,0.002,4e-06
+v2_heuristic_nt_elo,Colombia,final,0.17,0,0.0017000000000000001,2.8900000000000003e-06
+v2_heuristic_nt_elo,South Korea,final,0.5,0,0.005,2.5e-05
+v2_heuristic_nt_elo,Ivory Coast,final,0.26,0,0.0026,6.76e-06
+v2_heuristic_nt_elo,Ecuador,final,0.16,0,0.0016,2.56e-06
+v2_heuristic_nt_elo,Uruguay,final,0.06,0,0.0006,3.5999999999999994e-07
+v2_heuristic_nt_elo,Senegal,final,0.58,0,0.0058,3.3639999999999996e-05
+v2_heuristic_nt_elo,Austria,final,0.17,0,0.0017000000000000001,2.8900000000000003e-06
+v2_heuristic_nt_elo,Algeria,final,0.08,0,0.0008,6.4e-07
+v2_heuristic_nt_elo,Canada,final,0.22,0,0.0022,4.84e-06
+v2_heuristic_nt_elo,Japan,final,0.18,0,0.0018,3.24e-06
+v2_heuristic_nt_elo,Scotland,final,0.08,0,0.0008,6.4e-07
+v2_heuristic_nt_elo,Bosnia & Herzegovina,final,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,DR Congo,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Ghana,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Paraguay,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Egypt,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Tunisia,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Cape Verde,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Haiti,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Qatar,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Saudi Arabia,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iran,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,New Zealand,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Australia,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Uzbekistan,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Curacao,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Panama,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Jordan,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iraq,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,South Africa,final,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Brazil,champion,19.23,0,0.1923,0.03697929
+v2_heuristic_nt_elo,France,champion,19.09,0,0.1909,0.03644280999999999
+v2_heuristic_nt_elo,Germany,champion,18.3,0,0.183,0.033489
+v2_heuristic_nt_elo,Spain,champion,18.18,1,0.8182,0.6694512400000001
+v2_heuristic_nt_elo,Argentina,champion,8.52,0,0.0852,0.00725904
+v2_heuristic_nt_elo,England,champion,5.16,0,0.0516,0.00266256
+v2_heuristic_nt_elo,Portugal,champion,4.36,0,0.0436,0.00190096
+v2_heuristic_nt_elo,Netherlands,champion,4.3,0,0.043,0.0018489999999999997
+v2_heuristic_nt_elo,Belgium,champion,1.39,0,0.0139,0.00019320999999999997
+v2_heuristic_nt_elo,Turkey,champion,0.3,0,0.003,9e-06
+v2_heuristic_nt_elo,Mexico,champion,0.18,0,0.0018,3.24e-06
+v2_heuristic_nt_elo,Switzerland,champion,0.17,0,0.0017000000000000001,2.8900000000000003e-06
+v2_heuristic_nt_elo,United States,champion,0.15,0,0.0015,2.25e-06
+v2_heuristic_nt_elo,Morocco,champion,0.15,0,0.0015,2.25e-06
+v2_heuristic_nt_elo,Norway,champion,0.11,0,0.0011,1.21e-06
+v2_heuristic_nt_elo,Sweden,champion,0.1,0,0.001,1e-06
+v2_heuristic_nt_elo,Czech Republic,champion,0.05,0,0.0005,2.5e-07
+v2_heuristic_nt_elo,Croatia,champion,0.05,0,0.0005,2.5e-07
+v2_heuristic_nt_elo,Colombia,champion,0.04,0,0.0004,1.6e-07
+v2_heuristic_nt_elo,South Korea,champion,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Ivory Coast,champion,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Ecuador,champion,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Uruguay,champion,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Senegal,champion,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Austria,champion,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Algeria,champion,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Canada,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Japan,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Scotland,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Bosnia & Herzegovina,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,DR Congo,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Ghana,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Paraguay,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Egypt,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Tunisia,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Cape Verde,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Haiti,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Qatar,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Saudi Arabia,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iran,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,New Zealand,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Australia,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Uzbekistan,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Curacao,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Panama,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Jordan,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iraq,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,South Africa,champion,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Brazil,third_place,14.540000000000001,0,0.1454,0.02114116
+v2_heuristic_nt_elo,France,third_place,7.780000000000001,0,0.07780000000000001,0.006052840000000001
+v2_heuristic_nt_elo,Germany,third_place,14.27,0,0.1427,0.02036329
+v2_heuristic_nt_elo,Spain,third_place,8.8,0,0.08800000000000001,0.007744000000000002
+v2_heuristic_nt_elo,Argentina,third_place,18.38,0,0.1838,0.03378244
+v2_heuristic_nt_elo,England,third_place,10.85,1,0.8915,0.79477225
+v2_heuristic_nt_elo,Portugal,third_place,9.41,0,0.0941,0.008854810000000001
+v2_heuristic_nt_elo,Netherlands,third_place,5.84,0,0.0584,0.00341056
+v2_heuristic_nt_elo,Belgium,third_place,2.87,0,0.0287,0.00082369
+v2_heuristic_nt_elo,Turkey,third_place,1.26,0,0.0126,0.00015876
+v2_heuristic_nt_elo,Mexico,third_place,0.55,0,0.0055000000000000005,3.0250000000000007e-05
+v2_heuristic_nt_elo,Switzerland,third_place,0.8,0,0.008,6.4e-05
+v2_heuristic_nt_elo,United States,third_place,0.8699999999999999,0,0.0087,7.568999999999999e-05
+v2_heuristic_nt_elo,Morocco,third_place,0.77,0,0.0077,5.929e-05
+v2_heuristic_nt_elo,Norway,third_place,0.57,0,0.005699999999999999,3.2489999999999996e-05
+v2_heuristic_nt_elo,Sweden,third_place,0.31,0,0.0031,9.61e-06
+v2_heuristic_nt_elo,Czech Republic,third_place,0.15,0,0.0015,2.25e-06
+v2_heuristic_nt_elo,Croatia,third_place,0.58,0,0.0058,3.3639999999999996e-05
+v2_heuristic_nt_elo,Colombia,third_place,0.24,0,0.0024,5.759999999999999e-06
+v2_heuristic_nt_elo,South Korea,third_place,0.21,0,0.0021,4.409999999999999e-06
+v2_heuristic_nt_elo,Ivory Coast,third_place,0.1,0,0.001,1e-06
+v2_heuristic_nt_elo,Ecuador,third_place,0.05,0,0.0005,2.5e-07
+v2_heuristic_nt_elo,Uruguay,third_place,0.11,0,0.0011,1.21e-06
+v2_heuristic_nt_elo,Senegal,third_place,0.24,0,0.0024,5.759999999999999e-06
+v2_heuristic_nt_elo,Austria,third_place,0.05,0,0.0005,2.5e-07
+v2_heuristic_nt_elo,Algeria,third_place,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_heuristic_nt_elo,Canada,third_place,0.09,0,0.0009,8.1e-07
+v2_heuristic_nt_elo,Japan,third_place,0.1,0,0.001,1e-06
+v2_heuristic_nt_elo,Scotland,third_place,0.09,0,0.0009,8.1e-07
+v2_heuristic_nt_elo,Bosnia & Herzegovina,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,DR Congo,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Ghana,third_place,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Paraguay,third_place,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Egypt,third_place,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Tunisia,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Cape Verde,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Haiti,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Qatar,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Saudi Arabia,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iran,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,New Zealand,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Australia,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Uzbekistan,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Curacao,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Panama,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Jordan,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iraq,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,South Africa,third_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Brazil,fourth_place,11.04,0,0.1104,0.01218816
+v2_heuristic_nt_elo,France,fourth_place,2.48,1,0.9752,0.9510150399999999
+v2_heuristic_nt_elo,Germany,fourth_place,13.15,0,0.1315,0.017292250000000002
+v2_heuristic_nt_elo,Spain,fourth_place,2.94,0,0.0294,0.00086436
+v2_heuristic_nt_elo,Argentina,fourth_place,9.45,0,0.09449999999999999,0.008930249999999997
+v2_heuristic_nt_elo,England,fourth_place,5.84,0,0.0584,0.00341056
+v2_heuristic_nt_elo,Portugal,fourth_place,5.4,0,0.054000000000000006,0.0029160000000000006
+v2_heuristic_nt_elo,Netherlands,fourth_place,4.94,0,0.049400000000000006,0.002440360000000001
+v2_heuristic_nt_elo,Belgium,fourth_place,4.01,0,0.0401,0.0016080099999999998
+v2_heuristic_nt_elo,Turkey,fourth_place,5.39,0,0.053899999999999997,0.0029052099999999997
+v2_heuristic_nt_elo,Mexico,fourth_place,4.55,0,0.0455,0.00207025
+v2_heuristic_nt_elo,Switzerland,fourth_place,5.05,0,0.050499999999999996,0.0025502499999999996
+v2_heuristic_nt_elo,United States,fourth_place,5.23,0,0.052300000000000006,0.0027352900000000005
+v2_heuristic_nt_elo,Morocco,fourth_place,3.7900000000000005,0,0.0379,0.0014364100000000002
+v2_heuristic_nt_elo,Norway,fourth_place,1.68,0,0.0168,0.00028223999999999995
+v2_heuristic_nt_elo,Sweden,fourth_place,1.42,0,0.014199999999999999,0.00020163999999999997
+v2_heuristic_nt_elo,Czech Republic,fourth_place,1.55,0,0.0155,0.00024024999999999999
+v2_heuristic_nt_elo,Croatia,fourth_place,1.14,0,0.011399999999999999,0.00012995999999999998
+v2_heuristic_nt_elo,Colombia,fourth_place,0.45000000000000007,0,0.0045000000000000005,2.0250000000000004e-05
+v2_heuristic_nt_elo,South Korea,fourth_place,2.18,0,0.0218,0.00047524
+v2_heuristic_nt_elo,Ivory Coast,fourth_place,1.25,0,0.0125,0.00015625000000000003
+v2_heuristic_nt_elo,Ecuador,fourth_place,0.68,0,0.0068000000000000005,4.6240000000000005e-05
+v2_heuristic_nt_elo,Uruguay,fourth_place,0.45999999999999996,0,0.0046,2.116e-05
+v2_heuristic_nt_elo,Senegal,fourth_place,1.68,0,0.0168,0.00028223999999999995
+v2_heuristic_nt_elo,Austria,fourth_place,0.55,0,0.0055000000000000005,3.0250000000000007e-05
+v2_heuristic_nt_elo,Algeria,fourth_place,0.34,0,0.0034000000000000002,1.1560000000000001e-05
+v2_heuristic_nt_elo,Canada,fourth_place,1.25,0,0.0125,0.00015625000000000003
+v2_heuristic_nt_elo,Japan,fourth_place,0.8699999999999999,0,0.0087,7.568999999999999e-05
+v2_heuristic_nt_elo,Scotland,fourth_place,0.7,0,0.006999999999999999,4.899999999999999e-05
+v2_heuristic_nt_elo,Bosnia & Herzegovina,fourth_place,0.18,0,0.0018,3.24e-06
+v2_heuristic_nt_elo,DR Congo,fourth_place,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Ghana,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Paraguay,fourth_place,0.11,0,0.0011,1.21e-06
+v2_heuristic_nt_elo,Egypt,fourth_place,0.11,0,0.0011,1.21e-06
+v2_heuristic_nt_elo,Tunisia,fourth_place,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Cape Verde,fourth_place,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Haiti,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Qatar,fourth_place,0.03,0,0.0003,8.999999999999999e-08
+v2_heuristic_nt_elo,Saudi Arabia,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iran,fourth_place,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,New Zealand,fourth_place,0.01,0,0.0001,1e-08
+v2_heuristic_nt_elo,Australia,fourth_place,0.02,0,0.0002,4e-08
+v2_heuristic_nt_elo,Uzbekistan,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Curacao,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Panama,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Jordan,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,Iraq,fourth_place,0.0,0,0.0,0.0
+v2_heuristic_nt_elo,South Africa,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Brazil,round_of_32,99.75,1,0.0024999999999999467,6.2499999999997335e-06
+v2_random_forest_nt_elo,Germany,round_of_32,99.81,1,0.0019000000000000128,3.6100000000000484e-06
+v2_random_forest_nt_elo,France,round_of_32,99.8,1,0.0020000000000000018,4.0000000000000074e-06
+v2_random_forest_nt_elo,Spain,round_of_32,99.85,1,0.0015000000000000568,2.2500000000001707e-06
+v2_random_forest_nt_elo,Argentina,round_of_32,99.86,1,0.0013999999999999568,1.959999999999879e-06
+v2_random_forest_nt_elo,England,round_of_32,99.87,1,0.0012999999999999678,1.6899999999999165e-06
+v2_random_forest_nt_elo,Portugal,round_of_32,99.77,1,0.0023000000000000798,5.290000000000367e-06
+v2_random_forest_nt_elo,Netherlands,round_of_32,99.81,1,0.0019000000000000128,3.6100000000000484e-06
+v2_random_forest_nt_elo,Belgium,round_of_32,99.9,1,0.0009999999999998899,9.999999999997797e-07
+v2_random_forest_nt_elo,Turkey,round_of_32,96.81,0,0.9681000000000001,0.9372176100000001
+v2_random_forest_nt_elo,Switzerland,round_of_32,98.15,1,0.01849999999999996,0.00034224999999999853
+v2_random_forest_nt_elo,Norway,round_of_32,89.86,1,0.10140000000000005,0.01028196000000001
+v2_random_forest_nt_elo,United States,round_of_32,97.74,1,0.022600000000000064,0.0005107600000000029
+v2_random_forest_nt_elo,Morocco,round_of_32,90.99,1,0.09010000000000007,0.008118010000000012
+v2_random_forest_nt_elo,Croatia,round_of_32,96.43,1,0.035699999999999954,0.0012744899999999966
+v2_random_forest_nt_elo,South Korea,round_of_32,90.27,0,0.9027,0.8148672899999999
+v2_random_forest_nt_elo,Senegal,round_of_32,83.96,1,0.1604000000000001,0.02572816000000003
+v2_random_forest_nt_elo,Mexico,round_of_32,96.38,1,0.03620000000000001,0.0013104400000000008
+v2_random_forest_nt_elo,Ivory Coast,round_of_32,81.65,1,0.1835,0.03367225
+v2_random_forest_nt_elo,Czech Republic,round_of_32,88.79,0,0.8879,0.7883664100000001
+v2_random_forest_nt_elo,Sweden,round_of_32,84.86,1,0.15139999999999998,0.022921959999999995
+v2_random_forest_nt_elo,Canada,round_of_32,91.29,1,0.08709999999999996,0.007586409999999992
+v2_random_forest_nt_elo,Japan,round_of_32,77.84,1,0.22160000000000002,0.04910656000000001
+v2_random_forest_nt_elo,Algeria,round_of_32,85.87,1,0.14129999999999998,0.019965689999999994
+v2_random_forest_nt_elo,Uruguay,round_of_32,95.18,0,0.9518000000000001,0.9059232400000001
+v2_random_forest_nt_elo,Colombia,round_of_32,92.26,1,0.07739999999999991,0.0059907599999999865
+v2_random_forest_nt_elo,Austria,round_of_32,83.41,1,0.16590000000000005,0.027522810000000016
+v2_random_forest_nt_elo,Scotland,round_of_32,66.85,0,0.6685,0.44689225
+v2_random_forest_nt_elo,Ecuador,round_of_32,80.05,1,0.1995,0.03980025
+v2_random_forest_nt_elo,DR Congo,round_of_32,68.27,1,0.3173,0.10067929000000002
+v2_random_forest_nt_elo,Bosnia & Herzegovina,round_of_32,59.08,1,0.4092,0.16744464
+v2_random_forest_nt_elo,Ghana,round_of_32,55.720000000000006,1,0.44279999999999997,0.19607183999999997
+v2_random_forest_nt_elo,Paraguay,round_of_32,50.23,1,0.49770000000000003,0.24770529000000002
+v2_random_forest_nt_elo,Egypt,round_of_32,81.41,1,0.18590000000000007,0.03455881000000002
+v2_random_forest_nt_elo,Tunisia,round_of_32,7.6,0,0.076,0.005776
+v2_random_forest_nt_elo,Cape Verde,round_of_32,27.13,1,0.7287,0.53100369
+v2_random_forest_nt_elo,Haiti,round_of_32,8.72,0,0.0872,0.00760384
+v2_random_forest_nt_elo,Qatar,round_of_32,18.98,0,0.1898,0.03602404
+v2_random_forest_nt_elo,Saudi Arabia,round_of_32,27.810000000000002,0,0.2781,0.07733961
+v2_random_forest_nt_elo,Iran,round_of_32,51.03,0,0.5103,0.26040609
+v2_random_forest_nt_elo,New Zealand,round_of_32,23.53,0,0.2353,0.05536609000000001
+v2_random_forest_nt_elo,Australia,round_of_32,17.57,1,0.8243,0.67947049
+v2_random_forest_nt_elo,Uzbekistan,round_of_32,7.2700000000000005,0,0.0727,0.00528529
+v2_random_forest_nt_elo,Curacao,round_of_32,6.7299999999999995,0,0.0673,0.00452929
+v2_random_forest_nt_elo,Panama,round_of_32,7.66,0,0.0766,0.00586756
+v2_random_forest_nt_elo,Jordan,round_of_32,4.77,0,0.04769999999999999,0.0022752899999999993
+v2_random_forest_nt_elo,Iraq,round_of_32,3.07,0,0.030699999999999998,0.0009424899999999999
+v2_random_forest_nt_elo,South Africa,round_of_32,6.36,1,0.9364,0.87684496
+v2_random_forest_nt_elo,Brazil,round_of_16,86.82,1,0.13180000000000003,0.017371240000000007
+v2_random_forest_nt_elo,Germany,round_of_16,93.07,0,0.9307,0.8662024899999999
+v2_random_forest_nt_elo,France,round_of_16,95.5,1,0.04500000000000004,0.002025000000000004
+v2_random_forest_nt_elo,Spain,round_of_16,88.45,1,0.11549999999999994,0.013340249999999986
+v2_random_forest_nt_elo,Argentina,round_of_16,83.6,1,0.16400000000000003,0.02689600000000001
+v2_random_forest_nt_elo,England,round_of_16,92.65,1,0.0734999999999999,0.005402249999999985
+v2_random_forest_nt_elo,Portugal,round_of_16,90.42,1,0.0958,0.009177639999999999
+v2_random_forest_nt_elo,Netherlands,round_of_16,76.4,0,0.764,0.583696
+v2_random_forest_nt_elo,Belgium,round_of_16,90.16,1,0.09840000000000004,0.009682560000000008
+v2_random_forest_nt_elo,Turkey,round_of_16,74.01,0,0.7401000000000001,0.5477480100000002
+v2_random_forest_nt_elo,Switzerland,round_of_16,69.17,1,0.3083,0.09504889000000001
+v2_random_forest_nt_elo,Norway,round_of_16,47.97,1,0.5203,0.27071208999999996
+v2_random_forest_nt_elo,United States,round_of_16,72.22,1,0.27780000000000005,0.07717284000000002
+v2_random_forest_nt_elo,Morocco,round_of_16,27.58,1,0.7242,0.52446564
+v2_random_forest_nt_elo,Croatia,round_of_16,57.43000000000001,0,0.5743,0.32982049
+v2_random_forest_nt_elo,South Korea,round_of_16,38.09,0,0.3809,0.14508481
+v2_random_forest_nt_elo,Senegal,round_of_16,42.29,0,0.4229,0.17884441
+v2_random_forest_nt_elo,Mexico,round_of_16,48.73,1,0.5127,0.26286129
+v2_random_forest_nt_elo,Ivory Coast,round_of_16,32.53,0,0.32530000000000003,0.10582009000000002
+v2_random_forest_nt_elo,Czech Republic,round_of_16,35.76,0,0.3576,0.12787775999999998
+v2_random_forest_nt_elo,Sweden,round_of_16,19.34,0,0.1934,0.037403559999999995
+v2_random_forest_nt_elo,Canada,round_of_16,36.91,1,0.6309,0.39803481
+v2_random_forest_nt_elo,Japan,round_of_16,14.01,0,0.1401,0.01962801
+v2_random_forest_nt_elo,Algeria,round_of_16,13.33,0,0.1333,0.01776889
+v2_random_forest_nt_elo,Uruguay,round_of_16,18.44,0,0.1844,0.03400336
+v2_random_forest_nt_elo,Colombia,round_of_16,37.0,1,0.63,0.39690000000000003
+v2_random_forest_nt_elo,Austria,round_of_16,17.25,0,0.1725,0.029756249999999995
+v2_random_forest_nt_elo,Scotland,round_of_16,12.13,0,0.1213,0.014713690000000001
+v2_random_forest_nt_elo,Ecuador,round_of_16,22.36,0,0.2236,0.04999696
+v2_random_forest_nt_elo,DR Congo,round_of_16,7.75,0,0.0775,0.00600625
+v2_random_forest_nt_elo,Bosnia & Herzegovina,round_of_16,9.8,0,0.098,0.009604000000000001
+v2_random_forest_nt_elo,Ghana,round_of_16,6.83,0,0.0683,0.00466489
+v2_random_forest_nt_elo,Paraguay,round_of_16,11.22,1,0.8878,0.7881888400000001
+v2_random_forest_nt_elo,Egypt,round_of_16,12.7,1,0.873,0.762129
+v2_random_forest_nt_elo,Tunisia,round_of_16,0.61,0,0.0060999999999999995,3.720999999999999e-05
+v2_random_forest_nt_elo,Cape Verde,round_of_16,1.4,0,0.013999999999999999,0.00019599999999999997
+v2_random_forest_nt_elo,Haiti,round_of_16,0.39,0,0.0039000000000000003,1.5210000000000002e-05
+v2_random_forest_nt_elo,Qatar,round_of_16,1.81,0,0.0181,0.00032761000000000004
+v2_random_forest_nt_elo,Saudi Arabia,round_of_16,1.6500000000000001,0,0.0165,0.00027225000000000003
+v2_random_forest_nt_elo,Iran,round_of_16,5.59,0,0.0559,0.00312481
+v2_random_forest_nt_elo,New Zealand,round_of_16,2.26,0,0.0226,0.00051076
+v2_random_forest_nt_elo,Australia,round_of_16,2.46,0,0.0246,0.00060516
+v2_random_forest_nt_elo,Uzbekistan,round_of_16,0.35,0,0.0034999999999999996,1.2249999999999998e-05
+v2_random_forest_nt_elo,Curacao,round_of_16,0.4,0,0.004,1.6e-05
+v2_random_forest_nt_elo,Panama,round_of_16,0.35,0,0.0034999999999999996,1.2249999999999998e-05
+v2_random_forest_nt_elo,Jordan,round_of_16,0.24,0,0.0024,5.759999999999999e-06
+v2_random_forest_nt_elo,Iraq,round_of_16,0.22999999999999998,0,0.0023,5.29e-06
+v2_random_forest_nt_elo,South Africa,round_of_16,0.34,0,0.0034000000000000002,1.1560000000000001e-05
+v2_random_forest_nt_elo,Brazil,quarter_finals,78.02,0,0.7802,0.60871204
+v2_random_forest_nt_elo,Germany,quarter_finals,82.23,0,0.8223,0.67617729
+v2_random_forest_nt_elo,France,quarter_finals,52.1,1,0.479,0.22944099999999998
+v2_random_forest_nt_elo,Spain,quarter_finals,52.99,1,0.47009999999999996,0.22099400999999996
+v2_random_forest_nt_elo,Argentina,quarter_finals,57.45,1,0.4255,0.18105025
+v2_random_forest_nt_elo,England,quarter_finals,75.36,1,0.24639999999999995,0.060712959999999976
+v2_random_forest_nt_elo,Portugal,quarter_finals,40.88,0,0.40880000000000005,0.16711744000000003
+v2_random_forest_nt_elo,Netherlands,quarter_finals,54.89999999999999,0,0.5489999999999999,0.3014009999999999
+v2_random_forest_nt_elo,Belgium,quarter_finals,39.92,1,0.6008,0.36096064
+v2_random_forest_nt_elo,Turkey,quarter_finals,45.0,0,0.45,0.2025
+v2_random_forest_nt_elo,Switzerland,quarter_finals,20.91,1,0.7908999999999999,0.6255228099999999
+v2_random_forest_nt_elo,Norway,quarter_finals,11.41,1,0.8859,0.7848188100000001
+v2_random_forest_nt_elo,United States,quarter_finals,36.84,0,0.36840000000000006,0.13571856000000004
+v2_random_forest_nt_elo,Morocco,quarter_finals,12.61,1,0.8739,0.76370121
+v2_random_forest_nt_elo,Croatia,quarter_finals,12.920000000000002,0,0.1292,0.01669264
+v2_random_forest_nt_elo,South Korea,quarter_finals,15.9,0,0.159,0.025281
+v2_random_forest_nt_elo,Senegal,quarter_finals,9.54,0,0.09539999999999998,0.009101159999999997
+v2_random_forest_nt_elo,Mexico,quarter_finals,23.9,0,0.239,0.057121
+v2_random_forest_nt_elo,Ivory Coast,quarter_finals,6.34,0,0.0634,0.00401956
+v2_random_forest_nt_elo,Czech Republic,quarter_finals,16.12,0,0.1612,0.025985440000000002
+v2_random_forest_nt_elo,Sweden,quarter_finals,8.23,0,0.0823,0.0067732899999999995
+v2_random_forest_nt_elo,Canada,quarter_finals,8.95,0,0.0895,0.00801025
+v2_random_forest_nt_elo,Japan,quarter_finals,5.2,0,0.052000000000000005,0.0027040000000000007
+v2_random_forest_nt_elo,Algeria,quarter_finals,2.46,0,0.0246,0.00060516
+v2_random_forest_nt_elo,Uruguay,quarter_finals,4.02,0,0.04019999999999999,0.0016160399999999994
+v2_random_forest_nt_elo,Colombia,quarter_finals,6.03,0,0.0603,0.00363609
+v2_random_forest_nt_elo,Austria,quarter_finals,3.46,0,0.0346,0.0011971599999999998
+v2_random_forest_nt_elo,Scotland,quarter_finals,5.16,0,0.0516,0.00266256
+v2_random_forest_nt_elo,Ecuador,quarter_finals,3.8699999999999997,0,0.0387,0.0014976899999999999
+v2_random_forest_nt_elo,DR Congo,quarter_finals,0.76,0,0.0076,5.776e-05
+v2_random_forest_nt_elo,Bosnia & Herzegovina,quarter_finals,1.81,0,0.0181,0.00032761000000000004
+v2_random_forest_nt_elo,Ghana,quarter_finals,0.45000000000000007,0,0.0045000000000000005,2.0250000000000004e-05
+v2_random_forest_nt_elo,Paraguay,quarter_finals,1.6,0,0.016,0.000256
+v2_random_forest_nt_elo,Egypt,quarter_finals,1.17,0,0.011699999999999999,0.00013688999999999997
+v2_random_forest_nt_elo,Tunisia,quarter_finals,0.08,0,0.0008,6.4e-07
+v2_random_forest_nt_elo,Cape Verde,quarter_finals,0.12,0,0.0012,1.4399999999999998e-06
+v2_random_forest_nt_elo,Haiti,quarter_finals,0.08,0,0.0008,6.4e-07
+v2_random_forest_nt_elo,Qatar,quarter_finals,0.22,0,0.0022,4.84e-06
+v2_random_forest_nt_elo,Saudi Arabia,quarter_finals,0.14,0,0.0014000000000000002,1.9600000000000007e-06
+v2_random_forest_nt_elo,Iran,quarter_finals,0.45000000000000007,0,0.0045000000000000005,2.0250000000000004e-05
+v2_random_forest_nt_elo,New Zealand,quarter_finals,0.15,0,0.0015,2.25e-06
+v2_random_forest_nt_elo,Australia,quarter_finals,0.19,0,0.0019,3.61e-06
+v2_random_forest_nt_elo,Uzbekistan,quarter_finals,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Curacao,quarter_finals,0.02,0,0.0002,4e-08
+v2_random_forest_nt_elo,Panama,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Jordan,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Iraq,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,South Africa,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Brazil,semi_finals,68.77,0,0.6877,0.47293128999999995
+v2_random_forest_nt_elo,Germany,semi_finals,72.37,0,0.7237,0.52374169
+v2_random_forest_nt_elo,France,semi_finals,39.97,1,0.6003000000000001,0.3603600900000001
+v2_random_forest_nt_elo,Spain,semi_finals,39.22,1,0.6078,0.36942084000000003
+v2_random_forest_nt_elo,Argentina,semi_finals,36.99,1,0.6301,0.39702601
+v2_random_forest_nt_elo,England,semi_finals,34.5,1,0.655,0.42902500000000005
+v2_random_forest_nt_elo,Portugal,semi_finals,23.56,0,0.23559999999999998,0.05550735999999999
+v2_random_forest_nt_elo,Netherlands,semi_finals,19.7,0,0.19699999999999998,0.03880899999999999
+v2_random_forest_nt_elo,Belgium,semi_finals,10.17,0,0.1017,0.01034289
+v2_random_forest_nt_elo,Turkey,semi_finals,8.96,0,0.08960000000000001,0.008028160000000003
+v2_random_forest_nt_elo,Switzerland,semi_finals,8.16,0,0.0816,0.006658560000000001
+v2_random_forest_nt_elo,Norway,semi_finals,3.45,0,0.0345,0.0011902500000000001
+v2_random_forest_nt_elo,United States,semi_finals,6.329999999999999,0,0.0633,0.004006889999999999
+v2_random_forest_nt_elo,Morocco,semi_finals,4.21,0,0.0421,0.0017724099999999999
+v2_random_forest_nt_elo,Croatia,semi_finals,1.83,0,0.0183,0.00033489
+v2_random_forest_nt_elo,South Korea,semi_finals,2.32,0,0.0232,0.0005382399999999999
+v2_random_forest_nt_elo,Senegal,semi_finals,2.32,0,0.0232,0.0005382399999999999
+v2_random_forest_nt_elo,Mexico,semi_finals,3.88,0,0.0388,0.00150544
+v2_random_forest_nt_elo,Ivory Coast,semi_finals,1.6099999999999999,0,0.0161,0.00025921
+v2_random_forest_nt_elo,Czech Republic,semi_finals,2.52,0,0.0252,0.00063504
+v2_random_forest_nt_elo,Sweden,semi_finals,2.51,0,0.025099999999999997,0.0006300099999999999
+v2_random_forest_nt_elo,Canada,semi_finals,1.17,0,0.011699999999999999,0.00013688999999999997
+v2_random_forest_nt_elo,Japan,semi_finals,0.9899999999999999,0,0.009899999999999999,9.800999999999998e-05
+v2_random_forest_nt_elo,Algeria,semi_finals,0.4,0,0.004,1.6e-05
+v2_random_forest_nt_elo,Uruguay,semi_finals,0.59,0,0.0059,3.481e-05
+v2_random_forest_nt_elo,Colombia,semi_finals,0.63,0,0.0063,3.969e-05
+v2_random_forest_nt_elo,Austria,semi_finals,0.8199999999999998,0,0.008199999999999999,6.723999999999999e-05
+v2_random_forest_nt_elo,Scotland,semi_finals,0.8100000000000002,0,0.008100000000000001,6.561000000000002e-05
+v2_random_forest_nt_elo,Ecuador,semi_finals,0.61,0,0.0060999999999999995,3.720999999999999e-05
+v2_random_forest_nt_elo,DR Congo,semi_finals,0.06,0,0.0006,3.5999999999999994e-07
+v2_random_forest_nt_elo,Bosnia & Herzegovina,semi_finals,0.18,0,0.0018,3.24e-06
+v2_random_forest_nt_elo,Ghana,semi_finals,0.02,0,0.0002,4e-08
+v2_random_forest_nt_elo,Paraguay,semi_finals,0.12,0,0.0012,1.4399999999999998e-06
+v2_random_forest_nt_elo,Egypt,semi_finals,0.15,0,0.0015,2.25e-06
+v2_random_forest_nt_elo,Tunisia,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Cape Verde,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Haiti,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Qatar,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Saudi Arabia,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Iran,semi_finals,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_nt_elo,New Zealand,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Australia,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Uzbekistan,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Curacao,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Panama,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Jordan,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iraq,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,South Africa,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Brazil,final,42.09,0,0.42090000000000005,0.17715681000000005
+v2_random_forest_nt_elo,Germany,final,42.93,0,0.4293,0.18429849
+v2_random_forest_nt_elo,France,final,29.439999999999998,0,0.2944,0.08667136
+v2_random_forest_nt_elo,Spain,final,26.649999999999995,1,0.7335,0.53802225
+v2_random_forest_nt_elo,Argentina,final,14.16,1,0.8584,0.73685056
+v2_random_forest_nt_elo,England,final,13.48,0,0.1348,0.01817104
+v2_random_forest_nt_elo,Portugal,final,8.44,0,0.08439999999999999,0.007123359999999998
+v2_random_forest_nt_elo,Netherlands,final,8.73,0,0.0873,0.00762129
+v2_random_forest_nt_elo,Belgium,final,3.73,0,0.0373,0.0013912899999999999
+v2_random_forest_nt_elo,Turkey,final,1.9900000000000002,0,0.0199,0.00039601
+v2_random_forest_nt_elo,Switzerland,final,1.8399999999999999,0,0.0184,0.00033856
+v2_random_forest_nt_elo,Norway,final,0.79,0,0.0079,6.241000000000001e-05
+v2_random_forest_nt_elo,United States,final,1.36,0,0.013600000000000001,0.00018496000000000002
+v2_random_forest_nt_elo,Morocco,final,0.78,0,0.0078000000000000005,6.084000000000001e-05
+v2_random_forest_nt_elo,Croatia,final,0.3,0,0.003,9e-06
+v2_random_forest_nt_elo,South Korea,final,0.42,0,0.0042,1.7639999999999997e-05
+v2_random_forest_nt_elo,Senegal,final,0.36,0,0.0036,1.296e-05
+v2_random_forest_nt_elo,Mexico,final,0.66,0,0.0066,4.3559999999999996e-05
+v2_random_forest_nt_elo,Ivory Coast,final,0.27,0,0.0027,7.2900000000000005e-06
+v2_random_forest_nt_elo,Czech Republic,final,0.32,0,0.0032,1.024e-05
+v2_random_forest_nt_elo,Sweden,final,0.51,0,0.0051,2.6010000000000003e-05
+v2_random_forest_nt_elo,Canada,final,0.14,0,0.0014000000000000002,1.9600000000000007e-06
+v2_random_forest_nt_elo,Japan,final,0.13,0,0.0013,1.69e-06
+v2_random_forest_nt_elo,Algeria,final,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_random_forest_nt_elo,Uruguay,final,0.06,0,0.0006,3.5999999999999994e-07
+v2_random_forest_nt_elo,Colombia,final,0.05,0,0.0005,2.5e-07
+v2_random_forest_nt_elo,Austria,final,0.11,0,0.0011,1.21e-06
+v2_random_forest_nt_elo,Scotland,final,0.1,0,0.001,1e-06
+v2_random_forest_nt_elo,Ecuador,final,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_random_forest_nt_elo,DR Congo,final,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Bosnia & Herzegovina,final,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Ghana,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Paraguay,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Egypt,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Tunisia,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Cape Verde,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Haiti,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Qatar,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Saudi Arabia,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iran,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,New Zealand,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Australia,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Uzbekistan,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Curacao,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Panama,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Jordan,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iraq,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,South Africa,final,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Brazil,champion,20.09,0,0.2009,0.04036081
+v2_random_forest_nt_elo,Germany,champion,19.75,0,0.1975,0.039006250000000006
+v2_random_forest_nt_elo,France,champion,19.46,0,0.1946,0.03786916
+v2_random_forest_nt_elo,Spain,champion,17.11,1,0.8289,0.6870752099999999
+v2_random_forest_nt_elo,Argentina,champion,6.93,0,0.0693,0.00480249
+v2_random_forest_nt_elo,England,champion,6.76,0,0.0676,0.004569759999999999
+v2_random_forest_nt_elo,Portugal,champion,4.35,0,0.0435,0.0018922499999999998
+v2_random_forest_nt_elo,Netherlands,champion,3.38,0,0.0338,0.0011424399999999998
+v2_random_forest_nt_elo,Belgium,champion,1.1,0,0.011000000000000001,0.00012100000000000003
+v2_random_forest_nt_elo,Turkey,champion,0.25,0,0.0025,6.25e-06
+v2_random_forest_nt_elo,Switzerland,champion,0.24,0,0.0024,5.759999999999999e-06
+v2_random_forest_nt_elo,Norway,champion,0.13,0,0.0013,1.69e-06
+v2_random_forest_nt_elo,United States,champion,0.09,0,0.0009,8.1e-07
+v2_random_forest_nt_elo,Morocco,champion,0.08,0,0.0008,6.4e-07
+v2_random_forest_nt_elo,Croatia,champion,0.06,0,0.0006,3.5999999999999994e-07
+v2_random_forest_nt_elo,South Korea,champion,0.04,0,0.0004,1.6e-07
+v2_random_forest_nt_elo,Senegal,champion,0.04,0,0.0004,1.6e-07
+v2_random_forest_nt_elo,Mexico,champion,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_nt_elo,Ivory Coast,champion,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_nt_elo,Czech Republic,champion,0.02,0,0.0002,4e-08
+v2_random_forest_nt_elo,Sweden,champion,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Canada,champion,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Japan,champion,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Algeria,champion,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Uruguay,champion,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Colombia,champion,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Austria,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Scotland,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Ecuador,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,DR Congo,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Bosnia & Herzegovina,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Ghana,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Paraguay,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Egypt,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Tunisia,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Cape Verde,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Haiti,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Qatar,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Saudi Arabia,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iran,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,New Zealand,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Australia,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Uzbekistan,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Curacao,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Panama,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Jordan,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iraq,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,South Africa,champion,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Brazil,third_place,15.17,0,0.1517,0.02301289
+v2_random_forest_nt_elo,Germany,third_place,15.54,0,0.15539999999999998,0.024149159999999996
+v2_random_forest_nt_elo,France,third_place,7.85,0,0.0785,0.00616225
+v2_random_forest_nt_elo,Spain,third_place,9.29,0,0.0929,0.00863041
+v2_random_forest_nt_elo,Argentina,third_place,14.32,0,0.1432,0.02050624
+v2_random_forest_nt_elo,England,third_place,13.919999999999998,1,0.8608,0.74097664
+v2_random_forest_nt_elo,Portugal,third_place,9.51,0,0.0951,0.00904401
+v2_random_forest_nt_elo,Netherlands,third_place,5.98,0,0.059800000000000006,0.003576040000000001
+v2_random_forest_nt_elo,Belgium,third_place,3.01,0,0.0301,0.0009060099999999998
+v2_random_forest_nt_elo,Turkey,third_place,0.9000000000000001,0,0.009000000000000001,8.100000000000002e-05
+v2_random_forest_nt_elo,Switzerland,third_place,0.88,0,0.0088,7.744e-05
+v2_random_forest_nt_elo,Norway,third_place,0.43,0,0.0043,1.849e-05
+v2_random_forest_nt_elo,United States,third_place,0.54,0,0.0054,2.9160000000000002e-05
+v2_random_forest_nt_elo,Morocco,third_place,0.4099999999999999,0,0.0040999999999999995,1.6809999999999997e-05
+v2_random_forest_nt_elo,Croatia,third_place,0.49,0,0.0049,2.401e-05
+v2_random_forest_nt_elo,South Korea,third_place,0.17,0,0.0017000000000000001,2.8900000000000003e-06
+v2_random_forest_nt_elo,Senegal,third_place,0.18,0,0.0018,3.24e-06
+v2_random_forest_nt_elo,Mexico,third_place,0.36,0,0.0036,1.296e-05
+v2_random_forest_nt_elo,Ivory Coast,third_place,0.09,0,0.0009,8.1e-07
+v2_random_forest_nt_elo,Czech Republic,third_place,0.13,0,0.0013,1.69e-06
+v2_random_forest_nt_elo,Sweden,third_place,0.2,0,0.002,4e-06
+v2_random_forest_nt_elo,Canada,third_place,0.08,0,0.0008,6.4e-07
+v2_random_forest_nt_elo,Japan,third_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Algeria,third_place,0.02,0,0.0002,4e-08
+v2_random_forest_nt_elo,Uruguay,third_place,0.15,0,0.0015,2.25e-06
+v2_random_forest_nt_elo,Colombia,third_place,0.11,0,0.0011,1.21e-06
+v2_random_forest_nt_elo,Austria,third_place,0.08,0,0.0008,6.4e-07
+v2_random_forest_nt_elo,Scotland,third_place,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_random_forest_nt_elo,Ecuador,third_place,0.05,0,0.0005,2.5e-07
+v2_random_forest_nt_elo,DR Congo,third_place,0.02,0,0.0002,4e-08
+v2_random_forest_nt_elo,Bosnia & Herzegovina,third_place,0.02,0,0.0002,4e-08
+v2_random_forest_nt_elo,Ghana,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Paraguay,third_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Egypt,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Tunisia,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Cape Verde,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Haiti,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Qatar,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Saudi Arabia,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iran,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,New Zealand,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Australia,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Uzbekistan,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Curacao,third_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Panama,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Jordan,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iraq,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,South Africa,third_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Brazil,fourth_place,11.51,0,0.1151,0.01324801
+v2_random_forest_nt_elo,Germany,fourth_place,13.900000000000002,0,0.139,0.019321000000000005
+v2_random_forest_nt_elo,France,fourth_place,2.68,1,0.9732,0.9471182399999999
+v2_random_forest_nt_elo,Spain,fourth_place,3.2799999999999994,0,0.032799999999999996,0.0010758399999999998
+v2_random_forest_nt_elo,Argentina,fourth_place,8.51,0,0.0851,0.007242009999999999
+v2_random_forest_nt_elo,England,fourth_place,7.1,0,0.071,0.0050409999999999995
+v2_random_forest_nt_elo,Portugal,fourth_place,5.61,0,0.056100000000000004,0.0031472100000000005
+v2_random_forest_nt_elo,Netherlands,fourth_place,4.99,0,0.0499,0.00249001
+v2_random_forest_nt_elo,Belgium,fourth_place,3.4300000000000006,0,0.034300000000000004,0.0011764900000000003
+v2_random_forest_nt_elo,Turkey,fourth_place,6.07,0,0.060700000000000004,0.0036844900000000003
+v2_random_forest_nt_elo,Switzerland,fourth_place,5.44,0,0.054400000000000004,0.0029593600000000003
+v2_random_forest_nt_elo,Norway,fourth_place,2.23,0,0.0223,0.0004972900000000001
+v2_random_forest_nt_elo,United States,fourth_place,4.43,0,0.0443,0.00196249
+v2_random_forest_nt_elo,Morocco,fourth_place,3.02,0,0.0302,0.00091204
+v2_random_forest_nt_elo,Croatia,fourth_place,1.04,0,0.0104,0.00010816
+v2_random_forest_nt_elo,South Korea,fourth_place,1.73,0,0.0173,0.00029928999999999996
+v2_random_forest_nt_elo,Senegal,fourth_place,1.78,0,0.0178,0.00031684
+v2_random_forest_nt_elo,Mexico,fourth_place,2.86,0,0.0286,0.0008179600000000001
+v2_random_forest_nt_elo,Ivory Coast,fourth_place,1.25,0,0.0125,0.00015625000000000003
+v2_random_forest_nt_elo,Czech Republic,fourth_place,2.07,0,0.0207,0.00042849
+v2_random_forest_nt_elo,Sweden,fourth_place,1.8000000000000003,0,0.018000000000000002,0.00032400000000000007
+v2_random_forest_nt_elo,Canada,fourth_place,0.95,0,0.0095,9.025e-05
+v2_random_forest_nt_elo,Japan,fourth_place,0.8500000000000001,0,0.0085,7.225000000000001e-05
+v2_random_forest_nt_elo,Algeria,fourth_place,0.31,0,0.0031,9.61e-06
+v2_random_forest_nt_elo,Uruguay,fourth_place,0.38,0,0.0038,1.444e-05
+v2_random_forest_nt_elo,Colombia,fourth_place,0.4699999999999999,0,0.004699999999999999,2.2089999999999993e-05
+v2_random_forest_nt_elo,Austria,fourth_place,0.63,0,0.0063,3.969e-05
+v2_random_forest_nt_elo,Scotland,fourth_place,0.64,0,0.0064,4.096e-05
+v2_random_forest_nt_elo,Ecuador,fourth_place,0.49,0,0.0049,2.401e-05
+v2_random_forest_nt_elo,DR Congo,fourth_place,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_nt_elo,Bosnia & Herzegovina,fourth_place,0.15,0,0.0015,2.25e-06
+v2_random_forest_nt_elo,Ghana,fourth_place,0.02,0,0.0002,4e-08
+v2_random_forest_nt_elo,Paraguay,fourth_place,0.11,0,0.0011,1.21e-06
+v2_random_forest_nt_elo,Egypt,fourth_place,0.15,0,0.0015,2.25e-06
+v2_random_forest_nt_elo,Tunisia,fourth_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Cape Verde,fourth_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Haiti,fourth_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Qatar,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Saudi Arabia,fourth_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Iran,fourth_place,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_nt_elo,New Zealand,fourth_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Australia,fourth_place,0.01,0,0.0001,1e-08
+v2_random_forest_nt_elo,Uzbekistan,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Curacao,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Panama,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Jordan,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,Iraq,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_nt_elo,South Africa,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,France,round_of_32,99.91,1,0.0009000000000000119,8.100000000000215e-07
+v2_random_forest_squad_proxy_legacy,Spain,round_of_32,99.9,1,0.0009999999999998899,9.999999999997797e-07
+v2_random_forest_squad_proxy_legacy,England,round_of_32,99.93,1,0.0006999999999999229,4.899999999998921e-07
+v2_random_forest_squad_proxy_legacy,Brazil,round_of_32,99.82,1,0.0018000000000000238,3.240000000000086e-06
+v2_random_forest_squad_proxy_legacy,Germany,round_of_32,99.88,1,0.0012000000000000899,1.4400000000002158e-06
+v2_random_forest_squad_proxy_legacy,Portugal,round_of_32,99.92,1,0.0008000000000000229,6.400000000000366e-07
+v2_random_forest_squad_proxy_legacy,Argentina,round_of_32,99.91,1,0.0009000000000000119,8.100000000000215e-07
+v2_random_forest_squad_proxy_legacy,Netherlands,round_of_32,99.84,1,0.0015999999999999348,2.5599999999997913e-06
+v2_random_forest_squad_proxy_legacy,Belgium,round_of_32,99.9,1,0.0009999999999998899,9.999999999997797e-07
+v2_random_forest_squad_proxy_legacy,Croatia,round_of_32,96.44,1,0.035600000000000076,0.0012673600000000053
+v2_random_forest_squad_proxy_legacy,Norway,round_of_32,92.04,1,0.0795999999999999,0.006336159999999983
+v2_random_forest_squad_proxy_legacy,Colombia,round_of_32,91.63,1,0.0837,0.007005689999999999
+v2_random_forest_squad_proxy_legacy,Switzerland,round_of_32,98.46,1,0.01540000000000008,0.00023716000000000248
+v2_random_forest_squad_proxy_legacy,Morocco,round_of_32,89.61,1,0.10389999999999999,0.010795209999999998
+v2_random_forest_squad_proxy_legacy,Turkey,round_of_32,98.15,0,0.9815,0.9633422500000001
+v2_random_forest_squad_proxy_legacy,Uruguay,round_of_32,95.55,0,0.9555,0.91298025
+v2_random_forest_squad_proxy_legacy,United States,round_of_32,97.54,1,0.024599999999999955,0.0006051599999999978
+v2_random_forest_squad_proxy_legacy,Sweden,round_of_32,87.2,1,0.128,0.016384
+v2_random_forest_squad_proxy_legacy,Senegal,round_of_32,82.59,1,0.17409999999999992,0.030310809999999973
+v2_random_forest_squad_proxy_legacy,Ivory Coast,round_of_32,85.9,1,0.1409999999999999,0.01988099999999997
+v2_random_forest_squad_proxy_legacy,Austria,round_of_32,83.28,1,0.16720000000000002,0.027955840000000006
+v2_random_forest_squad_proxy_legacy,Algeria,round_of_32,87.16,1,0.12840000000000007,0.016486560000000018
+v2_random_forest_squad_proxy_legacy,Japan,round_of_32,75.16,1,0.24840000000000007,0.06170256000000003
+v2_random_forest_squad_proxy_legacy,Mexico,round_of_32,95.01,1,0.049899999999999944,0.0024900099999999943
+v2_random_forest_squad_proxy_legacy,Ecuador,round_of_32,75.8,1,0.242,0.058564
+v2_random_forest_squad_proxy_legacy,Czech Republic,round_of_32,92.68,0,0.9268000000000001,0.8589582400000001
+v2_random_forest_squad_proxy_legacy,Scotland,round_of_32,70.8,0,0.708,0.5012639999999999
+v2_random_forest_squad_proxy_legacy,DR Congo,round_of_32,73.94,1,0.26060000000000005,0.06791236000000003
+v2_random_forest_squad_proxy_legacy,Ghana,round_of_32,63.94,1,0.36060000000000003,0.13003236
+v2_random_forest_squad_proxy_legacy,South Korea,round_of_32,91.6,0,0.9159999999999999,0.8390559999999999
+v2_random_forest_squad_proxy_legacy,Canada,round_of_32,90.75,1,0.09250000000000003,0.008556250000000005
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,round_of_32,62.25999999999999,1,0.37740000000000007,0.14243076000000005
+v2_random_forest_squad_proxy_legacy,Paraguay,round_of_32,49.8,1,0.502,0.252004
+v2_random_forest_squad_proxy_legacy,Egypt,round_of_32,84.33,1,0.15670000000000006,0.02455489000000002
+v2_random_forest_squad_proxy_legacy,Tunisia,round_of_32,6.63,0,0.0663,0.00439569
+v2_random_forest_squad_proxy_legacy,Cape Verde,round_of_32,25.920000000000005,1,0.7407999999999999,0.5487846399999998
+v2_random_forest_squad_proxy_legacy,Haiti,round_of_32,7.28,0,0.0728,0.00529984
+v2_random_forest_squad_proxy_legacy,Qatar,round_of_32,16.0,0,0.16,0.0256
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,round_of_32,24.53,0,0.24530000000000002,0.06017209000000001
+v2_random_forest_squad_proxy_legacy,Iran,round_of_32,43.65,0,0.4365,0.19053225
+v2_random_forest_squad_proxy_legacy,New Zealand,round_of_32,26.96,0,0.2696,0.07268416
+v2_random_forest_squad_proxy_legacy,Australia,round_of_32,13.720000000000002,1,0.8628,0.7444238400000001
+v2_random_forest_squad_proxy_legacy,Uzbekistan,round_of_32,4.66,0,0.0466,0.0021715600000000003
+v2_random_forest_squad_proxy_legacy,Curacao,round_of_32,5.78,0,0.057800000000000004,0.0033408400000000003
+v2_random_forest_squad_proxy_legacy,Panama,round_of_32,4.23,0,0.042300000000000004,0.0017892900000000005
+v2_random_forest_squad_proxy_legacy,Jordan,round_of_32,3.46,0,0.0346,0.0011971599999999998
+v2_random_forest_squad_proxy_legacy,Iraq,round_of_32,2.23,0,0.0223,0.0004972900000000001
+v2_random_forest_squad_proxy_legacy,South Africa,round_of_32,4.32,1,0.9568,0.91546624
+v2_random_forest_squad_proxy_legacy,France,round_of_16,95.96,1,0.0404000000000001,0.0016321600000000084
+v2_random_forest_squad_proxy_legacy,Spain,round_of_16,93.89,1,0.06110000000000004,0.0037332100000000055
+v2_random_forest_squad_proxy_legacy,England,round_of_16,94.27,1,0.05730000000000002,0.003283290000000002
+v2_random_forest_squad_proxy_legacy,Brazil,round_of_16,93.59,1,0.06409999999999993,0.004108809999999991
+v2_random_forest_squad_proxy_legacy,Germany,round_of_16,93.85,0,0.9384999999999999,0.8807822499999998
+v2_random_forest_squad_proxy_legacy,Portugal,round_of_16,92.71,1,0.07290000000000008,0.005314410000000011
+v2_random_forest_squad_proxy_legacy,Argentina,round_of_16,93.75,1,0.0625,0.00390625
+v2_random_forest_squad_proxy_legacy,Netherlands,round_of_16,91.27,0,0.9127,0.8330212899999999
+v2_random_forest_squad_proxy_legacy,Belgium,round_of_16,90.05,1,0.09950000000000003,0.009900250000000006
+v2_random_forest_squad_proxy_legacy,Croatia,round_of_16,59.85,0,0.5985,0.35820225000000006
+v2_random_forest_squad_proxy_legacy,Norway,round_of_16,41.14,1,0.5886,0.34644996
+v2_random_forest_squad_proxy_legacy,Colombia,round_of_16,40.84,1,0.5915999999999999,0.3499905599999999
+v2_random_forest_squad_proxy_legacy,Switzerland,round_of_16,63.67,1,0.36329999999999996,0.13198688999999997
+v2_random_forest_squad_proxy_legacy,Morocco,round_of_16,41.66,1,0.5834,0.34035556000000006
+v2_random_forest_squad_proxy_legacy,Turkey,round_of_16,65.38,0,0.6537999999999999,0.42745443999999994
+v2_random_forest_squad_proxy_legacy,Uruguay,round_of_16,46.38,0,0.46380000000000005,0.21511044000000004
+v2_random_forest_squad_proxy_legacy,United States,round_of_16,51.1,1,0.489,0.239121
+v2_random_forest_squad_proxy_legacy,Sweden,round_of_16,33.26,0,0.3326,0.11062276
+v2_random_forest_squad_proxy_legacy,Senegal,round_of_16,24.2,0,0.242,0.058564
+v2_random_forest_squad_proxy_legacy,Ivory Coast,round_of_16,28.46,0,0.2846,0.08099716000000001
+v2_random_forest_squad_proxy_legacy,Austria,round_of_16,22.46,0,0.22460000000000002,0.05044516000000001
+v2_random_forest_squad_proxy_legacy,Algeria,round_of_16,24.4,0,0.244,0.059536
+v2_random_forest_squad_proxy_legacy,Japan,round_of_16,16.17,0,0.1617,0.026146890000000002
+v2_random_forest_squad_proxy_legacy,Mexico,round_of_16,34.62,1,0.6538,0.42745444000000005
+v2_random_forest_squad_proxy_legacy,Ecuador,round_of_16,14.82,0,0.1482,0.02196324
+v2_random_forest_squad_proxy_legacy,Czech Republic,round_of_16,34.45,0,0.34450000000000003,0.11868025000000001
+v2_random_forest_squad_proxy_legacy,Scotland,round_of_16,14.63,0,0.1463,0.021403690000000003
+v2_random_forest_squad_proxy_legacy,DR Congo,round_of_16,10.65,0,0.1065,0.01134225
+v2_random_forest_squad_proxy_legacy,Ghana,round_of_16,8.23,0,0.0823,0.0067732899999999995
+v2_random_forest_squad_proxy_legacy,South Korea,round_of_16,29.45,0,0.2945,0.08673025
+v2_random_forest_squad_proxy_legacy,Canada,round_of_16,24.84,1,0.7516,0.56490256
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,round_of_16,6.98,0,0.0698,0.00487204
+v2_random_forest_squad_proxy_legacy,Paraguay,round_of_16,3.73,1,0.9627,0.92679129
+v2_random_forest_squad_proxy_legacy,Egypt,round_of_16,11.05,1,0.8895,0.7912102499999999
+v2_random_forest_squad_proxy_legacy,Tunisia,round_of_16,0.32,0,0.0032,1.024e-05
+v2_random_forest_squad_proxy_legacy,Cape Verde,round_of_16,0.93,0,0.009300000000000001,8.649000000000002e-05
+v2_random_forest_squad_proxy_legacy,Haiti,round_of_16,0.25,0,0.0025,6.25e-06
+v2_random_forest_squad_proxy_legacy,Qatar,round_of_16,0.77,0,0.0077,5.929e-05
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,round_of_16,0.89,0,0.0089,7.921e-05
+v2_random_forest_squad_proxy_legacy,Iran,round_of_16,2.24,0,0.022400000000000003,0.0005017600000000002
+v2_random_forest_squad_proxy_legacy,New Zealand,round_of_16,1.28,0,0.0128,0.00016384
+v2_random_forest_squad_proxy_legacy,Australia,round_of_16,0.7,0,0.006999999999999999,4.899999999999999e-05
+v2_random_forest_squad_proxy_legacy,Uzbekistan,round_of_16,0.14,0,0.0014000000000000002,1.9600000000000007e-06
+v2_random_forest_squad_proxy_legacy,Curacao,round_of_16,0.22,0,0.0022,4.84e-06
+v2_random_forest_squad_proxy_legacy,Panama,round_of_16,0.14,0,0.0014000000000000002,1.9600000000000007e-06
+v2_random_forest_squad_proxy_legacy,Jordan,round_of_16,0.1,0,0.001,1e-06
+v2_random_forest_squad_proxy_legacy,Iraq,round_of_16,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_random_forest_squad_proxy_legacy,South Africa,round_of_16,0.19,0,0.0019,3.61e-06
+v2_random_forest_squad_proxy_legacy,France,quarter_finals,81.78,1,0.18220000000000003,0.03319684000000001
+v2_random_forest_squad_proxy_legacy,Spain,quarter_finals,75.62,1,0.2437999999999999,0.059438439999999954
+v2_random_forest_squad_proxy_legacy,England,quarter_finals,74.83,1,0.25170000000000003,0.06335289000000002
+v2_random_forest_squad_proxy_legacy,Brazil,quarter_finals,72.42,0,0.7242000000000001,0.5244656400000001
+v2_random_forest_squad_proxy_legacy,Germany,quarter_finals,73.12,0,0.7312000000000001,0.5346534400000001
+v2_random_forest_squad_proxy_legacy,Portugal,quarter_finals,70.16,0,0.7016,0.49224256
+v2_random_forest_squad_proxy_legacy,Argentina,quarter_finals,70.75,1,0.2925,0.08555624999999999
+v2_random_forest_squad_proxy_legacy,Netherlands,quarter_finals,63.93,0,0.6393,0.40870449
+v2_random_forest_squad_proxy_legacy,Belgium,quarter_finals,60.14000000000001,1,0.39859999999999995,0.15888195999999996
+v2_random_forest_squad_proxy_legacy,Croatia,quarter_finals,15.24,0,0.1524,0.02322576
+v2_random_forest_squad_proxy_legacy,Norway,quarter_finals,9.55,1,0.9045,0.81812025
+v2_random_forest_squad_proxy_legacy,Colombia,quarter_finals,8.28,0,0.0828,0.00685584
+v2_random_forest_squad_proxy_legacy,Switzerland,quarter_finals,19.24,1,0.8076,0.65221776
+v2_random_forest_squad_proxy_legacy,Morocco,quarter_finals,9.57,1,0.9043,0.81775849
+v2_random_forest_squad_proxy_legacy,Turkey,quarter_finals,20.27,0,0.2027,0.04108729
+v2_random_forest_squad_proxy_legacy,Uruguay,quarter_finals,9.36,0,0.09359999999999999,0.008760959999999998
+v2_random_forest_squad_proxy_legacy,United States,quarter_finals,11.6,0,0.11599999999999999,0.013455999999999997
+v2_random_forest_squad_proxy_legacy,Sweden,quarter_finals,6.890000000000001,0,0.0689,0.00474721
+v2_random_forest_squad_proxy_legacy,Senegal,quarter_finals,5.02,0,0.050199999999999995,0.0025200399999999994
+v2_random_forest_squad_proxy_legacy,Ivory Coast,quarter_finals,5.06,0,0.0506,0.00256036
+v2_random_forest_squad_proxy_legacy,Austria,quarter_finals,3.8599999999999994,0,0.038599999999999995,0.0014899599999999996
+v2_random_forest_squad_proxy_legacy,Algeria,quarter_finals,3.93,0,0.0393,0.0015444900000000001
+v2_random_forest_squad_proxy_legacy,Japan,quarter_finals,2.35,0,0.0235,0.00055225
+v2_random_forest_squad_proxy_legacy,Mexico,quarter_finals,4.87,0,0.0487,0.00237169
+v2_random_forest_squad_proxy_legacy,Ecuador,quarter_finals,2.08,0,0.0208,0.00043264
+v2_random_forest_squad_proxy_legacy,Czech Republic,quarter_finals,5.47,0,0.0547,0.0029920899999999998
+v2_random_forest_squad_proxy_legacy,Scotland,quarter_finals,2.46,0,0.0246,0.00060516
+v2_random_forest_squad_proxy_legacy,DR Congo,quarter_finals,1.55,0,0.0155,0.00024024999999999999
+v2_random_forest_squad_proxy_legacy,Ghana,quarter_finals,1.36,0,0.013600000000000001,0.00018496000000000002
+v2_random_forest_squad_proxy_legacy,South Korea,quarter_finals,4.09,0,0.0409,0.0016728099999999998
+v2_random_forest_squad_proxy_legacy,Canada,quarter_finals,2.95,0,0.029500000000000002,0.0008702500000000001
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,quarter_finals,0.73,0,0.0073,5.329e-05
+v2_random_forest_squad_proxy_legacy,Paraguay,quarter_finals,0.33,0,0.0033,1.0889999999999999e-05
+v2_random_forest_squad_proxy_legacy,Egypt,quarter_finals,0.75,0,0.0075,5.625e-05
+v2_random_forest_squad_proxy_legacy,Tunisia,quarter_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Cape Verde,quarter_finals,0.07,0,0.0007000000000000001,4.900000000000002e-07
+v2_random_forest_squad_proxy_legacy,Haiti,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Qatar,quarter_finals,0.04,0,0.0004,1.6e-07
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,quarter_finals,0.04,0,0.0004,1.6e-07
+v2_random_forest_squad_proxy_legacy,Iran,quarter_finals,0.1,0,0.001,1e-06
+v2_random_forest_squad_proxy_legacy,New Zealand,quarter_finals,0.04,0,0.0004,1.6e-07
+v2_random_forest_squad_proxy_legacy,Australia,quarter_finals,0.06,0,0.0006,3.5999999999999994e-07
+v2_random_forest_squad_proxy_legacy,Uzbekistan,quarter_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Curacao,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Panama,quarter_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Jordan,quarter_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iraq,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,South Africa,quarter_finals,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,France,semi_finals,60.62,1,0.39380000000000004,0.15507844000000004
+v2_random_forest_squad_proxy_legacy,Spain,semi_finals,48.49,1,0.5151,0.26532801
+v2_random_forest_squad_proxy_legacy,England,semi_finals,46.47,1,0.5353,0.28654609
+v2_random_forest_squad_proxy_legacy,Brazil,semi_finals,43.59,0,0.4359,0.19000881
+v2_random_forest_squad_proxy_legacy,Germany,semi_finals,43.99,0,0.4399,0.19351201
+v2_random_forest_squad_proxy_legacy,Portugal,semi_finals,40.29,0,0.4029,0.16232840999999998
+v2_random_forest_squad_proxy_legacy,Argentina,semi_finals,38.26,1,0.6174,0.38118275999999995
+v2_random_forest_squad_proxy_legacy,Netherlands,semi_finals,30.69,0,0.3069,0.09418761
+v2_random_forest_squad_proxy_legacy,Belgium,semi_finals,23.72,0,0.2372,0.056263839999999996
+v2_random_forest_squad_proxy_legacy,Croatia,semi_finals,3.38,0,0.0338,0.0011424399999999998
+v2_random_forest_squad_proxy_legacy,Norway,semi_finals,1.94,0,0.0194,0.00037636
+v2_random_forest_squad_proxy_legacy,Colombia,semi_finals,1.33,0,0.013300000000000001,0.00017689000000000002
+v2_random_forest_squad_proxy_legacy,Switzerland,semi_finals,3.11,0,0.0311,0.0009672099999999999
+v2_random_forest_squad_proxy_legacy,Morocco,semi_finals,1.53,0,0.015300000000000001,0.00023409000000000003
+v2_random_forest_squad_proxy_legacy,Turkey,semi_finals,3.6000000000000005,0,0.036000000000000004,0.0012960000000000003
+v2_random_forest_squad_proxy_legacy,Uruguay,semi_finals,1.47,0,0.0147,0.00021609
+v2_random_forest_squad_proxy_legacy,United States,semi_finals,1.43,0,0.0143,0.00020449000000000002
+v2_random_forest_squad_proxy_legacy,Sweden,semi_finals,1.17,0,0.011699999999999999,0.00013688999999999997
+v2_random_forest_squad_proxy_legacy,Senegal,semi_finals,0.74,0,0.0074,5.4760000000000004e-05
+v2_random_forest_squad_proxy_legacy,Ivory Coast,semi_finals,0.71,0,0.0070999999999999995,5.0409999999999993e-05
+v2_random_forest_squad_proxy_legacy,Austria,semi_finals,0.5,0,0.005,2.5e-05
+v2_random_forest_squad_proxy_legacy,Algeria,semi_finals,0.39,0,0.0039000000000000003,1.5210000000000002e-05
+v2_random_forest_squad_proxy_legacy,Japan,semi_finals,0.22,0,0.0022,4.84e-06
+v2_random_forest_squad_proxy_legacy,Mexico,semi_finals,0.44,0,0.0044,1.936e-05
+v2_random_forest_squad_proxy_legacy,Ecuador,semi_finals,0.19,0,0.0019,3.61e-06
+v2_random_forest_squad_proxy_legacy,Czech Republic,semi_finals,0.6,0,0.006,3.6e-05
+v2_random_forest_squad_proxy_legacy,Scotland,semi_finals,0.28,0,0.0028000000000000004,7.840000000000003e-06
+v2_random_forest_squad_proxy_legacy,DR Congo,semi_finals,0.12,0,0.0012,1.4399999999999998e-06
+v2_random_forest_squad_proxy_legacy,Ghana,semi_finals,0.09,0,0.0009,8.1e-07
+v2_random_forest_squad_proxy_legacy,South Korea,semi_finals,0.35,0,0.0034999999999999996,1.2249999999999998e-05
+v2_random_forest_squad_proxy_legacy,Canada,semi_finals,0.18,0,0.0018,3.24e-06
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,semi_finals,0.02,0,0.0002,4e-08
+v2_random_forest_squad_proxy_legacy,Paraguay,semi_finals,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_squad_proxy_legacy,Egypt,semi_finals,0.05,0,0.0005,2.5e-07
+v2_random_forest_squad_proxy_legacy,Tunisia,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Cape Verde,semi_finals,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Haiti,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Qatar,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iran,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,New Zealand,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Australia,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Uzbekistan,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Curacao,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Panama,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Jordan,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iraq,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,South Africa,semi_finals,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,France,final,42.47,0,0.42469999999999997,0.18037008999999998
+v2_random_forest_squad_proxy_legacy,Spain,final,27.65,1,0.7235,0.5234522500000001
+v2_random_forest_squad_proxy_legacy,England,final,25.629999999999995,0,0.2563,0.06568968999999998
+v2_random_forest_squad_proxy_legacy,Brazil,final,23.22,0,0.2322,0.053916839999999994
+v2_random_forest_squad_proxy_legacy,Germany,final,22.91,0,0.2291,0.05248681
+v2_random_forest_squad_proxy_legacy,Portugal,final,20.01,0,0.20010000000000003,0.04004001000000001
+v2_random_forest_squad_proxy_legacy,Argentina,final,17.26,1,0.8274,0.6845907600000001
+v2_random_forest_squad_proxy_legacy,Netherlands,final,11.8,0,0.11800000000000001,0.013924000000000002
+v2_random_forest_squad_proxy_legacy,Belgium,final,6.619999999999999,0,0.0662,0.00438244
+v2_random_forest_squad_proxy_legacy,Croatia,final,0.45999999999999996,0,0.0046,2.116e-05
+v2_random_forest_squad_proxy_legacy,Norway,final,0.21,0,0.0021,4.409999999999999e-06
+v2_random_forest_squad_proxy_legacy,Colombia,final,0.13,0,0.0013,1.69e-06
+v2_random_forest_squad_proxy_legacy,Switzerland,final,0.4,0,0.004,1.6e-05
+v2_random_forest_squad_proxy_legacy,Morocco,final,0.2,0,0.002,4e-06
+v2_random_forest_squad_proxy_legacy,Turkey,final,0.34,0,0.0034000000000000002,1.1560000000000001e-05
+v2_random_forest_squad_proxy_legacy,Uruguay,final,0.14,0,0.0014000000000000002,1.9600000000000007e-06
+v2_random_forest_squad_proxy_legacy,United States,final,0.1,0,0.001,1e-06
+v2_random_forest_squad_proxy_legacy,Sweden,final,0.09,0,0.0009,8.1e-07
+v2_random_forest_squad_proxy_legacy,Senegal,final,0.09,0,0.0009,8.1e-07
+v2_random_forest_squad_proxy_legacy,Ivory Coast,final,0.08,0,0.0008,6.4e-07
+v2_random_forest_squad_proxy_legacy,Austria,final,0.05,0,0.0005,2.5e-07
+v2_random_forest_squad_proxy_legacy,Algeria,final,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_squad_proxy_legacy,Japan,final,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_squad_proxy_legacy,Mexico,final,0.02,0,0.0002,4e-08
+v2_random_forest_squad_proxy_legacy,Ecuador,final,0.02,0,0.0002,4e-08
+v2_random_forest_squad_proxy_legacy,Czech Republic,final,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Scotland,final,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,DR Congo,final,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Ghana,final,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,South Korea,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Canada,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Paraguay,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Egypt,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Tunisia,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Cape Verde,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Haiti,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Qatar,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iran,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,New Zealand,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Australia,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Uzbekistan,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Curacao,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Panama,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Jordan,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iraq,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,South Africa,final,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,France,champion,28.37,0,0.2837,0.08048569
+v2_random_forest_squad_proxy_legacy,Spain,champion,14.38,1,0.8562,0.7330784399999999
+v2_random_forest_squad_proxy_legacy,England,champion,12.73,0,0.1273,0.01620529
+v2_random_forest_squad_proxy_legacy,Brazil,champion,11.55,0,0.1155,0.013340250000000001
+v2_random_forest_squad_proxy_legacy,Germany,champion,10.88,0,0.10880000000000001,0.011837440000000001
+v2_random_forest_squad_proxy_legacy,Portugal,champion,9.03,0,0.09029999999999999,0.00815409
+v2_random_forest_squad_proxy_legacy,Argentina,champion,7.449999999999999,0,0.0745,0.00555025
+v2_random_forest_squad_proxy_legacy,Netherlands,champion,3.83,0,0.0383,0.00146689
+v2_random_forest_squad_proxy_legacy,Belgium,champion,1.6,0,0.016,0.000256
+v2_random_forest_squad_proxy_legacy,Croatia,champion,0.05,0,0.0005,2.5e-07
+v2_random_forest_squad_proxy_legacy,Norway,champion,0.05,0,0.0005,2.5e-07
+v2_random_forest_squad_proxy_legacy,Colombia,champion,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_squad_proxy_legacy,Switzerland,champion,0.02,0,0.0002,4e-08
+v2_random_forest_squad_proxy_legacy,Morocco,champion,0.02,0,0.0002,4e-08
+v2_random_forest_squad_proxy_legacy,Turkey,champion,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Uruguay,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,United States,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Sweden,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Senegal,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Ivory Coast,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Austria,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Algeria,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Japan,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Mexico,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Ecuador,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Czech Republic,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Scotland,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,DR Congo,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Ghana,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,South Korea,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Canada,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Paraguay,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Egypt,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Tunisia,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Cape Verde,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Haiti,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Qatar,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iran,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,New Zealand,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Australia,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Uzbekistan,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Curacao,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Panama,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Jordan,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iraq,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,South Africa,champion,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,France,third_place,12.93,0,0.1293,0.01671849
+v2_random_forest_squad_proxy_legacy,Spain,third_place,13.239999999999998,0,0.1324,0.01752976
+v2_random_forest_squad_proxy_legacy,England,third_place,12.35,1,0.8765000000000001,0.7682522500000001
+v2_random_forest_squad_proxy_legacy,Brazil,third_place,11.86,0,0.1186,0.014065959999999999
+v2_random_forest_squad_proxy_legacy,Germany,third_place,12.23,0,0.1223,0.014957290000000002
+v2_random_forest_squad_proxy_legacy,Portugal,third_place,10.92,0,0.1092,0.011924640000000002
+v2_random_forest_squad_proxy_legacy,Argentina,third_place,10.6,0,0.106,0.011236
+v2_random_forest_squad_proxy_legacy,Netherlands,third_place,7.829999999999999,0,0.0783,0.006130889999999999
+v2_random_forest_squad_proxy_legacy,Belgium,third_place,5.55,0,0.0555,0.00308025
+v2_random_forest_squad_proxy_legacy,Croatia,third_place,0.42,0,0.0042,1.7639999999999997e-05
+v2_random_forest_squad_proxy_legacy,Norway,third_place,0.32,0,0.0032,1.024e-05
+v2_random_forest_squad_proxy_legacy,Colombia,third_place,0.09,0,0.0009,8.1e-07
+v2_random_forest_squad_proxy_legacy,Switzerland,third_place,0.33,0,0.0033,1.0889999999999999e-05
+v2_random_forest_squad_proxy_legacy,Morocco,third_place,0.08,0,0.0008,6.4e-07
+v2_random_forest_squad_proxy_legacy,Turkey,third_place,0.52,0,0.0052,2.704e-05
+v2_random_forest_squad_proxy_legacy,Uruguay,third_place,0.13,0,0.0013,1.69e-06
+v2_random_forest_squad_proxy_legacy,United States,third_place,0.16,0,0.0016,2.56e-06
+v2_random_forest_squad_proxy_legacy,Sweden,third_place,0.1,0,0.001,1e-06
+v2_random_forest_squad_proxy_legacy,Senegal,third_place,0.08,0,0.0008,6.4e-07
+v2_random_forest_squad_proxy_legacy,Ivory Coast,third_place,0.06,0,0.0006,3.5999999999999994e-07
+v2_random_forest_squad_proxy_legacy,Austria,third_place,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_squad_proxy_legacy,Algeria,third_place,0.04,0,0.0004,1.6e-07
+v2_random_forest_squad_proxy_legacy,Japan,third_place,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Mexico,third_place,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Ecuador,third_place,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_squad_proxy_legacy,Czech Republic,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Scotland,third_place,0.02,0,0.0002,4e-08
+v2_random_forest_squad_proxy_legacy,DR Congo,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Ghana,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,South Korea,third_place,0.06,0,0.0006,3.5999999999999994e-07
+v2_random_forest_squad_proxy_legacy,Canada,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Paraguay,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Egypt,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Tunisia,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Cape Verde,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Haiti,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Qatar,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iran,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,New Zealand,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Australia,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Uzbekistan,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Curacao,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Panama,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Jordan,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iraq,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,South Africa,third_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,France,fourth_place,5.22,1,0.9478,0.8983248399999999
+v2_random_forest_squad_proxy_legacy,Spain,fourth_place,7.6,0,0.076,0.005776
+v2_random_forest_squad_proxy_legacy,England,fourth_place,8.49,0,0.0849,0.007208010000000001
+v2_random_forest_squad_proxy_legacy,Brazil,fourth_place,8.51,0,0.0851,0.007242009999999999
+v2_random_forest_squad_proxy_legacy,Germany,fourth_place,8.85,0,0.0885,0.007832249999999999
+v2_random_forest_squad_proxy_legacy,Portugal,fourth_place,9.36,0,0.09359999999999999,0.008760959999999998
+v2_random_forest_squad_proxy_legacy,Argentina,fourth_place,10.4,0,0.10400000000000001,0.010816000000000003
+v2_random_forest_squad_proxy_legacy,Netherlands,fourth_place,11.06,0,0.1106,0.012232360000000001
+v2_random_forest_squad_proxy_legacy,Belgium,fourth_place,11.55,0,0.1155,0.013340250000000001
+v2_random_forest_squad_proxy_legacy,Croatia,fourth_place,2.5,0,0.025,0.0006250000000000001
+v2_random_forest_squad_proxy_legacy,Norway,fourth_place,1.41,0,0.0141,0.00019881
+v2_random_forest_squad_proxy_legacy,Colombia,fourth_place,1.11,0,0.0111,0.00012321
+v2_random_forest_squad_proxy_legacy,Switzerland,fourth_place,2.38,0,0.023799999999999998,0.0005664399999999999
+v2_random_forest_squad_proxy_legacy,Morocco,fourth_place,1.25,0,0.0125,0.00015625000000000003
+v2_random_forest_squad_proxy_legacy,Turkey,fourth_place,2.74,0,0.0274,0.0007507600000000001
+v2_random_forest_squad_proxy_legacy,Uruguay,fourth_place,1.2,0,0.012,0.000144
+v2_random_forest_squad_proxy_legacy,United States,fourth_place,1.17,0,0.011699999999999999,0.00013688999999999997
+v2_random_forest_squad_proxy_legacy,Sweden,fourth_place,0.98,0,0.0098,9.604e-05
+v2_random_forest_squad_proxy_legacy,Senegal,fourth_place,0.57,0,0.005699999999999999,3.2489999999999996e-05
+v2_random_forest_squad_proxy_legacy,Ivory Coast,fourth_place,0.57,0,0.005699999999999999,3.2489999999999996e-05
+v2_random_forest_squad_proxy_legacy,Austria,fourth_place,0.42,0,0.0042,1.7639999999999997e-05
+v2_random_forest_squad_proxy_legacy,Algeria,fourth_place,0.32,0,0.0032,1.024e-05
+v2_random_forest_squad_proxy_legacy,Japan,fourth_place,0.18,0,0.0018,3.24e-06
+v2_random_forest_squad_proxy_legacy,Mexico,fourth_place,0.4099999999999999,0,0.0040999999999999995,1.6809999999999997e-05
+v2_random_forest_squad_proxy_legacy,Ecuador,fourth_place,0.14,0,0.0014000000000000002,1.9600000000000007e-06
+v2_random_forest_squad_proxy_legacy,Czech Republic,fourth_place,0.59,0,0.0059,3.481e-05
+v2_random_forest_squad_proxy_legacy,Scotland,fourth_place,0.25,0,0.0025,6.25e-06
+v2_random_forest_squad_proxy_legacy,DR Congo,fourth_place,0.11,0,0.0011,1.21e-06
+v2_random_forest_squad_proxy_legacy,Ghana,fourth_place,0.08,0,0.0008,6.4e-07
+v2_random_forest_squad_proxy_legacy,South Korea,fourth_place,0.29,0,0.0029,8.409999999999999e-06
+v2_random_forest_squad_proxy_legacy,Canada,fourth_place,0.18,0,0.0018,3.24e-06
+v2_random_forest_squad_proxy_legacy,Bosnia & Herzegovina,fourth_place,0.02,0,0.0002,4e-08
+v2_random_forest_squad_proxy_legacy,Paraguay,fourth_place,0.03,0,0.0003,8.999999999999999e-08
+v2_random_forest_squad_proxy_legacy,Egypt,fourth_place,0.05,0,0.0005,2.5e-07
+v2_random_forest_squad_proxy_legacy,Tunisia,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Cape Verde,fourth_place,0.01,0,0.0001,1e-08
+v2_random_forest_squad_proxy_legacy,Haiti,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Qatar,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Saudi Arabia,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iran,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,New Zealand,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Australia,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Uzbekistan,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Curacao,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Panama,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Jordan,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,Iraq,fourth_place,0.0,0,0.0,0.0
+v2_random_forest_squad_proxy_legacy,South Africa,fourth_place,0.0,0,0.0,0.0

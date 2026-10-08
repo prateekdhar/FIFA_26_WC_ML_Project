@@ -1,0 +1,19 @@
+{
+  "input": "national_team_elo_ratings.json",
+  "output": "national_team_elo_ratings.json",
+  "source_rows": 48,
+  "imported_team_rows": 48,
+  "skipped_rows": [],
+  "source_field_counts": {
+    "fifa_rank": 48
+  },
+  "validation": {
+    "team_count": 48,
+    "alias_count": 21,
+    "missing_required_teams": [],
+    "rating_type_counts": {
+      "fifa_rank_derived_elo": 48
+    },
+    "teams_missing_confederation": []
+  }
+}

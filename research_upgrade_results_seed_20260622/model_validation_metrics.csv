@@ -1,0 +1,7 @@
+model,train_rows,test_rows,accuracy,balanced_accuracy,log_loss,brier_multiclass,ece
+calibrated_logistic_sigmoid,5076,1692,0.69208,0.54979,0.75862,0.43381,0.05681
+weighted_validation_ensemble,5076,1692,0.69031,0.57183,0.77328,0.44325,0.0757
+random_forest,5076,1692,0.6708,0.58887,0.79449,0.45831,0.08635
+hist_gradient_boosting,5076,1692,0.68913,0.55728,0.80165,0.4499,0.0439
+extra_trees,5076,1692,0.65898,0.60139,0.81891,0.47683,0.11099
+logistic_l2,5076,1692,0.62352,0.57996,0.82803,0.48489,0.09668

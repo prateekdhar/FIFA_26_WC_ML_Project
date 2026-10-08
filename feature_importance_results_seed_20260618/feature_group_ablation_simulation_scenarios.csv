@@ -1,0 +1,10 @@
+scenario,ablated_features,epochs,top_champion,top_champion_pct
+baseline,,30,Brazil,23.3333
+team_strength,elo_diff|squad_rating_diff,30,France,30.0
+unit_matchups,attack_vs_defense|defense_vs_attack|midfield_diff|gk_diff|possession_diff,30,Brazil,30.0
+discipline,discipline_diff,30,France,36.6667
+data_quality,data_confidence_diff,30,Brazil,26.6667
+host_context,host_diff|altitude_factor,30,Germany,23.3333
+rest_fatigue_availability,rest_diff|fatigue_diff|lineup_replacements_diff,30,France,23.3333
+venue_climate_travel,travel_diff|heat_index|humidity|venue_altitude_km,30,France,23.3333
+tournament_structure,stage_is_knockout|allow_draw|match_day_index,30,Brazil,23.3333
